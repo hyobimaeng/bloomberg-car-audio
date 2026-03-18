@@ -1,0 +1,15 @@
+{
+  "name": "bloomberg-car-audio",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Daily Bloomberg RSS digest with Chinese summary, TTS audio, and a podcast feed for iPhone/CarPlay.",
+  "type": "module",
+  "scripts": {
+    "build": "node src/main.mjs",
+    "check": "node --check src/main.mjs && node --check src/rss.mjs && node --check src/openai.mjs && node --check src/site.mjs && node --check src/telegram.mjs && node --check src/notify.mjs && node --check scripts/get-telegram-chat-id.mjs",
+    "telegram:chatid": "node scripts/get-telegram-chat-id.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
