@@ -2,14 +2,17 @@ import path from "node:path";
 import { promises as fs } from "node:fs";
 import { fileURLToPath } from "node:url";
 
-import { createDigest, createSpeech } from "./openai.mjs";
+import { createDigest as createOllamaDigest } from "./ollama.mjs";
+import { createDigest as createOpenAiDigest, createSpeech as createOpenAiSpeech } from "./openai.mjs";
 import { DEFAULT_FEEDS, fetchLatestStories } from "./rss.mjs";
 import { buildArtworkPngBuffer, renderEpisodeHtml, renderFeedXml, renderIndexHtml } from "./site.mjs";
+import { createSpeech as createWindowsSpeech } from "./windows-audio.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const projectRoot = path.resolve(__dirname, "..");
 
 async function main() {
+  await loadDotEnv(projectRoot);
   const config = readConfig();
   const podcast = buildPodcastMeta(config);
   const now = new Date();
@@ -31,20 +34,8 @@ async function main() {
     maxItems: config.maxItems
   });
 
-  const digest = await createDigest({
-    apiKey: config.openAiApiKey,
-    model: config.summaryModel,
-    stories,
-    timezone: config.timezone,
-    now
-  });
-
-  const audioBuffer = await createSpeech({
-    apiKey: config.openAiApiKey,
-    model: config.ttsModel,
-    voice: config.ttsVoice,
-    input: digest.audio_script
-  });
+  const digest = await buildDigest({ config, stories, now });
+  const audioBuffer = await buildAudio({ config, digest });
 
   const latestEpisode = buildEpisode({
     config,
@@ -92,19 +83,65 @@ async function main() {
   console.log(`Built ${archiveEpisodes.length} podcast episode(s) into ${outDir}`);
 }
 
+async function loadDotEnv(rootDir) {
+  const envFile = path.join(rootDir, ".env");
+
+  let content;
+  try {
+    content = await fs.readFile(envFile, "utf8");
+  } catch {
+    return;
+  }
+
+  for (const rawLine of content.split(/\r?\n/u)) {
+    const line = rawLine.trim();
+    if (!line || line.startsWith("#")) {
+      continue;
+    }
+
+    const delimiterIndex = line.indexOf("=");
+    if (delimiterIndex <= 0) {
+      continue;
+    }
+
+    const key = line.slice(0, delimiterIndex).trim();
+    let value = line.slice(delimiterIndex + 1).trim();
+
+    if (
+      (value.startsWith('"') && value.endsWith('"')) ||
+      (value.startsWith("'") && value.endsWith("'"))
+    ) {
+      value = value.slice(1, -1);
+    }
+
+    if (process.env[key] === undefined) {
+      process.env[key] = value;
+    }
+  }
+}
+
 function readConfig() {
   const feedsFromEnv = splitList(process.env.BLOOMBERG_FEEDS);
+  const summaryProvider = process.env.SUMMARY_PROVIDER || (process.env.OPENAI_API_KEY ? "openai" : "ollama");
+  const speechProvider = process.env.SPEECH_PROVIDER || (process.env.OPENAI_API_KEY ? "openai" : "windows");
 
   return {
     siteUrl: requiredEnv("SITE_URL"),
-    openAiApiKey: requiredEnv("OPENAI_API_KEY"),
+    openAiApiKey: process.env.OPENAI_API_KEY || "",
     feeds: feedsFromEnv.length ? feedsFromEnv : DEFAULT_FEEDS,
     timezone: process.env.TIMEZONE || "Asia/Shanghai",
     podcastTitle: process.env.PODCAST_TITLE || "\u5f6d\u535a\u4e2d\u6587\u8f66\u8f7d\u6458\u8981",
     podcastAuthor: process.env.PODCAST_AUTHOR || "Bloomberg Car Audio",
+    summaryProvider,
+    speechProvider,
     summaryModel: process.env.SUMMARY_MODEL || "gpt-4o-mini",
     ttsModel: process.env.TTS_MODEL || "gpt-4o-mini-tts",
-    ttsVoice: process.env.TTS_VOICE || "alloy",
+    ttsVoice: process.env.TTS_VOICE || "Microsoft Huihui Desktop",
+    ollamaBaseUrl: process.env.OLLAMA_BASE_URL || "http://127.0.0.1:11434",
+    ollamaModel: process.env.OLLAMA_MODEL || "qwen2.5:3b",
+    powershellPath:
+      process.env.POWERSHELL_PATH || "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+    ffmpegPath: process.env.FFMPEG_PATH || "",
     lookbackHours: parseNumber(process.env.LOOKBACK_HOURS, 24),
     maxItems: parseNumber(process.env.MAX_ITEMS, 8),
     archiveLimit: 14
@@ -192,6 +229,53 @@ async function fetchExistingArchive(siteUrl, archiveLimit) {
   } catch {
     return [];
   }
+}
+
+async function buildDigest({ config, stories, now }) {
+  if (config.summaryProvider === "openai") {
+    if (!config.openAiApiKey) {
+      throw new Error("OPENAI_API_KEY is required when SUMMARY_PROVIDER=openai");
+    }
+
+    return createOpenAiDigest({
+      apiKey: config.openAiApiKey,
+      model: config.summaryModel,
+      stories,
+      timezone: config.timezone,
+      now
+    });
+  }
+
+  return createOllamaDigest({
+    baseUrl: config.ollamaBaseUrl,
+    model: config.ollamaModel,
+    stories,
+    timezone: config.timezone,
+    now
+  });
+}
+
+async function buildAudio({ config, digest }) {
+  if (config.speechProvider === "openai") {
+    if (!config.openAiApiKey) {
+      throw new Error("OPENAI_API_KEY is required when SPEECH_PROVIDER=openai");
+    }
+
+    return createOpenAiSpeech({
+      apiKey: config.openAiApiKey,
+      model: config.ttsModel,
+      voice: config.ttsVoice,
+      input: digest.audio_script
+    });
+  }
+
+  return createWindowsSpeech({
+    text: digest.audio_script,
+    voice: config.ttsVoice,
+    workDir: projectRoot,
+    powershellPath: config.powershellPath,
+    ffmpegPath: config.ffmpegPath
+  });
 }
 
 async function rehydratePreviousAudio(episodes, outDir, siteUrl) {

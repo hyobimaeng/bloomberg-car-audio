@@ -1,3 +1,8 @@
+import { execFile } from "node:child_process";
+import { promisify } from "node:util";
+
+const execFileAsync = promisify(execFile);
+
 const DEFAULT_FEEDS = [
   "https://feeds.bloomberg.com/markets/news.rss",
   "https://feeds.bloomberg.com/technology/news.rss",
@@ -32,18 +37,56 @@ export async function fetchLatestStories({
 }
 
 async function fetchFeed(feedUrl) {
-  const response = await fetch(feedUrl, {
-    headers: {
-      "user-agent": "Mozilla/5.0 (compatible; BloombergCarAudio/1.0; +https://github.com)"
-    }
-  });
-
-  if (!response.ok) {
-    throw new Error(`${feedUrl} returned ${response.status}`);
-  }
-
-  const xml = await response.text();
+  const xml = await fetchFeedXml(feedUrl);
   return parseFeed(xml, feedUrl);
+}
+
+async function fetchFeedXml(feedUrl) {
+  try {
+    const response = await fetch(feedUrl, {
+      headers: {
+        "user-agent": "Mozilla/5.0 (compatible; BloombergCarAudio/1.0; +https://github.com)"
+      }
+    });
+
+    if (!response.ok) {
+      throw new Error(`${feedUrl} returned ${response.status}`);
+    }
+
+    return response.text();
+  } catch (error) {
+    return fetchFeedXmlWithCurl(feedUrl, error);
+  }
+}
+
+async function fetchFeedXmlWithCurl(feedUrl, originalError) {
+  try {
+    const { stdout } = await execFileAsync(
+      "curl.exe",
+      [
+        "-L",
+        "--fail",
+        "--silent",
+        "--show-error",
+        "-A",
+        "Mozilla/5.0 (compatible; BloombergCarAudio/1.0; +https://github.com)",
+        feedUrl
+      ],
+      {
+        windowsHide: true,
+        maxBuffer: 20 * 1024 * 1024
+      }
+    );
+
+    if (!stdout) {
+      throw new Error("curl returned empty output");
+    }
+
+    return stdout;
+  } catch (curlError) {
+    const messages = [originalError?.message, curlError?.message].filter(Boolean).join(" | ");
+    throw new Error(`RSS fetch failed for ${feedUrl}. ${messages}`);
+  }
 }
 
 function parseFeed(xml, sourceUrl) {

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>彭博中文车载摘要</title>
+    <link>https://hyobimaeng.github.io/bloomberg-car-audio</link>
+    <atom:link href="https://hyobimaeng.github.io/bloomberg-car-audio/feed.xml" rel="self" type="application/rss+xml"/>
+    <description>每天自动更新的 Bloomberg 公开 RSS 中文摘要，适合 iPhone 和 CarPlay 播放。</description>
+    <language>zh-CN</language>
+    <generator>Bloomberg Car Audio Digest</generator>
+    <lastBuildDate>Wed, 18 Mar 2026 09:26:46 GMT</lastBuildDate>
+    <itunes:author>hyobimaeng</itunes:author>
+    <itunes:summary>每天自动更新的 Bloomberg 公开 RSS 中文摘要，适合 iPhone 和 CarPlay 播放。</itunes:summary>
+    <itunes:explicit>false</itunes:explicit>
+    <itunes:type>episodic</itunes:type>
+    <itunes:image href="https://hyobimaeng.github.io/bloomberg-car-audio/artwork.png"/>
+    <item>
+      <title>每日简报：聚焦重要新闻</title>
+      <link>https://hyobimaeng.github.io/bloomberg-car-audio/episodes/2026-03-18.html</link>
+      <guid isPermaLink="false">daily-2026-03-18</guid>
+      <pubDate>Wed, 18 Mar 2026 09:26:46 GMT</pubDate>
+      <description><![CDATA[<p>今日重点关注中国在中东的沉默、特朗普与马斯克等人的困境以及Micron科技公司的业绩。</p><p><strong>为什么中国不谈论伊朗战争</strong>：尽管伊朗是一个重要的盟友，但中国在中东的冲突中显得格外沉默。这种沉默是有意为之。 了解这一行为背后的动机对于理解国际政治格局至关重要。</p><p><strong>为什么埃普斯坦文件风波仍在继续</strong>：商业领袖们一直将愤怒归咎于现状，但该是时候他们自己承担一些责任了。 这揭示了一个长期存在的问题，并可能引发更广泛的讨论。</p><p><strong>彼得·阿提亚长寿帝国的兴衰</strong>：阿提亚建立品牌的基础是信任和信誉，但最近的揭露使这一切都受到了质疑。 这一事件对他的声誉造成了严重影响，并可能影响他未来的发展。</p>]]></description>
+      <content:encoded><![CDATA[<p>今日重点关注中国在中东的沉默、特朗普与马斯克等人的困境以及Micron科技公司的业绩。</p><p><strong>为什么中国不谈论伊朗战争</strong>：尽管伊朗是一个重要的盟友，但中国在中东的冲突中显得格外沉默。这种沉默是有意为之。 了解这一行为背后的动机对于理解国际政治格局至关重要。</p><p><strong>为什么埃普斯坦文件风波仍在继续</strong>：商业领袖们一直将愤怒归咎于现状，但该是时候他们自己承担一些责任了。 这揭示了一个长期存在的问题，并可能引发更广泛的讨论。</p><p><strong>彼得·阿提亚长寿帝国的兴衰</strong>：阿提亚建立品牌的基础是信任和信誉，但最近的揭露使这一切都受到了质疑。 这一事件对他的声誉造成了严重影响，并可能影响他未来的发展。</p>]]></content:encoded>
+      <itunes:summary>今日重点关注中国在中东的沉默、特朗普与马斯克等人的困境以及Micron科技公司的业绩。</itunes:summary>
+      <enclosure url="https://hyobimaeng.github.io/bloomberg-car-audio/episodes/2026-03-18.mp3" length="283404" type="audio/mpeg"/>
+    </item>
+  </channel>
+</rss>

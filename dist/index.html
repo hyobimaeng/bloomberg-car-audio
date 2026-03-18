@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>彭博中文车载摘要</title>
+  <meta name="description" content="每天自动更新的 Bloomberg 公开 RSS 中文摘要，适合 iPhone 和 CarPlay 播放。">
+  <style>
+    :root {
+      --bg: #09111b;
+      --card: rgba(255, 255, 255, 0.07);
+      --line: rgba(255, 255, 255, 0.12);
+      --text: #f5f7fb;
+      --muted: #b7c0ce;
+      --accent: #ffd166;
+      --accent-2: #6ee7b7;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: "Segoe UI", "PingFang SC", "Noto Sans SC", sans-serif;
+      background:
+        radial-gradient(circle at top right, rgba(110, 231, 183, 0.18), transparent 25%),
+        radial-gradient(circle at left center, rgba(255, 209, 102, 0.14), transparent 30%),
+        linear-gradient(180deg, #09111b 0%, #0f1d2d 100%);
+      color: var(--text);
+      line-height: 1.6;
+    }
+    main {
+      max-width: 980px;
+      margin: 0 auto;
+      padding: 40px 20px 72px;
+    }
+    .hero {
+      display: grid;
+      gap: 24px;
+      grid-template-columns: 180px 1fr;
+      align-items: center;
+      margin-bottom: 32px;
+    }
+    .hero img {
+      width: 180px;
+      height: 180px;
+      border-radius: 28px;
+      box-shadow: 0 24px 60px rgba(0, 0, 0, 0.35);
+    }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 24px;
+      padding: 24px;
+      backdrop-filter: blur(18px);
+    }
+    h1, h2 { margin: 0 0 12px; }
+    p { margin: 0 0 12px; color: var(--muted); }
+    audio { width: 100%; margin: 12px 0 8px; }
+    a { color: var(--accent); text-decoration: none; }
+    ul { padding-left: 20px; margin: 0; }
+    li { margin-bottom: 14px; }
+    .meta { color: var(--accent-2); }
+    .grid {
+      display: grid;
+      gap: 20px;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      margin-top: 20px;
+    }
+    .tiny { font-size: 14px; color: var(--muted); }
+    @media (max-width: 720px) {
+      .hero { grid-template-columns: 1fr; }
+      .hero img { width: 132px; height: 132px; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <section class="hero">
+      <img src="artwork.png" alt="彭博中文车载摘要">
+      <div>
+        <div class="tiny">每日自动更新 / 适合早晨通勤和车载播放</div>
+        <h1>彭博中文车载摘要</h1>
+        <p>每天自动更新的 Bloomberg 公开 RSS 中文摘要，适合 iPhone 和 CarPlay 播放。</p>
+        <p>
+          <a href="https://hyobimaeng.github.io/bloomberg-car-audio/feed.xml">播客 RSS</a>
+          ·
+          <a href="episodes/2026-03-18.html">本期页面</a>
+        </p>
+      </div>
+    </section>
+
+    <section class="card">
+      <div class="tiny">2026年3月18日 17:26</div>
+      <h2>每日简报：聚焦重要新闻</h2>
+      <p>今日重点关注中国在中东的沉默、特朗普与马斯克等人的困境以及Micron科技公司的业绩。</p>
+      <audio controls preload="none" src="episodes/2026-03-18.mp3"></audio>
+      <p class="tiny">音频由 AI 语音生成；摘要仅基于公开 RSS 条目，不代表 Bloomberg 立场。</p>
+    </section>
+
+    <section class="grid">
+      <div class="card">
+        <h2>本期要点</h2>
+        <ul>
+        <li>
+          <strong>为什么中国不谈论伊朗战争</strong>
+          <p>尽管伊朗是一个重要的盟友，但中国在中东的冲突中显得格外沉默。这种沉默是有意为之。</p>
+          <p class="meta">了解这一行为背后的动机对于理解国际政治格局至关重要。</p>
+        </li>
+        <li>
+          <strong>为什么埃普斯坦文件风波仍在继续</strong>
+          <p>商业领袖们一直将愤怒归咎于现状，但该是时候他们自己承担一些责任了。</p>
+          <p class="meta">这揭示了一个长期存在的问题，并可能引发更广泛的讨论。</p>
+        </li>
+        <li>
+          <strong>彼得·阿提亚长寿帝国的兴衰</strong>
+          <p>阿提亚建立品牌的基础是信任和信誉，但最近的揭露使这一切都受到了质疑。</p>
+          <p class="meta">这一事件对他的声誉造成了严重影响，并可能影响他未来的发展。</p>
+        </li></ul>
+      </div>
+      <div class="card">
+        <h2>原始条目</h2>
+        <ul>
+        <li>
+          <a href="https://www.bloomberg.com/news/videos/2026-03-18/why-china-isn-t-speaking-up-on-the-iran-war-video" target="_blank" rel="noreferrer">Why China Isn&apos;t Speaking Up on the Iran War</a>
+          <span>2026年3月18日 17:13</span>
+        </li>
+        <li>
+          <a href="https://www.bloomberg.com/news/features/2026-03-18/trump-musk-gates-struggle-to-dodge-epstein-files-fallout" target="_blank" rel="noreferrer">Why the Epstein Files Fallout Keeps Growing</a>
+          <span>2026年3月18日 17:00</span>
+        </li>
+        <li>
+          <a href="https://www.bloomberg.com/news/features/2026-03-18/peter-attia-s-longevity-empire-rocked-by-epstein-files" target="_blank" rel="noreferrer">The Rise And Fall of Peter Attia’s Longevity Empire</a>
+          <span>2026年3月18日 17:00</span>
+        </li>
+        <li>
+          <a href="https://www.bloomberg.com/news/articles/2026-03-18/gabbard-set-to-face-scrutiny-over-iran-stance-at-threats-hearing" target="_blank" rel="noreferrer">Gabbard Set to Face Scrutiny Over Iran Stance at Threats Hearing</a>
+          <span>2026年3月18日 17:00</span>
+        </li>
+        <li>
+          <a href="https://www.bloomberg.com/news/articles/2026-03-18/micron-earnings-face-high-expectations-as-its-stock-keeps-rising" target="_blank" rel="noreferrer">Micron Earnings Face High Expectations as Its Stock Keeps Rising</a>
+          <span>2026年3月18日 16:56</span>
+        </li>
+        <li>
+          <a href="https://www.bloomberg.com/news/videos/2026-03-18/oil-prices-drop-as-iraq-signs-pipeline-export-deal-video" target="_blank" rel="noreferrer">Oil Prices Drop as Iraq Signs Pipeline Export Deal</a>
+          <span>2026年3月18日 16:48</span>
+        </li>
+        <li>
+          <a href="https://www.bloomberg.com/news/articles/2026-03-18/unicredit-ceo-says-commerzbank-bid-intended-to-break-stalemate" target="_blank" rel="noreferrer">UniCredit CEO Says Commerzbank Bid Intended to Break ‘Stalemate’</a>
+          <span>2026年3月18日 16:42</span>
+        </li>
+        <li>
+          <a href="https://www.bloomberg.com/news/articles/2026-03-18/citi-sees-bok-raising-rate-toward-3-this-year-on-inflation-risk" target="_blank" rel="noreferrer">Citi Sees BOK Raising Rate Toward 3% This Year on Inflation Risk</a>
+          <span>2026年3月18日 16:41</span>
+        </li></ul>
+      </div>
+    </section>
+
+    <section class="card" style="margin-top: 20px;">
+      <h2>往期归档</h2>
+      <ul>
+        <li>
+          <a href="episodes/2026-03-18.html">每日简报：聚焦重要新闻</a>
+          <span>2026年3月18日 17:26</span>
+        </li></ul>
+    </section>
+  </main>
+</body>
+</html>

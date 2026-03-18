@@ -1,4 +1,6 @@
-dist/
 .DS_Store
 .env
 .env.local
+.tmp/
+tmp_test.wav
+tmp_test2.wav

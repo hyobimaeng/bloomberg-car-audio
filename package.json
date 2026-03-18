@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "build": "node src/main.mjs",
-    "check": "node --check src/main.mjs && node --check src/rss.mjs && node --check src/openai.mjs && node --check src/site.mjs && node --check src/telegram.mjs && node --check src/notify.mjs && node --check scripts/get-telegram-chat-id.mjs",
+    "check": "node --check src/main.mjs && node --check src/rss.mjs && node --check src/openai.mjs && node --check src/ollama.mjs && node --check src/windows-audio.mjs && node --check src/site.mjs && node --check src/telegram.mjs && node --check src/notify.mjs && node --check scripts/get-telegram-chat-id.mjs",
     "telegram:chatid": "node scripts/get-telegram-chat-id.mjs"
   },
   "engines": {
