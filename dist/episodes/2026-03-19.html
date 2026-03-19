@@ -3,102 +3,46 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>彭博中文车载摘要</title>
-  <meta name="description" content="每天自动更新的 Bloomberg 公开 RSS 中文摘要，适合 iPhone 和 CarPlay 播放。">
+  <title>每日财经简报</title>
+  <meta name="description" content="今日聚焦全球金融市场动态，涵盖货币政策、汇率变动及能源市场等重要话题。">
   <style>
-    :root {
-      --bg: #09111b;
-      --card: rgba(255, 255, 255, 0.07);
-      --line: rgba(255, 255, 255, 0.12);
-      --text: #f5f7fb;
-      --muted: #b7c0ce;
-      --accent: #ffd166;
-      --accent-2: #6ee7b7;
-    }
-    * { box-sizing: border-box; }
     body {
       margin: 0;
       font-family: "Segoe UI", "PingFang SC", "Noto Sans SC", sans-serif;
-      background:
-        radial-gradient(circle at top right, rgba(110, 231, 183, 0.18), transparent 25%),
-        radial-gradient(circle at left center, rgba(255, 209, 102, 0.14), transparent 30%),
-        linear-gradient(180deg, #09111b 0%, #0f1d2d 100%);
-      color: var(--text);
-      line-height: 1.6;
+      background: #0c1420;
+      color: #f5f7fb;
+      line-height: 1.65;
     }
     main {
-      max-width: 980px;
+      max-width: 840px;
       margin: 0 auto;
-      padding: 40px 20px 72px;
+      padding: 36px 20px 64px;
     }
-    .hero {
-      display: grid;
-      gap: 24px;
-      grid-template-columns: 180px 1fr;
-      align-items: center;
-      margin-bottom: 32px;
-    }
-    .hero img {
-      width: 180px;
-      height: 180px;
-      border-radius: 28px;
-      box-shadow: 0 24px 60px rgba(0, 0, 0, 0.35);
-    }
+    a { color: #ffd166; text-decoration: none; }
     .card {
-      background: var(--card);
-      border: 1px solid var(--line);
-      border-radius: 24px;
+      background: #111b29;
+      border: 1px solid rgba(255,255,255,0.08);
+      border-radius: 20px;
       padding: 24px;
-      backdrop-filter: blur(18px);
-    }
-    h1, h2 { margin: 0 0 12px; }
-    p { margin: 0 0 12px; color: var(--muted); }
-    audio { width: 100%; margin: 12px 0 8px; }
-    a { color: var(--accent); text-decoration: none; }
-    ul { padding-left: 20px; margin: 0; }
-    li { margin-bottom: 14px; }
-    .meta { color: var(--accent-2); }
-    .grid {
-      display: grid;
-      gap: 20px;
-      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
       margin-top: 20px;
     }
-    .tiny { font-size: 14px; color: var(--muted); }
-    @media (max-width: 720px) {
-      .hero { grid-template-columns: 1fr; }
-      .hero img { width: 132px; height: 132px; }
-    }
+    h1, h2 { margin: 0 0 12px; }
+    p { margin: 0 0 12px; color: #b7c0ce; }
+    .meta { color: #6ee7b7; }
+    audio { width: 100%; margin: 12px 0 8px; }
+    ul { padding-left: 20px; margin: 0; }
+    li { margin-bottom: 14px; }
   </style>
 </head>
 <body>
   <main>
-    <section class="hero">
-      <img src="artwork.png" alt="彭博中文车载摘要">
-      <div>
-        <div class="tiny">每日自动更新 / 适合早晨通勤和车载播放</div>
-        <h1>彭博中文车载摘要</h1>
-        <p>每天自动更新的 Bloomberg 公开 RSS 中文摘要，适合 iPhone 和 CarPlay 播放。</p>
-        <p>
-          <a href="https://hyobimaeng.github.io/bloomberg-car-audio/feed.xml">播客 RSS</a>
-          ·
-          <a href="episodes/2026-03-19.html">本期页面</a>
-        </p>
-      </div>
-    </section>
-
-    <section class="card">
-      <div class="tiny">2026年3月19日 13:15</div>
-      <h2>每日财经简报</h2>
-      <p>今日聚焦全球金融市场动态，涵盖货币政策、汇率变动及能源市场等重要话题。</p>
-      <audio controls preload="none" src="episodes/2026-03-19.mp3"></audio>
-      <p class="tiny">音频由 AI 语音生成；摘要仅基于公开 RSS 条目，不代表 Bloomberg 立场。</p>
-    </section>
-
-    <section class="grid">
-      <div class="card">
-        <h2>本期要点</h2>
-        <ul>
+    <p><a href="../index.html">返回首页</a> · <a href="https://hyobimaeng.github.io/bloomberg-car-audio/feed.xml">RSS</a></p>
+    <h1>每日财经简报</h1>
+    <p>今日聚焦全球金融市场动态，涵盖货币政策、汇率变动及能源市场等重要话题。</p>
+    <div class="card">
+      <audio controls preload="none" src="2026-03-19.mp3"></audio>
+      <p>今日的全球经济新闻中，我们关注了多个关键领域的发展。</p>
+      <ul>
         <li>
           <strong>Czech央行维持利率不变</strong>
           <p>由于通胀低于目标水平，捷克央行决定保持利率不变，以应对油价上涨带来的影响。</p>
@@ -139,53 +83,36 @@
           <p>鉴于中东战争的风险，日本央行决定保持其基准利率不变。</p>
           <p class="meta">这反映了全球主要央行对地缘政治事件的反应。</p>
         </li></ul>
-      </div>
-      <div class="card">
-        <h2>原始条目</h2>
-        <ul>
+      <p class="meta">以上是今日最重要的财经新闻概览。希望这些信息能帮助您了解全球经济动态。</p>
+    </div>
+    <div class="card">
+      <h2>原始 RSS 条目</h2>
+      <ul>
         <li>
           <a href="https://www.bloomberg.com/news/articles/2026-03-19/czech-rates-to-stay-put-as-policymakers-lean-on-inflation-buffer" target="_blank" rel="noreferrer">Czech Rates to Stay Put as Policymakers Lean on Inflation Buffer</a>
-          <span>2026年3月19日 13:00</span>
         </li>
         <li>
           <a href="https://www.bloomberg.com/news/articles/2026-03-19/inr-usd-indian-rupee-defense-spending-measure-nears-record-100-billion" target="_blank" rel="noreferrer">India&apos;s Central Bank Ramps Up Key Tool to Defend Falling Rupee</a>
-          <span>2026年3月19日 12:22</span>
         </li>
         <li>
           <a href="https://www.bloomberg.com/news/videos/2026-03-19/the-asia-trade-3-19-2026-video" target="_blank" rel="noreferrer">Oil Surges as Energy Assets Hit in Mideast; Fed Holds Rates | The Asia Trade 3/19/2026</a>
-          <span>2026年3月19日 12:09</span>
         </li>
         <li>
           <a href="https://www.bloomberg.com/news/videos/2026-03-19/line-man-wongnai-to-fund-new-acquisitions-with-ipo-video" target="_blank" rel="noreferrer">LINE MAN Wongnai To Fund New Acquisitions With IPO</a>
-          <span>2026年3月19日 12:05</span>
         </li>
         <li>
           <a href="https://www.bloomberg.com/news/articles/2026-03-19/emerging-assets-fall-for-first-time-this-week-as-oil-prices-jump" target="_blank" rel="noreferrer">Emerging Assets Fall for First Time This Week as Oil Prices Jump</a>
-          <span>2026年3月19日 12:05</span>
         </li>
         <li>
           <a href="https://www.bloomberg.com/news/videos/2026-03-19/nomura-s-willcox-boj-more-likely-to-hike-in-april-video" target="_blank" rel="noreferrer">Nomura&apos;s Willcox: BoJ More Likely To Hike in April</a>
-          <span>2026年3月19日 12:02</span>
         </li>
         <li>
           <a href="https://www.bloomberg.com/opinion/newsletters/2026-03-19/powell-digs-in-as-war-forces-a-new-path-for-the-fed" target="_blank" rel="noreferrer">Powell Digs In as War Forces a New Path for the Fed</a>
-          <span>2026年3月19日 12:00</span>
         </li>
         <li>
           <a href="https://www.bloomberg.com/news/articles/2026-03-19/traders-eye-yen-s-160-level-boj-hawkish-overtures-analysts-say" target="_blank" rel="noreferrer">Bank of Japan Decision Puts Yen-160 Watch in Focus, Analysts Say</a>
-          <span>2026年3月19日 11:55</span>
         </li></ul>
-      </div>
-    </section>
-
-    <section class="card" style="margin-top: 20px;">
-      <h2>往期归档</h2>
-      <ul>
-        <li>
-          <a href="episodes/2026-03-19.html">每日财经简报</a>
-          <span>2026年3月19日 13:15</span>
-        </li></ul>
-    </section>
+    </div>
   </main>
 </body>
 </html>

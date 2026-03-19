@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-03-18T09:26:46.450Z",
-  "latestEpisodeId": "daily-2026-03-18",
+  "generatedAt": "2026-03-19T05:15:27.878Z",
+  "latestEpisodeId": "daily-2026-03-19",
   "feedUrl": "https://hyobimaeng.github.io/bloomberg-car-audio/feed.xml",
   "podcast": {
     "title": "彭博中文车载摘要",
@@ -13,115 +13,140 @@
   },
   "episodes": [
     {
-      "id": "daily-2026-03-18",
-      "title": "每日简报：聚焦重要新闻",
-      "summary": "今日重点关注中国在中东的沉默、特朗普与马斯克等人的困境以及Micron科技公司的业绩。",
-      "publishedAt": "2026-03-18T09:26:46.450Z",
-      "audioPath": "episodes/2026-03-18.mp3",
-      "audioUrl": "https://hyobimaeng.github.io/bloomberg-car-audio/episodes/2026-03-18.mp3",
+      "id": "daily-2026-03-19",
+      "title": "每日财经简报",
+      "summary": "今日聚焦全球金融市场动态，涵盖货币政策、汇率变动及能源市场等重要话题。",
+      "publishedAt": "2026-03-19T05:15:27.878Z",
+      "audioPath": "episodes/2026-03-19.mp3",
+      "audioUrl": "https://hyobimaeng.github.io/bloomberg-car-audio/episodes/2026-03-19.mp3",
       "audioMime": "audio/mpeg",
-      "audioBytes": 283404,
-      "pagePath": "episodes/2026-03-18.html",
-      "pageUrl": "https://hyobimaeng.github.io/bloomberg-car-audio/episodes/2026-03-18.html",
-      "jsonPath": "episodes/2026-03-18.json",
-      "jsonUrl": "https://hyobimaeng.github.io/bloomberg-car-audio/episodes/2026-03-18.json",
+      "audioBytes": 537423,
+      "pagePath": "episodes/2026-03-19.html",
+      "pageUrl": "https://hyobimaeng.github.io/bloomberg-car-audio/episodes/2026-03-19.html",
+      "jsonPath": "episodes/2026-03-19.json",
+      "jsonUrl": "https://hyobimaeng.github.io/bloomberg-car-audio/episodes/2026-03-19.json",
       "sources": [
         {
-          "id": "https://www.bloomberg.com/news/videos/2026-03-18/why-china-isn-t-speaking-up-on-the-iran-war-video",
-          "title": "Why China Isn't Speaking Up on the Iran War",
-          "link": "https://www.bloomberg.com/news/videos/2026-03-18/why-china-isn-t-speaking-up-on-the-iran-war-video",
-          "description": "China has been noticeably quiet about the conflict in the Middle East, even as it engulfs a major Chinese friend, Iran. The silence, though, is deliberate. Rebecca Choong Wilkins explains. (Source: Bloomberg)",
+          "id": "https://www.bloomberg.com/news/articles/2026-03-19/czech-rates-to-stay-put-as-policymakers-lean-on-inflation-buffer",
+          "title": "Czech Rates to Stay Put as Policymakers Lean on Inflation Buffer",
+          "link": "https://www.bloomberg.com/news/articles/2026-03-19/czech-rates-to-stay-put-as-policymakers-lean-on-inflation-buffer",
+          "description": "Czech policymakers are poised to keep interest rates on hold as inflation running below target provides a cushion against the immediate impact of surging oil costs.",
           "sourceFeed": "Bloomberg Markets",
-          "publishedAt": "2026-03-18T09:13:23.000Z",
-          "publishedTs": 1773825203000
+          "publishedAt": "2026-03-19T05:00:00.000Z",
+          "publishedTs": 1773896400000
         },
         {
-          "id": "https://www.bloomberg.com/news/features/2026-03-18/trump-musk-gates-struggle-to-dodge-epstein-files-fallout",
-          "title": "Why the Epstein Files Fallout Keeps Growing",
-          "link": "https://www.bloomberg.com/news/features/2026-03-18/trump-musk-gates-struggle-to-dodge-epstein-files-fallout",
-          "description": "Business leaders have blamed a range of villains for public anger toward the status quo, but it’s past time they take some responsibility.",
-          "sourceFeed": "Bloomberg Politics",
-          "publishedAt": "2026-03-18T09:00:06.000Z",
-          "publishedTs": 1773824406000
-        },
-        {
-          "id": "https://www.bloomberg.com/news/features/2026-03-18/peter-attia-s-longevity-empire-rocked-by-epstein-files",
-          "title": "The Rise And Fall of Peter Attia’s Longevity Empire",
-          "link": "https://www.bloomberg.com/news/features/2026-03-18/peter-attia-s-longevity-empire-rocked-by-epstein-files",
-          "description": "Attia built his brand on trust and credibility. The revelation of a yearslong relationship with Jeffrey Epstein has upended that.",
-          "sourceFeed": "Bloomberg Politics",
-          "publishedAt": "2026-03-18T09:00:03.000Z",
-          "publishedTs": 1773824403000
-        },
-        {
-          "id": "https://www.bloomberg.com/news/articles/2026-03-18/gabbard-set-to-face-scrutiny-over-iran-stance-at-threats-hearing",
-          "title": "Gabbard Set to Face Scrutiny Over Iran Stance at Threats Hearing",
-          "link": "https://www.bloomberg.com/news/articles/2026-03-18/gabbard-set-to-face-scrutiny-over-iran-stance-at-threats-hearing",
-          "description": "A year ago, Director of National Intelligence Tulsi Gabbard testified at the Senate’s annual hearing on global threats that Iran wasn’t building a nuclear weapon.",
-          "sourceFeed": "Bloomberg Politics",
-          "publishedAt": "2026-03-18T09:00:00.000Z",
-          "publishedTs": 1773824400000
-        },
-        {
-          "id": "https://www.bloomberg.com/news/articles/2026-03-18/micron-earnings-face-high-expectations-as-its-stock-keeps-rising",
-          "title": "Micron Earnings Face High Expectations as Its Stock Keeps Rising",
-          "link": "https://www.bloomberg.com/news/articles/2026-03-18/micron-earnings-face-high-expectations-as-its-stock-keeps-rising",
-          "description": "Soaring prices for memory chips have made Micron Technology Inc. one of the standout stocks of 2026, and its earnings after the close on Wednesday will give clues on whether the rally is sustainable.",
+          "id": "https://www.bloomberg.com/news/articles/2026-03-19/inr-usd-indian-rupee-defense-spending-measure-nears-record-100-billion",
+          "title": "India's Central Bank Ramps Up Key Tool to Defend Falling Rupee",
+          "link": "https://www.bloomberg.com/news/articles/2026-03-19/inr-usd-indian-rupee-defense-spending-measure-nears-record-100-billion",
+          "description": "India ramped up use of a key tool for defending the rupee to record levels as the currency weakened to an all-time low against the dollar, according to people familiar with the matter.",
           "sourceFeed": "Bloomberg Markets",
-          "publishedAt": "2026-03-18T08:56:59.000Z",
-          "publishedTs": 1773824219000
+          "publishedAt": "2026-03-19T04:22:49.000Z",
+          "publishedTs": 1773894169000
         },
         {
-          "id": "https://www.bloomberg.com/news/videos/2026-03-18/oil-prices-drop-as-iraq-signs-pipeline-export-deal-video",
-          "title": "Oil Prices Drop as Iraq Signs Pipeline Export Deal",
-          "link": "https://www.bloomberg.com/news/videos/2026-03-18/oil-prices-drop-as-iraq-signs-pipeline-export-deal-video",
-          "description": "Oil dipped as Iraq signed a deal to resume exports via Turkey that avoids the Strait of Hormuz, and as the US stepped up efforts to force the reopening of the key waterway. Iraq agreed with Kurdistan to resume oil exports through a pipeline in the semi-autonomous region that goes to Turkey’s Mediterranean port of Ceyhan. The rerouting of the oil will only partially relieve supply concerns. Bloomberg’s Anthony di Paola reports.",
-          "sourceFeed": "Bloomberg Politics",
-          "publishedAt": "2026-03-18T08:48:26.000Z",
-          "publishedTs": 1773823706000
-        },
-        {
-          "id": "https://www.bloomberg.com/news/articles/2026-03-18/unicredit-ceo-says-commerzbank-bid-intended-to-break-stalemate",
-          "title": "UniCredit CEO Says Commerzbank Bid Intended to Break ‘Stalemate’",
-          "link": "https://www.bloomberg.com/news/articles/2026-03-18/unicredit-ceo-says-commerzbank-bid-intended-to-break-stalemate",
-          "description": "UniCredit SpA Chief Executive Officer Andrea Orcel said his takeover bid for Commerzbank AG is designed to bring about negotiations between the stakeholders as he seeks to breathe fresh life into a deal he’s been pursuing for more than 18 months.",
+          "id": "https://www.bloomberg.com/news/videos/2026-03-19/the-asia-trade-3-19-2026-video",
+          "title": "Oil Surges as Energy Assets Hit in Mideast; Fed Holds Rates | The Asia Trade 3/19/2026",
+          "link": "https://www.bloomberg.com/news/videos/2026-03-19/the-asia-trade-3-19-2026-video",
+          "description": "\"Bloomberg: The Asia Trade\" brings you everything you need to know to get ahead as the trading day begins in Asia. Bloomberg TV is live from Tokyo and Sydney with Shery Ahn and Haidi Stroud-Watts, getting insight and analysis from newsmakers and industry leaders on the biggest stories shaping global markets. (Source: Bloomberg)",
           "sourceFeed": "Bloomberg Markets",
-          "publishedAt": "2026-03-18T08:42:36.000Z",
-          "publishedTs": 1773823356000
+          "publishedAt": "2026-03-19T04:09:24.000Z",
+          "publishedTs": 1773893364000
         },
         {
-          "id": "https://www.bloomberg.com/news/articles/2026-03-18/citi-sees-bok-raising-rate-toward-3-this-year-on-inflation-risk",
-          "title": "Citi Sees BOK Raising Rate Toward 3% This Year on Inflation Risk",
-          "link": "https://www.bloomberg.com/news/articles/2026-03-18/citi-sees-bok-raising-rate-toward-3-this-year-on-inflation-risk",
-          "description": "The Bank of Korea is likely to raise its policy rate to 3% this year as a surge in global oil prices drives inflation higher, according to Citigroup Inc.",
+          "id": "https://www.bloomberg.com/news/videos/2026-03-19/line-man-wongnai-to-fund-new-acquisitions-with-ipo-video",
+          "title": "LINE MAN Wongnai To Fund New Acquisitions With IPO",
+          "link": "https://www.bloomberg.com/news/videos/2026-03-19/line-man-wongnai-to-fund-new-acquisitions-with-ipo-video",
+          "description": "LINE MAN Wongnai CEO Yod Chinsupakul says his Thai tech start-up, which connects customers and suppliers through food delivery, groceries and ride-hailing, hopes to fund new acquisitions with its initial public offering. He speaks with Haslinda Amin on \"Insight with Haslinda Amin.\" (Source: Bloomberg)",
           "sourceFeed": "Bloomberg Markets",
-          "publishedAt": "2026-03-18T08:41:24.000Z",
-          "publishedTs": 1773823284000
+          "publishedAt": "2026-03-19T04:05:57.000Z",
+          "publishedTs": 1773893157000
+        },
+        {
+          "id": "https://www.bloomberg.com/news/articles/2026-03-19/emerging-assets-fall-for-first-time-this-week-as-oil-prices-jump",
+          "title": "Emerging Assets Fall for First Time This Week as Oil Prices Jump",
+          "link": "https://www.bloomberg.com/news/articles/2026-03-19/emerging-assets-fall-for-first-time-this-week-as-oil-prices-jump",
+          "description": "Emerging market equities and currencies fell for the first time this week as oil prices surged after attacks on some of the Middle East’s most important energy facilities.",
+          "sourceFeed": "Bloomberg Markets",
+          "publishedAt": "2026-03-19T04:05:33.000Z",
+          "publishedTs": 1773893133000
+        },
+        {
+          "id": "https://www.bloomberg.com/news/videos/2026-03-19/nomura-s-willcox-boj-more-likely-to-hike-in-april-video",
+          "title": "Nomura's Willcox: BoJ More Likely To Hike in April",
+          "link": "https://www.bloomberg.com/news/videos/2026-03-19/nomura-s-willcox-boj-more-likely-to-hike-in-april-video",
+          "description": "Nomura Head of Wholesale and Chairman of Investment Management Christopher Willcox believes the Bank of Japan is more likely to hike rates in April. He speaks with Haslinda Amin on \"Insight with Haslinda Amin.\" (Source: Bloomberg)",
+          "sourceFeed": "Bloomberg Markets",
+          "publishedAt": "2026-03-19T04:02:54.000Z",
+          "publishedTs": 1773892974000
+        },
+        {
+          "id": "https://www.bloomberg.com/opinion/newsletters/2026-03-19/powell-digs-in-as-war-forces-a-new-path-for-the-fed",
+          "title": "Powell Digs In as War Forces a New Path for the Fed",
+          "link": "https://www.bloomberg.com/opinion/newsletters/2026-03-19/powell-digs-in-as-war-forces-a-new-path-for-the-fed",
+          "description": "The embattled chairman raises the stakes against prosecution.",
+          "sourceFeed": "Bloomberg Markets",
+          "publishedAt": "2026-03-19T04:00:03.000Z",
+          "publishedTs": 1773892803000
+        },
+        {
+          "id": "https://www.bloomberg.com/news/articles/2026-03-19/traders-eye-yen-s-160-level-boj-hawkish-overtures-analysts-say",
+          "title": "Bank of Japan Decision Puts Yen-160 Watch in Focus, Analysts Say",
+          "link": "https://www.bloomberg.com/news/articles/2026-03-19/traders-eye-yen-s-160-level-boj-hawkish-overtures-analysts-say",
+          "description": "The Bank of Japan’s widely expected decision to hold its benchmark rate amid risks from the Iran war left the yen little changed, though analysts said Governor Kazuo Ueda’s remarks later would be key to whether the currency would swing past 160.",
+          "sourceFeed": "Bloomberg Markets",
+          "publishedAt": "2026-03-19T03:55:48.000Z",
+          "publishedTs": 1773892548000
         }
       ],
       "digest": {
-        "episode_title": "每日简报：聚焦重要新闻",
-        "episode_summary": "今日重点关注中国在中东的沉默、特朗普与马斯克等人的困境以及Micron科技公司的业绩。",
-        "lead": "今天，我们将关注几个关键领域的最新动态。首先，我们讨论了中国对伊朗战争保持沉默的原因。",
+        "episode_title": "每日财经简报",
+        "episode_summary": "今日聚焦全球金融市场动态，涵盖货币政策、汇率变动及能源市场等重要话题。",
+        "lead": "今日的全球经济新闻中，我们关注了多个关键领域的发展。",
         "stories": [
           {
-            "headline": "为什么中国不谈论伊朗战争",
-            "summary": "尽管伊朗是一个重要的盟友，但中国在中东的冲突中显得格外沉默。这种沉默是有意为之。",
-            "why_it_matters": "了解这一行为背后的动机对于理解国际政治格局至关重要。"
+            "headline": "Czech央行维持利率不变",
+            "summary": "由于通胀低于目标水平，捷克央行决定保持利率不变，以应对油价上涨带来的影响。",
+            "why_it_matters": "这反映了全球经济对能源价格波动的敏感性。"
           },
           {
-            "headline": "为什么埃普斯坦文件风波仍在继续",
-            "summary": "商业领袖们一直将愤怒归咎于现状，但该是时候他们自己承担一些责任了。",
-            "why_it_matters": "这揭示了一个长期存在的问题，并可能引发更广泛的讨论。"
+            "headline": "印度央行加大工具使用力度以捍卫贬值的卢比",
+            "summary": "为了防止卢比进一步贬值至历史低点，印度央行增加了用于保护本国货币价值的关键工具。",
+            "why_it_matters": "这表明了印度政府对汇率稳定的关注。"
           },
           {
-            "headline": "彼得·阿提亚长寿帝国的兴衰",
-            "summary": "阿提亚建立品牌的基础是信任和信誉，但最近的揭露使这一切都受到了质疑。",
-            "why_it_matters": "这一事件对他的声誉造成了严重影响，并可能影响他未来的发展。"
+            "headline": "油价飙升：中东能源资产受损；美联储维持利率不变",
+            "summary": "原油价格因中东地区重要能源设施遭受袭击而上涨，同时美国联邦储备局决定保持利率不变。",
+            "why_it_matters": "这反映了全球市场对能源供应的担忧。"
+          },
+          {
+            "headline": "LINE MAN Wongnai计划通过IPO进行新收购",
+            "summary": "泰国科技初创公司Wongnai的CEO表示，该公司希望通过首次公开募股来资助新的收购活动。",
+            "why_it_matters": "这展示了新兴市场的资本流动和企业扩张策略。"
+          },
+          {
+            "headline": "新兴市场资产本周首次下跌",
+            "summary": "由于中东能源设施遭受袭击导致油价上涨，新兴市场股票和货币价格出现下跌。",
+            "why_it_matters": "这突显了全球金融市场对地缘政治事件的敏感性。"
+          },
+          {
+            "headline": "Nomura认为日本央行更可能在4月加息",
+            "summary": "Nomura的Christopher Willcox指出，鉴于中东战争的影响，日本央行更有可能在四月份提高利率。",
+            "why_it_matters": "这反映了全球主要央行对地缘政治事件的反应。"
+          },
+          {
+            "headline": "Powell面临审判压力下的美联储政策",
+            "summary": "尽管面临指控，但美国联邦储备局主席鲍威尔仍坚持其货币政策立场。",
+            "why_it_matters": "这体现了高层领导人在面对外部压力时的决策过程。"
+          },
+          {
+            "headline": "日本央行决定维持利率不变",
+            "summary": "鉴于中东战争的风险，日本央行决定保持其基准利率不变。",
+            "why_it_matters": "这反映了全球主要央行对地缘政治事件的反应。"
           }
         ],
-        "closing": "在今天的简报中，我们探讨了国际政治、商业领袖的责任以及一个长寿品牌的重大挫折。希望这些信息能帮助您更好地理解当前的世界。",
-        "audio_script": "今天我们要关注几个重要的新闻点。首先，我们将讨论中国在中东冲突中的沉默行为。接下来是关于埃普斯坦文件风波的进一步发展。最后，我们来看一看彼得·阿提亚长寿帝国的兴衰故事。这些事件对国际政治、商业领袖的责任以及一个长寿品牌产生了深远的影响。希望今天的简报能帮助您更好地理解当前的世界动态。"
+        "closing": "以上是今日最重要的财经新闻概览。希望这些信息能帮助您了解全球经济动态。",
+        "audio_script": "今天我们关注了几个关键领域的最新发展，首先是捷克央行决定维持利率不变以应对油价上涨的影响。印度央行则加大使用工具来捍卫卢比的汇率。原油价格因中东地区能源设施遭受袭击而飙升，同时美国联邦储备局保持利率不变。泰国科技初创公司Wongnai计划通过首次公开募股进行新收购活动。新兴市场资产本周首次下跌，这反映了地缘政治事件对金融市场的影响。Nomura的Christopher Willcox认为日本央行更可能在四月份加息。尽管面临指控，但美国联邦储备局主席鲍威尔仍坚持其货币政策立场。日本央行决定维持利率不变，鉴于中东战争的风险。希望这些信息能帮助您了解今日最重要的财经新闻概览。"
       }
     }
   ]
