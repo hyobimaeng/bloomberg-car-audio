@@ -213,19 +213,6 @@ function readConfig() {
 function buildShowProfiles(config) {
   return [
     {
-      id: "cn-short",
-      badge: "AI 中文短版",
-      title: config.podcastTitle,
-      description: "\u6bcf\u5929\u81ea\u52a8\u66f4\u65b0\u7684 Bloomberg \u516c\u5f00 RSS \u4e2d\u6587\u6458\u8981\uff0c\u9002\u5408 iPhone \u548c CarPlay \u64ad\u653e\u3002",
-      feedFile: "feed.xml",
-      archiveFile: "archive.json",
-      episodeDir: "episodes",
-      digestVariant: "standard",
-      episodeId(dateKey) {
-        return `daily-${dateKey}`;
-      }
-    },
-    {
       id: "cn-plus",
       badge: "AI 中文加长版",
       title: config.podcastTitleExtended,

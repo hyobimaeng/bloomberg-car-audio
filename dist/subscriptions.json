@@ -1,15 +1,6 @@
 {
-  "generatedAt": "2026-03-20T06:56:49.714Z",
+  "generatedAt": "2026-03-20T07:41:09.209Z",
   "subscriptions": [
-    {
-      "id": "cn-short",
-      "type": "custom",
-      "badge": "AI 中文短版",
-      "title": "彭博中文车载摘要",
-      "description": "每天自动更新的 Bloomberg 公开 RSS 中文摘要，适合 iPhone 和 CarPlay 播放。",
-      "feedUrl": "https://hyobimaeng.github.io/bloomberg-car-audio/feed.xml",
-      "latestEpisodeUrl": "https://hyobimaeng.github.io/bloomberg-car-audio/episodes/2026-03-20.html"
-    },
     {
       "id": "cn-plus",
       "type": "custom",

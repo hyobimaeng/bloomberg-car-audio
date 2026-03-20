@@ -1,128 +1,128 @@
 {
   "id": "daily-cn-plus-2026-03-20",
-  "title": "每日财经简报（2026年3月20日）",
-  "summary": "今日聚焦欧洲政治、金融市场动态以及中国相关话题。",
-  "publishedAt": "2026-03-20T06:56:49.714Z",
+  "title": "中国晨间Bloomberg新闻摘要",
+  "summary": "今日重点关注的五则重要新闻。",
+  "publishedAt": "2026-03-20T07:41:09.209Z",
   "audioPath": "episodes-cn-plus/2026-03-20.mp3",
   "audioUrl": "https://hyobimaeng.github.io/bloomberg-car-audio/episodes-cn-plus/2026-03-20.mp3",
   "audioMime": "audio/mpeg",
-  "audioBytes": 1290533,
+  "audioBytes": 1536337,
   "pagePath": "episodes-cn-plus/2026-03-20.html",
   "pageUrl": "https://hyobimaeng.github.io/bloomberg-car-audio/episodes-cn-plus/2026-03-20.html",
   "jsonPath": "episodes-cn-plus/2026-03-20.json",
   "jsonUrl": "https://hyobimaeng.github.io/bloomberg-car-audio/episodes-cn-plus/2026-03-20.json",
   "sources": [
     {
-      "id": "https://www.bloomberg.com/news/videos/2026-03-20/eu-says-orban-not-honoring-his-word-on-ukraine-loan-deal-video",
-      "title": "EU Says Orban Not Honoring His Word on Ukraine Loan Deal (Video)",
-      "link": "https://www.bloomberg.com/news/videos/2026-03-20/eu-says-orban-not-honoring-his-word-on-ukraine-loan-deal-video",
-      "description": "",
+      "id": "https://www.bloomberg.com/news/videos/2026-03-20/ruhl-us-almost-out-of-options-to-keep-oil-price-low-video",
+      "title": "Rühl: US Almost Out of Options to Keep Oil Price Low",
+      "link": "https://www.bloomberg.com/news/videos/2026-03-20/ruhl-us-almost-out-of-options-to-keep-oil-price-low-video",
+      "description": "Attacks on oil and gas infrastructure in the Arabian Gulf have escalated in the past two days. After a rebuke from President Trump, Israel says it will no longer target energy assets after its attack on an Iranian gas field sparked retaliatory strikes, cause oil and gas prices to surge. Crystol Energy Global Advisor, Christof Rühl, says the US is running out of methods to keep the oil price low if the Strait of Hormuz isn't reopened. He spokes to Joumanna Bercetche on Horizons Middle East and Africa. (Source: Bloomberg)",
+      "sourceFeed": "Bloomberg Markets",
+      "publishedAt": "2026-03-20T07:30:25.000Z",
+      "publishedTs": 1773991825000
+    },
+    {
+      "id": "https://www.bloomberg.com/news/articles/2026-03-20/european-gas-falls-as-us-israel-seek-to-ease-iran-war-concerns",
+      "title": "European Gas Falls as US, Israel Seek to Ease Iran War Concerns",
+      "link": "https://www.bloomberg.com/news/articles/2026-03-20/european-gas-falls-as-us-israel-seek-to-ease-iran-war-concerns",
+      "description": "European natural gas fell after Israel and the US sought to ease concerns about further attacks on Persian Gulf energy facilities.",
+      "sourceFeed": "Bloomberg Markets",
+      "publishedAt": "2026-03-20T07:20:15.000Z",
+      "publishedTs": 1773991215000
+    },
+    {
+      "id": "https://www.bloomberg.com/news/articles/2026-03-20/asia-turns-to-coal-as-iran-war-rapidly-shrinks-supplies-of-gas",
+      "title": "Asia Turns to Coal as Iran War Rapidly Shrinks Supplies of Gas",
+      "link": "https://www.bloomberg.com/news/articles/2026-03-20/asia-turns-to-coal-as-iran-war-rapidly-shrinks-supplies-of-gas",
+      "description": "War in the Middle East is forcing Asia to turn to coal to plug the gaping hole emerging in its supply of liquefied natural gas.",
+      "sourceFeed": "Bloomberg Markets",
+      "publishedAt": "2026-03-20T07:20:04.000Z",
+      "publishedTs": 1773991204000
+    },
+    {
+      "id": "https://www.bloomberg.com/news/articles/2026-03-20/vinfast-risks-north-carolina-clawback-of-us-ev-plant-incentives",
+      "title": "VinFast Risks North Carolina Clawback of US EV Plant Incentives",
+      "link": "https://www.bloomberg.com/news/articles/2026-03-20/vinfast-risks-north-carolina-clawback-of-us-ev-plant-incentives",
+      "description": "Pressure is mounting on VinFast Auto Ltd. after two US officials reminded the Vietnamese EV maker of its obligations under a four-year-old deal to build a mammoth plant in North Carolina.",
+      "sourceFeed": "Bloomberg Markets",
+      "publishedAt": "2026-03-20T07:19:41.000Z",
+      "publishedTs": 1773991181000
+    },
+    {
+      "id": "https://www.bloomberg.com/news/videos/2026-03-20/dangote-demand-soars-as-war-disrupts-africa-fuel-supply-video",
+      "title": "Dangote Demand Soars As War Disrupts Africa Fuel Supply",
+      "link": "https://www.bloomberg.com/news/videos/2026-03-20/dangote-demand-soars-as-war-disrupts-africa-fuel-supply-video",
+      "description": "African nations are scrambling to secure fuel from Nigeria's Dangote Refinery as war in the Middle East disrupts supply. The refinery is now seeing a massive surge in demand from countries like South Africa and Kenya to prevent local energy shortages. Bloomberg's Jennifer Zabasajja reports on Horizons Middle East and Africa. (Source: Bloomberg)",
+      "sourceFeed": "Bloomberg Markets",
+      "publishedAt": "2026-03-20T07:17:04.000Z",
+      "publishedTs": 1773991024000
+    },
+    {
+      "id": "https://www.bloomberg.com/news/articles/2026-03-20/unilever-confirms-talks-on-mccormick-offer-for-food-business",
+      "title": "Unilever Confirms Talks on McCormick Offer for Food Business",
+      "link": "https://www.bloomberg.com/news/articles/2026-03-20/unilever-confirms-talks-on-mccormick-offer-for-food-business",
+      "description": "Unilever Plc said it’s in discussions to sell its food business to McCormick & Co. in a major shift for the maker of Hellmann’s mayonnaise.",
+      "sourceFeed": "Bloomberg Markets",
+      "publishedAt": "2026-03-20T07:16:48.000Z",
+      "publishedTs": 1773991008000
+    },
+    {
+      "id": "https://www.bloomberg.com/news/videos/2026-03-20/raamdeo-agrawal-on-finding-value-in-india-video",
+      "title": "Where Billionaire Raamdeo Agrawal Is Finding Value in India",
+      "link": "https://www.bloomberg.com/news/videos/2026-03-20/raamdeo-agrawal-on-finding-value-in-india-video",
+      "description": "Indian equities have slumped as the ongoing war in Iran drives energy prices sharply higher. Billionaire investor Raamdeo Agrawal, Chairman and Co‑Founder of Motilal Oswal Financial Services, examines where value is emerging. (Source: Bloomberg)",
+      "sourceFeed": "Bloomberg Markets",
+      "publishedAt": "2026-03-20T07:14:34.000Z",
+      "publishedTs": 1773990874000
+    },
+    {
+      "id": "https://www.bloomberg.com/news/articles/2026-03-20/uk-posts-bigger-than-forecast-14-3-billion-budget-deficit",
+      "title": "UK Posts Bigger-Than-Forecast £14.3 Billion Budget Deficit",
+      "link": "https://www.bloomberg.com/news/articles/2026-03-20/uk-posts-bigger-than-forecast-14-3-billion-budget-deficit",
+      "description": "Britain borrowed more than forecast in February, showing the risks facing the public finances even before the war in Iran upended the economic outlook.",
       "sourceFeed": "Bloomberg Politics",
-      "publishedAt": "2026-03-20T06:54:10.000Z",
-      "publishedTs": 1773989650000
-    },
-    {
-      "id": "https://www.bloomberg.com/news/live-blog/2026-03-20/what-s-moving-uk-markets-right-now-markets-today",
-      "title": "FTSE 100 to Steady After Bruising Session in European Stocks",
-      "link": "https://www.bloomberg.com/news/live-blog/2026-03-20/what-s-moving-uk-markets-right-now-markets-today",
-      "description": "",
-      "sourceFeed": "Bloomberg Markets",
-      "publishedAt": "2026-03-20T06:47:29.000Z",
-      "publishedTs": 1773989249000
-    },
-    {
-      "id": "https://www.bloomberg.com/news/videos/2026-03-20/the-china-show-3-20-2026-video",
-      "title": "The China Show 3/20/2026 (Video)",
-      "link": "https://www.bloomberg.com/news/videos/2026-03-20/the-china-show-3-20-2026-video",
-      "description": "",
-      "sourceFeed": "Bloomberg Markets",
-      "publishedAt": "2026-03-20T06:47:00.000Z",
-      "publishedTs": 1773989220000
-    },
-    {
-      "id": "https://www.bloomberg.com/news/articles/2026-03-20/ecb-would-need-april-hike-if-price-outlook-sours-nagel-says",
-      "title": "ECB Would Need April Hike If Price Outlook Sours, Nagel Says",
-      "link": "https://www.bloomberg.com/news/articles/2026-03-20/ecb-would-need-april-hike-if-price-outlook-sours-nagel-says",
-      "description": "The European Central Bank will need to consider hiking interest rates as soon as next month if price pressures build further due to the Iran war, according to Governing Council member Joachim Nagel.",
-      "sourceFeed": "Bloomberg Markets",
-      "publishedAt": "2026-03-20T06:30:00.000Z",
-      "publishedTs": 1773988200000
-    },
-    {
-      "id": "https://www.bloomberg.com/news/articles/2026-03-20/south-africa-imposes-anti-dumping-duties-on-chinese-thai-steel",
-      "title": "South Africa Imposes Anti-Dumping Duties on Chinese, Thai Steel",
-      "link": "https://www.bloomberg.com/news/articles/2026-03-20/south-africa-imposes-anti-dumping-duties-on-chinese-thai-steel",
-      "description": "South Africa approved new import taxes to protect its steel industry after a probe found that cheap imports of some products from China and Thailand unfairly undercut local manufacturers.",
-      "sourceFeed": "Bloomberg Markets",
-      "publishedAt": "2026-03-20T06:28:01.000Z",
-      "publishedTs": 1773988081000
-    },
-    {
-      "id": "https://www.bloomberg.com/news/articles/2026-03-20/bollore-s-shock-dividend-has-investors-baffled-about-endgame",
-      "title": "Bollore’s Shock Dividend Has Investors Baffled About Endgame",
-      "link": "https://www.bloomberg.com/news/articles/2026-03-20/bollore-s-shock-dividend-has-investors-baffled-about-endgame",
-      "description": "Vincent Bolloré’s surprise proposal to pay out €4.2 billion ($4.8 billion) from the eponymous company sitting at the heart of his tangled empire has spawned a slew of theories about the French billionaire’s endgame.",
-      "sourceFeed": "Bloomberg Markets",
-      "publishedAt": "2026-03-20T06:15:00.000Z",
-      "publishedTs": 1773987300000
-    },
-    {
-      "id": "https://www.bloomberg.com/news/videos/2026-03-20/the-anti-war-democrat-courting-maga-voters-video",
-      "title": "The Anti-War Democrat Courting MAGA Voters",
-      "link": "https://www.bloomberg.com/news/videos/2026-03-20/the-anti-war-democrat-courting-maga-voters-video",
-      "description": "Congressman Ro Khanna of California helped force the Epstein Files release. He tells Mishal Husain why opposing the Iran war and taxing billionaires can unite progressives and wavering Trump voters. (Source: Bloomberg)",
-      "sourceFeed": "Bloomberg Politics",
-      "publishedAt": "2026-03-20T06:09:00.000Z",
-      "publishedTs": 1773986940000
-    },
-    {
-      "id": "https://www.bloomberg.com/news/articles/2026-03-20/us-soy-ships-pour-into-china-as-trump-summit-delay-clouds-trade",
-      "title": "US Soy Ships Pile Into China as Trump Summit Delay Clouds Trade",
-      "link": "https://www.bloomberg.com/news/articles/2026-03-20/us-soy-ships-pour-into-china-as-trump-summit-delay-clouds-trade",
-      "description": "A wave of US soybeans reached Chinese shores this year as a deal between the two nations revived the trade. But the delay of President Donald Trump’s visit to Beijing is clouding prospects over how long the influx will last.",
-      "sourceFeed": "Bloomberg Markets",
-      "publishedAt": "2026-03-20T05:39:46.000Z",
-      "publishedTs": 1773985186000
+      "publishedAt": "2026-03-20T07:12:08.000Z",
+      "publishedTs": 1773990728000
     }
   ],
   "digest": {
-    "episode_title": "每日财经简报（2026年3月20日）",
-    "episode_summary": "今日聚焦欧洲政治、金融市场动态以及中国相关话题。",
-    "lead": "今天，我们关注到欧盟对奥尔班的批评，FTSE 100指数在昨日经历了一番波动后趋于稳定。同时，关于中国的市场动态和经济政策也备受瞩目。",
+    "episode_title": "中国晨间Bloomberg新闻摘要",
+    "episode_summary": "今日重点关注的五则重要新闻。",
+    "lead": "今天，国际能源市场面临多重挑战。",
     "stories": [
       {
-        "headline": "欧盟指责奥尔班未履行与乌克兰贷款协议",
-        "summary": "欧盟表示匈牙利总理奥尔班没有遵守有关乌克兰的贷款协议条款。",
-        "why_it_matters": "这一事件反映了国际社会对匈牙利在支持乌克兰方面立场的关注。"
+        "headline": "Rühl: 美国几乎用尽了保持油价低的方法",
+        "summary": "由于以色列在波斯湾对伊朗天然气设施发动攻击后引发报复性打击，导致石油和天然气价格飙升，美国能源专家Christof Rühl表示，如果霍尔木兹海峡不重新开放，美国将几乎没有方法维持油价的低位。",
+        "why_it_matters": "Rühl 的观点强调了当前国际局势下能源供应的脆弱性和不确定性。"
       },
       {
-        "headline": "FTSE 100指数今日趋于稳定",
-        "summary": "尽管昨日经历了一番波动，今日欧洲主要股市的FTSE 100指数已经趋于平稳。",
-        "why_it_matters": "这表明市场情绪正在逐渐恢复平衡。"
+        "headline": "欧洲天然气价格下跌，美、以色列寻求缓解伊朗战争担忧",
+        "summary": "由于美国和以色列试图缓解对波斯湾能源设施可能再次受到攻击的担忧，欧洲天然气价格出现下滑。",
+        "why_it_matters": "这反映了国际社会对于中东局势变化的关注以及其对全球能源市场的影响。"
       },
       {
-        "headline": "中国市场的最新动态",
-        "summary": "《The China Show》节目展示了最新的中国市场情况。",
-        "why_it_matters": "通过这个节目，观众可以了解到当前中国的经济和政治动向。"
+        "headline": "亚洲转向煤炭以应对伊朗战争迅速缩小的天然气供应",
+        "summary": "由于波斯湾地区战争导致液化天然气供应急剧减少，亚洲国家正在转向煤炭来填补这一缺口。",
+        "why_it_matters": "这突显了能源供应多样化的重要性以及在危机时刻各国采取的应对措施。"
       },
       {
-        "headline": "欧洲央行可能在4月加息以应对通胀压力",
-        "summary": "根据欧央行成员Joachim Nagel的言论，如果未来价格压力持续存在，欧洲央行可能会在下个月进行加息。",
-        "why_it_matters": "这将影响全球金融市场和投资者的投资决策。"
+        "headline": "VinFast面临北卡罗来纳州激励计划回扣的压力",
+        "summary": "由于美国两名官员提醒越南电动汽车制造商VinFast关于其与北卡罗来纳州签订的四年协议中的义务，该公司正承受压力。",
+        "why_it_matters": "这反映了跨国公司遵守当地法规和政策的重要性以及潜在法律风险。"
       },
       {
-        "headline": "南非对来自中国和泰国的钢铁产品征收反倾销税",
-        "summary": "为了保护国内钢铁制造商免受低价进口产品的冲击，南非政府批准了新的关税。",
-        "why_it_matters": "这将影响相关行业的供应链和国际贸易关系。"
+        "headline": "Dangote炼油厂需求激增，因中东战争扰乱了非洲燃料供应",
+        "summary": "由于波斯湾地区的战争导致燃料供应中断，非洲国家正努力从尼日利亚的Dangote炼油厂获取燃料以避免国内能源短缺。",
+        "why_it_matters": "这突显了全球供应链在危机中的脆弱性以及各国之间的合作需求。"
       },
       {
-        "headline": "Bollore公司意外宣布分红计划引发市场困惑",
-        "summary": "Vincent Bolloré的公司提议支付42亿欧元（约48亿美元）的股息，这一举动引发了投资者对其未来动向的猜测。",
-        "why_it_matters": "这将影响Bollore公司的市值和股东利益。"
+        "headline": "Unilever考虑出售其食品业务给McCormick",
+        "summary": "Unilever表示正在与McCormick & Co.讨论出售其食品业务，这是该公司自Hellmann’s mayonnaise以来的重大转变。",
+        "why_it_matters": "这反映了企业战略调整以及在特定行业中的竞争态势。"
       }
     ],
-    "closing": "在今天的新闻中，我们看到了国际政治、经济动态以及中国市场的发展变化。希望这些信息能够帮助您更好地了解世界正在发生的事情。",
-    "audio_script": "今天，我们关注到欧盟对奥尔班的批评，FTSE 100指数在昨日经历了一番波动后趋于稳定。同时，关于中国的市场动态和经济政策也备受瞩目。第1条，欧盟指责奥尔班未履行与乌克兰贷款协议。欧盟表示匈牙利总理奥尔班没有遵守有关乌克兰的贷款协议条款。这条消息为什么重要？这一事件反映了国际社会对匈牙利在支持乌克兰方面立场的关注。第2条，FTSE 100指数今日趋于稳定。尽管昨日经历了一番波动，今日欧洲主要股市的FTSE 100指数已经趋于平稳。这条消息为什么重要？这表明市场情绪正在逐渐恢复平衡。第3条，中国市场的最新动态。《The China Show》节目展示了最新的中国市场情况。这条消息为什么重要？通过这个节目，观众可以了解到当前中国的经济和政治动向。第4条，欧洲央行可能在4月加息以应对通胀压力。根据欧央行成员Joachim Nagel的言论，如果未来价格压力持续存在，欧洲央行可能会在下个月进行加息。这条消息为什么重要？这将影响全球金融市场和投资者的投资决策。第5条，南非对来自中国和泰国的钢铁产品征收反倾销税。为了保护国内钢铁制造商免受低价进口产品的冲击，南非政府批准了新的关税。这条消息为什么重要？这将影响相关行业的供应链和国际贸易关系。第6条，Bollore公司意外宣布分红计划引发市场困惑。Vincent Bolloré的公司提议支付42亿欧元（约48亿美元）的股息，这一举动引发了投资者对其未来动向的猜测。这条消息为什么重要？这将影响Bollore公司的市值和股东利益。在今天的新闻中，我们看到了国际政治、经济动态以及中国市场的发展变化。希望这些信息能够帮助您更好地了解世界正在发生的事情。"
+    "closing": "以上是今日最重要的五则新闻摘要。请注意关注国际能源市场和全球供应链的变化。",
+    "audio_script": "今天，国际能源市场面临多重挑战。第1条，Rühl: 美国几乎用尽了保持油价低的方法。由于以色列在波斯湾对伊朗天然气设施发动攻击后引发报复性打击，导致石油和天然气价格飙升，美国能源专家Christof Rühl表示，如果霍尔木兹海峡不重新开放，美国将几乎没有方法维持油价的低位。这条消息为什么重要？Rühl 的观点强调了当前国际局势下能源供应的脆弱性和不确定性。第2条，欧洲天然气价格下跌，美、以色列寻求缓解伊朗战争担忧。由于美国和以色列试图缓解对波斯湾能源设施可能再次受到攻击的担忧，欧洲天然气价格出现下滑。这条消息为什么重要？这反映了国际社会对于中东局势变化的关注以及其对全球能源市场的影响。第3条，亚洲转向煤炭以应对伊朗战争迅速缩小的天然气供应。由于波斯湾地区战争导致液化天然气供应急剧减少，亚洲国家正在转向煤炭来填补这一缺口。这条消息为什么重要？这突显了能源供应多样化的重要性以及在危机时刻各国采取的应对措施。第4条，VinFast面临北卡罗来纳州激励计划回扣的压力。由于美国两名官员提醒越南电动汽车制造商VinFast关于其与北卡罗来纳州签订的四年协议中的义务，该公司正承受压力。这条消息为什么重要？这反映了跨国公司遵守当地法规和政策的重要性以及潜在法律风险。第5条，Dangote炼油厂需求激增，因中东战争扰乱了非洲燃料供应。由于波斯湾地区的战争导致燃料供应中断，非洲国家正努力从尼日利亚的Dangote炼油厂获取燃料以避免国内能源短缺。这条消息为什么重要？这突显了全球供应链在危机中的脆弱性以及各国之间的合作需求。第6条，Unilever考虑出售其食品业务给McCormick。Unilever表示正在与McCormick & Co.讨论出售其食品业务，这是该公司自Hellmann’s mayonnaise以来的重大转变。这条消息为什么重要？这反映了企业战略调整以及在特定行业中的竞争态势。以上是今日最重要的五则新闻摘要。请注意关注国际能源市场和全球供应链的变化。"
   },
   "podcast": {
     "title": "彭博中文车载摘要·加长版",

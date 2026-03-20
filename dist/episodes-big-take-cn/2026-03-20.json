@@ -1,12 +1,12 @@
 {
   "id": "daily-the-big-take-cn-2026-03-20",
-  "title": "今日财经要览：伊朗战争影响全球能源市场",
-  "summary": "本日的《今日财经要览》聚焦于伊朗战争对全球经济的影响，特别关注了油价飙升、能源供应紧张以及各国应对策略。",
-  "publishedAt": "2026-03-20T06:56:49.714Z",
+  "title": "今日财经要览：伊朗战争影响全球能源与经济",
+  "summary": "本晨新闻聚焦几个关键故事，涵盖油价飙升、美联储决策及亚洲受冲击情况。",
+  "publishedAt": "2026-03-20T07:41:09.209Z",
   "audioPath": "episodes-big-take-cn/2026-03-20.mp3",
   "audioUrl": "https://hyobimaeng.github.io/bloomberg-car-audio/episodes-big-take-cn/2026-03-20.mp3",
   "audioMime": "audio/mpeg",
-  "audioBytes": 2649300,
+  "audioBytes": 671992,
   "pagePath": "episodes-big-take-cn/2026-03-20.html",
   "pageUrl": "https://hyobimaeng.github.io/bloomberg-car-audio/episodes-big-take-cn/2026-03-20.html",
   "jsonPath": "episodes-big-take-cn/2026-03-20.json",
@@ -50,29 +50,29 @@
     }
   ],
   "digest": {
-    "episode_title": "今日财经要览：伊朗战争影响全球能源市场",
-    "episode_summary": "本日的《今日财经要览》聚焦于伊朗战争对全球经济的影响，特别关注了油价飙升、能源供应紧张以及各国应对策略。",
-    "lead": "在今天的《今日财经要览》，我们首先探讨了伊朗战争如何威胁到全球石油供应安全。",
+    "episode_title": "今日财经要览：伊朗战争影响全球能源与经济",
+    "episode_summary": "本晨新闻聚焦几个关键故事，涵盖油价飙升、美联储决策及亚洲受冲击情况。",
+    "lead": "今天的故事围绕着油价上涨、美联储的利率决定以及亚洲如何应对中东战事带来的挑战展开。",
     "stories": [
       {
-        "headline": "伊朗可能在霍尔木兹海峡布设水雷，引发全球油价飙升",
-        "summary": "由于中东地区多次袭击油气设施导致能源价格急剧上涨，确保霍尔木兹海峡的安全对恢复全球石油供应至关重要。然而，即使有布设水雷的可能性，恢复过程可能会比较缓慢。",
-        "why_it_matters": "伊朗可能在霍尔木兹海峡布设水雷的消息引发了市场担忧，这不仅影响了该地区的安全局势，还加剧了全球能源市场的不确定性。"
+        "headline": "伊朗战争威胁全球油路安全",
+        "summary": "由于中东地区对天然气和石油设施的攻击，油价飙升。若伊朗在霍尔木兹海峡布设了水雷，这将如何影响油轮交通的安全？Bloomberg的国防编辑Gerry Doyle与David Gura一起探讨了清除水雷的挑战——尤其是在冲突仍在继续的情况下。",
+        "why_it_matters": "霍尔木兹海峡是全球石油运输的关键航道。任何对该区域安全的担忧都可能引发油价波动，进而影响全球经济。"
       },
       {
-        "headline": "美联储决定维持利率不变，面对伊朗战争带来的经济不确定性",
-        "summary": "尽管油价飙升和对伊朗战争的新市场不确定因素存在，美联储宣布将利率保持不变。在今天的《今日财经要览》中，我们探讨了美联储如何应对这些挑战。",
-        "why_it_matters": "美联储决定维持利率不变反映了其对于当前全球经济环境的谨慎态度，特别是在面对伊朗战争带来的不确定性时。"
+        "headline": "美联储面临最糟糕的情况",
+        "summary": "尽管油价飙升和中东战事带来的市场不确定性，联邦公开市场委员会决定维持利率不变。Bloomberg的联邦储备记者Amara Omeokwe与历史学家Peter Conti-Brown讨论了美联储如何应对伊朗战争及其对美国经济的影响。",
+        "why_it_matters": "美联储需要在高通胀和能源危机之间做出平衡决策。伊朗战争可能改变其政策方向，尤其是在未来几个月内。"
       },
       {
-        "headline": "亚洲地区正承受着伊朗战争引发的能源危机",
-        "summary": "从巴基斯坦飙升的燃料价格到印度烹饪用气短缺，亚洲地区正在经历这场由伊朗战争引起的全球危机。",
-        "why_it_matters": "亚洲地区的能源紧张状况凸显了该地区在面对全球能源危机时所面临的挑战。"
+        "headline": "亚洲成为全球能源危机的前线",
+        "summary": "从巴基斯坦飙升的燃料价格到印度的燃气短缺，中东战事对亚洲产生了严重影响。Bloomberg的Faseeh Mangi与Clara Ferreira Marques讨论了伊朗战争如何影响亚洲。",
+        "why_it_matters": "亚洲国家在应对能源危机方面最为脆弱，因此成为全球关注焦点。"
       },
       {
-        "headline": "俄罗斯或成为伊朗战争的最大赢家",
-        "summary": "随着伊朗战争的扩大，俄罗斯与伊朗之间的同盟关系加深，并且双方共享战场情报。在今天的《今日财经要览》中，我们探讨了这一现象。",
-        "why_it_matters": "俄罗斯可能从伊朗战争中获益匪浅，这不仅有助于缓解其自身的能源压力，还可能影响到乌克兰的战局。"
+        "headline": "俄罗斯或成伊朗战争的最大赢家",
+        "summary": "随着伊朗战争的扩大，俄罗斯与伊朗之间的同盟关系加深。特朗普对俄石油实施了部分制裁以缓解油价压力，而这种盟友关系可能为俄罗斯在乌克兰战争中的行动提供支持。",
+        "why_it_matters": "俄罗斯可能利用伊朗战争来增强其在乌克兰战场上的影响力。"
       },
       {
         "headline": "The Iran Mine Threat Rattling Global Oil",
@@ -85,8 +85,8 @@
         "why_it_matters": "这是当天值得关注的公开 Bloomberg RSS 条目。"
       }
     ],
-    "closing": "以上是本日《今日财经要览》的主要内容，希望对您有所启发。",
-    "audio_script": "在今天的《今日财经要览》，我们首先探讨了伊朗战争如何威胁到全球石油供应安全。第1条，伊朗可能在霍尔木兹海峡布设水雷，引发全球油价飙升。由于中东地区多次袭击油气设施导致能源价格急剧上涨，确保霍尔木兹海峡的安全对恢复全球石油供应至关重要。然而，即使有布设水雷的可能性，恢复过程可能会比较缓慢。这条消息为什么重要？伊朗可能在霍尔木兹海峡布设水雷的消息引发了市场担忧，这不仅影响了该地区的安全局势，还加剧了全球能源市场的不确定性。第2条，美联储决定维持利率不变，面对伊朗战争带来的经济不确定性。尽管油价飙升和对伊朗战争的新市场不确定因素存在，美联储宣布将利率保持不变。在今天的《今日财经要览》中，我们探讨了美联储如何应对这些挑战。这条消息为什么重要？美联储决定维持利率不变反映了其对于当前全球经济环境的谨慎态度，特别是在面对伊朗战争带来的不确定性时。第3条，亚洲地区正承受着伊朗战争引发的能源危机。从巴基斯坦飙升的燃料价格到印度烹饪用气短缺，亚洲地区正在经历这场由伊朗战争引起的全球危机。这条消息为什么重要？亚洲地区的能源紧张状况凸显了该地区在面对全球能源危机时所面临的挑战。第4条，俄罗斯或成为伊朗战争的最大赢家。随着伊朗战争的扩大，俄罗斯与伊朗之间的同盟关系加深，并且双方共享战场情报。在今天的《今日财经要览》中，我们探讨了这一现象。这条消息为什么重要？俄罗斯可能从伊朗战争中获益匪浅，这不仅有助于缓解其自身的能源压力，还可能影响到乌克兰的战局。第5条，The Iran Mine Threat Rattling Global Oil。Has Iran laid mines across the Strait of Hormuz? With attacks on gas and oil facilities across the Middle East sending energy prices soaring, a key to restoring global oil supplies is ensuring the Strait of Hormuz is safe for tanker traffic. However, even the possibility that the area has been mined suggests that a recovery could be slow. On today&rsquo;s Big Take podcast, Bloomberg&rsquo;s global defense editor, Gerry Doyle, tells David Gura about the challenges of clearing mines &mdash; especially before the shooting stops. Read more: Mines, Missiles, and the Strait of Hormuz Mine-Sweeping Drones Don&rsquo;t Eliminate The Risks For Clearing Hormuz Hosted by David Gura; Produced by David Fox; Reported by Gerry Doyle; Edited by Jeffrey Grocott. Fact-checking by Eleanor Harrison-Dengate; Engineering by Katie McMurran. Senior Producer: Naomi Shavin; Deputy Executive Producer: Julia Weaver. Executive Producer: Nicole Beemsterboer. See omnystudio.com/listener for privacy information.这条消息为什么重要？这是当天值得关注的公开 Bloomberg RSS 条目。第6条，This Is the Fed's Worst Nightmare。The Federal Open Market Committee announced this afternoon that it would hold interest rates steady. The decision comes in spite of spiking oil prices and new market uncertainty driven by the Iran War. On today&rsquo;s Big Take podcast, host David Gura sits down with Bloomberg Federal Reserve reporter Amara Omeokwe and Wharton professor and historian Peter Conti-Brown to discuss how the Fed is thinking about the Iran War and its impacts on the US economy &mdash; and what could shift its calculus in the months ahead. Read more: Fed to Hold Interest Rates Steady as Iran War Scrambles the Economic Outlook Hosted by David Gura; Produced by Julia Press; Reported by Amara Omeokwe; Edited by Tracey Samuelson. Fact-checking by Eleanor Harrison-Dengate; Engineering by Alex Sugiura. Senior Producer: Naomi Shavin; Deputy Executive Producer: Julia Weaver. Executive Producer: Nicole Beemsterboer. See omnystudio.com/listener for privacy information.这条消息为什么重要？这是当天值得关注的公开 Bloomberg RSS 条目。以上是本日《今日财经要览》的主要内容，希望对您有所启发。"
+    "closing": "这些故事展示了当前世界面临的复杂挑战和机遇。让我们继续关注并了解更多信息。",
+    "audio_script": "今天的故事围绕着油价上涨、美联储的利率决定以及亚洲如何应对中东战事带来的挑战展开。首先，我们聚焦在伊朗战争对全球油路安全的影响上。尽管联邦公开市场委员会决定维持利率不变，但Bloomberg的Gerry Doyle与David Gura讨论了清除可能布设在霍尔木兹海峡的水雷的挑战——尤其是在冲突仍在继续的情况下。接下来，我们探讨美联储如何应对伊朗战争及其对美国经济的影响。Bloomberg的Amara Omeokwe与历史学家Peter Conti-Brown分享了他们的见解。然后，我们将关注亚洲如何应对中东战事带来的能源危机。Faseeh Mangi与Clara Ferreira Marques讨论了这一问题。最后，我们探讨俄罗斯可能成为伊朗战争的最大赢家。Bloomberg的Sarah Holder与Natalia Drozdiak分析了这种可能性及其对乌克兰战场的影响。这些故事展示了当前世界面临的复杂挑战和机遇。让我们继续关注并了解更多信息。"
   },
   "podcast": {
     "title": "Bloomberg Big Take 中文摘要版",

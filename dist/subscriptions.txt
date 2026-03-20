@@ -1,52 +1,46 @@
-1. 彭博中文车载摘要
-Type: custom
-Feed: https://hyobimaeng.github.io/bloomberg-car-audio/feed.xml
-Latest: https://hyobimaeng.github.io/bloomberg-car-audio/episodes/2026-03-20.html
-Description: 每天自动更新的 Bloomberg 公开 RSS 中文摘要，适合 iPhone 和 CarPlay 播放。
-
-2. 彭博中文车载摘要·加长版
+1. 彭博中文车载摘要·加长版
 Type: custom
 Feed: https://hyobimaeng.github.io/bloomberg-car-audio/feed-cn-plus.xml
 Latest: https://hyobimaeng.github.io/bloomberg-car-audio/episodes-cn-plus/2026-03-20.html
 Description: 每天自动更新的 Bloomberg 公开 RSS 中文加长摘要，覆盖更多重点，适合更长通勤收听。
 
-3. 彭博 Daybreak 中文摘要版
+2. 彭博 Daybreak 中文摘要版
 Type: custom
 Feed: https://hyobimaeng.github.io/bloomberg-car-audio/feed-daybreak-cn.xml
 Latest: https://hyobimaeng.github.io/bloomberg-car-audio/episodes-daybreak-cn/2026-03-20.html
 Description: 基于 Bloomberg Daybreak 原版 RSS 生成的中文加长摘要，适合想要跟上 Daybreak 但不想直接听英文原版的通勤场景。
 
-4. Bloomberg The Deal 中文摘要版
+3. Bloomberg The Deal 中文摘要版
 Type: custom
 Feed: https://hyobimaeng.github.io/bloomberg-car-audio/feed-the-deal-cn.xml
 Latest: https://hyobimaeng.github.io/bloomberg-car-audio/episodes-the-deal-cn/2026-03-20.html
 Description: 基于 The Deal 原版 RSS 生成的中文加长摘要，更偏交易、品牌、企业家和资本运作视角。
 
-5. Bloomberg Big Take 中文摘要版
+4. Bloomberg Big Take 中文摘要版
 Type: custom
 Feed: https://hyobimaeng.github.io/bloomberg-car-audio/feed-big-take-cn.xml
 Latest: https://hyobimaeng.github.io/bloomberg-car-audio/episodes-big-take-cn/2026-03-20.html
 Description: 基于 Big Take 原版 RSS 生成的中文加长摘要，更适合想快速掌握背景、逻辑和影响的通勤场景。
 
-6. Bloomberg Daybreak: US Edition
+5. Bloomberg Daybreak: US Edition
 Type: official
 Feed: https://omny.fm/shows/bloomberg-daybreak/playlists/podcast.rss
 Website: https://omny.fm/shows/bloomberg-daybreak
 Description: Bloomberg 官方早间原版节目，通常约 15 分钟，适合完整通勤收听。
 
-7. Bloomberg News Now
+6. Bloomberg News Now
 Type: official
 Feed: https://omny.fm/shows/bloomberg-news-now/playlists/podcast.rss
 Website: https://omny.fm/shows/bloomberg-news-now
 Description: Bloomberg 官方英文快讯，更新更频繁，每期通常几分钟。
 
-8. The Deal with Alex Rodriguez and Jason Kelly
+7. The Deal with Alex Rodriguez and Jason Kelly
 Type: official
 Feed: https://omny.fm/shows/the-deal-with-alex-rodriguez-and-jason-kelly/playlists/podcast.rss
 Website: https://omny.fm/shows/the-deal-with-alex-rodriguez-and-jason-kelly
 Description: Bloomberg 官方访谈节目，聚焦交易、品牌、企业家与资本故事。
 
-9. Big Take
+8. Big Take
 Type: official
 Feed: https://omny.fm/shows/the-big-take/playlists/podcast.rss
 Website: https://omny.fm/shows/the-big-take
