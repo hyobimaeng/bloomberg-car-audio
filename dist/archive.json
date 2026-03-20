@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-03-19T05:15:27.878Z",
-  "latestEpisodeId": "daily-2026-03-19",
+  "generatedAt": "2026-03-20T05:06:46.198Z",
+  "latestEpisodeId": "daily-2026-03-20",
   "feedUrl": "https://hyobimaeng.github.io/bloomberg-car-audio/feed.xml",
   "podcast": {
     "title": "彭博中文车载摘要",
@@ -12,6 +12,118 @@
     "artworkUrl": "https://hyobimaeng.github.io/bloomberg-car-audio/artwork.png"
   },
   "episodes": [
+    {
+      "id": "daily-2026-03-20",
+      "title": "每日财经快讯：聚焦重要新闻",
+      "summary": "今日重点关注的国际财经动态。",
+      "publishedAt": "2026-03-20T05:06:46.198Z",
+      "audioPath": "episodes/2026-03-20.mp3",
+      "audioUrl": "https://hyobimaeng.github.io/bloomberg-car-audio/episodes/2026-03-20.mp3",
+      "audioMime": "audio/mpeg",
+      "audioBytes": 266968,
+      "pagePath": "episodes/2026-03-20.html",
+      "pageUrl": "https://hyobimaeng.github.io/bloomberg-car-audio/episodes/2026-03-20.html",
+      "jsonPath": "episodes/2026-03-20.json",
+      "jsonUrl": "https://hyobimaeng.github.io/bloomberg-car-audio/episodes/2026-03-20.json",
+      "sources": [
+        {
+          "id": "https://www.bloomberg.com/news/videos/2026-03-20/-mr-etf-reggie-browne-on-etf-iq-asia-video",
+          "title": "'Mr. ETF' Reggie Browne on ETF IQ Asia",
+          "link": "https://www.bloomberg.com/news/videos/2026-03-20/-mr-etf-reggie-browne-on-etf-iq-asia-video",
+          "description": "The war in Iran is fueling demand for ETFs in the Asia-Pacific, with inflows jumping to the highest level in years according to data from Bloomberg Intelligence for early March. Reggie Browne, principal at market-maker GTS Securities, is sometimes known as 'Mr ETF' for his role in helping to build the industry in its early days. He discusses the trends he sees in the region on \"ETF IQ Asia.\" (Source: Bloomberg)",
+          "sourceFeed": "Bloomberg Markets",
+          "publishedAt": "2026-03-20T04:57:52.000Z",
+          "publishedTs": 1773982672000
+        },
+        {
+          "id": "https://www.bloomberg.com/news/articles/2026-03-20/india-rupee-drops-past-93-to-dollar-to-record-amid-crude-swings",
+          "title": "India Rupee Drops Past 93 to Dollar to Record Amid Crude Swings",
+          "link": "https://www.bloomberg.com/news/articles/2026-03-20/india-rupee-drops-past-93-to-dollar-to-record-amid-crude-swings",
+          "description": "India’s rupee weakened past 93 per dollar to a fresh low, as prospects of a prolonged Middle East conflict raise concerns over a widening current-account gap.",
+          "sourceFeed": "Bloomberg Markets",
+          "publishedAt": "2026-03-20T04:51:09.000Z",
+          "publishedTs": 1773982269000
+        },
+        {
+          "id": "https://www.bloomberg.com/news/articles/2026-03-20/mideast-war-spurs-tweak-to-oil-benchmark-with-hormuz-shut-off",
+          "title": "Mideast War Spurs Tweak to Oil Benchmark With Hormuz Shut Off",
+          "link": "https://www.bloomberg.com/news/articles/2026-03-20/mideast-war-spurs-tweak-to-oil-benchmark-with-hormuz-shut-off",
+          "description": "A Middle East oil benchmark that’s typically used to price the bulk of crude supply from across the region has been tweaked again, as the closure of the Strait of Hormuz stymies flows and roils trading.",
+          "sourceFeed": "Bloomberg Markets",
+          "publishedAt": "2026-03-20T04:36:24.000Z",
+          "publishedTs": 1773981384000
+        },
+        {
+          "id": "https://www.bloomberg.com/news/articles/2026-03-20/takaichi-escapes-iran-spat-with-trump-despite-pearl-harbor-jibe",
+          "title": "Takaichi Evades Iran Spat With Trump Despite Pearl Harbor Jibe",
+          "link": "https://www.bloomberg.com/news/articles/2026-03-20/takaichi-escapes-iran-spat-with-trump-despite-pearl-harbor-jibe",
+          "description": "Sanae Takaichi had warned her first summit with Donald Trump in Washington could be “extremely difficult,” after the US asked her to deploy warships to Iran. Instead, she showcased Japan’s deep ties with the US &mdash; and her own agility on the world stage.",
+          "sourceFeed": "Bloomberg Politics",
+          "publishedAt": "2026-03-20T04:15:00.000Z",
+          "publishedTs": 1773980100000
+        },
+        {
+          "id": "https://www.bloomberg.com/news/videos/2026-03-20/the-asia-trade-3-20-2026-video",
+          "title": "Trump Meets Takaichi; US, Israel Seek to Ease Oil Worries | The Asia Trade 3/20/2026",
+          "link": "https://www.bloomberg.com/news/videos/2026-03-20/the-asia-trade-3-20-2026-video",
+          "description": "\"Bloomberg: The Asia Trade\" brings you everything you need to know to get ahead as the trading day begins in Asia. Bloomberg TV is live from Tokyo and Sydney with Shery Ahn and Haidi Stroud-Watts, getting insight and analysis from newsmakers and industry leaders on the biggest stories shaping global markets. (Source: Bloomberg)",
+          "sourceFeed": "Bloomberg Markets",
+          "publishedAt": "2026-03-20T04:07:40.000Z",
+          "publishedTs": 1773979660000
+        },
+        {
+          "id": "https://www.bloomberg.com/news/videos/2026-03-20/alibaba-shares-sink-after-earnings-report-video",
+          "title": "Alibaba Shares Sink After Earnings Report",
+          "link": "https://www.bloomberg.com/news/videos/2026-03-20/alibaba-shares-sink-after-earnings-report-video",
+          "description": "Macquarie Capital's Ellie Jiang says this year marks \"a reality check\" for Alibaba Group Holding Ltd. earnings. However, she tells Bloomberg Television that the Chinese company is still \"probably the best one to be positioned into this AI front.\" (Source: Bloomberg)",
+          "sourceFeed": "Bloomberg Technology",
+          "publishedAt": "2026-03-20T03:59:32.000Z",
+          "publishedTs": 1773979172000
+        },
+        {
+          "id": "https://www.bloomberg.com/news/articles/2026-03-20/em-stocks-fluctuate-before-weekend-even-as-lower-oil-helps-mood",
+          "title": "EM Stocks Fluctuate Before Weekend Even as Lower Oil Helps Mood",
+          "link": "https://www.bloomberg.com/news/articles/2026-03-20/em-stocks-fluctuate-before-weekend-even-as-lower-oil-helps-mood",
+          "description": "Emerging-market stocks swung between gains and losses ahead of the weekend, as efforts by the US and Israel to allay worries over the Iran war brought oil prices down from near-four-year highs.",
+          "sourceFeed": "Bloomberg Markets",
+          "publishedAt": "2026-03-20T03:42:37.000Z",
+          "publishedTs": 1773978157000
+        },
+        {
+          "id": "https://www.bloomberg.com/news/articles/2026-03-20/openai-plans-desktop-app-combining-chat-coding-and-web-browsing",
+          "title": "OpenAI Plans Desktop App Fusing Chat, Coding and Web Browser",
+          "link": "https://www.bloomberg.com/news/articles/2026-03-20/openai-plans-desktop-app-combining-chat-coding-and-web-browsing",
+          "description": "OpenAI is developing a desktop application to bring together its ChatGPT chatbot, coding tool and web browser in an effort to keep users engaged in the face of fierce competition from rivals like Anthropic PBC.",
+          "sourceFeed": "Bloomberg Technology",
+          "publishedAt": "2026-03-20T03:32:31.000Z",
+          "publishedTs": 1773977551000
+        }
+      ],
+      "digest": {
+        "episode_title": "每日财经快讯：聚焦重要新闻",
+        "episode_summary": "今日重点关注的国际财经动态。",
+        "lead": "今天，全球金融市场面临多重挑战。从伊朗战争对ETF的需求增加到印度卢比汇率波动，再到中东石油基准价格的变化，这些事件都在影响着全球经济。",
+        "stories": [
+          {
+            "headline": "ETF IQ Asia：伊朗战争推动亚洲ETF需求激增",
+            "summary": "根据Bloomberg Intelligence的数据，在2026年3月的早期，由于伊朗战争的影响，亚洲ETF的资金流入达到了多年来的最高水平。GTS Securities的主管Reggie Browne被称为‘Mr. ETF’，他讨论了他对该地区市场的看法。",
+            "why_it_matters": "了解ETF市场动态对投资者和金融市场参与者至关重要。"
+          },
+          {
+            "headline": "印度卢比兑美元汇率跌至93，创纪录低点",
+            "summary": "由于中东冲突的前景引发人们对持续扩大的经常账户赤字的担忧，印度卢比兑美元汇率下跌至93，创下历史新低。",
+            "why_it_matters": "这反映了全球金融市场对地缘政治事件的高度敏感性。"
+          },
+          {
+            "headline": "中东战争导致石油基准价格调整",
+            "summary": "由于霍尔木兹海峡关闭影响了该地区的大部分原油供应定价基准，导致该基准价格再次调整。",
+            "why_it_matters": "这直接影响到全球能源市场和相关国家的经济状况。"
+          }
+        ],
+        "closing": "在接下来的时间里，请关注更多关于全球经济动态的信息更新。",
+        "audio_script": "今天我们聚焦几个重要的财经新闻。首先，ETF IQ Asia节目中，Reggie Browne讨论了伊朗战争如何推动亚洲ETF的需求增加。其次，印度卢比兑美元汇率跌至93，创下历史新低。此外，由于中东冲突导致的石油基准价格调整也引起了广泛关注。在接下来的时间里，请继续关注全球金融市场的发展动态。"
+      }
+    },
     {
       "id": "daily-2026-03-19",
       "title": "每日财经简报",

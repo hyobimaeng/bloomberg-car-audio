@@ -3,102 +3,46 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>彭博中文车载摘要</title>
-  <meta name="description" content="每天自动更新的 Bloomberg 公开 RSS 中文摘要，适合 iPhone 和 CarPlay 播放。">
+  <title>每日财经快讯：聚焦重要新闻</title>
+  <meta name="description" content="今日重点关注的国际财经动态。">
   <style>
-    :root {
-      --bg: #09111b;
-      --card: rgba(255, 255, 255, 0.07);
-      --line: rgba(255, 255, 255, 0.12);
-      --text: #f5f7fb;
-      --muted: #b7c0ce;
-      --accent: #ffd166;
-      --accent-2: #6ee7b7;
-    }
-    * { box-sizing: border-box; }
     body {
       margin: 0;
       font-family: "Segoe UI", "PingFang SC", "Noto Sans SC", sans-serif;
-      background:
-        radial-gradient(circle at top right, rgba(110, 231, 183, 0.18), transparent 25%),
-        radial-gradient(circle at left center, rgba(255, 209, 102, 0.14), transparent 30%),
-        linear-gradient(180deg, #09111b 0%, #0f1d2d 100%);
-      color: var(--text);
-      line-height: 1.6;
+      background: #0c1420;
+      color: #f5f7fb;
+      line-height: 1.65;
     }
     main {
-      max-width: 980px;
+      max-width: 840px;
       margin: 0 auto;
-      padding: 40px 20px 72px;
+      padding: 36px 20px 64px;
     }
-    .hero {
-      display: grid;
-      gap: 24px;
-      grid-template-columns: 180px 1fr;
-      align-items: center;
-      margin-bottom: 32px;
-    }
-    .hero img {
-      width: 180px;
-      height: 180px;
-      border-radius: 28px;
-      box-shadow: 0 24px 60px rgba(0, 0, 0, 0.35);
-    }
+    a { color: #ffd166; text-decoration: none; }
     .card {
-      background: var(--card);
-      border: 1px solid var(--line);
-      border-radius: 24px;
+      background: #111b29;
+      border: 1px solid rgba(255,255,255,0.08);
+      border-radius: 20px;
       padding: 24px;
-      backdrop-filter: blur(18px);
-    }
-    h1, h2 { margin: 0 0 12px; }
-    p { margin: 0 0 12px; color: var(--muted); }
-    audio { width: 100%; margin: 12px 0 8px; }
-    a { color: var(--accent); text-decoration: none; }
-    ul { padding-left: 20px; margin: 0; }
-    li { margin-bottom: 14px; }
-    .meta { color: var(--accent-2); }
-    .grid {
-      display: grid;
-      gap: 20px;
-      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
       margin-top: 20px;
     }
-    .tiny { font-size: 14px; color: var(--muted); }
-    @media (max-width: 720px) {
-      .hero { grid-template-columns: 1fr; }
-      .hero img { width: 132px; height: 132px; }
-    }
+    h1, h2 { margin: 0 0 12px; }
+    p { margin: 0 0 12px; color: #b7c0ce; }
+    .meta { color: #6ee7b7; }
+    audio { width: 100%; margin: 12px 0 8px; }
+    ul { padding-left: 20px; margin: 0; }
+    li { margin-bottom: 14px; }
   </style>
 </head>
 <body>
   <main>
-    <section class="hero">
-      <img src="artwork.png" alt="彭博中文车载摘要">
-      <div>
-        <div class="tiny">每日自动更新 / 适合早晨通勤和车载播放</div>
-        <h1>彭博中文车载摘要</h1>
-        <p>每天自动更新的 Bloomberg 公开 RSS 中文摘要，适合 iPhone 和 CarPlay 播放。</p>
-        <p>
-          <a href="https://hyobimaeng.github.io/bloomberg-car-audio/feed.xml">播客 RSS</a>
-          ·
-          <a href="episodes/2026-03-20.html">本期页面</a>
-        </p>
-      </div>
-    </section>
-
-    <section class="card">
-      <div class="tiny">2026年3月20日 13:06</div>
-      <h2>每日财经快讯：聚焦重要新闻</h2>
-      <p>今日重点关注的国际财经动态。</p>
-      <audio controls preload="none" src="episodes/2026-03-20.mp3"></audio>
-      <p class="tiny">音频由 AI 语音生成；摘要仅基于公开 RSS 条目，不代表 Bloomberg 立场。</p>
-    </section>
-
-    <section class="grid">
-      <div class="card">
-        <h2>本期要点</h2>
-        <ul>
+    <p><a href="../index.html">返回首页</a> · <a href="https://hyobimaeng.github.io/bloomberg-car-audio/feed.xml">RSS</a></p>
+    <h1>每日财经快讯：聚焦重要新闻</h1>
+    <p>今日重点关注的国际财经动态。</p>
+    <div class="card">
+      <audio controls preload="none" src="2026-03-20.mp3"></audio>
+      <p>今天，全球金融市场面临多重挑战。从伊朗战争对ETF的需求增加到印度卢比汇率波动，再到中东石油基准价格的变化，这些事件都在影响着全球经济。</p>
+      <ul>
         <li>
           <strong>ETF IQ Asia：伊朗战争推动亚洲ETF需求激增</strong>
           <p>根据Bloomberg Intelligence的数据，在2026年3月的早期，由于伊朗战争的影响，亚洲ETF的资金流入达到了多年来的最高水平。GTS Securities的主管Reggie Browne被称为‘Mr. ETF’，他讨论了他对该地区市场的看法。</p>
@@ -114,57 +58,36 @@
           <p>由于霍尔木兹海峡关闭影响了该地区的大部分原油供应定价基准，导致该基准价格再次调整。</p>
           <p class="meta">这直接影响到全球能源市场和相关国家的经济状况。</p>
         </li></ul>
-      </div>
-      <div class="card">
-        <h2>原始条目</h2>
-        <ul>
+      <p class="meta">在接下来的时间里，请关注更多关于全球经济动态的信息更新。</p>
+    </div>
+    <div class="card">
+      <h2>原始 RSS 条目</h2>
+      <ul>
         <li>
           <a href="https://www.bloomberg.com/news/videos/2026-03-20/-mr-etf-reggie-browne-on-etf-iq-asia-video" target="_blank" rel="noreferrer">&apos;Mr. ETF&apos; Reggie Browne on ETF IQ Asia</a>
-          <span>2026年3月20日 12:57</span>
         </li>
         <li>
           <a href="https://www.bloomberg.com/news/articles/2026-03-20/india-rupee-drops-past-93-to-dollar-to-record-amid-crude-swings" target="_blank" rel="noreferrer">India Rupee Drops Past 93 to Dollar to Record Amid Crude Swings</a>
-          <span>2026年3月20日 12:51</span>
         </li>
         <li>
           <a href="https://www.bloomberg.com/news/articles/2026-03-20/mideast-war-spurs-tweak-to-oil-benchmark-with-hormuz-shut-off" target="_blank" rel="noreferrer">Mideast War Spurs Tweak to Oil Benchmark With Hormuz Shut Off</a>
-          <span>2026年3月20日 12:36</span>
         </li>
         <li>
           <a href="https://www.bloomberg.com/news/articles/2026-03-20/takaichi-escapes-iran-spat-with-trump-despite-pearl-harbor-jibe" target="_blank" rel="noreferrer">Takaichi Evades Iran Spat With Trump Despite Pearl Harbor Jibe</a>
-          <span>2026年3月20日 12:15</span>
         </li>
         <li>
           <a href="https://www.bloomberg.com/news/videos/2026-03-20/the-asia-trade-3-20-2026-video" target="_blank" rel="noreferrer">Trump Meets Takaichi; US, Israel Seek to Ease Oil Worries | The Asia Trade 3/20/2026</a>
-          <span>2026年3月20日 12:07</span>
         </li>
         <li>
           <a href="https://www.bloomberg.com/news/videos/2026-03-20/alibaba-shares-sink-after-earnings-report-video" target="_blank" rel="noreferrer">Alibaba Shares Sink After Earnings Report</a>
-          <span>2026年3月20日 11:59</span>
         </li>
         <li>
           <a href="https://www.bloomberg.com/news/articles/2026-03-20/em-stocks-fluctuate-before-weekend-even-as-lower-oil-helps-mood" target="_blank" rel="noreferrer">EM Stocks Fluctuate Before Weekend Even as Lower Oil Helps Mood</a>
-          <span>2026年3月20日 11:42</span>
         </li>
         <li>
           <a href="https://www.bloomberg.com/news/articles/2026-03-20/openai-plans-desktop-app-combining-chat-coding-and-web-browsing" target="_blank" rel="noreferrer">OpenAI Plans Desktop App Fusing Chat, Coding and Web Browser</a>
-          <span>2026年3月20日 11:32</span>
         </li></ul>
-      </div>
-    </section>
-
-    <section class="card" style="margin-top: 20px;">
-      <h2>往期归档</h2>
-      <ul>
-        <li>
-          <a href="episodes/2026-03-20.html">每日财经快讯：聚焦重要新闻</a>
-          <span>2026年3月20日 13:06</span>
-        </li>
-        <li>
-          <a href="episodes/2026-03-19.html">每日财经简报</a>
-          <span>2026年3月19日 13:15</span>
-        </li></ul>
-    </section>
+    </div>
   </main>
 </body>
 </html>
