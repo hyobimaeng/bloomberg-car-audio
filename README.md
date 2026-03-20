@@ -1,54 +1,100 @@
 # 彭博中文车载摘要
 
-现在这套仓库已经改成“本地模型版”：
+这是一个本地运行的私有播客生成器：
 
-1. 你的 Windows 电脑本地拉 Bloomberg RSS。
-2. 用本机 Ollama 模型做中文摘要。
-3. 用 Windows 本地中文语音先生成 wav。
-4. 用 FFmpeg 转成 mp3。
-5. 生成多条自建 RSS：
-   - `dist/feed-cn-plus.xml`：彭博 News Now中文摘要
-   - `dist/feed-daybreak-cn.xml`：Daybreak 中文摘要版
-   - `dist/feed-the-deal-cn.xml`：The Deal 中文摘要版
-   - `dist/feed-big-take-cn.xml`：Big Take 中文摘要版
-6. 把 `dist/` 提交并推到 GitHub，GitHub Pages 自动发布。
-7. iPhone `Podcast` 订阅对应 RSS，CarPlay 直接播放。
+1. 电脑本地抓取指定 RSS。
+2. 用本机 `Ollama` 生成中文摘要。
+3. 用 Windows 本地语音导出音频。
+4. 用 `FFmpeg` 转成 `mp3`。
+5. 生成 `dist/*.xml`、`dist/*.json`、`dist/episodes-*/*.mp3`。
+6. 把 `dist/` 推到 GitHub。
+7. GitHub Pages 托管这些静态文件，iPhone `Podcasts` / CarPlay 直接订阅对应 RSS。
 
-这条路不需要 OpenAI API key，但你的电脑需要在每天任务运行时可用。
+当前方案不依赖 OpenAI API key。
+
+## 当前状态
+
+- 短版中文 RSS `feed.xml` 已于 `2026-03-20` 停用并删除。
+- 目前线上保留 `4` 条自建中文摘要 feed。
+- 目前线上保留 `4` 条 Bloomberg 官方英文原版 feed。
+- 首页：`https://hyobimaeng.github.io/bloomberg-car-audio/`
+- 订阅清单：
+  - `https://hyobimaeng.github.io/bloomberg-car-audio/subscriptions.txt`
+  - `https://hyobimaeng.github.io/bloomberg-car-audio/subscriptions.json`
+
+## 当前订阅源
+
+### 自建中文摘要
+
+- `彭博 News Now中文摘要`
+  - RSS：`https://hyobimaeng.github.io/bloomberg-car-audio/feed-cn-plus.xml`
+  - 底层源：官方 `Bloomberg News Now` RSS
+- `彭博 Daybreak 中文摘要版`
+  - RSS：`https://hyobimaeng.github.io/bloomberg-car-audio/feed-daybreak-cn.xml`
+  - 底层源：官方 `Bloomberg Daybreak: US Edition` RSS
+- `Bloomberg The Deal 中文摘要版`
+  - RSS：`https://hyobimaeng.github.io/bloomberg-car-audio/feed-the-deal-cn.xml`
+  - 底层源：官方 `The Deal with Alex Rodriguez and Jason Kelly` RSS
+- `Bloomberg Big Take 中文摘要版`
+  - RSS：`https://hyobimaeng.github.io/bloomberg-car-audio/feed-big-take-cn.xml`
+  - 底层源：官方 `Big Take` RSS
+
+### 官方英文原版
+
+- `Bloomberg Daybreak: US Edition`
+  - RSS：`https://omny.fm/shows/bloomberg-daybreak/playlists/podcast.rss`
+  - 页面：`https://omny.fm/shows/bloomberg-daybreak`
+- `Bloomberg News Now`
+  - RSS：`https://omny.fm/shows/bloomberg-news-now/playlists/podcast.rss`
+  - 页面：`https://omny.fm/shows/bloomberg-news-now`
+- `The Deal with Alex Rodriguez and Jason Kelly`
+  - RSS：`https://omny.fm/shows/the-deal-with-alex-rodriguez-and-jason-kelly/playlists/podcast.rss`
+  - 页面：`https://omny.fm/shows/the-deal-with-alex-rodriguez-and-jason-kelly`
+- `Big Take`
+  - RSS：`https://omny.fm/shows/the-big-take/playlists/podcast.rss`
+  - 页面：`https://omny.fm/shows/the-big-take`
 
 ## 当前架构
 
-- 数据源：Bloomberg RSS
-- 摘要：本机 `Ollama`
-- 语音：Windows 本地 `SAPI`
+- 摘要模型：本机 `Ollama`
+- 当前模型：`qwen2.5:3b`
+- 语音：Windows `SAPI`
 - 转码：`FFmpeg`
-- 发布：本机生成后推送到 GitHub，GitHub Pages 只负责托管静态结果
-- 播放：iPhone `Podcast` / CarPlay
+- 发布：本机生成后推 GitHub，Pages 只负责托管 `dist/`
+- 播放：iPhone `Podcasts` / CarPlay
 - 可选提醒：Telegram Bot
-
-## 依赖
-
-这台机器我已经装好了：
-
-- `Ollama`
-- `qwen2.5:3b`
-- `FFmpeg`
-- `GitHub CLI`
 
 ## 关键文件
 
-- `src/main.mjs`：主入口
-- `src/ollama.mjs`：本地模型摘要
-- `src/windows-audio.mjs`：Windows 中文语音 + mp3 转码
-- `scripts/export-speech.ps1`：本地语音导出
-- `scripts/run-local-digest.ps1`：每天本机执行的总脚本
-- `.github/workflows/daily-digest.yml`：只负责把现成的 `dist/` 发布到 GitHub Pages
+- `src/main.mjs`
+  - 所有官方英文 feed 常量都在 `OFFICIAL_SUBSCRIPTIONS`
+  - 所有自建中文 feed 的定义都在 `buildShowProfiles()`
+  - 哪条中文摘要抓哪条英文 RSS，也在 `buildShowProfiles()` 里
+- `src/ollama.mjs`
+  - 中文摘要 prompt
+  - `standard` / `extended` 两种摘要风格
+  - 当模型写得太短时的 fallback 扩写逻辑
+- `src/windows-audio.mjs`
+  - 调 Windows 语音
+  - 调 `ffmpeg` 转 mp3
+- `scripts/export-speech.ps1`
+  - 本地语音导出脚本
+- `scripts/run-local-digest.ps1`
+  - 每天本机执行总脚本
+  - 负责生成、提交、推送
+- `scripts/register-task.ps1`
+  - 注册 Windows 计划任务
+- `dist/subscriptions.txt`
+  - 当前线上订阅入口的纯文本清单
+- `dist/subscriptions.json`
+  - 当前线上订阅入口的 JSON 清单
 
 ## 环境变量
 
 参考 `.env.example`，最关键的是：
 
 - `SITE_URL`
+- `PODCAST_TITLE_EXTENDED`
 - `SUMMARY_PROVIDER=ollama`
 - `SPEECH_PROVIDER=windows`
 - `OLLAMA_BASE_URL`
@@ -65,72 +111,103 @@ Telegram 可选：
 
 ## 本地运行
 
-手动跑一次：
+直接生成：
 
 ```powershell
-$env:SITE_URL="https://hyobimaeng.github.io/bloomberg-car-audio"
 node src/main.mjs
 ```
 
-一键生成并推送：
+生成并推送：
 
 ```powershell
 powershell -ExecutionPolicy Bypass -File .\scripts\run-local-digest.ps1
 ```
 
-## 计划任务建议
+## 计划任务
 
-先在仓库根目录放好 `.env`，然后可以直接注册：
+注册默认每日任务：
 
 ```powershell
 powershell -ExecutionPolicy Bypass -File .\scripts\register-task.ps1
 ```
 
-默认会创建一个每天 `07:20` 的任务，并自动带上这些设置：
+默认设置：
 
+- 每天 `07:20`
 - 如果错过计划时间，尽快运行
-- 如果任务失败，自动重试 3 次
+- 如果任务失败，自动重试 `3` 次
 - 使用当前 Windows 账号运行
 
-如果你想改时间：
+修改时间：
 
 ```powershell
 powershell -ExecutionPolicy Bypass -File .\scripts\register-task.ps1 -Time 07:50
 ```
 
-这样即使你早上没开机，后面开机也可以补跑；中途重启也不影响，只要当天能成功跑完一次。你不需要整天开着电脑，只要计划时间之后某个时点开机并登录，这个任务就会补执行。
+注意：
 
-## iPhone 播放
+- 不需要整天开机。
+- 但任务要运行时，电脑最好是“开机并登录”状态。
+- 中途关机或重启通常没问题，任务会补跑。
 
-发布成功后的地址是：
+## iPhone / Podcasts 使用
 
-- 站点：`https://hyobimaeng.github.io/bloomberg-car-audio/`
-- 彭博 News Now中文摘要 RSS：`https://hyobimaeng.github.io/bloomberg-car-audio/feed-cn-plus.xml`
-  基于官方 `Bloomberg News Now` RSS 生成
-- Daybreak 中文摘要版 RSS：`https://hyobimaeng.github.io/bloomberg-car-audio/feed-daybreak-cn.xml`
-- The Deal 中文摘要版 RSS：`https://hyobimaeng.github.io/bloomberg-car-audio/feed-the-deal-cn.xml`
-- Big Take 中文摘要版 RSS：`https://hyobimaeng.github.io/bloomberg-car-audio/feed-big-take-cn.xml`
-- Bloomberg Daybreak 原版 RSS：`https://omny.fm/shows/bloomberg-daybreak/playlists/podcast.rss`
-- Bloomberg News Now 原版 RSS：`https://omny.fm/shows/bloomberg-news-now/playlists/podcast.rss`
-- The Deal 原版 RSS：`https://omny.fm/shows/the-deal-with-alex-rodriguez-and-jason-kelly/playlists/podcast.rss`
-- Big Take 原版 RSS：`https://omny.fm/shows/the-big-take/playlists/podcast.rss`
+在 iPhone `Podcasts` App 里选择“通过 URL 关注节目”，填入上面的任意 RSS 即可。
 
-在 iPhone 的 `Podcast` App 里选择“通过 URL 关注节目”，填入对应 RSS 即可。
+如果某条 feed 改了显示名但手机上没刷新：
 
-## Telegram 可选推送
+- 先等客户端自动刷新
+- 还不行就取消订阅，再用同一个 URL 重新订阅
 
-如果你也想在手机上收到提醒：
+## 以后怎么新增一个 URL
 
-1. 用 `@BotFather` 创建 bot，拿到 `TELEGRAM_BOT_TOKEN`。
-2. 给 bot 发一条消息。
-3. 本地运行：
+如果以后还要继续加新的英文原版和对应中文摘要，按这个顺序做：
+
+1. 在 `src/main.mjs` 的 `OFFICIAL_SUBSCRIPTIONS` 里加官方英文原版链接。
+2. 在 `src/main.mjs` 的 `buildShowProfiles()` 里加对应中文摘要 profile。
+3. 给这个 profile 配：
+   - `title`
+   - `description`
+   - `feedFile`
+   - `archiveFile`
+   - `episodeDir`
+   - `feeds`
+   - `lookbackHours`
+   - `maxItems`
+   - `digestVariant`
+4. 运行：
 
 ```powershell
-$env:TELEGRAM_BOT_TOKEN="123456:abc"
-npm.cmd run telegram:chatid
+node src/main.mjs
 ```
 
-4. 把输出里的 `chat_id` 填进 `TELEGRAM_CHAT_ID`。
+5. 检查：
+   - `dist/subscriptions.txt`
+   - `dist/index.html`
+   - 新的 `dist/feed-*.xml`
+6. 提交并推送：
+
+```powershell
+git add -A
+git commit -m "Add new feed"
+git push origin main
+```
+
+## 以后怎么改名字
+
+如果只是改某条 feed 的显示名，不改 URL：
+
+- 改 `src/main.mjs` 里对应 profile 的 `title`
+- 或者改 `.env` / `.env.example` 里对应的标题变量
+- 然后重新运行 `node src/main.mjs`
+
+## 已知限制
+
+- 当前实现只用 RSS 里公开的标题、链接、描述
+- 不抓取 Bloomberg 正文页面
+- 也不抓取播客全文 transcript
+- 因为只看 RSS 摘要，不同 feed 在大新闻日里仍然可能会有题材重合
+- 本地小模型会把不同来源压成比较像的中文播报腔，这属于当前方案的自然限制
 
 ## 合规边界
 
