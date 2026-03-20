@@ -105,8 +105,13 @@ powershell -ExecutionPolicy Bypass -File .\scripts\register-task.ps1 -Time 07:50
 - 站点：`https://hyobimaeng.github.io/bloomberg-car-audio/`
 - 中文短版 RSS：`https://hyobimaeng.github.io/bloomberg-car-audio/feed.xml`
 - 中文加长版 RSS：`https://hyobimaeng.github.io/bloomberg-car-audio/feed-cn-plus.xml`
+- Daybreak 中文摘要版 RSS：`https://hyobimaeng.github.io/bloomberg-car-audio/feed-daybreak-cn.xml`
+- The Deal 中文摘要版 RSS：`https://hyobimaeng.github.io/bloomberg-car-audio/feed-the-deal-cn.xml`
+- Big Take 中文摘要版 RSS：`https://hyobimaeng.github.io/bloomberg-car-audio/feed-big-take-cn.xml`
 - Bloomberg Daybreak 原版 RSS：`https://omny.fm/shows/bloomberg-daybreak/playlists/podcast.rss`
 - Bloomberg News Now 原版 RSS：`https://omny.fm/shows/bloomberg-news-now/playlists/podcast.rss`
+- The Deal 原版 RSS：`https://omny.fm/shows/the-deal-with-alex-rodriguez-and-jason-kelly/playlists/podcast.rss`
+- Big Take 原版 RSS：`https://omny.fm/shows/the-big-take/playlists/podcast.rss`
 
 在 iPhone 的 `Podcast` App 里选择“通过 URL 关注节目”，填入对应 RSS 即可。
 

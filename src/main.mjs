@@ -26,8 +26,25 @@ const OFFICIAL_SUBSCRIPTIONS = [
     description: "Bloomberg 官方英文快讯，更新更频繁，每期通常几分钟。",
     feedUrl: "https://omny.fm/shows/bloomberg-news-now/playlists/podcast.rss",
     websiteUrl: "https://omny.fm/shows/bloomberg-news-now"
+  },
+  {
+    id: "the-deal",
+    badge: "官方英文 / The Deal",
+    title: "The Deal with Alex Rodriguez and Jason Kelly",
+    description: "Bloomberg 官方访谈节目，聚焦交易、品牌、企业家与资本故事。",
+    feedUrl: "https://omny.fm/shows/the-deal-with-alex-rodriguez-and-jason-kelly/playlists/podcast.rss",
+    websiteUrl: "https://omny.fm/shows/the-deal-with-alex-rodriguez-and-jason-kelly"
+  },
+  {
+    id: "the-big-take",
+    badge: "官方英文 / The Big Take",
+    title: "Big Take",
+    description: "Bloomberg 官方英文深度节目，更强调宏观主题、背景脉络和单题解释。",
+    feedUrl: "https://omny.fm/shows/the-big-take/playlists/podcast.rss",
+    websiteUrl: "https://omny.fm/shows/the-big-take"
   }
 ];
+const OFFICIAL_FEEDS = Object.fromEntries(OFFICIAL_SUBSCRIPTIONS.map((show) => [show.id, show]));
 
 async function main() {
   await loadDotEnv(projectRoot);
@@ -36,19 +53,15 @@ async function main() {
   const dateKey = formatDateKey(now, config.timezone);
   const outDir = path.join(projectRoot, "dist");
   const showProfiles = buildShowProfiles(config);
+  const storiesCache = new Map();
 
   await fs.rm(outDir, { recursive: true, force: true });
   await ensureDir(outDir);
 
-  const stories = await fetchLatestStories({
-    feeds: config.feeds,
-    lookbackHours: config.lookbackHours,
-    maxItems: config.maxItems
-  });
-
   const customShows = [];
 
   for (const profile of showProfiles) {
+    const stories = await getStoriesForProfile({ config, profile, cache: storiesCache });
     const podcast = buildPodcastMeta(config, profile);
     const feedUrl = absoluteUrl(config.siteUrl, profile.feedFile);
     const previousEpisodes = (await fetchExistingArchive(absoluteUrl(config.siteUrl, profile.archiveFile), config.archiveLimit))
@@ -115,7 +128,7 @@ async function main() {
       renderIndexHtml({
         siteTitle: "彭博通勤播客订阅",
         siteDescription:
-          "这里集中放了 2 条自建中文 RSS 和 2 条 Bloomberg 官方英文原版 RSS，方便 iPhone Podcasts 与 CarPlay 直接订阅。",
+          "这里集中放了多条自建中文 RSS 和 Bloomberg 官方英文原版 RSS，方便 iPhone Podcasts 与 CarPlay 直接订阅。",
         timezone: config.timezone,
         customShows,
         officialShows: OFFICIAL_SUBSCRIPTIONS
@@ -224,6 +237,57 @@ function buildShowProfiles(config) {
       digestVariant: "extended",
       episodeId(dateKey) {
         return `daily-cn-plus-${dateKey}`;
+      }
+    },
+    {
+      id: "daybreak-cn",
+      badge: "AI Daybreak 中文版",
+      title: "\u5f6d\u535a Daybreak \u4e2d\u6587\u6458\u8981\u7248",
+      description:
+        "\u57fa\u4e8e Bloomberg Daybreak \u539f\u7248 RSS \u751f\u6210\u7684\u4e2d\u6587\u52a0\u957f\u6458\u8981\uff0c\u9002\u5408\u60f3\u8981\u8ddf\u4e0a Daybreak \u4f46\u4e0d\u60f3\u76f4\u63a5\u542c\u82f1\u6587\u539f\u7248\u7684\u901a\u52e4\u573a\u666f\u3002",
+      feedFile: "feed-daybreak-cn.xml",
+      archiveFile: "archive-daybreak-cn.json",
+      episodeDir: "episodes-daybreak-cn",
+      digestVariant: "extended",
+      feeds: [OFFICIAL_FEEDS["daybreak-us"].feedUrl],
+      lookbackHours: 72,
+      maxItems: 4,
+      episodeId(dateKey) {
+        return `daily-daybreak-cn-${dateKey}`;
+      }
+    },
+    {
+      id: "the-deal-cn",
+      badge: "AI The Deal 中文版",
+      title: "Bloomberg The Deal 中文摘要版",
+      description:
+        "\u57fa\u4e8e The Deal \u539f\u7248 RSS \u751f\u6210\u7684\u4e2d\u6587\u52a0\u957f\u6458\u8981\uff0c\u66f4\u504f\u4ea4\u6613\u3001\u54c1\u724c\u3001\u4f01\u4e1a\u5bb6\u548c\u8d44\u672c\u8fd0\u4f5c\u89c6\u89d2\u3002",
+      feedFile: "feed-the-deal-cn.xml",
+      archiveFile: "archive-the-deal-cn.json",
+      episodeDir: "episodes-the-deal-cn",
+      digestVariant: "extended",
+      feeds: [OFFICIAL_FEEDS["the-deal"].feedUrl],
+      lookbackHours: 720,
+      maxItems: 3,
+      episodeId(dateKey) {
+        return `daily-the-deal-cn-${dateKey}`;
+      }
+    },
+    {
+      id: "the-big-take-cn",
+      badge: "AI Big Take 中文版",
+      title: "Bloomberg Big Take 中文摘要版",
+      description:
+        "\u57fa\u4e8e Big Take \u539f\u7248 RSS \u751f\u6210\u7684\u4e2d\u6587\u52a0\u957f\u6458\u8981\uff0c\u66f4\u9002\u5408\u60f3\u5feb\u901f\u638c\u63e1\u80cc\u666f\u3001\u903b\u8f91\u548c\u5f71\u54cd\u7684\u901a\u52e4\u573a\u666f\u3002",
+      feedFile: "feed-big-take-cn.xml",
+      archiveFile: "archive-big-take-cn.json",
+      episodeDir: "episodes-big-take-cn",
+      digestVariant: "extended",
+      feeds: [OFFICIAL_FEEDS["the-big-take"].feedUrl],
+      lookbackHours: 96,
+      maxItems: 4,
+      episodeId(dateKey) {
+        return `daily-the-big-take-cn-${dateKey}`;
       }
     }
   ];
@@ -393,6 +457,26 @@ async function rehydratePreviousAudio(episodes, outDir, siteUrl) {
   }
 
   return hydrated;
+}
+
+async function getStoriesForProfile({ config, profile, cache }) {
+  const feeds = profile.feeds || config.feeds;
+  const lookbackHours = profile.lookbackHours || config.lookbackHours;
+  const maxItems = profile.maxItems || config.maxItems;
+  const cacheKey = `${feeds.join("|")}::${lookbackHours}::${maxItems}`;
+
+  if (!cache.has(cacheKey)) {
+    cache.set(
+      cacheKey,
+      fetchLatestStories({
+        feeds,
+        lookbackHours,
+        maxItems
+      })
+    );
+  }
+
+  return cache.get(cacheKey);
 }
 
 function buildSubscriptionCatalog({ customShows, generatedAt }) {

@@ -29,6 +29,7 @@ ${items}
 }
 
 export function renderIndexHtml({ siteTitle, siteDescription, timezone, customShows, officialShows }) {
+  const totalCount = customShows.length + officialShows.length;
   const customCards = customShows.map((show) => renderCustomShowCard(show, timezone)).join("");
   const officialCards = officialShows.map((show) => renderOfficialShowCard(show)).join("");
   const archiveSections = customShows.map((show) => renderArchiveSection(show, timezone)).join("");
@@ -123,7 +124,7 @@ export function renderIndexHtml({ siteTitle, siteDescription, timezone, customSh
         <div class="tiny">每日自动更新 / 适合早晨通勤和车载播放 / 自建中文 + 官方英文</div>
         <h1>${escapeHtml(siteTitle)}</h1>
         <p>${escapeHtml(siteDescription)}</p>
-        <p>下面一共放了 4 条可听内容，其中 2 条是你自己的 RSS，2 条是 Bloomberg 官方原版 RSS。</p>
+        <p>下面一共放了 ${totalCount} 条可听内容，其中 ${customShows.length} 条是你自己的 RSS，${officialShows.length} 条是 Bloomberg 官方原版 RSS。</p>
       </div>
     </section>
 

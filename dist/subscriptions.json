@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-20T05:36:40.932Z",
+  "generatedAt": "2026-03-20T06:56:49.714Z",
   "subscriptions": [
     {
       "id": "cn-short",
@@ -20,6 +20,33 @@
       "latestEpisodeUrl": "https://hyobimaeng.github.io/bloomberg-car-audio/episodes-cn-plus/2026-03-20.html"
     },
     {
+      "id": "daybreak-cn",
+      "type": "custom",
+      "badge": "AI Daybreak 中文版",
+      "title": "彭博 Daybreak 中文摘要版",
+      "description": "基于 Bloomberg Daybreak 原版 RSS 生成的中文加长摘要，适合想要跟上 Daybreak 但不想直接听英文原版的通勤场景。",
+      "feedUrl": "https://hyobimaeng.github.io/bloomberg-car-audio/feed-daybreak-cn.xml",
+      "latestEpisodeUrl": "https://hyobimaeng.github.io/bloomberg-car-audio/episodes-daybreak-cn/2026-03-20.html"
+    },
+    {
+      "id": "the-deal-cn",
+      "type": "custom",
+      "badge": "AI The Deal 中文版",
+      "title": "Bloomberg The Deal 中文摘要版",
+      "description": "基于 The Deal 原版 RSS 生成的中文加长摘要，更偏交易、品牌、企业家和资本运作视角。",
+      "feedUrl": "https://hyobimaeng.github.io/bloomberg-car-audio/feed-the-deal-cn.xml",
+      "latestEpisodeUrl": "https://hyobimaeng.github.io/bloomberg-car-audio/episodes-the-deal-cn/2026-03-20.html"
+    },
+    {
+      "id": "the-big-take-cn",
+      "type": "custom",
+      "badge": "AI Big Take 中文版",
+      "title": "Bloomberg Big Take 中文摘要版",
+      "description": "基于 Big Take 原版 RSS 生成的中文加长摘要，更适合想快速掌握背景、逻辑和影响的通勤场景。",
+      "feedUrl": "https://hyobimaeng.github.io/bloomberg-car-audio/feed-big-take-cn.xml",
+      "latestEpisodeUrl": "https://hyobimaeng.github.io/bloomberg-car-audio/episodes-big-take-cn/2026-03-20.html"
+    },
+    {
       "id": "daybreak-us",
       "type": "official",
       "badge": "官方英文 / Bloomberg Daybreak",
@@ -36,6 +63,24 @@
       "description": "Bloomberg 官方英文快讯，更新更频繁，每期通常几分钟。",
       "feedUrl": "https://omny.fm/shows/bloomberg-news-now/playlists/podcast.rss",
       "websiteUrl": "https://omny.fm/shows/bloomberg-news-now"
+    },
+    {
+      "id": "the-deal",
+      "type": "official",
+      "badge": "官方英文 / The Deal",
+      "title": "The Deal with Alex Rodriguez and Jason Kelly",
+      "description": "Bloomberg 官方访谈节目，聚焦交易、品牌、企业家与资本故事。",
+      "feedUrl": "https://omny.fm/shows/the-deal-with-alex-rodriguez-and-jason-kelly/playlists/podcast.rss",
+      "websiteUrl": "https://omny.fm/shows/the-deal-with-alex-rodriguez-and-jason-kelly"
+    },
+    {
+      "id": "the-big-take",
+      "type": "official",
+      "badge": "官方英文 / The Big Take",
+      "title": "Big Take",
+      "description": "Bloomberg 官方英文深度节目，更强调宏观主题、背景脉络和单题解释。",
+      "feedUrl": "https://omny.fm/shows/the-big-take/playlists/podcast.rss",
+      "websiteUrl": "https://omny.fm/shows/the-big-take"
     }
   ]
 }
