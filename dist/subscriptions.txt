@@ -2,7 +2,7 @@
 Type: custom
 Feed: https://hyobimaeng.github.io/bloomberg-car-audio/feed-cn-plus.xml
 Latest: https://hyobimaeng.github.io/bloomberg-car-audio/episodes-cn-plus/2026-03-20.html
-Description: 基于 Bloomberg 公开 RSS 生成的 News Now 风格中文摘要，覆盖更多重点，适合更长通勤收听。
+Description: 基于 Bloomberg News Now 官方 RSS 生成的中文摘要，覆盖更多重点，适合更长通勤收听。
 
 2. 彭博 Daybreak 中文摘要版
 Type: custom

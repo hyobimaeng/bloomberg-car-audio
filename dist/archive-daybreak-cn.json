@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-20T08:03:31.462Z",
+  "generatedAt": "2026-03-20T08:28:45.081Z",
   "latestEpisodeId": "daily-daybreak-cn-2026-03-20",
   "feedUrl": "https://hyobimaeng.github.io/bloomberg-car-audio/feed-daybreak-cn.xml",
   "podcast": {
@@ -14,13 +14,13 @@
   "episodes": [
     {
       "id": "daily-daybreak-cn-2026-03-20",
-      "title": "今日早间简报：聚焦中东战局与中美峰会",
-      "summary": "本晨报聚焦中东局势及中美峰会动态，涵盖能源危机、伊朗导弹袭击以及美国总统的表态。",
-      "publishedAt": "2026-03-20T08:03:31.462Z",
+      "title": "今日早间新闻摘要：聚焦中东战局与能源危机",
+      "summary": "今天早间的重点新闻，浓缩精华，仅需15分钟。本播客内容精选：1) 美国总统特朗普呼吁中止对中东的攻击行动，并表示美国可能很快结束与伊朗的战争；2) 阿联酋和沙特阿拉伯报告称在周一凌晨遭遇了来自伊朗的无人机和导弹袭击；3) 由于中东能源设施遭受攻击，原油价格飙升；4) 美国总统特朗普请求推迟与中国国家主席习近平的峰会，这可能对中美关系带来不确定性；5) 美国股市下跌，国债收益率上升。",
+      "publishedAt": "2026-03-20T08:28:45.081Z",
       "audioPath": "episodes-daybreak-cn/2026-03-20.mp3",
       "audioUrl": "https://hyobimaeng.github.io/bloomberg-car-audio/episodes-daybreak-cn/2026-03-20.mp3",
       "audioMime": "audio/mpeg",
-      "audioBytes": 3190139,
+      "audioBytes": 2911646,
       "pagePath": "episodes-daybreak-cn/2026-03-20.html",
       "pageUrl": "https://hyobimaeng.github.io/bloomberg-car-audio/episodes-daybreak-cn/2026-03-20.html",
       "jsonPath": "episodes-daybreak-cn/2026-03-20.json",
@@ -64,29 +64,29 @@
         }
       ],
       "digest": {
-        "episode_title": "今日早间简报：聚焦中东战局与中美峰会",
-        "episode_summary": "本晨报聚焦中东局势及中美峰会动态，涵盖能源危机、伊朗导弹袭击以及美国总统的表态。",
-        "lead": "今天早晨，我们关注中东地区的紧张局势和美国与中国之间的峰会安排。",
+        "episode_title": "今日早间新闻摘要：聚焦中东战局与能源危机",
+        "episode_summary": "今天早间的重点新闻，浓缩精华，仅需15分钟。本播客内容精选：1) 美国总统特朗普呼吁中止对中东的攻击行动，并表示美国可能很快结束与伊朗的战争；2) 阿联酋和沙特阿拉伯报告称在周一凌晨遭遇了来自伊朗的无人机和导弹袭击；3) 由于中东能源设施遭受攻击，原油价格飙升；4) 美国总统特朗普请求推迟与中国国家主席习近平的峰会，这可能对中美关系带来不确定性；5) 美国股市下跌，国债收益率上升。",
+        "lead": "今天早间新闻聚焦于美国与伊朗之间的战争局势以及中东能源市场的动荡。",
         "stories": [
           {
-            "headline": "特朗普呼吁伊朗停火；油价与液化天然气价格飙升",
-            "summary": "美国总统唐纳德·特朗普敦促以色列和阿拉伯国家停止对能源设施的攻击，以防止战争造成持久破坏。伊朗在波斯湾进行了大规模导弹袭击，并且切断了通往重要水道的交通。",
-            "why_it_matters": "这些事件导致油价飙升至104美元/桶以上，引发了全球范围内的燃料短缺和价格上涨问题。"
+            "headline": "特朗普呼吁结束美伊战争",
+            "summary": "美国总统特朗普表示，他希望在不久的将来能够结束对伊朗的战争，并向盟友和中国寻求帮助以重新开放波斯湾海峡。然而，伊朗否认了这一说法，并继续对其关键能源设施发动攻击。",
+            "why_it_matters": "这反映了美伊之间的紧张局势升级以及全球能源市场的动荡不安。"
           },
           {
-            "headline": "特朗普推迟与中国峰会；伊朗威胁报复",
-            "summary": "美国总统唐纳德·特朗普表示美国可能很快结束与伊朗的战争，并且呼吁盟友及中国等国家帮助重新开放波斯湾海峡。伊利诺伊州副州长朱莉安娜·斯特拉特顿赢得了民主党参议员席位。",
-            "why_it_matters": "这些事件表明了中东地区的紧张局势对全球经济的影响，特别是能源价格波动可能引发的通胀问题。"
+            "headline": "美国推迟与中国国家主席习近平的峰会",
+            "summary": "美国总统特朗普请求推迟与中国的国家主席习近平的峰会，这一举动可能对中美关系带来不确定性。尽管如此，中国方面对此表示欢迎。",
+            "why_it_matters": "这突显了国际政治中的复杂动态和各国之间的利益博弈。"
           },
           {
-            "headline": "伊朗袭击阿联酋天然气田；特朗普推迟与中国峰会",
-            "summary": "美国总统唐纳德·特朗普呼吁盟友和中国帮助重新开放波斯湾海峡以缓解全球能源危机。美国股市下跌，国债收益率上升。",
-            "why_it_matters": "这些事件突显了中东战争对全球经济的影响，特别是油价上涨可能引发的通胀问题。"
+            "headline": "伊朗继续对阿联酋能源设施发动攻击",
+            "summary": "伊朗在波斯湾地区继续对其关键能源设施发动攻击，导致原油价格飙升，并引发了全球市场的担忧。",
+            "why_it_matters": "这加剧了中东地区的紧张局势和能源供应问题。"
           },
           {
-            "headline": "伊朗否认寻求停火；特朗普敦促盟友帮助",
-            "summary": "美国总统唐纳德·特朗普表示美国将在不久结束与伊朗的战争，并且呼吁欧洲和海湾国家的盟友帮助重新开放波斯湾海峡。尽管如此，伊朗并未表现出愿意停战的态度。",
-            "why_it_matters": "这些事件表明了中东地区紧张局势对全球政治经济的影响，特别是美国总统在解决这一问题上的不确定性。"
+            "headline": "特朗普预测与古巴达成协议",
+            "summary": "美国总统特朗普表示，他希望在结束对伊朗的战争后，能够与古巴达成协议。尽管如此，美国政府正在加强对古巴的制裁。",
+            "why_it_matters": "这反映了美国政府在不同地区采取的不同政策和策略。"
           },
           {
             "headline": "Trump Calls for Iran De-escalation; Oil and LNG Jump",
@@ -99,8 +99,8 @@
             "why_it_matters": "这是当天值得关注的公开 Bloomberg RSS 条目。"
           }
         ],
-        "closing": "今日早间新闻聚焦于中东战争与中美峰会的动态，提醒听众关注全球经济和地缘政治的变化。",
-        "audio_script": "今天早晨，我们关注中东地区的紧张局势和美国与中国之间的峰会安排。第1条，特朗普呼吁伊朗停火；油价与液化天然气价格飙升。美国总统唐纳德·特朗普敦促以色列和阿拉伯国家停止对能源设施的攻击，以防止战争造成持久破坏。伊朗在波斯湾进行了大规模导弹袭击，并且切断了通往重要水道的交通。这条消息为什么重要？这些事件导致油价飙升至104美元/桶以上，引发了全球范围内的燃料短缺和价格上涨问题。第2条，特朗普推迟与中国峰会；伊朗威胁报复。美国总统唐纳德·特朗普表示美国可能很快结束与伊朗的战争，并且呼吁盟友及中国等国家帮助重新开放波斯湾海峡。伊利诺伊州副州长朱莉安娜·斯特拉特顿赢得了民主党参议员席位。这条消息为什么重要？这些事件表明了中东地区的紧张局势对全球经济的影响，特别是能源价格波动可能引发的通胀问题。第3条，伊朗袭击阿联酋天然气田；特朗普推迟与中国峰会。美国总统唐纳德·特朗普呼吁盟友和中国帮助重新开放波斯湾海峡以缓解全球能源危机。美国股市下跌，国债收益率上升。这条消息为什么重要？这些事件突显了中东战争对全球经济的影响，特别是油价上涨可能引发的通胀问题。第4条，伊朗否认寻求停火；特朗普敦促盟友帮助。美国总统唐纳德·特朗普表示美国将在不久结束与伊朗的战争，并且呼吁欧洲和海湾国家的盟友帮助重新开放波斯湾海峡。尽管如此，伊朗并未表现出愿意停战的态度。这条消息为什么重要？这些事件表明了中东地区紧张局势对全球政治经济的影响，特别是美国总统在解决这一问题上的不确定性。第5条，Trump Calls for Iran De-escalation; Oil and LNG Jump。Today's top stories, with context, in just 15 minutes. On today's podcast: 1) President Trump sought to stop attacks on energy facilities in the Middle East after Israel and Iran struck key targets, fueling concern that a prolonged war will cause lasting damage to oil and gas infrastructure. Iran unleashed waves of retaliatory strikes on projects in Arab countries across the Persian Gulf overnight into Thursday after its prized South Pars gas field &mdash; part of the world&rsquo;s largest gas field shared with Qatar &mdash; came under Israeli fire, jolting markets. 2) A Qatari complex housing the world&rsquo;s largest liquefied natural gas export plant suffered &ldquo;extensive damage&rdquo; amid a sharp escalation of attacks on energy facilities across the Persian Gulf. 3) Federal Reserve Chair Jerome Powell made it clear the US central bank won&rsquo;t cut interest rates again until inflation resumes cooling. And that&rsquo;s before it even starts considering the possible impact of the war in the Middle East. See omnystudio.com/listener for privacy information.这条消息为什么重要？这是当天值得关注的公开 Bloomberg RSS 条目。第6条，Iran Vows Revenge; Trump Says War May End Soon。Today's top stories, with context, in just 15 minutes. On today's podcast: 1) Iranian attacks on Israel and Arab states in the Persian Gulf continued overnight into Wednesday, while President Donald Trump said the US could end the war with the Islamic Republic &ldquo;in the near future.&rdquo;Iran launched fresh waves of missile and drone attacks, targeting the United Arab Emirates, Saudi Arabia and Kuwait. It also struck Tel Aviv and killed two people. 2) President Donald Trump is desperate to reopen the Strait of Hormuz to ease a growing global energy crisis. He won&rsquo;t achieve that easily without a ceasefire in the war on Iran.Iran&rsquo;s sporadic attacks on vessels and the threat of mines have cut traffic in the vital waterway to a trickle, effectively putting Tehran, not outside naval forces, in charge of the flow. The strait carries about a fifth of the world&rsquo;s oil supplies, and the disruption has led to production cuts, fuel shortages and price increases from Asia to Europe and Africa. 3) Illinois Lieutenant Governor Juliana Stratton won the Democratic nomination for the state&rsquo;s US Senate seat on Tuesday, beating a rival who far out-spent her and handing a victory to her boss and potential 2028 presidential candidate, Governor JB Pritzker.With more than 80% of the ballots counted, Stratton garnered 40% while Representative Raja Krishnamoorthi took 33%, according to Decision Desk HQ. Representative Robin Kelly, who some Democrats thought would undercut support for Stratton, trailed with 18%. See omnystudio.com/listener for privacy information.这条消息为什么重要？这是当天值得关注的公开 Bloomberg RSS 条目。今日早间新闻聚焦于中东战争与中美峰会的动态，提醒听众关注全球经济和地缘政治的变化。"
+        "closing": "今天的新闻摘要展示了中东地区的紧张局势以及全球能源市场的动荡，提醒我们关注国际政治动态。",
+        "audio_script": "今天早间新闻聚焦于美国与伊朗之间的战争局势以及中东能源市场的动荡。第1条，特朗普呼吁结束美伊战争。美国总统特朗普表示，他希望在不久的将来能够结束对伊朗的战争，并向盟友和中国寻求帮助以重新开放波斯湾海峡。然而，伊朗否认了这一说法，并继续对其关键能源设施发动攻击。这条消息为什么重要？这反映了美伊之间的紧张局势升级以及全球能源市场的动荡不安。第2条，美国推迟与中国国家主席习近平的峰会。美国总统特朗普请求推迟与中国的国家主席习近平的峰会，这一举动可能对中美关系带来不确定性。尽管如此，中国方面对此表示欢迎。这条消息为什么重要？这突显了国际政治中的复杂动态和各国之间的利益博弈。第3条，伊朗继续对阿联酋能源设施发动攻击。伊朗在波斯湾地区继续对其关键能源设施发动攻击，导致原油价格飙升，并引发了全球市场的担忧。这条消息为什么重要？这加剧了中东地区的紧张局势和能源供应问题。第4条，特朗普预测与古巴达成协议。美国总统特朗普表示，他希望在结束对伊朗的战争后，能够与古巴达成协议。尽管如此，美国政府正在加强对古巴的制裁。这条消息为什么重要？这反映了美国政府在不同地区采取的不同政策和策略。第5条，Trump Calls for Iran De-escalation; Oil and LNG Jump。Today's top stories, with context, in just 15 minutes. On today's podcast: 1) President Trump sought to stop attacks on energy facilities in the Middle East after Israel and Iran struck key targets, fueling concern that a prolonged war will cause lasting damage to oil and gas infrastructure. Iran unleashed waves of retaliatory strikes on projects in Arab countries across the Persian Gulf overnight into Thursday after its prized South Pars gas field &mdash; part of the world&rsquo;s largest gas field shared with Qatar &mdash; came under Israeli fire, jolting markets. 2) A Qatari complex housing the world&rsquo;s largest liquefied natural gas export plant suffered &ldquo;extensive damage&rdquo; amid a sharp escalation of attacks on energy facilities across the Persian Gulf. 3) Federal Reserve Chair Jerome Powell made it clear the US central bank won&rsquo;t cut interest rates again until inflation resumes cooling. And that&rsquo;s before it even starts considering the possible impact of the war in the Middle East. See omnystudio.com/listener for privacy information.这条消息为什么重要？这是当天值得关注的公开 Bloomberg RSS 条目。第6条，Iran Vows Revenge; Trump Says War May End Soon。Today's top stories, with context, in just 15 minutes. On today's podcast: 1) Iranian attacks on Israel and Arab states in the Persian Gulf continued overnight into Wednesday, while President Donald Trump said the US could end the war with the Islamic Republic &ldquo;in the near future.&rdquo;Iran launched fresh waves of missile and drone attacks, targeting the United Arab Emirates, Saudi Arabia and Kuwait. It also struck Tel Aviv and killed two people. 2) President Donald Trump is desperate to reopen the Strait of Hormuz to ease a growing global energy crisis. He won&rsquo;t achieve that easily without a ceasefire in the war on Iran.Iran&rsquo;s sporadic attacks on vessels and the threat of mines have cut traffic in the vital waterway to a trickle, effectively putting Tehran, not outside naval forces, in charge of the flow. The strait carries about a fifth of the world&rsquo;s oil supplies, and the disruption has led to production cuts, fuel shortages and price increases from Asia to Europe and Africa. 3) Illinois Lieutenant Governor Juliana Stratton won the Democratic nomination for the state&rsquo;s US Senate seat on Tuesday, beating a rival who far out-spent her and handing a victory to her boss and potential 2028 presidential candidate, Governor JB Pritzker.With more than 80% of the ballots counted, Stratton garnered 40% while Representative Raja Krishnamoorthi took 33%, according to Decision Desk HQ. Representative Robin Kelly, who some Democrats thought would undercut support for Stratton, trailed with 18%. See omnystudio.com/listener for privacy information.这条消息为什么重要？这是当天值得关注的公开 Bloomberg RSS 条目。今天的新闻摘要展示了中东地区的紧张局势以及全球能源市场的动荡，提醒我们关注国际政治动态。"
       }
     }
   ]

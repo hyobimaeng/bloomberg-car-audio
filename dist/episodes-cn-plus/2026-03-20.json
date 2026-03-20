@@ -1,133 +1,97 @@
 {
   "id": "daily-cn-plus-2026-03-20",
-  "title": "每日中国博易名报摘要",
-  "summary": "今日聚焦能源市场、伊朗战争动态及日本外交活动。",
-  "publishedAt": "2026-03-20T08:03:31.462Z",
+  "title": "每日财经简报：能源价格波动与伊朗军事能力受挫",
+  "summary": "今日聚焦能源市场动态，包括油价下跌、伊朗军力受损等关键信息。",
+  "publishedAt": "2026-03-20T08:28:45.081Z",
   "audioPath": "episodes-cn-plus/2026-03-20.mp3",
   "audioUrl": "https://hyobimaeng.github.io/bloomberg-car-audio/episodes-cn-plus/2026-03-20.mp3",
   "audioMime": "audio/mpeg",
-  "audioBytes": 1587041,
+  "audioBytes": 1300357,
   "pagePath": "episodes-cn-plus/2026-03-20.html",
   "pageUrl": "https://hyobimaeng.github.io/bloomberg-car-audio/episodes-cn-plus/2026-03-20.html",
   "jsonPath": "episodes-cn-plus/2026-03-20.json",
   "jsonUrl": "https://hyobimaeng.github.io/bloomberg-car-audio/episodes-cn-plus/2026-03-20.json",
   "sources": [
     {
-      "id": "https://www.bloomberg.com/news/videos/2026-03-20/oil-market-faces-higher-for-longer-risk-saxo-bank-video",
-      "title": "Oil Market Faces 'Higher for Longer' Risk: Saxo Bank (Video)",
-      "link": "https://www.bloomberg.com/news/videos/2026-03-20/oil-market-faces-higher-for-longer-risk-saxo-bank-video",
-      "description": "",
-      "sourceFeed": "Bloomberg Markets",
-      "publishedAt": "2026-03-20T08:02:21.000Z",
-      "publishedTs": 1773993741000
+      "id": "ca216a72-1d9b-408e-a997-b413008a7780",
+      "title": "Qatar Revenue Impact, Denmark's Renewed Greenland Fears, More",
+      "link": "https://omny.fm/shows/bloomberg-news-now/qatar-revenue-impact-denmarks-renewed-greenland-fears-more",
+      "description": "See omnystudio.com/listener for privacy information.",
+      "sourceFeed": "Bloomberg News Now",
+      "publishedAt": "2026-03-20T08:27:36.000Z",
+      "publishedTs": 1773995256000
     },
     {
-      "id": "https://www.bloomberg.com/news/articles/2026-03-20/greg-brew-on-surging-energy-and-the-strategic-trap-of-the-war-in-iran",
-      "title": "Greg Brew on Surging Energy and the 'Strategic Trap' of the War in Iran",
-      "link": "https://www.bloomberg.com/news/articles/2026-03-20/greg-brew-on-surging-energy-and-the-strategic-trap-of-the-war-in-iran",
-      "description": "This Is Iran's Strategy to win.",
-      "sourceFeed": "Bloomberg Markets",
-      "publishedAt": "2026-03-20T08:00:04.000Z",
-      "publishedTs": 1773993604000
+      "id": "ee1077db-8fd5-40ca-b1a0-b413007e7a74",
+      "title": "Oil Drops From High, Qatar's Revenue Loss, More",
+      "link": "https://omny.fm/shows/bloomberg-news-now/oil-drops-from-high-qatars-revenue-loss-more",
+      "description": "Listen for the latest from Bloomberg News See omnystudio.com/listener for privacy information.",
+      "sourceFeed": "Bloomberg News Now",
+      "publishedAt": "2026-03-20T07:42:51.000Z",
+      "publishedTs": 1773992571000
     },
     {
-      "id": "https://www.bloomberg.com/news/audio/2026-03-20/odd-lots-greg-brew-on-the-us-s-strategic-trap-in-iran-podcast",
-      "title": "Odd Lots: Greg Brew on the US’s Strategic Trap in Iran (Podcast)",
-      "link": "https://www.bloomberg.com/news/audio/2026-03-20/odd-lots-greg-brew-on-the-us-s-strategic-trap-in-iran-podcast",
-      "description": "",
-      "sourceFeed": "Bloomberg Markets",
-      "publishedAt": "2026-03-20T08:00:00.000Z",
-      "publishedTs": 1773993600000
+      "id": "668c4e27-ff57-408a-881f-b413006b9c25",
+      "title": "Oil Drops From High, Europe’s Energy Pinch, More",
+      "link": "https://omny.fm/shows/bloomberg-news-now/oil-drops-from-high-europe-s-energy-pinch-more",
+      "description": "Listen for the latest from Bloomberg News See omnystudio.com/listener for privacy information.",
+      "sourceFeed": "Bloomberg News Now",
+      "publishedAt": "2026-03-20T06:33:55.000Z",
+      "publishedTs": 1773988435000
     },
     {
-      "id": "https://www.bloomberg.com/news/articles/2026-03-20/iran-keeps-striking-gulf-as-israel-pledges-to-spare-energy-sites",
-      "title": "Iran Keeps Striking Gulf as Israel Pledges to Spare Energy Sites",
-      "link": "https://www.bloomberg.com/news/articles/2026-03-20/iran-keeps-striking-gulf-as-israel-pledges-to-spare-energy-sites",
-      "description": "Iran pressed ahead with attacks on Arab states in the Persian Gulf even after Israel signaled it would refrain from hitting the Islamic Republic’s energy infrastructure, fueling volatility in markets roiled by the war in the oil-rich region.",
-      "sourceFeed": "Bloomberg Politics",
-      "publishedAt": "2026-03-20T07:52:43.000Z",
-      "publishedTs": 1773993163000
-    },
-    {
-      "id": "https://www.bloomberg.com/news/videos/2026-03-20/takaichi-navigates-trump-s-pearl-harbor-jibe-in-dc-visit-video",
-      "title": "Takaichi Navigates Trump's Pearl Harbor Jibe in DC Visit",
-      "link": "https://www.bloomberg.com/news/videos/2026-03-20/takaichi-navigates-trump-s-pearl-harbor-jibe-in-dc-visit-video",
-      "description": "Despite a Pearl Harbor jibe from President Donald Trump, PM Sanae Takaichi showed Japan’s deep ties with the US &mdash; and her own agility on the world stage &mdash; during her first visit to Washington as a national leader. Alastair Gale has more. (Source: Bloomberg)",
-      "sourceFeed": "Bloomberg Politics",
-      "publishedAt": "2026-03-20T07:47:26.000Z",
-      "publishedTs": 1773992846000
-    },
-    {
-      "id": "https://www.bloomberg.com/news/articles/2026-03-20/economists-pivot-to-see-ecb-hikes-while-diverging-on-first-move",
-      "title": "Economists Pivot to See ECB Hikes While Diverging on First Move",
-      "link": "https://www.bloomberg.com/news/articles/2026-03-20/economists-pivot-to-see-ecb-hikes-while-diverging-on-first-move",
-      "description": "Economists are shifting to align with the market view that European Central Bank interest-rate hikes are inevitable within months.",
-      "sourceFeed": "Bloomberg Markets",
-      "publishedAt": "2026-03-20T07:46:19.000Z",
-      "publishedTs": 1773992779000
-    },
-    {
-      "id": "https://www.bloomberg.com/news/videos/2026-03-20/ruhl-us-almost-out-of-options-to-keep-oil-price-low-video",
-      "title": "Rühl: US Almost Out of Options to Keep Oil Price Low",
-      "link": "https://www.bloomberg.com/news/videos/2026-03-20/ruhl-us-almost-out-of-options-to-keep-oil-price-low-video",
-      "description": "Attacks on oil and gas infrastructure in the Arabian Gulf have escalated in the past two days. After a rebuke from President Trump, Israel says it will no longer target energy assets after its attack on an Iranian gas field sparked retaliatory strikes, cause oil and gas prices to surge. Crystol Energy Global Advisor, Christof Rühl, says the US is running out of methods to keep the oil price low if the Strait of Hormuz isn't reopened. He spokes to Joumanna Bercetche on Horizons Middle East and Africa. (Source: Bloomberg)",
-      "sourceFeed": "Bloomberg Markets",
-      "publishedAt": "2026-03-20T07:30:25.000Z",
-      "publishedTs": 1773991825000
-    },
-    {
-      "id": "https://www.bloomberg.com/news/articles/2026-03-20/european-gas-falls-as-us-israel-seek-to-ease-iran-war-concerns",
-      "title": "European Gas Falls as US, Israel Seek to Ease Iran War Concerns",
-      "link": "https://www.bloomberg.com/news/articles/2026-03-20/european-gas-falls-as-us-israel-seek-to-ease-iran-war-concerns",
-      "description": "European natural gas fell after Israel and the US sought to ease concerns about further attacks on Persian Gulf energy facilities.",
-      "sourceFeed": "Bloomberg Markets",
-      "publishedAt": "2026-03-20T07:20:15.000Z",
-      "publishedTs": 1773991215000
+      "id": "43e35360-6eef-4334-a926-b41300386dd1",
+      "title": "March 19, 2026: Energy Prices Shift, Iran Military Capabilities Crippled, More",
+      "link": "https://omny.fm/shows/bloomberg-news-now/energy-prices-shift-iran-military-capabilities-crippled-more",
+      "description": "Listen for the latest from Bloomberg News See omnystudio.com/listener for privacy information.",
+      "sourceFeed": "Bloomberg News Now",
+      "publishedAt": "2026-03-20T03:27:29.000Z",
+      "publishedTs": 1773977249000
     }
   ],
   "digest": {
-    "episode_title": "每日中国博易名报摘要",
-    "episode_summary": "今日聚焦能源市场、伊朗战争动态及日本外交活动。",
-    "lead": "今天，油价面临长期上涨的风险，而美国和以色列则在寻求缓解对伊朗战争的担忧。",
+    "episode_title": "每日财经简报：能源价格波动与伊朗军事能力受挫",
+    "episode_summary": "今日聚焦能源市场动态，包括油价下跌、伊朗军力受损等关键信息。",
+    "lead": "今天，我们关注到全球能源市场的最新变化。油价持续下滑，并且对伊朗的军事力量也提出了新的担忧。",
     "stories": [
       {
-        "headline": "油市面临‘更高更久’风险：萨乔银行警告",
-        "summary": "萨乔银行表示，由于中东局势紧张，原油市场可能面临持续上涨的压力。该机构指出，如果波斯湾的能源基础设施受到攻击，油价可能会进一步攀升。",
-        "why_it_matters": "这提醒投资者注意潜在的风险，并影响全球能源价格和经济活动。"
+        "headline": "油价回落，Qatar收入损失",
+        "summary": "今日，油价出现下跌趋势，同时引发了关于卡塔尔收入减少的关注。卡塔尔政府正密切关注能源价格波动带来的经济影响。",
+        "why_it_matters": "油价的持续下滑可能对依赖石油出口的国家造成重大打击，特别是像卡塔尔这样的小国。"
       },
       {
-        "headline": "Greg Brew：美国陷入伊朗战争的战略陷阱",
-        "summary": "Greg Brew认为，尽管以色列表示不会打击伊朗的能源设施，但伊朗仍在继续对波斯湾周边国家发动攻击。这表明美国在应对这场战争时可能陷入了战略困境。",
-        "why_it_matters": "Brew的观点为理解当前局势提供了新的视角，并强调了国际关系中的复杂性。"
+        "headline": "欧洲能源危机加剧",
+        "summary": "今日报道指出，欧洲地区正面临更加严峻的能源供应问题。随着全球能源价格波动，欧洲各国正在寻找替代能源解决方案。",
+        "why_it_matters": "欧洲能源市场的动荡可能引发更广泛的经济和社会问题，包括家庭供暖成本上升和工业生产受影响等。"
       },
       {
-        "headline": "Greg Brew：美国的战略陷阱——伊朗战争",
-        "summary": "Greg Brew在播客中讨论了美国在应对伊朗战争时所面临的困境，指出以色列的声明未能阻止伊朗对能源设施的攻击。",
-        "why_it_matters": "这个故事揭示了国际政治中的微妙动态，并可能影响未来的外交决策。"
+        "headline": "伊朗军力受损",
+        "summary": "今日有报道指出，伊朗的军事力量受到了严重打击。这引发了对地区安全局势的新担忧，并可能影响到国际关系。",
+        "why_it_matters": "伊朗的军事能力减弱可能会改变该地区的战略平衡，进而影响到全球安全和稳定。"
       },
       {
-        "headline": "伊朗继续在波斯湾发动袭击",
-        "summary": "尽管以色列表示将避免打击伊朗的能源资产，但伊朗仍在对阿拉伯国家进行攻击，导致市场动荡加剧。",
-        "why_it_matters": "这突显了当前局势的紧张程度，并可能影响全球能源供应和价格。"
+        "headline": "Qatar Revenue Impact, Denmark's Renewed Greenland Fears, More",
+        "summary": "See omnystudio.com/listener for privacy information.",
+        "why_it_matters": "这是当天值得关注的公开 Bloomberg RSS 条目。"
       },
       {
-        "headline": "Takaichi女士在访问华盛顿期间巧妙应对特朗普的珍珠港言论",
-        "summary": "尽管美国总统唐纳德·特朗普对日本进行了珍珠港式的批评，但首相山田香织展示了日本与美国之间的深厚联系，并展示了她作为国家领导人的灵活性。",
-        "why_it_matters": "这个故事展示了外交关系中的微妙平衡和应对策略。"
+        "headline": "Oil Drops From High, Qatar's Revenue Loss, More",
+        "summary": "Listen for the latest from Bloomberg News See omnystudio.com/listener for privacy information.",
+        "why_it_matters": "这是当天值得关注的公开 Bloomberg RSS 条目。"
       },
       {
-        "headline": "经济学家转向认为欧洲央行将在数月内加息",
-        "summary": "经济学家们正在转向支持市场观点，即欧洲中央银行将在几个月内进行利率上调。",
-        "why_it_matters": "这可能会影响全球货币政策，并对金融市场产生重大影响。"
+        "headline": "Oil Drops From High, Europe’s Energy Pinch, More",
+        "summary": "Listen for the latest from Bloomberg News See omnystudio.com/listener for privacy information.",
+        "why_it_matters": "这是当天值得关注的公开 Bloomberg RSS 条目。"
       }
     ],
-    "closing": "今日的头条新闻涵盖了能源市场、国际关系和外交活动等方面。希望这些信息能帮助您了解当前的世界动态。",
-    "audio_script": "今天，油价面临长期上涨的风险，而美国和以色列则在寻求缓解对伊朗战争的担忧。第1条，油市面临‘更高更久’风险：萨乔银行警告。萨乔银行表示，由于中东局势紧张，原油市场可能面临持续上涨的压力。该机构指出，如果波斯湾的能源基础设施受到攻击，油价可能会进一步攀升。这条消息为什么重要？这提醒投资者注意潜在的风险，并影响全球能源价格和经济活动。第2条，Greg Brew：美国陷入伊朗战争的战略陷阱。Greg Brew认为，尽管以色列表示不会打击伊朗的能源设施，但伊朗仍在继续对波斯湾周边国家发动攻击。这表明美国在应对这场战争时可能陷入了战略困境。这条消息为什么重要？Brew的观点为理解当前局势提供了新的视角，并强调了国际关系中的复杂性。第3条，Greg Brew：美国的战略陷阱——伊朗战争。Greg Brew在播客中讨论了美国在应对伊朗战争时所面临的困境，指出以色列的声明未能阻止伊朗对能源设施的攻击。这条消息为什么重要？这个故事揭示了国际政治中的微妙动态，并可能影响未来的外交决策。第4条，伊朗继续在波斯湾发动袭击。尽管以色列表示将避免打击伊朗的能源资产，但伊朗仍在对阿拉伯国家进行攻击，导致市场动荡加剧。这条消息为什么重要？这突显了当前局势的紧张程度，并可能影响全球能源供应和价格。第5条，Takaichi女士在访问华盛顿期间巧妙应对特朗普的珍珠港言论。尽管美国总统唐纳德·特朗普对日本进行了珍珠港式的批评，但首相山田香织展示了日本与美国之间的深厚联系，并展示了她作为国家领导人的灵活性。这条消息为什么重要？这个故事展示了外交关系中的微妙平衡和应对策略。第6条，经济学家转向认为欧洲央行将在数月内加息。经济学家们正在转向支持市场观点，即欧洲中央银行将在几个月内进行利率上调。这条消息为什么重要？这可能会影响全球货币政策，并对金融市场产生重大影响。今日的头条新闻涵盖了能源市场、国际关系和外交活动等方面。希望这些信息能帮助您了解当前的世界动态。"
+    "closing": "今日的新闻简报就到这里。请继续关注能源市场动态以及地区安全局势的发展。",
+    "audio_script": "今天，我们关注到全球能源市场的最新变化。油价持续下滑，并且对伊朗的军事力量也提出了新的担忧。第1条，油价回落，Qatar收入损失。今日，油价出现下跌趋势，同时引发了关于卡塔尔收入减少的关注。卡塔尔政府正密切关注能源价格波动带来的经济影响。这条消息为什么重要？油价的持续下滑可能对依赖石油出口的国家造成重大打击，特别是像卡塔尔这样的小国。第2条，欧洲能源危机加剧。今日报道指出，欧洲地区正面临更加严峻的能源供应问题。随着全球能源价格波动，欧洲各国正在寻找替代能源解决方案。这条消息为什么重要？欧洲能源市场的动荡可能引发更广泛的经济和社会问题，包括家庭供暖成本上升和工业生产受影响等。第3条，伊朗军力受损。今日有报道指出，伊朗的军事力量受到了严重打击。这引发了对地区安全局势的新担忧，并可能影响到国际关系。这条消息为什么重要？伊朗的军事能力减弱可能会改变该地区的战略平衡，进而影响到全球安全和稳定。第4条，Qatar Revenue Impact, Denmark's Renewed Greenland Fears, More。See omnystudio.com/listener for privacy information.这条消息为什么重要？这是当天值得关注的公开 Bloomberg RSS 条目。第5条，Oil Drops From High, Qatar's Revenue Loss, More。Listen for the latest from Bloomberg News See omnystudio.com/listener for privacy information.这条消息为什么重要？这是当天值得关注的公开 Bloomberg RSS 条目。第6条，Oil Drops From High, Europe’s Energy Pinch, More。Listen for the latest from Bloomberg News See omnystudio.com/listener for privacy information.这条消息为什么重要？这是当天值得关注的公开 Bloomberg RSS 条目。今日的新闻简报就到这里。请继续关注能源市场动态以及地区安全局势的发展。"
   },
   "podcast": {
     "title": "彭博 News Now中文摘要",
     "author": "hyobimaeng",
-    "description": "基于 Bloomberg 公开 RSS 生成的 News Now 风格中文摘要，覆盖更多重点，适合更长通勤收听。",
+    "description": "基于 Bloomberg News Now 官方 RSS 生成的中文摘要，覆盖更多重点，适合更长通勤收听。",
     "language": "zh-CN",
     "timezone": "Asia/Shanghai",
     "siteUrl": "https://hyobimaeng.github.io/bloomberg-car-audio",

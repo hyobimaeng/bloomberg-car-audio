@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-03-20T08:03:31.462Z",
+  "generatedAt": "2026-03-20T08:28:45.081Z",
   "subscriptions": [
     {
       "id": "cn-plus",
       "type": "custom",
       "badge": "AI 中文加长版",
       "title": "彭博 News Now中文摘要",
-      "description": "基于 Bloomberg 公开 RSS 生成的 News Now 风格中文摘要，覆盖更多重点，适合更长通勤收听。",
+      "description": "基于 Bloomberg News Now 官方 RSS 生成的中文摘要，覆盖更多重点，适合更长通勤收听。",
       "feedUrl": "https://hyobimaeng.github.io/bloomberg-car-audio/feed-cn-plus.xml",
       "latestEpisodeUrl": "https://hyobimaeng.github.io/bloomberg-car-audio/episodes-cn-plus/2026-03-20.html"
     },

@@ -217,11 +217,14 @@ function buildShowProfiles(config) {
       badge: "AI 中文加长版",
       title: config.podcastTitleExtended,
       description:
-        "\u57fa\u4e8e Bloomberg \u516c\u5f00 RSS \u751f\u6210\u7684 News Now \u98ce\u683c\u4e2d\u6587\u6458\u8981\uff0c\u8986\u76d6\u66f4\u591a\u91cd\u70b9\uff0c\u9002\u5408\u66f4\u957f\u901a\u52e4\u6536\u542c\u3002",
+        "\u57fa\u4e8e Bloomberg News Now \u5b98\u65b9 RSS \u751f\u6210\u7684\u4e2d\u6587\u6458\u8981\uff0c\u8986\u76d6\u66f4\u591a\u91cd\u70b9\uff0c\u9002\u5408\u66f4\u957f\u901a\u52e4\u6536\u542c\u3002",
       feedFile: "feed-cn-plus.xml",
       archiveFile: "archive-cn-plus.json",
       episodeDir: "episodes-cn-plus",
       digestVariant: "extended",
+      feeds: [OFFICIAL_FEEDS["news-now"].feedUrl],
+      lookbackHours: 72,
+      maxItems: 4,
       episodeId(dateKey) {
         return `daily-cn-plus-${dateKey}`;
       }

@@ -106,6 +106,7 @@ powershell -ExecutionPolicy Bypass -File .\scripts\register-task.ps1 -Time 07:50
 
 - 站点：`https://hyobimaeng.github.io/bloomberg-car-audio/`
 - 彭博 News Now中文摘要 RSS：`https://hyobimaeng.github.io/bloomberg-car-audio/feed-cn-plus.xml`
+  基于官方 `Bloomberg News Now` RSS 生成
 - Daybreak 中文摘要版 RSS：`https://hyobimaeng.github.io/bloomberg-car-audio/feed-daybreak-cn.xml`
 - The Deal 中文摘要版 RSS：`https://hyobimaeng.github.io/bloomberg-car-audio/feed-the-deal-cn.xml`
 - Big Take 中文摘要版 RSS：`https://hyobimaeng.github.io/bloomberg-car-audio/feed-big-take-cn.xml`
