@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>彭博中文车载摘要·加长版</title>
+    <title>彭博 News Now中文摘要</title>
     <link>https://hyobimaeng.github.io/bloomberg-car-audio</link>
     <atom:link href="https://hyobimaeng.github.io/bloomberg-car-audio/feed-cn-plus.xml" rel="self" type="application/rss+xml"/>
-    <description>每天自动更新的 Bloomberg 公开 RSS 中文加长摘要，覆盖更多重点，适合更长通勤收听。</description>
+    <description>基于 Bloomberg 公开 RSS 生成的 News Now 风格中文摘要，覆盖更多重点，适合更长通勤收听。</description>
     <language>zh-CN</language>
     <generator>Bloomberg Car Audio Digest</generator>
-    <lastBuildDate>Fri, 20 Mar 2026 07:41:09 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 20 Mar 2026 08:03:31 GMT</lastBuildDate>
     <itunes:author>hyobimaeng</itunes:author>
-    <itunes:summary>每天自动更新的 Bloomberg 公开 RSS 中文加长摘要，覆盖更多重点，适合更长通勤收听。</itunes:summary>
+    <itunes:summary>基于 Bloomberg 公开 RSS 生成的 News Now 风格中文摘要，覆盖更多重点，适合更长通勤收听。</itunes:summary>
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
     <itunes:image href="https://hyobimaeng.github.io/bloomberg-car-audio/artwork.png"/>
     <item>
-      <title>中国晨间Bloomberg新闻摘要</title>
+      <title>每日中国博易名报摘要</title>
       <link>https://hyobimaeng.github.io/bloomberg-car-audio/episodes-cn-plus/2026-03-20.html</link>
       <guid isPermaLink="false">daily-cn-plus-2026-03-20</guid>
-      <pubDate>Fri, 20 Mar 2026 07:41:09 GMT</pubDate>
-      <description><![CDATA[<p>今日重点关注的五则重要新闻。</p><p><strong>Rühl: 美国几乎用尽了保持油价低的方法</strong>：由于以色列在波斯湾对伊朗天然气设施发动攻击后引发报复性打击，导致石油和天然气价格飙升，美国能源专家Christof Rühl表示，如果霍尔木兹海峡不重新开放，美国将几乎没有方法维持油价的低位。 Rühl 的观点强调了当前国际局势下能源供应的脆弱性和不确定性。</p><p><strong>欧洲天然气价格下跌，美、以色列寻求缓解伊朗战争担忧</strong>：由于美国和以色列试图缓解对波斯湾能源设施可能再次受到攻击的担忧，欧洲天然气价格出现下滑。 这反映了国际社会对于中东局势变化的关注以及其对全球能源市场的影响。</p><p><strong>亚洲转向煤炭以应对伊朗战争迅速缩小的天然气供应</strong>：由于波斯湾地区战争导致液化天然气供应急剧减少，亚洲国家正在转向煤炭来填补这一缺口。 这突显了能源供应多样化的重要性以及在危机时刻各国采取的应对措施。</p><p><strong>VinFast面临北卡罗来纳州激励计划回扣的压力</strong>：由于美国两名官员提醒越南电动汽车制造商VinFast关于其与北卡罗来纳州签订的四年协议中的义务，该公司正承受压力。 这反映了跨国公司遵守当地法规和政策的重要性以及潜在法律风险。</p><p><strong>Dangote炼油厂需求激增，因中东战争扰乱了非洲燃料供应</strong>：由于波斯湾地区的战争导致燃料供应中断，非洲国家正努力从尼日利亚的Dangote炼油厂获取燃料以避免国内能源短缺。 这突显了全球供应链在危机中的脆弱性以及各国之间的合作需求。</p><p><strong>Unilever考虑出售其食品业务给McCormick</strong>：Unilever表示正在与McCormick &amp; Co.讨论出售其食品业务，这是该公司自Hellmann’s mayonnaise以来的重大转变。 这反映了企业战略调整以及在特定行业中的竞争态势。</p>]]></description>
-      <content:encoded><![CDATA[<p>今日重点关注的五则重要新闻。</p><p><strong>Rühl: 美国几乎用尽了保持油价低的方法</strong>：由于以色列在波斯湾对伊朗天然气设施发动攻击后引发报复性打击，导致石油和天然气价格飙升，美国能源专家Christof Rühl表示，如果霍尔木兹海峡不重新开放，美国将几乎没有方法维持油价的低位。 Rühl 的观点强调了当前国际局势下能源供应的脆弱性和不确定性。</p><p><strong>欧洲天然气价格下跌，美、以色列寻求缓解伊朗战争担忧</strong>：由于美国和以色列试图缓解对波斯湾能源设施可能再次受到攻击的担忧，欧洲天然气价格出现下滑。 这反映了国际社会对于中东局势变化的关注以及其对全球能源市场的影响。</p><p><strong>亚洲转向煤炭以应对伊朗战争迅速缩小的天然气供应</strong>：由于波斯湾地区战争导致液化天然气供应急剧减少，亚洲国家正在转向煤炭来填补这一缺口。 这突显了能源供应多样化的重要性以及在危机时刻各国采取的应对措施。</p><p><strong>VinFast面临北卡罗来纳州激励计划回扣的压力</strong>：由于美国两名官员提醒越南电动汽车制造商VinFast关于其与北卡罗来纳州签订的四年协议中的义务，该公司正承受压力。 这反映了跨国公司遵守当地法规和政策的重要性以及潜在法律风险。</p><p><strong>Dangote炼油厂需求激增，因中东战争扰乱了非洲燃料供应</strong>：由于波斯湾地区的战争导致燃料供应中断，非洲国家正努力从尼日利亚的Dangote炼油厂获取燃料以避免国内能源短缺。 这突显了全球供应链在危机中的脆弱性以及各国之间的合作需求。</p><p><strong>Unilever考虑出售其食品业务给McCormick</strong>：Unilever表示正在与McCormick &amp; Co.讨论出售其食品业务，这是该公司自Hellmann’s mayonnaise以来的重大转变。 这反映了企业战略调整以及在特定行业中的竞争态势。</p>]]></content:encoded>
-      <itunes:summary>今日重点关注的五则重要新闻。</itunes:summary>
-      <enclosure url="https://hyobimaeng.github.io/bloomberg-car-audio/episodes-cn-plus/2026-03-20.mp3" length="1536337" type="audio/mpeg"/>
+      <pubDate>Fri, 20 Mar 2026 08:03:31 GMT</pubDate>
+      <description><![CDATA[<p>今日聚焦能源市场、伊朗战争动态及日本外交活动。</p><p><strong>油市面临‘更高更久’风险：萨乔银行警告</strong>：萨乔银行表示，由于中东局势紧张，原油市场可能面临持续上涨的压力。该机构指出，如果波斯湾的能源基础设施受到攻击，油价可能会进一步攀升。 这提醒投资者注意潜在的风险，并影响全球能源价格和经济活动。</p><p><strong>Greg Brew：美国陷入伊朗战争的战略陷阱</strong>：Greg Brew认为，尽管以色列表示不会打击伊朗的能源设施，但伊朗仍在继续对波斯湾周边国家发动攻击。这表明美国在应对这场战争时可能陷入了战略困境。 Brew的观点为理解当前局势提供了新的视角，并强调了国际关系中的复杂性。</p><p><strong>Greg Brew：美国的战略陷阱——伊朗战争</strong>：Greg Brew在播客中讨论了美国在应对伊朗战争时所面临的困境，指出以色列的声明未能阻止伊朗对能源设施的攻击。 这个故事揭示了国际政治中的微妙动态，并可能影响未来的外交决策。</p><p><strong>伊朗继续在波斯湾发动袭击</strong>：尽管以色列表示将避免打击伊朗的能源资产，但伊朗仍在对阿拉伯国家进行攻击，导致市场动荡加剧。 这突显了当前局势的紧张程度，并可能影响全球能源供应和价格。</p><p><strong>Takaichi女士在访问华盛顿期间巧妙应对特朗普的珍珠港言论</strong>：尽管美国总统唐纳德·特朗普对日本进行了珍珠港式的批评，但首相山田香织展示了日本与美国之间的深厚联系，并展示了她作为国家领导人的灵活性。 这个故事展示了外交关系中的微妙平衡和应对策略。</p><p><strong>经济学家转向认为欧洲央行将在数月内加息</strong>：经济学家们正在转向支持市场观点，即欧洲中央银行将在几个月内进行利率上调。 这可能会影响全球货币政策，并对金融市场产生重大影响。</p>]]></description>
+      <content:encoded><![CDATA[<p>今日聚焦能源市场、伊朗战争动态及日本外交活动。</p><p><strong>油市面临‘更高更久’风险：萨乔银行警告</strong>：萨乔银行表示，由于中东局势紧张，原油市场可能面临持续上涨的压力。该机构指出，如果波斯湾的能源基础设施受到攻击，油价可能会进一步攀升。 这提醒投资者注意潜在的风险，并影响全球能源价格和经济活动。</p><p><strong>Greg Brew：美国陷入伊朗战争的战略陷阱</strong>：Greg Brew认为，尽管以色列表示不会打击伊朗的能源设施，但伊朗仍在继续对波斯湾周边国家发动攻击。这表明美国在应对这场战争时可能陷入了战略困境。 Brew的观点为理解当前局势提供了新的视角，并强调了国际关系中的复杂性。</p><p><strong>Greg Brew：美国的战略陷阱——伊朗战争</strong>：Greg Brew在播客中讨论了美国在应对伊朗战争时所面临的困境，指出以色列的声明未能阻止伊朗对能源设施的攻击。 这个故事揭示了国际政治中的微妙动态，并可能影响未来的外交决策。</p><p><strong>伊朗继续在波斯湾发动袭击</strong>：尽管以色列表示将避免打击伊朗的能源资产，但伊朗仍在对阿拉伯国家进行攻击，导致市场动荡加剧。 这突显了当前局势的紧张程度，并可能影响全球能源供应和价格。</p><p><strong>Takaichi女士在访问华盛顿期间巧妙应对特朗普的珍珠港言论</strong>：尽管美国总统唐纳德·特朗普对日本进行了珍珠港式的批评，但首相山田香织展示了日本与美国之间的深厚联系，并展示了她作为国家领导人的灵活性。 这个故事展示了外交关系中的微妙平衡和应对策略。</p><p><strong>经济学家转向认为欧洲央行将在数月内加息</strong>：经济学家们正在转向支持市场观点，即欧洲中央银行将在几个月内进行利率上调。 这可能会影响全球货币政策，并对金融市场产生重大影响。</p>]]></content:encoded>
+      <itunes:summary>今日聚焦能源市场、伊朗战争动态及日本外交活动。</itunes:summary>
+      <enclosure url="https://hyobimaeng.github.io/bloomberg-car-audio/episodes-cn-plus/2026-03-20.mp3" length="1587041" type="audio/mpeg"/>
     </item>
   </channel>
 </rss>

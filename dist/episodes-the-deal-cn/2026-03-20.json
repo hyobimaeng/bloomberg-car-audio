@@ -1,12 +1,12 @@
 {
   "id": "daily-the-deal-cn-2026-03-20",
   "title": "每日体育与商业动态",
-  "summary": "本日聚焦三则重要新闻，包括NCAA锦标赛和世界棒球经典赛的热门话题，以及NFL明星Bobby Wagner的职业规划。",
-  "publishedAt": "2026-03-20T07:41:09.209Z",
+  "summary": "本日聚焦三则重要新闻，包括NCAA篮球锦标赛、世界棒球经典赛以及NFL明星球员Bobby Wagner的职业生涯规划。",
+  "publishedAt": "2026-03-20T08:03:31.462Z",
   "audioPath": "episodes-the-deal-cn/2026-03-20.mp3",
   "audioUrl": "https://hyobimaeng.github.io/bloomberg-car-audio/episodes-the-deal-cn/2026-03-20.mp3",
   "audioMime": "audio/mpeg",
-  "audioBytes": 3253006,
+  "audioBytes": 3399914,
   "pagePath": "episodes-the-deal-cn/2026-03-20.html",
   "pageUrl": "https://hyobimaeng.github.io/bloomberg-car-audio/episodes-the-deal-cn/2026-03-20.html",
   "jsonPath": "episodes-the-deal-cn/2026-03-20.json",
@@ -42,23 +42,23 @@
   ],
   "digest": {
     "episode_title": "每日体育与商业动态",
-    "episode_summary": "本日聚焦三则重要新闻，包括NCAA锦标赛和世界棒球经典赛的热门话题，以及NFL明星Bobby Wagner的职业规划。",
-    "lead": "今天，我们关注的是三项重要的体育与商业新闻。从NCAA锦标赛到世界棒球经典赛再到NFL球星Bobby Wagner的职业发展。",
+    "episode_summary": "本日聚焦三则重要新闻，包括NCAA篮球锦标赛、世界棒球经典赛以及NFL明星球员Bobby Wagner的职业生涯规划。",
+    "lead": "今天，我们关注的是三项引人注目的体育和商业事件。从NCAA篮球锦标赛到世界棒球经典赛的观众激增，再到NFL明星球员Bobby Wagner如何效仿Michael Jordan和Magic Johnson的职业道路。",
     "stories": [
       {
-        "headline": "David Levy：为什么你能观看所有 NCAA 淘汰赛",
-        "summary": "David Levy 在 Turner Broadcasting 工作了33年，最终担任该公司的总裁。他通过与 CBS 和 Turner 网络的 $10.8 亿美元权利协议，使每一场 NCAA 淘汰赛都能在全国电视上播出。",
-        "why_it_matters": "这个故事揭示了体育转播权的重要性和其对球迷体验的影响。"
+        "headline": "David Levy：NCAA篮球锦标赛背后的推手",
+        "summary": "David Levy在Turner Broadcasting工作了33年，并在此期间扩展了该网络的NBA转播权。他通过与CBS和Turner网络达成10.8亿美元的权利协议，让每场NCAA篮球锦标赛都能在全国电视上播出。",
+        "why_it_matters": "这个协议使得全国观众能够观看所有67场比赛，包括男女篮球队的比赛。"
       },
       {
-        "headline": "阿瑞兹：世界棒球经典赛的影响力",
-        "summary": "2026 年的世界棒球经典赛吸引了 35,000 名观众和超过 1 亿日本粉丝，这引发了美国与委内瑞拉之间的决赛。",
-        "why_it_matters": "这个故事展示了体育赛事如何激发国家自豪感，并影响到职业联赛的发展。"
+        "headline": "阿瑞兹·罗德里格斯：世界棒球经典赛的影响力",
+        "summary": "在2026年世界棒球经典赛中，美国队和委内瑞拉队将在决赛中交锋。今年的世界棒球经典赛观众比去年增加了142%。超过1亿日本球迷观看了 Shohei Ohtani 的比赛。",
+        "why_it_matters": "这场比赛激发了全国的自豪感，并为MLB在即将到来的重要赛季提供了动力。"
       },
       {
-        "headline": "Bobby Wagner：向 Michael 和 Magic 学习",
-        "summary": "NFL 线卫 Bobby Wagner 是历史上唯一一位在职业生涯中达到 2,000 次擒抱的球员之一，他正在通过投资科技公司和 WNBA 的 Seattle Storm 来多元化他的商业利益。",
-        "why_it_matters": "这个故事展示了体育明星如何利用他们的影响力进行企业扩张，并分享了他们对运动员所有权的看法。"
+        "headline": "NFL明星球员Bobby Wagner：效仿Michael Jordan和Magic Johnson的职业道路",
+        "summary": "Bobby Wagner是NFC历史上唯一一个达到2000次助攻的四分卫之一。他正在通过投资科技初创公司、成为WNBA球队Seattle Storm的少数股东来实现自己的商业目标。",
+        "why_it_matters": "Wagner借鉴了Michael Jordan和Magic Johnson的职业道路，为他的职业生涯规划提供了指导。"
       },
       {
         "headline": "David Levy is the Reason You’re Watching March Madness",
@@ -76,8 +76,8 @@
         "why_it_matters": "这是当天值得关注的公开 Bloomberg RSS 条目。"
       }
     ],
-    "closing": "在本日的新闻中，我们看到了体育与商业之间的紧密联系。从NCAA锦标赛到世界棒球经典赛再到NFL球星Bobby Wagner的职业规划，这些故事都展示了体育如何影响我们的生活。",
-    "audio_script": "今天，我们关注的是三项重要的体育与商业新闻。从NCAA锦标赛到世界棒球经典赛再到NFL球星Bobby Wagner的职业发展。第1条，David Levy：为什么你能观看所有 NCAA 淘汰赛。David Levy 在 Turner Broadcasting 工作了33年，最终担任该公司的总裁。他通过与 CBS 和 Turner 网络的 $10.8 亿美元权利协议，使每一场 NCAA 淘汰赛都能在全国电视上播出。这条消息为什么重要？这个故事揭示了体育转播权的重要性和其对球迷体验的影响。第2条，阿瑞兹：世界棒球经典赛的影响力。2026 年的世界棒球经典赛吸引了 35,000 名观众和超过 1 亿日本粉丝，这引发了美国与委内瑞拉之间的决赛。这条消息为什么重要？这个故事展示了体育赛事如何激发国家自豪感，并影响到职业联赛的发展。第3条，Bobby Wagner：向 Michael 和 Magic 学习。NFL 线卫 Bobby Wagner 是历史上唯一一位在职业生涯中达到 2,000 次擒抱的球员之一，他正在通过投资科技公司和 WNBA 的 Seattle Storm 来多元化他的商业利益。这条消息为什么重要？这个故事展示了体育明星如何利用他们的影响力进行企业扩张，并分享了他们对运动员所有权的看法。第4条，David Levy is the Reason You’re Watching March Madness。It&rsquo;s brackets season! And you can watch all 67 games of both the women&rsquo;s and men&rsquo;s NCAA tournament on national TV, thanks to David Levy. Levy spent 33 years at Turner Broadcasting, eventually serving as its president, where he expanded the network&rsquo;s NBA coverage. Levy is probably best known for brokering a $10.8 billion rights agreement that made every March Madness game available nationally across CBS and the Turner networks for the very first time. In this episode of The Deal, Alex and Jason talk to Levy about the ins and outs of the March Madness deal. He also tells the story of how he got Shaq to fill Inside the NBA&rsquo;s fourth chair and why the key to that show&rsquo;s success is letting Charles Barkley talk. Finally, Levy shares more about his current venture, Horizon Sports & Experiences, and why he&rsquo;s betting big on women&rsquo;s sports and pickleball. You can also watch this interview on the Bloomberg Podcasts YouTube page . See omnystudio.com/listener for privacy information.这条消息为什么重要？这是当天值得关注的公开 Bloomberg RSS 条目。第5条，Reaction: Alex Rodriguez Says the MLB Needs to Act on the World Baseball Classic’s Momentum。Tonight, the United States and Venezuela face off in the finals of the 2026 World Baseball Classic. And chances are, a lot of you will be watching. Based only on pool play, this year&rsquo;s WBC viewership is up 142% from the 2023 tournament. 35,000 people have bought tickets to tonight&rsquo;s final and over 100 million Japanese fans tuned in to watch Shohei Ohtani. Aaron Judge called the crowd at the U.S.-Mexico game on March 10th, &ldquo;bigger and better than the World Series.&rdquo; In this special episode of The Deal, Alex Rodriguez shares his reaction to the phenomenon that is the 2026 World Baseball Classic with his co-host Jason Kelly. Rodriguez talks about the national pride his fellow Dominicans felt over the past few weeks and explains why MLB commissioner Rob Manfred needs to capitalize on this momentum leading into what Rodriguez calls &ldquo;the most important season in the history of the sport.&rdquo; See omnystudio.com/listener for privacy information.这条消息为什么重要？这是当天值得关注的公开 Bloomberg RSS 条目。第6条，How NFL Star Bobby Wagner is Modeling his Career on Michael's and Magic's。Bobby Wagner is one of three NFL Linebackers to ever record 2,000 tackles. But his biggest goal is ownership, whether that&rsquo;s of a team or his own contract negotiations. Following the lead of his mentors Michael Jordan and Magic Johnson, Wagner has spent the last decade diversifying his business interests, including investments in tech start-ups and taking a minority stake in the WNBA&rsquo;s Seattle Storm. In this episode of The Deal, Alex and Jason talk to Wagner about what he saw as an NFL rookie that motivated him to be his own agent and explains the ins and outs of how an NFL contract comes to be. Wagner also shares how Larry Johnson and a cartoon based on Magic shaped his views on athletes and ownership. He also explains why writing a check to the Seattle Storm was his easiest investment decision. You can also watch this interview on the Bloomberg Podcasts YouTube page . See omnystudio.com/listener for privacy information.这条消息为什么重要？这是当天值得关注的公开 Bloomberg RSS 条目。在本日的新闻中，我们看到了体育与商业之间的紧密联系。从NCAA锦标赛到世界棒球经典赛再到NFL球星Bobby Wagner的职业规划，这些故事都展示了体育如何影响我们的生活。"
+    "closing": "在这些故事中，我们看到了体育与商业之间的紧密联系。从NCAA篮球锦标赛到世界棒球经典赛再到NFL明星球员的商业策略，这些都是值得深思的话题。",
+    "audio_script": "今天，我们关注的是三项引人注目的体育和商业事件。从NCAA篮球锦标赛到世界棒球经典赛的观众激增，再到NFL明星球员Bobby Wagner如何效仿Michael Jordan和Magic Johnson的职业道路。第1条，David Levy：NCAA篮球锦标赛背后的推手。David Levy在Turner Broadcasting工作了33年，并在此期间扩展了该网络的NBA转播权。他通过与CBS和Turner网络达成10.8亿美元的权利协议，让每场NCAA篮球锦标赛都能在全国电视上播出。这条消息为什么重要？这个协议使得全国观众能够观看所有67场比赛，包括男女篮球队的比赛。第2条，阿瑞兹·罗德里格斯：世界棒球经典赛的影响力。在2026年世界棒球经典赛中，美国队和委内瑞拉队将在决赛中交锋。今年的世界棒球经典赛观众比去年增加了142%。超过1亿日本球迷观看了 Shohei Ohtani 的比赛。这条消息为什么重要？这场比赛激发了全国的自豪感，并为MLB在即将到来的重要赛季提供了动力。第3条，NFL明星球员Bobby Wagner：效仿Michael Jordan和Magic Johnson的职业道路。Bobby Wagner是NFC历史上唯一一个达到2000次助攻的四分卫之一。他正在通过投资科技初创公司、成为WNBA球队Seattle Storm的少数股东来实现自己的商业目标。这条消息为什么重要？Wagner借鉴了Michael Jordan和Magic Johnson的职业道路，为他的职业生涯规划提供了指导。第4条，David Levy is the Reason You’re Watching March Madness。It&rsquo;s brackets season! And you can watch all 67 games of both the women&rsquo;s and men&rsquo;s NCAA tournament on national TV, thanks to David Levy. Levy spent 33 years at Turner Broadcasting, eventually serving as its president, where he expanded the network&rsquo;s NBA coverage. Levy is probably best known for brokering a $10.8 billion rights agreement that made every March Madness game available nationally across CBS and the Turner networks for the very first time. In this episode of The Deal, Alex and Jason talk to Levy about the ins and outs of the March Madness deal. He also tells the story of how he got Shaq to fill Inside the NBA&rsquo;s fourth chair and why the key to that show&rsquo;s success is letting Charles Barkley talk. Finally, Levy shares more about his current venture, Horizon Sports & Experiences, and why he&rsquo;s betting big on women&rsquo;s sports and pickleball. You can also watch this interview on the Bloomberg Podcasts YouTube page . See omnystudio.com/listener for privacy information.这条消息为什么重要？这是当天值得关注的公开 Bloomberg RSS 条目。第5条，Reaction: Alex Rodriguez Says the MLB Needs to Act on the World Baseball Classic’s Momentum。Tonight, the United States and Venezuela face off in the finals of the 2026 World Baseball Classic. And chances are, a lot of you will be watching. Based only on pool play, this year&rsquo;s WBC viewership is up 142% from the 2023 tournament. 35,000 people have bought tickets to tonight&rsquo;s final and over 100 million Japanese fans tuned in to watch Shohei Ohtani. Aaron Judge called the crowd at the U.S.-Mexico game on March 10th, &ldquo;bigger and better than the World Series.&rdquo; In this special episode of The Deal, Alex Rodriguez shares his reaction to the phenomenon that is the 2026 World Baseball Classic with his co-host Jason Kelly. Rodriguez talks about the national pride his fellow Dominicans felt over the past few weeks and explains why MLB commissioner Rob Manfred needs to capitalize on this momentum leading into what Rodriguez calls &ldquo;the most important season in the history of the sport.&rdquo; See omnystudio.com/listener for privacy information.这条消息为什么重要？这是当天值得关注的公开 Bloomberg RSS 条目。第6条，How NFL Star Bobby Wagner is Modeling his Career on Michael's and Magic's。Bobby Wagner is one of three NFL Linebackers to ever record 2,000 tackles. But his biggest goal is ownership, whether that&rsquo;s of a team or his own contract negotiations. Following the lead of his mentors Michael Jordan and Magic Johnson, Wagner has spent the last decade diversifying his business interests, including investments in tech start-ups and taking a minority stake in the WNBA&rsquo;s Seattle Storm. In this episode of The Deal, Alex and Jason talk to Wagner about what he saw as an NFL rookie that motivated him to be his own agent and explains the ins and outs of how an NFL contract comes to be. Wagner also shares how Larry Johnson and a cartoon based on Magic shaped his views on athletes and ownership. He also explains why writing a check to the Seattle Storm was his easiest investment decision. You can also watch this interview on the Bloomberg Podcasts YouTube page . See omnystudio.com/listener for privacy information.这条消息为什么重要？这是当天值得关注的公开 Bloomberg RSS 条目。在这些故事中，我们看到了体育与商业之间的紧密联系。从NCAA篮球锦标赛到世界棒球经典赛再到NFL明星球员的商业策略，这些都是值得深思的话题。"
   },
   "podcast": {
     "title": "Bloomberg The Deal 中文摘要版",

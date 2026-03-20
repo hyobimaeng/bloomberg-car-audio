@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-03-20T07:41:09.209Z",
+  "generatedAt": "2026-03-20T08:03:31.462Z",
   "latestEpisodeId": "daily-cn-plus-2026-03-20",
   "feedUrl": "https://hyobimaeng.github.io/bloomberg-car-audio/feed-cn-plus.xml",
   "podcast": {
-    "title": "彭博中文车载摘要·加长版",
+    "title": "彭博 News Now中文摘要",
     "author": "hyobimaeng",
-    "description": "每天自动更新的 Bloomberg 公开 RSS 中文加长摘要，覆盖更多重点，适合更长通勤收听。",
+    "description": "基于 Bloomberg 公开 RSS 生成的 News Now 风格中文摘要，覆盖更多重点，适合更长通勤收听。",
     "language": "zh-CN",
     "timezone": "Asia/Shanghai",
     "siteUrl": "https://hyobimaeng.github.io/bloomberg-car-audio",
@@ -14,18 +14,72 @@
   "episodes": [
     {
       "id": "daily-cn-plus-2026-03-20",
-      "title": "中国晨间Bloomberg新闻摘要",
-      "summary": "今日重点关注的五则重要新闻。",
-      "publishedAt": "2026-03-20T07:41:09.209Z",
+      "title": "每日中国博易名报摘要",
+      "summary": "今日聚焦能源市场、伊朗战争动态及日本外交活动。",
+      "publishedAt": "2026-03-20T08:03:31.462Z",
       "audioPath": "episodes-cn-plus/2026-03-20.mp3",
       "audioUrl": "https://hyobimaeng.github.io/bloomberg-car-audio/episodes-cn-plus/2026-03-20.mp3",
       "audioMime": "audio/mpeg",
-      "audioBytes": 1536337,
+      "audioBytes": 1587041,
       "pagePath": "episodes-cn-plus/2026-03-20.html",
       "pageUrl": "https://hyobimaeng.github.io/bloomberg-car-audio/episodes-cn-plus/2026-03-20.html",
       "jsonPath": "episodes-cn-plus/2026-03-20.json",
       "jsonUrl": "https://hyobimaeng.github.io/bloomberg-car-audio/episodes-cn-plus/2026-03-20.json",
       "sources": [
+        {
+          "id": "https://www.bloomberg.com/news/videos/2026-03-20/oil-market-faces-higher-for-longer-risk-saxo-bank-video",
+          "title": "Oil Market Faces 'Higher for Longer' Risk: Saxo Bank (Video)",
+          "link": "https://www.bloomberg.com/news/videos/2026-03-20/oil-market-faces-higher-for-longer-risk-saxo-bank-video",
+          "description": "",
+          "sourceFeed": "Bloomberg Markets",
+          "publishedAt": "2026-03-20T08:02:21.000Z",
+          "publishedTs": 1773993741000
+        },
+        {
+          "id": "https://www.bloomberg.com/news/articles/2026-03-20/greg-brew-on-surging-energy-and-the-strategic-trap-of-the-war-in-iran",
+          "title": "Greg Brew on Surging Energy and the 'Strategic Trap' of the War in Iran",
+          "link": "https://www.bloomberg.com/news/articles/2026-03-20/greg-brew-on-surging-energy-and-the-strategic-trap-of-the-war-in-iran",
+          "description": "This Is Iran's Strategy to win.",
+          "sourceFeed": "Bloomberg Markets",
+          "publishedAt": "2026-03-20T08:00:04.000Z",
+          "publishedTs": 1773993604000
+        },
+        {
+          "id": "https://www.bloomberg.com/news/audio/2026-03-20/odd-lots-greg-brew-on-the-us-s-strategic-trap-in-iran-podcast",
+          "title": "Odd Lots: Greg Brew on the US’s Strategic Trap in Iran (Podcast)",
+          "link": "https://www.bloomberg.com/news/audio/2026-03-20/odd-lots-greg-brew-on-the-us-s-strategic-trap-in-iran-podcast",
+          "description": "",
+          "sourceFeed": "Bloomberg Markets",
+          "publishedAt": "2026-03-20T08:00:00.000Z",
+          "publishedTs": 1773993600000
+        },
+        {
+          "id": "https://www.bloomberg.com/news/articles/2026-03-20/iran-keeps-striking-gulf-as-israel-pledges-to-spare-energy-sites",
+          "title": "Iran Keeps Striking Gulf as Israel Pledges to Spare Energy Sites",
+          "link": "https://www.bloomberg.com/news/articles/2026-03-20/iran-keeps-striking-gulf-as-israel-pledges-to-spare-energy-sites",
+          "description": "Iran pressed ahead with attacks on Arab states in the Persian Gulf even after Israel signaled it would refrain from hitting the Islamic Republic’s energy infrastructure, fueling volatility in markets roiled by the war in the oil-rich region.",
+          "sourceFeed": "Bloomberg Politics",
+          "publishedAt": "2026-03-20T07:52:43.000Z",
+          "publishedTs": 1773993163000
+        },
+        {
+          "id": "https://www.bloomberg.com/news/videos/2026-03-20/takaichi-navigates-trump-s-pearl-harbor-jibe-in-dc-visit-video",
+          "title": "Takaichi Navigates Trump's Pearl Harbor Jibe in DC Visit",
+          "link": "https://www.bloomberg.com/news/videos/2026-03-20/takaichi-navigates-trump-s-pearl-harbor-jibe-in-dc-visit-video",
+          "description": "Despite a Pearl Harbor jibe from President Donald Trump, PM Sanae Takaichi showed Japan’s deep ties with the US &mdash; and her own agility on the world stage &mdash; during her first visit to Washington as a national leader. Alastair Gale has more. (Source: Bloomberg)",
+          "sourceFeed": "Bloomberg Politics",
+          "publishedAt": "2026-03-20T07:47:26.000Z",
+          "publishedTs": 1773992846000
+        },
+        {
+          "id": "https://www.bloomberg.com/news/articles/2026-03-20/economists-pivot-to-see-ecb-hikes-while-diverging-on-first-move",
+          "title": "Economists Pivot to See ECB Hikes While Diverging on First Move",
+          "link": "https://www.bloomberg.com/news/articles/2026-03-20/economists-pivot-to-see-ecb-hikes-while-diverging-on-first-move",
+          "description": "Economists are shifting to align with the market view that European Central Bank interest-rate hikes are inevitable within months.",
+          "sourceFeed": "Bloomberg Markets",
+          "publishedAt": "2026-03-20T07:46:19.000Z",
+          "publishedTs": 1773992779000
+        },
         {
           "id": "https://www.bloomberg.com/news/videos/2026-03-20/ruhl-us-almost-out-of-options-to-keep-oil-price-low-video",
           "title": "Rühl: US Almost Out of Options to Keep Oil Price Low",
@@ -43,100 +97,46 @@
           "sourceFeed": "Bloomberg Markets",
           "publishedAt": "2026-03-20T07:20:15.000Z",
           "publishedTs": 1773991215000
-        },
-        {
-          "id": "https://www.bloomberg.com/news/articles/2026-03-20/asia-turns-to-coal-as-iran-war-rapidly-shrinks-supplies-of-gas",
-          "title": "Asia Turns to Coal as Iran War Rapidly Shrinks Supplies of Gas",
-          "link": "https://www.bloomberg.com/news/articles/2026-03-20/asia-turns-to-coal-as-iran-war-rapidly-shrinks-supplies-of-gas",
-          "description": "War in the Middle East is forcing Asia to turn to coal to plug the gaping hole emerging in its supply of liquefied natural gas.",
-          "sourceFeed": "Bloomberg Markets",
-          "publishedAt": "2026-03-20T07:20:04.000Z",
-          "publishedTs": 1773991204000
-        },
-        {
-          "id": "https://www.bloomberg.com/news/articles/2026-03-20/vinfast-risks-north-carolina-clawback-of-us-ev-plant-incentives",
-          "title": "VinFast Risks North Carolina Clawback of US EV Plant Incentives",
-          "link": "https://www.bloomberg.com/news/articles/2026-03-20/vinfast-risks-north-carolina-clawback-of-us-ev-plant-incentives",
-          "description": "Pressure is mounting on VinFast Auto Ltd. after two US officials reminded the Vietnamese EV maker of its obligations under a four-year-old deal to build a mammoth plant in North Carolina.",
-          "sourceFeed": "Bloomberg Markets",
-          "publishedAt": "2026-03-20T07:19:41.000Z",
-          "publishedTs": 1773991181000
-        },
-        {
-          "id": "https://www.bloomberg.com/news/videos/2026-03-20/dangote-demand-soars-as-war-disrupts-africa-fuel-supply-video",
-          "title": "Dangote Demand Soars As War Disrupts Africa Fuel Supply",
-          "link": "https://www.bloomberg.com/news/videos/2026-03-20/dangote-demand-soars-as-war-disrupts-africa-fuel-supply-video",
-          "description": "African nations are scrambling to secure fuel from Nigeria's Dangote Refinery as war in the Middle East disrupts supply. The refinery is now seeing a massive surge in demand from countries like South Africa and Kenya to prevent local energy shortages. Bloomberg's Jennifer Zabasajja reports on Horizons Middle East and Africa. (Source: Bloomberg)",
-          "sourceFeed": "Bloomberg Markets",
-          "publishedAt": "2026-03-20T07:17:04.000Z",
-          "publishedTs": 1773991024000
-        },
-        {
-          "id": "https://www.bloomberg.com/news/articles/2026-03-20/unilever-confirms-talks-on-mccormick-offer-for-food-business",
-          "title": "Unilever Confirms Talks on McCormick Offer for Food Business",
-          "link": "https://www.bloomberg.com/news/articles/2026-03-20/unilever-confirms-talks-on-mccormick-offer-for-food-business",
-          "description": "Unilever Plc said it’s in discussions to sell its food business to McCormick & Co. in a major shift for the maker of Hellmann’s mayonnaise.",
-          "sourceFeed": "Bloomberg Markets",
-          "publishedAt": "2026-03-20T07:16:48.000Z",
-          "publishedTs": 1773991008000
-        },
-        {
-          "id": "https://www.bloomberg.com/news/videos/2026-03-20/raamdeo-agrawal-on-finding-value-in-india-video",
-          "title": "Where Billionaire Raamdeo Agrawal Is Finding Value in India",
-          "link": "https://www.bloomberg.com/news/videos/2026-03-20/raamdeo-agrawal-on-finding-value-in-india-video",
-          "description": "Indian equities have slumped as the ongoing war in Iran drives energy prices sharply higher. Billionaire investor Raamdeo Agrawal, Chairman and Co‑Founder of Motilal Oswal Financial Services, examines where value is emerging. (Source: Bloomberg)",
-          "sourceFeed": "Bloomberg Markets",
-          "publishedAt": "2026-03-20T07:14:34.000Z",
-          "publishedTs": 1773990874000
-        },
-        {
-          "id": "https://www.bloomberg.com/news/articles/2026-03-20/uk-posts-bigger-than-forecast-14-3-billion-budget-deficit",
-          "title": "UK Posts Bigger-Than-Forecast £14.3 Billion Budget Deficit",
-          "link": "https://www.bloomberg.com/news/articles/2026-03-20/uk-posts-bigger-than-forecast-14-3-billion-budget-deficit",
-          "description": "Britain borrowed more than forecast in February, showing the risks facing the public finances even before the war in Iran upended the economic outlook.",
-          "sourceFeed": "Bloomberg Politics",
-          "publishedAt": "2026-03-20T07:12:08.000Z",
-          "publishedTs": 1773990728000
         }
       ],
       "digest": {
-        "episode_title": "中国晨间Bloomberg新闻摘要",
-        "episode_summary": "今日重点关注的五则重要新闻。",
-        "lead": "今天，国际能源市场面临多重挑战。",
+        "episode_title": "每日中国博易名报摘要",
+        "episode_summary": "今日聚焦能源市场、伊朗战争动态及日本外交活动。",
+        "lead": "今天，油价面临长期上涨的风险，而美国和以色列则在寻求缓解对伊朗战争的担忧。",
         "stories": [
           {
-            "headline": "Rühl: 美国几乎用尽了保持油价低的方法",
-            "summary": "由于以色列在波斯湾对伊朗天然气设施发动攻击后引发报复性打击，导致石油和天然气价格飙升，美国能源专家Christof Rühl表示，如果霍尔木兹海峡不重新开放，美国将几乎没有方法维持油价的低位。",
-            "why_it_matters": "Rühl 的观点强调了当前国际局势下能源供应的脆弱性和不确定性。"
+            "headline": "油市面临‘更高更久’风险：萨乔银行警告",
+            "summary": "萨乔银行表示，由于中东局势紧张，原油市场可能面临持续上涨的压力。该机构指出，如果波斯湾的能源基础设施受到攻击，油价可能会进一步攀升。",
+            "why_it_matters": "这提醒投资者注意潜在的风险，并影响全球能源价格和经济活动。"
           },
           {
-            "headline": "欧洲天然气价格下跌，美、以色列寻求缓解伊朗战争担忧",
-            "summary": "由于美国和以色列试图缓解对波斯湾能源设施可能再次受到攻击的担忧，欧洲天然气价格出现下滑。",
-            "why_it_matters": "这反映了国际社会对于中东局势变化的关注以及其对全球能源市场的影响。"
+            "headline": "Greg Brew：美国陷入伊朗战争的战略陷阱",
+            "summary": "Greg Brew认为，尽管以色列表示不会打击伊朗的能源设施，但伊朗仍在继续对波斯湾周边国家发动攻击。这表明美国在应对这场战争时可能陷入了战略困境。",
+            "why_it_matters": "Brew的观点为理解当前局势提供了新的视角，并强调了国际关系中的复杂性。"
           },
           {
-            "headline": "亚洲转向煤炭以应对伊朗战争迅速缩小的天然气供应",
-            "summary": "由于波斯湾地区战争导致液化天然气供应急剧减少，亚洲国家正在转向煤炭来填补这一缺口。",
-            "why_it_matters": "这突显了能源供应多样化的重要性以及在危机时刻各国采取的应对措施。"
+            "headline": "Greg Brew：美国的战略陷阱——伊朗战争",
+            "summary": "Greg Brew在播客中讨论了美国在应对伊朗战争时所面临的困境，指出以色列的声明未能阻止伊朗对能源设施的攻击。",
+            "why_it_matters": "这个故事揭示了国际政治中的微妙动态，并可能影响未来的外交决策。"
           },
           {
-            "headline": "VinFast面临北卡罗来纳州激励计划回扣的压力",
-            "summary": "由于美国两名官员提醒越南电动汽车制造商VinFast关于其与北卡罗来纳州签订的四年协议中的义务，该公司正承受压力。",
-            "why_it_matters": "这反映了跨国公司遵守当地法规和政策的重要性以及潜在法律风险。"
+            "headline": "伊朗继续在波斯湾发动袭击",
+            "summary": "尽管以色列表示将避免打击伊朗的能源资产，但伊朗仍在对阿拉伯国家进行攻击，导致市场动荡加剧。",
+            "why_it_matters": "这突显了当前局势的紧张程度，并可能影响全球能源供应和价格。"
           },
           {
-            "headline": "Dangote炼油厂需求激增，因中东战争扰乱了非洲燃料供应",
-            "summary": "由于波斯湾地区的战争导致燃料供应中断，非洲国家正努力从尼日利亚的Dangote炼油厂获取燃料以避免国内能源短缺。",
-            "why_it_matters": "这突显了全球供应链在危机中的脆弱性以及各国之间的合作需求。"
+            "headline": "Takaichi女士在访问华盛顿期间巧妙应对特朗普的珍珠港言论",
+            "summary": "尽管美国总统唐纳德·特朗普对日本进行了珍珠港式的批评，但首相山田香织展示了日本与美国之间的深厚联系，并展示了她作为国家领导人的灵活性。",
+            "why_it_matters": "这个故事展示了外交关系中的微妙平衡和应对策略。"
           },
           {
-            "headline": "Unilever考虑出售其食品业务给McCormick",
-            "summary": "Unilever表示正在与McCormick & Co.讨论出售其食品业务，这是该公司自Hellmann’s mayonnaise以来的重大转变。",
-            "why_it_matters": "这反映了企业战略调整以及在特定行业中的竞争态势。"
+            "headline": "经济学家转向认为欧洲央行将在数月内加息",
+            "summary": "经济学家们正在转向支持市场观点，即欧洲中央银行将在几个月内进行利率上调。",
+            "why_it_matters": "这可能会影响全球货币政策，并对金融市场产生重大影响。"
           }
         ],
-        "closing": "以上是今日最重要的五则新闻摘要。请注意关注国际能源市场和全球供应链的变化。",
-        "audio_script": "今天，国际能源市场面临多重挑战。第1条，Rühl: 美国几乎用尽了保持油价低的方法。由于以色列在波斯湾对伊朗天然气设施发动攻击后引发报复性打击，导致石油和天然气价格飙升，美国能源专家Christof Rühl表示，如果霍尔木兹海峡不重新开放，美国将几乎没有方法维持油价的低位。这条消息为什么重要？Rühl 的观点强调了当前国际局势下能源供应的脆弱性和不确定性。第2条，欧洲天然气价格下跌，美、以色列寻求缓解伊朗战争担忧。由于美国和以色列试图缓解对波斯湾能源设施可能再次受到攻击的担忧，欧洲天然气价格出现下滑。这条消息为什么重要？这反映了国际社会对于中东局势变化的关注以及其对全球能源市场的影响。第3条，亚洲转向煤炭以应对伊朗战争迅速缩小的天然气供应。由于波斯湾地区战争导致液化天然气供应急剧减少，亚洲国家正在转向煤炭来填补这一缺口。这条消息为什么重要？这突显了能源供应多样化的重要性以及在危机时刻各国采取的应对措施。第4条，VinFast面临北卡罗来纳州激励计划回扣的压力。由于美国两名官员提醒越南电动汽车制造商VinFast关于其与北卡罗来纳州签订的四年协议中的义务，该公司正承受压力。这条消息为什么重要？这反映了跨国公司遵守当地法规和政策的重要性以及潜在法律风险。第5条，Dangote炼油厂需求激增，因中东战争扰乱了非洲燃料供应。由于波斯湾地区的战争导致燃料供应中断，非洲国家正努力从尼日利亚的Dangote炼油厂获取燃料以避免国内能源短缺。这条消息为什么重要？这突显了全球供应链在危机中的脆弱性以及各国之间的合作需求。第6条，Unilever考虑出售其食品业务给McCormick。Unilever表示正在与McCormick & Co.讨论出售其食品业务，这是该公司自Hellmann’s mayonnaise以来的重大转变。这条消息为什么重要？这反映了企业战略调整以及在特定行业中的竞争态势。以上是今日最重要的五则新闻摘要。请注意关注国际能源市场和全球供应链的变化。"
+        "closing": "今日的头条新闻涵盖了能源市场、国际关系和外交活动等方面。希望这些信息能帮助您了解当前的世界动态。",
+        "audio_script": "今天，油价面临长期上涨的风险，而美国和以色列则在寻求缓解对伊朗战争的担忧。第1条，油市面临‘更高更久’风险：萨乔银行警告。萨乔银行表示，由于中东局势紧张，原油市场可能面临持续上涨的压力。该机构指出，如果波斯湾的能源基础设施受到攻击，油价可能会进一步攀升。这条消息为什么重要？这提醒投资者注意潜在的风险，并影响全球能源价格和经济活动。第2条，Greg Brew：美国陷入伊朗战争的战略陷阱。Greg Brew认为，尽管以色列表示不会打击伊朗的能源设施，但伊朗仍在继续对波斯湾周边国家发动攻击。这表明美国在应对这场战争时可能陷入了战略困境。这条消息为什么重要？Brew的观点为理解当前局势提供了新的视角，并强调了国际关系中的复杂性。第3条，Greg Brew：美国的战略陷阱——伊朗战争。Greg Brew在播客中讨论了美国在应对伊朗战争时所面临的困境，指出以色列的声明未能阻止伊朗对能源设施的攻击。这条消息为什么重要？这个故事揭示了国际政治中的微妙动态，并可能影响未来的外交决策。第4条，伊朗继续在波斯湾发动袭击。尽管以色列表示将避免打击伊朗的能源资产，但伊朗仍在对阿拉伯国家进行攻击，导致市场动荡加剧。这条消息为什么重要？这突显了当前局势的紧张程度，并可能影响全球能源供应和价格。第5条，Takaichi女士在访问华盛顿期间巧妙应对特朗普的珍珠港言论。尽管美国总统唐纳德·特朗普对日本进行了珍珠港式的批评，但首相山田香织展示了日本与美国之间的深厚联系，并展示了她作为国家领导人的灵活性。这条消息为什么重要？这个故事展示了外交关系中的微妙平衡和应对策略。第6条，经济学家转向认为欧洲央行将在数月内加息。经济学家们正在转向支持市场观点，即欧洲中央银行将在几个月内进行利率上调。这条消息为什么重要？这可能会影响全球货币政策，并对金融市场产生重大影响。今日的头条新闻涵盖了能源市场、国际关系和外交活动等方面。希望这些信息能帮助您了解当前的世界动态。"
       }
     }
   ]

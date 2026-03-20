@@ -7,7 +7,7 @@
 3. 用 Windows 本地中文语音先生成 wav。
 4. 用 FFmpeg 转成 mp3。
 5. 生成多条自建 RSS：
-   - `dist/feed-cn-plus.xml`：Bloomberg 中文加长版
+   - `dist/feed-cn-plus.xml`：彭博 News Now中文摘要
    - `dist/feed-daybreak-cn.xml`：Daybreak 中文摘要版
    - `dist/feed-the-deal-cn.xml`：The Deal 中文摘要版
    - `dist/feed-big-take-cn.xml`：Big Take 中文摘要版
@@ -105,7 +105,7 @@ powershell -ExecutionPolicy Bypass -File .\scripts\register-task.ps1 -Time 07:50
 发布成功后的地址是：
 
 - 站点：`https://hyobimaeng.github.io/bloomberg-car-audio/`
-- 中文加长版 RSS：`https://hyobimaeng.github.io/bloomberg-car-audio/feed-cn-plus.xml`
+- 彭博 News Now中文摘要 RSS：`https://hyobimaeng.github.io/bloomberg-car-audio/feed-cn-plus.xml`
 - Daybreak 中文摘要版 RSS：`https://hyobimaeng.github.io/bloomberg-car-audio/feed-daybreak-cn.xml`
 - The Deal 中文摘要版 RSS：`https://hyobimaeng.github.io/bloomberg-car-audio/feed-the-deal-cn.xml`
 - Big Take 中文摘要版 RSS：`https://hyobimaeng.github.io/bloomberg-car-audio/feed-big-take-cn.xml`

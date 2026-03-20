@@ -192,7 +192,7 @@ function readConfig() {
     feeds: feedsFromEnv.length ? feedsFromEnv : DEFAULT_FEEDS,
     timezone: process.env.TIMEZONE || "Asia/Shanghai",
     podcastTitle: process.env.PODCAST_TITLE || "\u5f6d\u535a\u4e2d\u6587\u8f66\u8f7d\u6458\u8981",
-    podcastTitleExtended: process.env.PODCAST_TITLE_EXTENDED || "\u5f6d\u535a\u4e2d\u6587\u8f66\u8f7d\u6458\u8981\u00b7\u52a0\u957f\u7248",
+    podcastTitleExtended: process.env.PODCAST_TITLE_EXTENDED || "\u5f6d\u535a News Now\u4e2d\u6587\u6458\u8981",
     podcastAuthor: process.env.PODCAST_AUTHOR || "Bloomberg Car Audio",
     summaryProvider,
     speechProvider,
@@ -217,7 +217,7 @@ function buildShowProfiles(config) {
       badge: "AI 中文加长版",
       title: config.podcastTitleExtended,
       description:
-        "\u6bcf\u5929\u81ea\u52a8\u66f4\u65b0\u7684 Bloomberg \u516c\u5f00 RSS \u4e2d\u6587\u52a0\u957f\u6458\u8981\uff0c\u8986\u76d6\u66f4\u591a\u91cd\u70b9\uff0c\u9002\u5408\u66f4\u957f\u901a\u52e4\u6536\u542c\u3002",
+        "\u57fa\u4e8e Bloomberg \u516c\u5f00 RSS \u751f\u6210\u7684 News Now \u98ce\u683c\u4e2d\u6587\u6458\u8981\uff0c\u8986\u76d6\u66f4\u591a\u91cd\u70b9\uff0c\u9002\u5408\u66f4\u957f\u901a\u52e4\u6536\u542c\u3002",
       feedFile: "feed-cn-plus.xml",
       archiveFile: "archive-cn-plus.json",
       episodeDir: "episodes-cn-plus",
