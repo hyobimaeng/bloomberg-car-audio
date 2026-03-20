@@ -28,45 +28,18 @@ ${items}
 `;
 }
 
-export function renderIndexHtml({ podcast, feedUrl, latestEpisode, archive }) {
-  const latestSections = latestEpisode.digest.stories
-    .map(
-      (story) => `
-        <li>
-          <strong>${escapeHtml(story.headline)}</strong>
-          <p>${escapeHtml(story.summary)}</p>
-          <p class="meta">${escapeHtml(story.why_it_matters)}</p>
-        </li>`
-    )
-    .join("");
-
-  const latestSources = latestEpisode.sources
-    .map(
-      (story) => `
-        <li>
-          <a href="${escapeHtml(story.link)}" target="_blank" rel="noreferrer">${escapeHtml(story.title)}</a>
-          <span>${escapeHtml(formatLocalDate(story.publishedAt, podcast.timezone))}</span>
-        </li>`
-    )
-    .join("");
-
-  const archiveLinks = archive
-    .map(
-      (episode) => `
-        <li>
-          <a href="${escapeHtml(episode.pagePath)}">${escapeHtml(episode.title)}</a>
-          <span>${escapeHtml(formatLocalDate(episode.publishedAt, podcast.timezone))}</span>
-        </li>`
-    )
-    .join("");
+export function renderIndexHtml({ siteTitle, siteDescription, timezone, customShows, officialShows }) {
+  const customCards = customShows.map((show) => renderCustomShowCard(show, timezone)).join("");
+  const officialCards = officialShows.map((show) => renderOfficialShowCard(show)).join("");
+  const archiveSections = customShows.map((show) => renderArchiveSection(show, timezone)).join("");
 
   return `<!doctype html>
 <html lang="zh-CN">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>${escapeHtml(podcast.title)}</title>
-  <meta name="description" content="${escapeHtml(podcast.description)}">
+  <title>${escapeHtml(siteTitle)}</title>
+  <meta name="description" content="${escapeHtml(siteDescription)}">
   <style>
     :root {
       --bg: #09111b;
@@ -117,6 +90,7 @@ export function renderIndexHtml({ podcast, feedUrl, latestEpisode, archive }) {
     p { margin: 0 0 12px; color: var(--muted); }
     audio { width: 100%; margin: 12px 0 8px; }
     a { color: var(--accent); text-decoration: none; }
+    code { font-family: "Cascadia Code", "SFMono-Regular", Consolas, monospace; font-size: 13px; }
     ul { padding-left: 20px; margin: 0; }
     li { margin-bottom: 14px; }
     .meta { color: var(--accent-2); }
@@ -127,6 +101,14 @@ export function renderIndexHtml({ podcast, feedUrl, latestEpisode, archive }) {
       margin-top: 20px;
     }
     .tiny { font-size: 14px; color: var(--muted); }
+    .url {
+      display: block;
+      padding: 10px 12px;
+      border-radius: 14px;
+      background: rgba(255, 255, 255, 0.04);
+      color: var(--text);
+      overflow-wrap: anywhere;
+    }
     @media (max-width: 720px) {
       .hero { grid-template-columns: 1fr; }
       .hero img { width: 132px; height: 132px; }
@@ -136,41 +118,28 @@ export function renderIndexHtml({ podcast, feedUrl, latestEpisode, archive }) {
 <body>
   <main>
     <section class="hero">
-      <img src="artwork.png" alt="${escapeHtml(podcast.title)}">
+      <img src="artwork.png" alt="${escapeHtml(siteTitle)}">
       <div>
-        <div class="tiny">每日自动更新 / 适合早晨通勤和车载播放</div>
-        <h1>${escapeHtml(podcast.title)}</h1>
-        <p>${escapeHtml(podcast.description)}</p>
-        <p>
-          <a href="${escapeHtml(feedUrl)}">播客 RSS</a>
-          ·
-          <a href="${escapeHtml(latestEpisode.pagePath)}">本期页面</a>
-        </p>
+        <div class="tiny">每日自动更新 / 适合早晨通勤和车载播放 / 自建中文 + 官方英文</div>
+        <h1>${escapeHtml(siteTitle)}</h1>
+        <p>${escapeHtml(siteDescription)}</p>
+        <p>下面一共放了 4 条可听内容，其中 2 条是你自己的 RSS，2 条是 Bloomberg 官方原版 RSS。</p>
       </div>
-    </section>
-
-    <section class="card">
-      <div class="tiny">${escapeHtml(formatLocalDate(latestEpisode.publishedAt, podcast.timezone))}</div>
-      <h2>${escapeHtml(latestEpisode.title)}</h2>
-      <p>${escapeHtml(latestEpisode.summary)}</p>
-      <audio controls preload="none" src="${escapeHtml(latestEpisode.audioPath)}"></audio>
-      <p class="tiny">音频由 AI 语音生成；摘要仅基于公开 RSS 条目，不代表 Bloomberg 立场。</p>
     </section>
 
     <section class="grid">
-      <div class="card">
-        <h2>本期要点</h2>
-        <ul>${latestSections}</ul>
-      </div>
-      <div class="card">
-        <h2>原始条目</h2>
-        <ul>${latestSources}</ul>
-      </div>
+      ${customCards}
     </section>
 
     <section class="card" style="margin-top: 20px;">
-      <h2>往期归档</h2>
-      <ul>${archiveLinks}</ul>
+      <h2>官方原版订阅</h2>
+      <div class="grid">
+        ${officialCards}
+      </div>
+    </section>
+
+    <section class="grid">
+      ${archiveSections}
     </section>
   </main>
 </body>
@@ -340,7 +309,7 @@ function renderDescriptionHtml(episode) {
 }
 
 function relativeToEpisode(sitePath) {
-  return sitePath.replace(/^episodes\//, "");
+  return sitePath.split("/").pop() || sitePath;
 }
 
 function formatLocalDate(isoString, timezone) {
@@ -391,4 +360,70 @@ function escapeXml(value) {
 
 function escapeHtml(value) {
   return escapeXml(value);
+}
+
+function renderCustomShowCard(show, timezone) {
+  const latestEpisode = show.latestEpisode;
+  const highlights = latestEpisode.digest.stories
+    .slice(0, 4)
+    .map(
+      (story) => `
+        <li>
+          <strong>${escapeHtml(story.headline)}</strong>
+          <p>${escapeHtml(story.summary)}</p>
+          <p class="meta">${escapeHtml(story.why_it_matters)}</p>
+        </li>`
+    )
+    .join("");
+
+  return `
+    <article class="card">
+      <div class="tiny">${escapeHtml(show.badge)} · ${escapeHtml(formatLocalDate(latestEpisode.publishedAt, timezone))}</div>
+      <h2>${escapeHtml(show.podcast.title)}</h2>
+      <p>${escapeHtml(show.podcast.description)}</p>
+      <p>
+        <a href="${escapeHtml(show.feedUrl)}">RSS 订阅</a>
+        ·
+        <a href="${escapeHtml(latestEpisode.pagePath)}">本期页面</a>
+      </p>
+      <code class="url">${escapeHtml(show.feedUrl)}</code>
+      <audio controls preload="none" src="${escapeHtml(latestEpisode.audioPath)}"></audio>
+      <p>${escapeHtml(latestEpisode.summary)}</p>
+      <ul>${highlights}</ul>
+      <p class="tiny">音频由 AI 语音生成；摘要仅基于公开 RSS 条目，不代表 Bloomberg 立场。</p>
+    </article>`;
+}
+
+function renderOfficialShowCard(show) {
+  return `
+    <article class="card">
+      <div class="tiny">${escapeHtml(show.badge)}</div>
+      <h2>${escapeHtml(show.title)}</h2>
+      <p>${escapeHtml(show.description)}</p>
+      <p>
+        <a href="${escapeHtml(show.feedUrl)}">RSS 订阅</a>
+        ·
+        <a href="${escapeHtml(show.websiteUrl)}" target="_blank" rel="noreferrer">官网页面</a>
+      </p>
+      <code class="url">${escapeHtml(show.feedUrl)}</code>
+    </article>`;
+}
+
+function renderArchiveSection(show, timezone) {
+  const archiveLinks = show.archiveEpisodes
+    .slice(0, 6)
+    .map(
+      (episode) => `
+        <li>
+          <a href="${escapeHtml(episode.pagePath)}">${escapeHtml(episode.title)}</a>
+          <span>${escapeHtml(formatLocalDate(episode.publishedAt, timezone))}</span>
+        </li>`
+    )
+    .join("");
+
+  return `
+    <section class="card">
+      <h2>${escapeHtml(show.podcast.title)} 往期归档</h2>
+      <ul>${archiveLinks}</ul>
+    </section>`;
 }

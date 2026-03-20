@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>彭博中文车载摘要·加长版</title>
+    <link>https://hyobimaeng.github.io/bloomberg-car-audio</link>
+    <atom:link href="https://hyobimaeng.github.io/bloomberg-car-audio/feed-cn-plus.xml" rel="self" type="application/rss+xml"/>
+    <description>每天自动更新的 Bloomberg 公开 RSS 中文加长摘要，覆盖更多重点，适合更长通勤收听。</description>
+    <language>zh-CN</language>
+    <generator>Bloomberg Car Audio Digest</generator>
+    <lastBuildDate>Fri, 20 Mar 2026 05:36:40 GMT</lastBuildDate>
+    <itunes:author>hyobimaeng</itunes:author>
+    <itunes:summary>每天自动更新的 Bloomberg 公开 RSS 中文加长摘要，覆盖更多重点，适合更长通勤收听。</itunes:summary>
+    <itunes:explicit>false</itunes:explicit>
+    <itunes:type>episodic</itunes:type>
+    <itunes:image href="https://hyobimaeng.github.io/bloomberg-car-audio/artwork.png"/>
+    <item>
+      <title>每日简讯：全球市场动态与国际新闻</title>
+      <link>https://hyobimaeng.github.io/bloomberg-car-audio/episodes-cn-plus/2026-03-20.html</link>
+      <guid isPermaLink="false">daily-cn-plus-2026-03-20</guid>
+      <pubDate>Fri, 20 Mar 2026 05:36:40 GMT</pubDate>
+      <description><![CDATA[<p>本日摘要包括美国和以色列领导人试图安抚投资者、斯洛文尼亚选举前景以及印度考虑引入欧元实时外汇结算等重要信息。</p><p><strong>美国和以色列领导人试图安抚投资者</strong>：美国和以色列领导人正努力平息市场对波斯湾能源设施遭受严重破坏的担忧。Bloomberg记者Joumanna Bercetche在迪拜报道了这一最新情况。 这反映了全球市场的敏感性，任何地区的能源供应中断都可能引发投资者的恐慌情绪。</p><p><strong>斯洛文尼亚选举前景因外国干涉丑闻而变得扑朔迷离</strong>：斯洛文尼亚即将举行一场关键性的选举，主要竞选者之间围绕涉嫌外国干预的竞选活动展开了激烈的攻讦。 这可能会影响选举结果走向，成为决定性因素。</p><p><strong>印度考虑引入欧元实时外汇结算</strong>：印度正在考虑在作为国际金融中心的单一地点引入欧元实时外汇结算机制，以加深与欧盟的金融联系，并随着欧洲-印度贸易协议的推进而进行。 这将有助于加强两国之间的经济合作和金融关系。</p><p><strong>ETF市场在伊朗战争背景下需求激增</strong>：由于伊朗战争导致的需求增加，亚洲太平洋地区的ETF市场迎来了近年来最高的资金流入量。 这反映了投资者对新兴市场的兴趣以及他们如何利用ETF来分散风险。</p><p><strong>印度卢比兑美元跌至93关口</strong>：由于中东冲突的前景，印度卢比兑美元汇率跌至历史低位，引发市场担忧当前账户赤字可能进一步扩大。 这突显了全球金融市场对地缘政治事件的高度敏感性。</p><p><strong>中东战争导致油价基准调整</strong>：由于霍尔木兹海峡关闭影响石油供应，中东地区的原油基准价格出现了调整。 这反映了市场对于地区能源供应的担忧和不确定性。</p>]]></description>
+      <content:encoded><![CDATA[<p>本日摘要包括美国和以色列领导人试图安抚投资者、斯洛文尼亚选举前景以及印度考虑引入欧元实时外汇结算等重要信息。</p><p><strong>美国和以色列领导人试图安抚投资者</strong>：美国和以色列领导人正努力平息市场对波斯湾能源设施遭受严重破坏的担忧。Bloomberg记者Joumanna Bercetche在迪拜报道了这一最新情况。 这反映了全球市场的敏感性，任何地区的能源供应中断都可能引发投资者的恐慌情绪。</p><p><strong>斯洛文尼亚选举前景因外国干涉丑闻而变得扑朔迷离</strong>：斯洛文尼亚即将举行一场关键性的选举，主要竞选者之间围绕涉嫌外国干预的竞选活动展开了激烈的攻讦。 这可能会影响选举结果走向，成为决定性因素。</p><p><strong>印度考虑引入欧元实时外汇结算</strong>：印度正在考虑在作为国际金融中心的单一地点引入欧元实时外汇结算机制，以加深与欧盟的金融联系，并随着欧洲-印度贸易协议的推进而进行。 这将有助于加强两国之间的经济合作和金融关系。</p><p><strong>ETF市场在伊朗战争背景下需求激增</strong>：由于伊朗战争导致的需求增加，亚洲太平洋地区的ETF市场迎来了近年来最高的资金流入量。 这反映了投资者对新兴市场的兴趣以及他们如何利用ETF来分散风险。</p><p><strong>印度卢比兑美元跌至93关口</strong>：由于中东冲突的前景，印度卢比兑美元汇率跌至历史低位，引发市场担忧当前账户赤字可能进一步扩大。 这突显了全球金融市场对地缘政治事件的高度敏感性。</p><p><strong>中东战争导致油价基准调整</strong>：由于霍尔木兹海峡关闭影响石油供应，中东地区的原油基准价格出现了调整。 这反映了市场对于地区能源供应的担忧和不确定性。</p>]]></content:encoded>
+      <itunes:summary>本日摘要包括美国和以色列领导人试图安抚投资者、斯洛文尼亚选举前景以及印度考虑引入欧元实时外汇结算等重要信息。</itunes:summary>
+      <enclosure url="https://hyobimaeng.github.io/bloomberg-car-audio/episodes-cn-plus/2026-03-20.mp3" length="1592792" type="audio/mpeg"/>
+    </item>
+  </channel>
+</rss>

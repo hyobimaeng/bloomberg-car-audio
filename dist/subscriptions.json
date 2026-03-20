@@ -1,0 +1,41 @@
+{
+  "generatedAt": "2026-03-20T05:36:40.932Z",
+  "subscriptions": [
+    {
+      "id": "cn-short",
+      "type": "custom",
+      "badge": "AI 中文短版",
+      "title": "彭博中文车载摘要",
+      "description": "每天自动更新的 Bloomberg 公开 RSS 中文摘要，适合 iPhone 和 CarPlay 播放。",
+      "feedUrl": "https://hyobimaeng.github.io/bloomberg-car-audio/feed.xml",
+      "latestEpisodeUrl": "https://hyobimaeng.github.io/bloomberg-car-audio/episodes/2026-03-20.html"
+    },
+    {
+      "id": "cn-plus",
+      "type": "custom",
+      "badge": "AI 中文加长版",
+      "title": "彭博中文车载摘要·加长版",
+      "description": "每天自动更新的 Bloomberg 公开 RSS 中文加长摘要，覆盖更多重点，适合更长通勤收听。",
+      "feedUrl": "https://hyobimaeng.github.io/bloomberg-car-audio/feed-cn-plus.xml",
+      "latestEpisodeUrl": "https://hyobimaeng.github.io/bloomberg-car-audio/episodes-cn-plus/2026-03-20.html"
+    },
+    {
+      "id": "daybreak-us",
+      "type": "official",
+      "badge": "官方英文 / Bloomberg Daybreak",
+      "title": "Bloomberg Daybreak: US Edition",
+      "description": "Bloomberg 官方早间原版节目，通常约 15 分钟，适合完整通勤收听。",
+      "feedUrl": "https://omny.fm/shows/bloomberg-daybreak/playlists/podcast.rss",
+      "websiteUrl": "https://omny.fm/shows/bloomberg-daybreak"
+    },
+    {
+      "id": "news-now",
+      "type": "official",
+      "badge": "官方英文 / Bloomberg News Now",
+      "title": "Bloomberg News Now",
+      "description": "Bloomberg 官方英文快讯，更新更频繁，每期通常几分钟。",
+      "feedUrl": "https://omny.fm/shows/bloomberg-news-now/playlists/podcast.rss",
+      "websiteUrl": "https://omny.fm/shows/bloomberg-news-now"
+    }
+  ]
+}

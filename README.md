@@ -6,9 +6,11 @@
 2. 用本机 Ollama 模型做中文摘要。
 3. 用 Windows 本地中文语音先生成 wav。
 4. 用 FFmpeg 转成 mp3。
-5. 生成 `dist/feed.xml` 和静态页面。
+5. 生成两条自建 RSS：
+   - `dist/feed.xml`：中文短版
+   - `dist/feed-cn-plus.xml`：中文加长版
 6. 把 `dist/` 提交并推到 GitHub，GitHub Pages 自动发布。
-7. iPhone `Podcast` 订阅 `feed.xml`，CarPlay 直接播放。
+7. iPhone `Podcast` 订阅对应 RSS，CarPlay 直接播放。
 
 这条路不需要 OpenAI API key，但你的电脑需要在每天任务运行时可用。
 
@@ -101,9 +103,12 @@ powershell -ExecutionPolicy Bypass -File .\scripts\register-task.ps1 -Time 07:50
 发布成功后的地址是：
 
 - 站点：`https://hyobimaeng.github.io/bloomberg-car-audio/`
-- 播客 RSS：`https://hyobimaeng.github.io/bloomberg-car-audio/feed.xml`
+- 中文短版 RSS：`https://hyobimaeng.github.io/bloomberg-car-audio/feed.xml`
+- 中文加长版 RSS：`https://hyobimaeng.github.io/bloomberg-car-audio/feed-cn-plus.xml`
+- Bloomberg Daybreak 原版 RSS：`https://omny.fm/shows/bloomberg-daybreak/playlists/podcast.rss`
+- Bloomberg News Now 原版 RSS：`https://omny.fm/shows/bloomberg-news-now/playlists/podcast.rss`
 
-在 iPhone 的 `Podcast` App 里选择“通过 URL 关注节目”，填入 `feed.xml` 即可。
+在 iPhone 的 `Podcast` App 里选择“通过 URL 关注节目”，填入对应 RSS 即可。
 
 ## Telegram 可选推送
 

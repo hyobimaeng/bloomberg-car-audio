@@ -1,0 +1,143 @@
+{
+  "generatedAt": "2026-03-20T05:36:40.932Z",
+  "latestEpisodeId": "daily-cn-plus-2026-03-20",
+  "feedUrl": "https://hyobimaeng.github.io/bloomberg-car-audio/feed-cn-plus.xml",
+  "podcast": {
+    "title": "彭博中文车载摘要·加长版",
+    "author": "hyobimaeng",
+    "description": "每天自动更新的 Bloomberg 公开 RSS 中文加长摘要，覆盖更多重点，适合更长通勤收听。",
+    "language": "zh-CN",
+    "timezone": "Asia/Shanghai",
+    "siteUrl": "https://hyobimaeng.github.io/bloomberg-car-audio",
+    "artworkUrl": "https://hyobimaeng.github.io/bloomberg-car-audio/artwork.png"
+  },
+  "episodes": [
+    {
+      "id": "daily-cn-plus-2026-03-20",
+      "title": "每日简讯：全球市场动态与国际新闻",
+      "summary": "本日摘要包括美国和以色列领导人试图安抚投资者、斯洛文尼亚选举前景以及印度考虑引入欧元实时外汇结算等重要信息。",
+      "publishedAt": "2026-03-20T05:36:40.932Z",
+      "audioPath": "episodes-cn-plus/2026-03-20.mp3",
+      "audioUrl": "https://hyobimaeng.github.io/bloomberg-car-audio/episodes-cn-plus/2026-03-20.mp3",
+      "audioMime": "audio/mpeg",
+      "audioBytes": 1592792,
+      "pagePath": "episodes-cn-plus/2026-03-20.html",
+      "pageUrl": "https://hyobimaeng.github.io/bloomberg-car-audio/episodes-cn-plus/2026-03-20.html",
+      "jsonPath": "episodes-cn-plus/2026-03-20.json",
+      "jsonUrl": "https://hyobimaeng.github.io/bloomberg-car-audio/episodes-cn-plus/2026-03-20.json",
+      "sources": [
+        {
+          "id": "https://www.bloomberg.com/news/videos/2026-03-20/us-and-israeli-leaders-aim-to-reassure-rattled-investors-video",
+          "title": "US and Israeli Leaders Aim to Reassure Rattled Investors",
+          "link": "https://www.bloomberg.com/news/videos/2026-03-20/us-and-israeli-leaders-aim-to-reassure-rattled-investors-video",
+          "description": "US and Israeli leaders are seeking to calm markets following extensive damage to Persian Gulf energy facilities. Bloomberg’s Joumanna Bercetche reports from Dubai with the latest. (Source: Bloomberg)",
+          "sourceFeed": "Bloomberg Markets",
+          "publishedAt": "2026-03-20T05:10:44.000Z",
+          "publishedTs": 1773983444000
+        },
+        {
+          "id": "https://www.bloomberg.com/news/articles/2026-03-20/foreign-meddling-scandal-turns-slovenia-election-into-a-toss-up",
+          "title": "Foreign Meddling Scandal Turns Slovenia Election Into a Toss-Up",
+          "link": "https://www.bloomberg.com/news/articles/2026-03-20/foreign-meddling-scandal-turns-slovenia-election-into-a-toss-up",
+          "description": "Slovenia is heading into a tight election on Sunday as top contenders in the race trade accusations over a scandal involving alleged foreign interference in the campaign.",
+          "sourceFeed": "Bloomberg Politics",
+          "publishedAt": "2026-03-20T05:00:00.000Z",
+          "publishedTs": 1773982800000
+        },
+        {
+          "id": "https://www.bloomberg.com/news/articles/2026-03-20/india-considers-real-time-euro-fx-settlement-amid-eu-trade-push",
+          "title": "India Considers Real-Time Euro FX Settlement Amid EU Trade Push",
+          "link": "https://www.bloomberg.com/news/articles/2026-03-20/india-considers-real-time-euro-fx-settlement-amid-eu-trade-push",
+          "description": "India is considering introducing real-time foreign-exchange settlements in euros at its sole international financial hub, according to people familiar with the matter, a step that would deepen financial ties as the European Union-India trade deal progresses.",
+          "sourceFeed": "Bloomberg Markets",
+          "publishedAt": "2026-03-20T04:58:27.000Z",
+          "publishedTs": 1773982707000
+        },
+        {
+          "id": "https://www.bloomberg.com/news/videos/2026-03-20/-mr-etf-reggie-browne-on-etf-iq-asia-video",
+          "title": "'Mr. ETF' Reggie Browne on ETF IQ Asia",
+          "link": "https://www.bloomberg.com/news/videos/2026-03-20/-mr-etf-reggie-browne-on-etf-iq-asia-video",
+          "description": "The war in Iran is fueling demand for ETFs in the Asia-Pacific, with inflows jumping to the highest level in years according to data from Bloomberg Intelligence for early March. Reggie Browne, principal at market-maker GTS Securities, is sometimes known as 'Mr ETF' for his role in helping to build the industry in its early days. He discusses the trends he sees in the region on \"ETF IQ Asia.\" (Source: Bloomberg)",
+          "sourceFeed": "Bloomberg Markets",
+          "publishedAt": "2026-03-20T04:57:52.000Z",
+          "publishedTs": 1773982672000
+        },
+        {
+          "id": "https://www.bloomberg.com/news/articles/2026-03-20/india-rupee-drops-past-93-to-dollar-to-record-amid-crude-swings",
+          "title": "India Rupee Drops Past 93 to Dollar to Record Amid Crude Swings",
+          "link": "https://www.bloomberg.com/news/articles/2026-03-20/india-rupee-drops-past-93-to-dollar-to-record-amid-crude-swings",
+          "description": "India’s rupee weakened past 93 per dollar to a fresh low, as prospects of a prolonged Middle East conflict raise concerns over a widening current-account gap.",
+          "sourceFeed": "Bloomberg Markets",
+          "publishedAt": "2026-03-20T04:51:09.000Z",
+          "publishedTs": 1773982269000
+        },
+        {
+          "id": "https://www.bloomberg.com/news/articles/2026-03-20/mideast-war-spurs-tweak-to-oil-benchmark-with-hormuz-shut-off",
+          "title": "Mideast War Spurs Tweak to Oil Benchmark With Hormuz Shut Off",
+          "link": "https://www.bloomberg.com/news/articles/2026-03-20/mideast-war-spurs-tweak-to-oil-benchmark-with-hormuz-shut-off",
+          "description": "A Middle East oil benchmark that’s typically used to price the bulk of crude supply from across the region has been tweaked again, as the closure of the Strait of Hormuz stymies flows and roils trading.",
+          "sourceFeed": "Bloomberg Markets",
+          "publishedAt": "2026-03-20T04:36:24.000Z",
+          "publishedTs": 1773981384000
+        },
+        {
+          "id": "https://www.bloomberg.com/news/articles/2026-03-20/takaichi-escapes-iran-spat-with-trump-despite-pearl-harbor-jibe",
+          "title": "Takaichi Evades Iran Spat With Trump Despite Pearl Harbor Jibe",
+          "link": "https://www.bloomberg.com/news/articles/2026-03-20/takaichi-escapes-iran-spat-with-trump-despite-pearl-harbor-jibe",
+          "description": "Sanae Takaichi had warned her first summit with Donald Trump in Washington could be “extremely difficult,” after the US asked her to deploy warships to Iran. Instead, she showcased Japan’s deep ties with the US &mdash; and her own agility on the world stage.",
+          "sourceFeed": "Bloomberg Politics",
+          "publishedAt": "2026-03-20T04:15:00.000Z",
+          "publishedTs": 1773980100000
+        },
+        {
+          "id": "https://www.bloomberg.com/news/videos/2026-03-20/the-asia-trade-3-20-2026-video",
+          "title": "Trump Meets Takaichi; US, Israel Seek to Ease Oil Worries | The Asia Trade 3/20/2026",
+          "link": "https://www.bloomberg.com/news/videos/2026-03-20/the-asia-trade-3-20-2026-video",
+          "description": "\"Bloomberg: The Asia Trade\" brings you everything you need to know to get ahead as the trading day begins in Asia. Bloomberg TV is live from Tokyo and Sydney with Shery Ahn and Haidi Stroud-Watts, getting insight and analysis from newsmakers and industry leaders on the biggest stories shaping global markets. (Source: Bloomberg)",
+          "sourceFeed": "Bloomberg Markets",
+          "publishedAt": "2026-03-20T04:07:40.000Z",
+          "publishedTs": 1773979660000
+        }
+      ],
+      "digest": {
+        "episode_title": "每日简讯：全球市场动态与国际新闻",
+        "episode_summary": "本日摘要包括美国和以色列领导人试图安抚投资者、斯洛文尼亚选举前景以及印度考虑引入欧元实时外汇结算等重要信息。",
+        "lead": "今天，我们关注到多个领域的最新动态。首先，美国和以色列的领导人在能源设施受损后寻求稳定市场情绪；其次，斯洛文尼亚的选举局势因外国干涉丑闻而变得扑朔迷离；此外，印度正在考虑引入欧元实时外汇结算以深化与欧盟的金融联系。",
+        "stories": [
+          {
+            "headline": "美国和以色列领导人试图安抚投资者",
+            "summary": "美国和以色列领导人正努力平息市场对波斯湾能源设施遭受严重破坏的担忧。Bloomberg记者Joumanna Bercetche在迪拜报道了这一最新情况。",
+            "why_it_matters": "这反映了全球市场的敏感性，任何地区的能源供应中断都可能引发投资者的恐慌情绪。"
+          },
+          {
+            "headline": "斯洛文尼亚选举前景因外国干涉丑闻而变得扑朔迷离",
+            "summary": "斯洛文尼亚即将举行一场关键性的选举，主要竞选者之间围绕涉嫌外国干预的竞选活动展开了激烈的攻讦。",
+            "why_it_matters": "这可能会影响选举结果走向，成为决定性因素。"
+          },
+          {
+            "headline": "印度考虑引入欧元实时外汇结算",
+            "summary": "印度正在考虑在作为国际金融中心的单一地点引入欧元实时外汇结算机制，以加深与欧盟的金融联系，并随着欧洲-印度贸易协议的推进而进行。",
+            "why_it_matters": "这将有助于加强两国之间的经济合作和金融关系。"
+          },
+          {
+            "headline": "ETF市场在伊朗战争背景下需求激增",
+            "summary": "由于伊朗战争导致的需求增加，亚洲太平洋地区的ETF市场迎来了近年来最高的资金流入量。",
+            "why_it_matters": "这反映了投资者对新兴市场的兴趣以及他们如何利用ETF来分散风险。"
+          },
+          {
+            "headline": "印度卢比兑美元跌至93关口",
+            "summary": "由于中东冲突的前景，印度卢比兑美元汇率跌至历史低位，引发市场担忧当前账户赤字可能进一步扩大。",
+            "why_it_matters": "这突显了全球金融市场对地缘政治事件的高度敏感性。"
+          },
+          {
+            "headline": "中东战争导致油价基准调整",
+            "summary": "由于霍尔木兹海峡关闭影响石油供应，中东地区的原油基准价格出现了调整。",
+            "why_it_matters": "这反映了市场对于地区能源供应的担忧和不确定性。"
+          }
+        ],
+        "closing": "在今天的新闻中，我们看到了全球市场的复杂性和多变性。无论是在政治、经济还是金融领域，任何小规模的变化都可能引发重大影响。",
+        "audio_script": "今天，我们关注到多个领域的最新动态。首先，美国和以色列的领导人在能源设施受损后寻求稳定市场情绪；其次，斯洛文尼亚的选举局势因外国干涉丑闻而变得扑朔迷离；此外，印度正在考虑引入欧元实时外汇结算以深化与欧盟的金融联系。第1条，美国和以色列领导人试图安抚投资者。美国和以色列领导人正努力平息市场对波斯湾能源设施遭受严重破坏的担忧。Bloomberg记者Joumanna Bercetche在迪拜报道了这一最新情况。这条消息为什么重要？这反映了全球市场的敏感性，任何地区的能源供应中断都可能引发投资者的恐慌情绪。第2条，斯洛文尼亚选举前景因外国干涉丑闻而变得扑朔迷离。斯洛文尼亚即将举行一场关键性的选举，主要竞选者之间围绕涉嫌外国干预的竞选活动展开了激烈的攻讦。这条消息为什么重要？这可能会影响选举结果走向，成为决定性因素。第3条，印度考虑引入欧元实时外汇结算。印度正在考虑在作为国际金融中心的单一地点引入欧元实时外汇结算机制，以加深与欧盟的金融联系，并随着欧洲-印度贸易协议的推进而进行。这条消息为什么重要？这将有助于加强两国之间的经济合作和金融关系。第4条，ETF市场在伊朗战争背景下需求激增。由于伊朗战争导致的需求增加，亚洲太平洋地区的ETF市场迎来了近年来最高的资金流入量。这条消息为什么重要？这反映了投资者对新兴市场的兴趣以及他们如何利用ETF来分散风险。第5条，印度卢比兑美元跌至93关口。由于中东冲突的前景，印度卢比兑美元汇率跌至历史低位，引发市场担忧当前账户赤字可能进一步扩大。这条消息为什么重要？这突显了全球金融市场对地缘政治事件的高度敏感性。第6条，中东战争导致油价基准调整。由于霍尔木兹海峡关闭影响石油供应，中东地区的原油基准价格出现了调整。这条消息为什么重要？这反映了市场对于地区能源供应的担忧和不确定性。在今天的新闻中，我们看到了全球市场的复杂性和多变性。无论是在政治、经济还是金融领域，任何小规模的变化都可能引发重大影响。"
+      }
+    }
+  ]
+}
