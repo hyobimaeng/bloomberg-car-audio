@@ -1,0 +1,91 @@
+{
+  "id": "daily-the-deal-cn-2026-03-21",
+  "title": "每日体育与商业动态",
+  "summary": "本日聚焦三则重要新闻，涵盖篮球、棒球和职业橄榄球领域。",
+  "publishedAt": "2026-03-21T06:13:21.323Z",
+  "audioPath": "episodes-the-deal-cn/2026-03-21.mp3",
+  "audioUrl": "https://hyobimaeng.github.io/bloomberg-car-audio/episodes-the-deal-cn/2026-03-21.mp3",
+  "audioMime": "audio/mpeg",
+  "audioBytes": 3440320,
+  "pagePath": "episodes-the-deal-cn/2026-03-21.html",
+  "pageUrl": "https://hyobimaeng.github.io/bloomberg-car-audio/episodes-the-deal-cn/2026-03-21.html",
+  "jsonPath": "episodes-the-deal-cn/2026-03-21.json",
+  "jsonUrl": "https://hyobimaeng.github.io/bloomberg-car-audio/episodes-the-deal-cn/2026-03-21.json",
+  "sources": [
+    {
+      "id": "486803b1-7c65-4aac-bdf5-b411011f6b1f",
+      "title": "David Levy is the Reason You’re Watching March Madness",
+      "link": "https://omny.fm/shows/the-deal-with-alex-rodriguez-and-jason-kelly/david-levy-is-the-reason-you-re-watching-march-madness",
+      "description": "It&rsquo;s brackets season! And you can watch all 67 games of both the women&rsquo;s and men&rsquo;s NCAA tournament on national TV, thanks to David Levy. Levy spent 33 years at Turner Broadcasting, eventually serving as its president, where he expanded the network&rsquo;s NBA coverage. Levy is probably best known for brokering a $10.8 billion rights agreement that made every March Madness game available nationally across CBS and the Turner networks for the very first time. In this episode of The Deal, Alex and Jason talk to Levy about the ins and outs of the March Madness deal. He also tells the story of how he got Shaq to fill Inside the NBA&rsquo;s fourth chair and why the key to that show&rsquo;s success is letting Charles Barkley talk. Finally, Levy shares more about his current venture, Horizon Sports & Experiences, and why he&rsquo;s betting big on women&rsquo;s sports and pickleball. You can also watch this interview on the Bloomberg Podcasts YouTube page . See omnystudio.com/listener for privacy information.",
+      "sourceFeed": "The Deal with Alex Rodriguez and Jason Kelly",
+      "publishedAt": "2026-03-19T09:00:00.000Z",
+      "publishedTs": 1773910800000
+    },
+    {
+      "id": "7676d308-fd32-4884-8fc9-b41001569b46",
+      "title": "Reaction: Alex Rodriguez Says the MLB Needs to Act on the World Baseball Classic’s Momentum",
+      "link": "https://omny.fm/shows/the-deal-with-alex-rodriguez-and-jason-kelly/reaction-alex-rodriguez-says-the-mlb-needs-to-act-on-the-world-baseball-classic-s-momentum",
+      "description": "Tonight, the United States and Venezuela face off in the finals of the 2026 World Baseball Classic. And chances are, a lot of you will be watching. Based only on pool play, this year&rsquo;s WBC viewership is up 142% from the 2023 tournament. 35,000 people have bought tickets to tonight&rsquo;s final and over 100 million Japanese fans tuned in to watch Shohei Ohtani. Aaron Judge called the crowd at the U.S.-Mexico game on March 10th, &ldquo;bigger and better than the World Series.&rdquo; In this special episode of The Deal, Alex Rodriguez shares his reaction to the phenomenon that is the 2026 World Baseball Classic with his co-host Jason Kelly. Rodriguez talks about the national pride his fellow Dominicans felt over the past few weeks and explains why MLB commissioner Rob Manfred needs to capitalize on this momentum leading into what Rodriguez calls &ldquo;the most important season in the history of the sport.&rdquo; See omnystudio.com/listener for privacy information.",
+      "sourceFeed": "The Deal with Alex Rodriguez and Jason Kelly",
+      "publishedAt": "2026-03-17T20:51:09.000Z",
+      "publishedTs": 1773780669000
+    },
+    {
+      "id": "09bf65d2-d5d9-43ca-b1ad-b40a012a713c",
+      "title": "How NFL Star Bobby Wagner is Modeling his Career on Michael's and Magic's",
+      "link": "https://omny.fm/shows/the-deal-with-alex-rodriguez-and-jason-kelly/how-nfl-star-bobby-wagner-is-modeling-his-career-on-michaels-and-magics",
+      "description": "Bobby Wagner is one of three NFL Linebackers to ever record 2,000 tackles. But his biggest goal is ownership, whether that&rsquo;s of a team or his own contract negotiations. Following the lead of his mentors Michael Jordan and Magic Johnson, Wagner has spent the last decade diversifying his business interests, including investments in tech start-ups and taking a minority stake in the WNBA&rsquo;s Seattle Storm. In this episode of The Deal, Alex and Jason talk to Wagner about what he saw as an NFL rookie that motivated him to be his own agent and explains the ins and outs of how an NFL contract comes to be. Wagner also shares how Larry Johnson and a cartoon based on Magic shaped his views on athletes and ownership. He also explains why writing a check to the Seattle Storm was his easiest investment decision. You can also watch this interview on the Bloomberg Podcasts YouTube page . See omnystudio.com/listener for privacy information.",
+      "sourceFeed": "The Deal with Alex Rodriguez and Jason Kelly",
+      "publishedAt": "2026-03-12T09:00:00.000Z",
+      "publishedTs": 1773306000000
+    }
+  ],
+  "digest": {
+    "episode_title": "每日体育与商业动态",
+    "episode_summary": "本日聚焦三则重要新闻，涵盖篮球、棒球和职业橄榄球领域。",
+    "lead": "今天，我们聚焦三则重要新闻。从NCAA锦标赛到世界棒球经典赛，再到NFL球星的投资策略，这些故事不仅展示了体育赛事的魅力，也揭示了商业运作的奥秘。",
+    "stories": [
+      {
+        "headline": "David Levy：NCAA锦标赛背后的推手",
+        "summary": "David Levy是March Madness背后的关键人物。他为Turner Broadcasting服务33年，并在担任总裁期间扩展了该网络的NBA转播权。Levy通过与CBS和Turner网络达成10.8亿美元的权利协议，使得每场NCAA锦标赛都能在全国电视上播出。",
+        "why_it_matters": "Levy的故事展示了体育媒体如何利用商业策略来扩大观众基础并增加收入来源。"
+      },
+      {
+        "headline": "Alex Rodriguez：MLB需要抓住世界棒球经典赛的势头",
+        "summary": "2026年世界棒球经典赛吸引了大量观众，观看人数比上一届增加了142%。Alex Rodriguez在The Deal节目中讨论了这一现象，并强调了MLB总裁Rob Manfred应如何利用这种势头。",
+        "why_it_matters": "Rodriguez的观点揭示了体育赛事如何通过媒体推广来提升其影响力和商业价值。"
+      },
+      {
+        "headline": "NFL球星Bobby Wagner：向Michael Jordan和Magic Johnson学习",
+        "summary": "Bobby Wagner是NFC历史上唯一一位达到2000次擒抱的四分卫之一。他正在通过投资科技初创公司和成为WNBA球队的所有者来实现自己的商业目标。Wagner在The Deal节目中分享了他对NFL合同的理解以及如何从Larry Johnson和Magic Johnson的故事中汲取灵感。",
+        "why_it_matters": "Wagner的故事展示了体育明星如何利用他们的影响力进行多元化投资，从而创造更多的商业机会。"
+      },
+      {
+        "headline": "David Levy is the Reason You’re Watching March Madness",
+        "summary": "It&rsquo;s brackets season! And you can watch all 67 games of both the women&rsquo;s and men&rsquo;s NCAA tournament on national TV, thanks to David Levy. Levy spent 33 years at Turner Broadcasting, eventually serving as its president, where he expanded the network&rsquo;s NBA coverage. Levy is probably best known for brokering a $10.8 billion rights agreement that made every March Madness game available nationally across CBS and the Turner networks for the very first time. In this episode of The Deal, Alex and Jason talk to Levy about the ins and outs of the March Madness deal. He also tells the story of how he got Shaq to fill Inside the NBA&rsquo;s fourth chair and why the key to that show&rsquo;s success is letting Charles Barkley talk. Finally, Levy shares more about his current venture, Horizon Sports & Experiences, and why he&rsquo;s betting big on women&rsquo;s sports and pickleball. You can also watch this interview on the Bloomberg Podcasts YouTube page . See omnystudio.com/listener for privacy information.",
+        "why_it_matters": "这是当天值得关注的公开 Bloomberg RSS 条目。"
+      },
+      {
+        "headline": "Reaction: Alex Rodriguez Says the MLB Needs to Act on the World Baseball Classic’s Momentum",
+        "summary": "Tonight, the United States and Venezuela face off in the finals of the 2026 World Baseball Classic. And chances are, a lot of you will be watching. Based only on pool play, this year&rsquo;s WBC viewership is up 142% from the 2023 tournament. 35,000 people have bought tickets to tonight&rsquo;s final and over 100 million Japanese fans tuned in to watch Shohei Ohtani. Aaron Judge called the crowd at the U.S.-Mexico game on March 10th, &ldquo;bigger and better than the World Series.&rdquo; In this special episode of The Deal, Alex Rodriguez shares his reaction to the phenomenon that is the 2026 World Baseball Classic with his co-host Jason Kelly. Rodriguez talks about the national pride his fellow Dominicans felt over the past few weeks and explains why MLB commissioner Rob Manfred needs to capitalize on this momentum leading into what Rodriguez calls &ldquo;the most important season in the history of the sport.&rdquo; See omnystudio.com/listener for privacy information.",
+        "why_it_matters": "这是当天值得关注的公开 Bloomberg RSS 条目。"
+      },
+      {
+        "headline": "How NFL Star Bobby Wagner is Modeling his Career on Michael's and Magic's",
+        "summary": "Bobby Wagner is one of three NFL Linebackers to ever record 2,000 tackles. But his biggest goal is ownership, whether that&rsquo;s of a team or his own contract negotiations. Following the lead of his mentors Michael Jordan and Magic Johnson, Wagner has spent the last decade diversifying his business interests, including investments in tech start-ups and taking a minority stake in the WNBA&rsquo;s Seattle Storm. In this episode of The Deal, Alex and Jason talk to Wagner about what he saw as an NFL rookie that motivated him to be his own agent and explains the ins and outs of how an NFL contract comes to be. Wagner also shares how Larry Johnson and a cartoon based on Magic shaped his views on athletes and ownership. He also explains why writing a check to the Seattle Storm was his easiest investment decision. You can also watch this interview on the Bloomberg Podcasts YouTube page . See omnystudio.com/listener for privacy information.",
+        "why_it_matters": "这是当天值得关注的公开 Bloomberg RSS 条目。"
+      }
+    ],
+    "closing": "这些故事不仅体现了体育赛事的吸引力，也揭示了商业运作背后的策略和智慧。",
+    "audio_script": "今天，我们聚焦三则重要新闻。从NCAA锦标赛到世界棒球经典赛，再到NFL球星的投资策略，这些故事不仅展示了体育赛事的魅力，也揭示了商业运作的奥秘。第1条，David Levy：NCAA锦标赛背后的推手。David Levy是March Madness背后的关键人物。他为Turner Broadcasting服务33年，并在担任总裁期间扩展了该网络的NBA转播权。Levy通过与CBS和Turner网络达成10.8亿美元的权利协议，使得每场NCAA锦标赛都能在全国电视上播出。这条消息为什么重要？Levy的故事展示了体育媒体如何利用商业策略来扩大观众基础并增加收入来源。第2条，Alex Rodriguez：MLB需要抓住世界棒球经典赛的势头。2026年世界棒球经典赛吸引了大量观众，观看人数比上一届增加了142%。Alex Rodriguez在The Deal节目中讨论了这一现象，并强调了MLB总裁Rob Manfred应如何利用这种势头。这条消息为什么重要？Rodriguez的观点揭示了体育赛事如何通过媒体推广来提升其影响力和商业价值。第3条，NFL球星Bobby Wagner：向Michael Jordan和Magic Johnson学习。Bobby Wagner是NFC历史上唯一一位达到2000次擒抱的四分卫之一。他正在通过投资科技初创公司和成为WNBA球队的所有者来实现自己的商业目标。Wagner在The Deal节目中分享了他对NFL合同的理解以及如何从Larry Johnson和Magic Johnson的故事中汲取灵感。这条消息为什么重要？Wagner的故事展示了体育明星如何利用他们的影响力进行多元化投资，从而创造更多的商业机会。第4条，David Levy is the Reason You’re Watching March Madness。It&rsquo;s brackets season! And you can watch all 67 games of both the women&rsquo;s and men&rsquo;s NCAA tournament on national TV, thanks to David Levy. Levy spent 33 years at Turner Broadcasting, eventually serving as its president, where he expanded the network&rsquo;s NBA coverage. Levy is probably best known for brokering a $10.8 billion rights agreement that made every March Madness game available nationally across CBS and the Turner networks for the very first time. In this episode of The Deal, Alex and Jason talk to Levy about the ins and outs of the March Madness deal. He also tells the story of how he got Shaq to fill Inside the NBA&rsquo;s fourth chair and why the key to that show&rsquo;s success is letting Charles Barkley talk. Finally, Levy shares more about his current venture, Horizon Sports & Experiences, and why he&rsquo;s betting big on women&rsquo;s sports and pickleball. You can also watch this interview on the Bloomberg Podcasts YouTube page . See omnystudio.com/listener for privacy information.这条消息为什么重要？这是当天值得关注的公开 Bloomberg RSS 条目。第5条，Reaction: Alex Rodriguez Says the MLB Needs to Act on the World Baseball Classic’s Momentum。Tonight, the United States and Venezuela face off in the finals of the 2026 World Baseball Classic. And chances are, a lot of you will be watching. Based only on pool play, this year&rsquo;s WBC viewership is up 142% from the 2023 tournament. 35,000 people have bought tickets to tonight&rsquo;s final and over 100 million Japanese fans tuned in to watch Shohei Ohtani. Aaron Judge called the crowd at the U.S.-Mexico game on March 10th, &ldquo;bigger and better than the World Series.&rdquo; In this special episode of The Deal, Alex Rodriguez shares his reaction to the phenomenon that is the 2026 World Baseball Classic with his co-host Jason Kelly. Rodriguez talks about the national pride his fellow Dominicans felt over the past few weeks and explains why MLB commissioner Rob Manfred needs to capitalize on this momentum leading into what Rodriguez calls &ldquo;the most important season in the history of the sport.&rdquo; See omnystudio.com/listener for privacy information.这条消息为什么重要？这是当天值得关注的公开 Bloomberg RSS 条目。第6条，How NFL Star Bobby Wagner is Modeling his Career on Michael's and Magic's。Bobby Wagner is one of three NFL Linebackers to ever record 2,000 tackles. But his biggest goal is ownership, whether that&rsquo;s of a team or his own contract negotiations. Following the lead of his mentors Michael Jordan and Magic Johnson, Wagner has spent the last decade diversifying his business interests, including investments in tech start-ups and taking a minority stake in the WNBA&rsquo;s Seattle Storm. In this episode of The Deal, Alex and Jason talk to Wagner about what he saw as an NFL rookie that motivated him to be his own agent and explains the ins and outs of how an NFL contract comes to be. Wagner also shares how Larry Johnson and a cartoon based on Magic shaped his views on athletes and ownership. He also explains why writing a check to the Seattle Storm was his easiest investment decision. You can also watch this interview on the Bloomberg Podcasts YouTube page . See omnystudio.com/listener for privacy information.这条消息为什么重要？这是当天值得关注的公开 Bloomberg RSS 条目。这些故事不仅体现了体育赛事的吸引力，也揭示了商业运作背后的策略和智慧。"
+  },
+  "podcast": {
+    "title": "Bloomberg The Deal 中文摘要版",
+    "author": "hyobimaeng",
+    "description": "基于 The Deal 原版 RSS 生成的中文加长摘要，更偏交易、品牌、企业家和资本运作视角。",
+    "language": "zh-CN",
+    "timezone": "Asia/Shanghai",
+    "siteUrl": "https://hyobimaeng.github.io/bloomberg-car-audio",
+    "artworkUrl": "https://hyobimaeng.github.io/bloomberg-car-audio/artwork.png"
+  }
+}

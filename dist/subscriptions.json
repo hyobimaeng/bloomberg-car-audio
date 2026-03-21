@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-20T08:28:45.081Z",
+  "generatedAt": "2026-03-21T06:13:21.323Z",
   "subscriptions": [
     {
       "id": "cn-plus",
@@ -8,7 +8,7 @@
       "title": "彭博 News Now中文摘要",
       "description": "基于 Bloomberg News Now 官方 RSS 生成的中文摘要，覆盖更多重点，适合更长通勤收听。",
       "feedUrl": "https://hyobimaeng.github.io/bloomberg-car-audio/feed-cn-plus.xml",
-      "latestEpisodeUrl": "https://hyobimaeng.github.io/bloomberg-car-audio/episodes-cn-plus/2026-03-20.html"
+      "latestEpisodeUrl": "https://hyobimaeng.github.io/bloomberg-car-audio/episodes-cn-plus/2026-03-21.html"
     },
     {
       "id": "daybreak-cn",
@@ -17,7 +17,7 @@
       "title": "彭博 Daybreak 中文摘要版",
       "description": "基于 Bloomberg Daybreak 原版 RSS 生成的中文加长摘要，适合想要跟上 Daybreak 但不想直接听英文原版的通勤场景。",
       "feedUrl": "https://hyobimaeng.github.io/bloomberg-car-audio/feed-daybreak-cn.xml",
-      "latestEpisodeUrl": "https://hyobimaeng.github.io/bloomberg-car-audio/episodes-daybreak-cn/2026-03-20.html"
+      "latestEpisodeUrl": "https://hyobimaeng.github.io/bloomberg-car-audio/episodes-daybreak-cn/2026-03-21.html"
     },
     {
       "id": "the-deal-cn",
@@ -26,7 +26,7 @@
       "title": "Bloomberg The Deal 中文摘要版",
       "description": "基于 The Deal 原版 RSS 生成的中文加长摘要，更偏交易、品牌、企业家和资本运作视角。",
       "feedUrl": "https://hyobimaeng.github.io/bloomberg-car-audio/feed-the-deal-cn.xml",
-      "latestEpisodeUrl": "https://hyobimaeng.github.io/bloomberg-car-audio/episodes-the-deal-cn/2026-03-20.html"
+      "latestEpisodeUrl": "https://hyobimaeng.github.io/bloomberg-car-audio/episodes-the-deal-cn/2026-03-21.html"
     },
     {
       "id": "the-big-take-cn",
@@ -35,7 +35,7 @@
       "title": "Bloomberg Big Take 中文摘要版",
       "description": "基于 Big Take 原版 RSS 生成的中文加长摘要，更适合想快速掌握背景、逻辑和影响的通勤场景。",
       "feedUrl": "https://hyobimaeng.github.io/bloomberg-car-audio/feed-big-take-cn.xml",
-      "latestEpisodeUrl": "https://hyobimaeng.github.io/bloomberg-car-audio/episodes-big-take-cn/2026-03-20.html"
+      "latestEpisodeUrl": "https://hyobimaeng.github.io/bloomberg-car-audio/episodes-big-take-cn/2026-03-21.html"
     },
     {
       "id": "daybreak-us",
