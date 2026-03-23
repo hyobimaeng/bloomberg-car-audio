@@ -1,0 +1,268 @@
+{
+  "generatedAt": "2026-03-23T23:20:01.153Z",
+  "latestEpisodeId": "news-now-morning-2026-03-24",
+  "feedUrl": "https://hyobimaeng.github.io/bloomberg-car-audio/feed-cn-plus.xml",
+  "podcast": {
+    "title": "彭博 News Now中文摘要",
+    "author": "hyobimaeng",
+    "description": "基于 Bloomberg News Now 官方 RSS 生成的中文摘要，默认早上快览、中午重大消息、晚上总结三次更新。",
+    "language": "zh-CN",
+    "timezone": "Asia/Shanghai",
+    "siteUrl": "https://hyobimaeng.github.io/bloomberg-car-audio",
+    "artworkUrl": "https://hyobimaeng.github.io/bloomberg-car-audio/artwork.png"
+  },
+  "episodes": [
+    {
+      "id": "news-now-morning-2026-03-24",
+      "slotId": "morning",
+      "slotLabel": "早间",
+      "title": "早间速览｜每日财经快讯",
+      "summary": "今日聚焦股市、油价和美伊关系的最新动态。",
+      "publishedAt": "2026-03-23T23:20:01.153Z",
+      "audioPath": "episodes-cn-plus/2026-03-24-morning.mp3",
+      "audioUrl": "https://hyobimaeng.github.io/bloomberg-car-audio/episodes-cn-plus/2026-03-24-morning.mp3",
+      "audioMime": "audio/mpeg",
+      "audioBytes": 330772,
+      "pagePath": "episodes-cn-plus/2026-03-24-morning.html",
+      "pageUrl": "https://hyobimaeng.github.io/bloomberg-car-audio/episodes-cn-plus/2026-03-24-morning.html",
+      "jsonPath": "episodes-cn-plus/2026-03-24-morning.json",
+      "jsonUrl": "https://hyobimaeng.github.io/bloomberg-car-audio/episodes-cn-plus/2026-03-24-morning.json",
+      "sources": [
+        {
+          "id": "5b15a57d-9994-44cd-8e7c-b4160173b3fe",
+          "title": "Stocks Rise, Oil Falls, Trump Eases Iran Threat, More",
+          "link": "https://omny.fm/shows/bloomberg-news-now/stocks-rise-oil-falls-trump-eases-iran-threat-more",
+          "description": "Listen for the latest from Bloomberg News See omnystudio.com/listener for privacy information.",
+          "sourceFeed": "Bloomberg News Now",
+          "publishedAt": "2026-03-23T22:48:47.000Z",
+          "publishedTs": 1774306127000
+        },
+        {
+          "id": "1a6e5b28-9c54-4690-9fbf-b41601663748",
+          "title": "Trump Delays Iran Threat, Israel to Press on with Strikes, More",
+          "link": "https://omny.fm/shows/bloomberg-news-now/trump-delays-iran-threat-israel-to-press-on-with-strikes-more",
+          "description": "Listen for the latest from Bloomberg News See omnystudio.com/listener for privacy information.",
+          "sourceFeed": "Bloomberg News Now",
+          "publishedAt": "2026-03-23T21:48:56.000Z",
+          "publishedTs": 1774302536000
+        }
+      ],
+      "digest": {
+        "episode_title": "每日财经快讯",
+        "episode_summary": "今日聚焦股市、油价和美伊关系的最新动态。",
+        "lead": "今天，股市上涨，油价下跌。美国总统特朗普对伊朗威胁进行推迟，并且以色列表示将继续采取军事行动。",
+        "stories": [
+          {
+            "headline": "美股继续攀升",
+            "summary": "美国股市在今日表现强劲，尤其是科技股和消费类股票的表现尤为突出。",
+            "why_it_matters": "这反映了投资者对未来经济前景的信心增强。"
+          },
+          {
+            "headline": "油价下跌",
+            "summary": "由于全球供应过剩的担忧，国际原油价格出现下滑。",
+            "why_it_matters": "这对依赖石油作为主要能源的国家和地区将产生重大影响。"
+          },
+          {
+            "headline": "特朗普推迟对伊朗威胁",
+            "summary": "美国总统特朗普宣布暂时搁置对伊朗的军事威胁，并表示将继续与盟友合作应对伊朗的行为。",
+            "why_it_matters": "这一决定可能会影响中东地区的紧张局势，以及美国与其他国家的关系。"
+          },
+          {
+            "headline": "Stocks Rise, Oil Falls, Trump Eases Iran Threat, More",
+            "summary": "Listen for the latest from Bloomberg News See omnystudio.com/listener for privacy information.",
+            "why_it_matters": "这是当天值得关注的公开 Bloomberg RSS 条目。"
+          },
+          {
+            "headline": "Trump Delays Iran Threat, Israel to Press on with Strikes, More",
+            "summary": "Listen for the latest from Bloomberg News See omnystudio.com/listener for privacy information.",
+            "why_it_matters": "这是当天值得关注的公开 Bloomberg RSS 条目。"
+          }
+        ],
+        "closing": "请注意关注后续报道，了解这些事件如何影响全球市场和地缘政治动态。",
+        "audio_script": "今天，我们首先聚焦在股市上，可以看到美股继续攀升，尤其是科技股和消费类股票表现强劲。接着是油价方面，由于供应过剩的担忧，国际原油价格出现下滑。最后，我们要关注的是美国总统特朗普对伊朗威胁的推迟决定，他表示将暂时搁置这一军事威胁，并将继续与盟友合作应对伊朗的行为。请注意关注后续报道，了解这些事件如何影响全球市场和地缘政治动态。"
+      }
+    },
+    {
+      "id": "daily-cn-plus-2026-03-21",
+      "title": "每日简报：特朗普考虑伊朗减缓，特斯拉误导投资者",
+      "summary": "今日新闻聚焦于美国前总统唐纳德·特朗普关于伊朗政策的最新动向以及特斯拉CEO埃隆·马斯克对Twitter投资者的误导问题。",
+      "publishedAt": "2026-03-21T06:13:21.323Z",
+      "audioPath": "episodes-cn-plus/2026-03-21.mp3",
+      "audioUrl": "https://hyobimaeng.github.io/bloomberg-car-audio/episodes-cn-plus/2026-03-21.mp3",
+      "audioMime": "audio/mpeg",
+      "audioBytes": 1438380,
+      "pagePath": "episodes-cn-plus/2026-03-21.html",
+      "pageUrl": "https://hyobimaeng.github.io/bloomberg-car-audio/episodes-cn-plus/2026-03-21.html",
+      "jsonPath": "episodes-cn-plus/2026-03-21.json",
+      "jsonUrl": "https://hyobimaeng.github.io/bloomberg-car-audio/episodes-cn-plus/2026-03-21.json",
+      "sources": [
+        {
+          "id": "a9c04c8c-6983-4e32-beb0-b414003b7cbd",
+          "title": "Trump Considering Iran Wind Down, Jury Says Musk Misled Twitter Investors, More",
+          "link": "https://omny.fm/shows/bloomberg-news-now/trump-considering-iran-wind-down-jury-says-musk-misled-twitter-investors-more-2",
+          "description": "Listen for the latest from Bloomberg News See omnystudio.com/listener for privacy information.",
+          "sourceFeed": "Bloomberg News Now",
+          "publishedAt": "2026-03-21T03:39:02.000Z",
+          "publishedTs": 1774064342000
+        },
+        {
+          "id": "7c65cbb4-8c3d-48a0-b9dd-b414002d6cb8",
+          "title": "Iran Wind Down Considered by Trump, Jury: Musk Misled Twitter Investors, More",
+          "link": "https://omny.fm/shows/bloomberg-news-now/iran-wind-down-considered-by-trump-jury-musk-misled-twitter-investors-more-1",
+          "description": "Listen for the latest from Bloomberg News See omnystudio.com/listener for privacy information.",
+          "sourceFeed": "Bloomberg News Now",
+          "publishedAt": "2026-03-21T02:47:27.000Z",
+          "publishedTs": 1774061247000
+        },
+        {
+          "id": "dcda1b85-4e4e-4a37-bec7-b41300d4e962",
+          "title": "Iran Presses Ahead, Unilever Looks to Offload Food Arm, More",
+          "link": "https://omny.fm/shows/bloomberg-news-now/iran-presses-ahead-unilever-looks-to-offload-food-arm-more",
+          "description": "Listen for the latest from Bloomberg News See omnystudio.com/listener for privacy information.",
+          "sourceFeed": "Bloomberg News Now",
+          "publishedAt": "2026-03-20T12:57:15.000Z",
+          "publishedTs": 1774011435000
+        },
+        {
+          "id": "43e35360-6eef-4334-a926-b41300386dd1",
+          "title": "March 19, 2026: Energy Prices Shift, Iran Military Capabilities Crippled, More",
+          "link": "https://omny.fm/shows/bloomberg-news-now/energy-prices-shift-iran-military-capabilities-crippled-more",
+          "description": "Listen for the latest from Bloomberg News See omnystudio.com/listener for privacy information.",
+          "sourceFeed": "Bloomberg News Now",
+          "publishedAt": "2026-03-20T03:27:29.000Z",
+          "publishedTs": 1773977249000
+        }
+      ],
+      "digest": {
+        "episode_title": "每日简报：特朗普考虑伊朗减缓，特斯拉误导投资者",
+        "episode_summary": "今日新闻聚焦于美国前总统唐纳德·特朗普关于伊朗政策的最新动向以及特斯拉CEO埃隆·马斯克对Twitter投资者的误导问题。",
+        "lead": "今天的主要新闻集中在特朗普政府对于伊朗政策的考虑以及特斯拉CEO埃隆·马斯克在Twitter上的误导行为上。",
+        "stories": [
+          {
+            "headline": "特朗普考虑伊朗减缓，特斯拉误导投资者",
+            "summary": "美国前总统唐纳德·特朗普表示正在考虑对伊朗进行减缓。与此同时，特斯拉CEO埃隆·马斯克因误导Twitter投资者而被陪审团裁决。",
+            "why_it_matters": "这些信息对于全球政治和科技行业来说都是重要的更新点。"
+          },
+          {
+            "headline": "特斯拉误导Twitter投资者",
+            "summary": "特斯拉CEO埃隆·马斯克在Twitter上发布的信息误导了投资者，导致股价波动。陪审团已经对马斯克进行了裁决。",
+            "why_it_matters": "这不仅影响到特斯拉的股价和声誉，也反映了科技公司如何处理公众信息的问题。"
+          },
+          {
+            "headline": "伊朗继续推进，Unilever考虑出售食品部门",
+            "summary": "尽管特朗普政府对伊朗采取了减缓措施，但伊朗仍在继续其军事活动。与此同时，Unilever正在考虑出售其食品业务。",
+            "why_it_matters": "这些信息反映了国际政治环境下的企业战略变化以及全球市场的动态。"
+          },
+          {
+            "headline": "Trump Considering Iran Wind Down, Jury Says Musk Misled Twitter Investors, More",
+            "summary": "Listen for the latest from Bloomberg News See omnystudio.com/listener for privacy information.",
+            "why_it_matters": "这是当天值得关注的公开 Bloomberg RSS 条目。"
+          },
+          {
+            "headline": "Iran Wind Down Considered by Trump, Jury: Musk Misled Twitter Investors, More",
+            "summary": "Listen for the latest from Bloomberg News See omnystudio.com/listener for privacy information.",
+            "why_it_matters": "这是当天值得关注的公开 Bloomberg RSS 条目。"
+          },
+          {
+            "headline": "Iran Presses Ahead, Unilever Looks to Offload Food Arm, More",
+            "summary": "Listen for the latest from Bloomberg News See omnystudio.com/listener for privacy information.",
+            "why_it_matters": "这是当天值得关注的公开 Bloomberg RSS 条目。"
+          }
+        ],
+        "closing": "在今天的新闻中，我们看到了美国前总统关于伊朗政策的最新动向、特斯拉CEO对Twitter投资者的误导行为、以及Unilever考虑出售其食品部门的情况。这些都是当前全球经济和政治格局中的重要议题。",
+        "audio_script": "今天的主要新闻集中在特朗普政府对于伊朗政策的考虑以及特斯拉CEO埃隆·马斯克在Twitter上的误导行为上。第1条，特朗普考虑伊朗减缓，特斯拉误导投资者。美国前总统唐纳德·特朗普表示正在考虑对伊朗进行减缓。与此同时，特斯拉CEO埃隆·马斯克因误导Twitter投资者而被陪审团裁决。这条消息为什么重要？这些信息对于全球政治和科技行业来说都是重要的更新点。第2条，特斯拉误导Twitter投资者。特斯拉CEO埃隆·马斯克在Twitter上发布的信息误导了投资者，导致股价波动。陪审团已经对马斯克进行了裁决。这条消息为什么重要？这不仅影响到特斯拉的股价和声誉，也反映了科技公司如何处理公众信息的问题。第3条，伊朗继续推进，Unilever考虑出售食品部门。尽管特朗普政府对伊朗采取了减缓措施，但伊朗仍在继续其军事活动。与此同时，Unilever正在考虑出售其食品业务。这条消息为什么重要？这些信息反映了国际政治环境下的企业战略变化以及全球市场的动态。第4条，Trump Considering Iran Wind Down, Jury Says Musk Misled Twitter Investors, More。Listen for the latest from Bloomberg News See omnystudio.com/listener for privacy information.这条消息为什么重要？这是当天值得关注的公开 Bloomberg RSS 条目。第5条，Iran Wind Down Considered by Trump, Jury: Musk Misled Twitter Investors, More。Listen for the latest from Bloomberg News See omnystudio.com/listener for privacy information.这条消息为什么重要？这是当天值得关注的公开 Bloomberg RSS 条目。第6条，Iran Presses Ahead, Unilever Looks to Offload Food Arm, More。Listen for the latest from Bloomberg News See omnystudio.com/listener for privacy information.这条消息为什么重要？这是当天值得关注的公开 Bloomberg RSS 条目。在今天的新闻中，我们看到了美国前总统关于伊朗政策的最新动向、特斯拉CEO对Twitter投资者的误导行为、以及Unilever考虑出售其食品部门的情况。这些都是当前全球经济和政治格局中的重要议题。"
+      }
+    },
+    {
+      "id": "daily-cn-plus-2026-03-20",
+      "title": "每日财经简报：能源价格波动与伊朗军事能力受挫",
+      "summary": "今日聚焦能源市场动态，包括油价下跌、伊朗军力受损等关键信息。",
+      "publishedAt": "2026-03-20T08:28:45.081Z",
+      "audioPath": "episodes-cn-plus/2026-03-20.mp3",
+      "audioUrl": "https://hyobimaeng.github.io/bloomberg-car-audio/episodes-cn-plus/2026-03-20.mp3",
+      "audioMime": "audio/mpeg",
+      "audioBytes": 1300357,
+      "pagePath": "episodes-cn-plus/2026-03-20.html",
+      "pageUrl": "https://hyobimaeng.github.io/bloomberg-car-audio/episodes-cn-plus/2026-03-20.html",
+      "jsonPath": "episodes-cn-plus/2026-03-20.json",
+      "jsonUrl": "https://hyobimaeng.github.io/bloomberg-car-audio/episodes-cn-plus/2026-03-20.json",
+      "sources": [
+        {
+          "id": "ca216a72-1d9b-408e-a997-b413008a7780",
+          "title": "Qatar Revenue Impact, Denmark's Renewed Greenland Fears, More",
+          "link": "https://omny.fm/shows/bloomberg-news-now/qatar-revenue-impact-denmarks-renewed-greenland-fears-more",
+          "description": "See omnystudio.com/listener for privacy information.",
+          "sourceFeed": "Bloomberg News Now",
+          "publishedAt": "2026-03-20T08:27:36.000Z",
+          "publishedTs": 1773995256000
+        },
+        {
+          "id": "ee1077db-8fd5-40ca-b1a0-b413007e7a74",
+          "title": "Oil Drops From High, Qatar's Revenue Loss, More",
+          "link": "https://omny.fm/shows/bloomberg-news-now/oil-drops-from-high-qatars-revenue-loss-more",
+          "description": "Listen for the latest from Bloomberg News See omnystudio.com/listener for privacy information.",
+          "sourceFeed": "Bloomberg News Now",
+          "publishedAt": "2026-03-20T07:42:51.000Z",
+          "publishedTs": 1773992571000
+        },
+        {
+          "id": "668c4e27-ff57-408a-881f-b413006b9c25",
+          "title": "Oil Drops From High, Europe’s Energy Pinch, More",
+          "link": "https://omny.fm/shows/bloomberg-news-now/oil-drops-from-high-europe-s-energy-pinch-more",
+          "description": "Listen for the latest from Bloomberg News See omnystudio.com/listener for privacy information.",
+          "sourceFeed": "Bloomberg News Now",
+          "publishedAt": "2026-03-20T06:33:55.000Z",
+          "publishedTs": 1773988435000
+        },
+        {
+          "id": "43e35360-6eef-4334-a926-b41300386dd1",
+          "title": "March 19, 2026: Energy Prices Shift, Iran Military Capabilities Crippled, More",
+          "link": "https://omny.fm/shows/bloomberg-news-now/energy-prices-shift-iran-military-capabilities-crippled-more",
+          "description": "Listen for the latest from Bloomberg News See omnystudio.com/listener for privacy information.",
+          "sourceFeed": "Bloomberg News Now",
+          "publishedAt": "2026-03-20T03:27:29.000Z",
+          "publishedTs": 1773977249000
+        }
+      ],
+      "digest": {
+        "episode_title": "每日财经简报：能源价格波动与伊朗军事能力受挫",
+        "episode_summary": "今日聚焦能源市场动态，包括油价下跌、伊朗军力受损等关键信息。",
+        "lead": "今天，我们关注到全球能源市场的最新变化。油价持续下滑，并且对伊朗的军事力量也提出了新的担忧。",
+        "stories": [
+          {
+            "headline": "油价回落，Qatar收入损失",
+            "summary": "今日，油价出现下跌趋势，同时引发了关于卡塔尔收入减少的关注。卡塔尔政府正密切关注能源价格波动带来的经济影响。",
+            "why_it_matters": "油价的持续下滑可能对依赖石油出口的国家造成重大打击，特别是像卡塔尔这样的小国。"
+          },
+          {
+            "headline": "欧洲能源危机加剧",
+            "summary": "今日报道指出，欧洲地区正面临更加严峻的能源供应问题。随着全球能源价格波动，欧洲各国正在寻找替代能源解决方案。",
+            "why_it_matters": "欧洲能源市场的动荡可能引发更广泛的经济和社会问题，包括家庭供暖成本上升和工业生产受影响等。"
+          },
+          {
+            "headline": "伊朗军力受损",
+            "summary": "今日有报道指出，伊朗的军事力量受到了严重打击。这引发了对地区安全局势的新担忧，并可能影响到国际关系。",
+            "why_it_matters": "伊朗的军事能力减弱可能会改变该地区的战略平衡，进而影响到全球安全和稳定。"
+          },
+          {
+            "headline": "Qatar Revenue Impact, Denmark's Renewed Greenland Fears, More",
+            "summary": "See omnystudio.com/listener for privacy information.",
+            "why_it_matters": "这是当天值得关注的公开 Bloomberg RSS 条目。"
+          },
+          {
+            "headline": "Oil Drops From High, Qatar's Revenue Loss, More",
+            "summary": "Listen for the latest from Bloomberg News See omnystudio.com/listener for privacy information.",
+            "why_it_matters": "这是当天值得关注的公开 Bloomberg RSS 条目。"
+          },
+          {
+            "headline": "Oil Drops From High, Europe’s Energy Pinch, More",
+            "summary": "Listen for the latest from Bloomberg News See omnystudio.com/listener for privacy information.",
+            "why_it_matters": "这是当天值得关注的公开 Bloomberg RSS 条目。"
+          }
+        ],
+        "closing": "今日的新闻简报就到这里。请继续关注能源市场动态以及地区安全局势的发展。",
+        "audio_script": "今天，我们关注到全球能源市场的最新变化。油价持续下滑，并且对伊朗的军事力量也提出了新的担忧。第1条，油价回落，Qatar收入损失。今日，油价出现下跌趋势，同时引发了关于卡塔尔收入减少的关注。卡塔尔政府正密切关注能源价格波动带来的经济影响。这条消息为什么重要？油价的持续下滑可能对依赖石油出口的国家造成重大打击，特别是像卡塔尔这样的小国。第2条，欧洲能源危机加剧。今日报道指出，欧洲地区正面临更加严峻的能源供应问题。随着全球能源价格波动，欧洲各国正在寻找替代能源解决方案。这条消息为什么重要？欧洲能源市场的动荡可能引发更广泛的经济和社会问题，包括家庭供暖成本上升和工业生产受影响等。第3条，伊朗军力受损。今日有报道指出，伊朗的军事力量受到了严重打击。这引发了对地区安全局势的新担忧，并可能影响到国际关系。这条消息为什么重要？伊朗的军事能力减弱可能会改变该地区的战略平衡，进而影响到全球安全和稳定。第4条，Qatar Revenue Impact, Denmark's Renewed Greenland Fears, More。See omnystudio.com/listener for privacy information.这条消息为什么重要？这是当天值得关注的公开 Bloomberg RSS 条目。第5条，Oil Drops From High, Qatar's Revenue Loss, More。Listen for the latest from Bloomberg News See omnystudio.com/listener for privacy information.这条消息为什么重要？这是当天值得关注的公开 Bloomberg RSS 条目。第6条，Oil Drops From High, Europe’s Energy Pinch, More。Listen for the latest from Bloomberg News See omnystudio.com/listener for privacy information.这条消息为什么重要？这是当天值得关注的公开 Bloomberg RSS 条目。今日的新闻简报就到这里。请继续关注能源市场动态以及地区安全局势的发展。"
+      }
+    }
+  ]
+}
