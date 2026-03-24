@@ -1,5 +1,13 @@
 const DEFAULT_BASE_URL = "http://127.0.0.1:11434";
 const DIGEST_VARIANTS = {
+  bulletin: {
+    maxStories: 3,
+    minStories: 1,
+    minAudioChars: 140,
+    storyInstruction: "Pick 1 to 3 stories and stay tightly focused on the biggest developments only.",
+    audioInstruction:
+      "The audio_script must be a single natural narration block, around 160-320 Simplified Chinese characters, suitable for about 1 minute of speech."
+  },
   standard: {
     maxStories: 5,
     minStories: 3,

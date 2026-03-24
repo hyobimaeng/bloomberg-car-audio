@@ -365,6 +365,18 @@ function escapeHtml(value) {
 
 function renderCustomShowCard(show, timezone) {
   const latestEpisode = show.latestEpisode;
+  if (!latestEpisode) {
+    return `
+    <article class="card">
+      <div class="tiny">${escapeHtml(show.badge)} · 暂无已发布内容</div>
+      <h2>${escapeHtml(show.podcast.title)}</h2>
+      <p>${escapeHtml(show.podcast.description)}</p>
+      <p><a href="${escapeHtml(show.feedUrl)}">RSS 订阅</a></p>
+      <code class="url">${escapeHtml(show.feedUrl)}</code>
+      <p class="tiny">当前这个 feed 还没有生成任何一期节目。</p>
+    </article>`;
+  }
+
   const highlights = latestEpisode.digest.stories
     .slice(0, 4)
     .map(
@@ -411,6 +423,14 @@ function renderOfficialShowCard(show) {
 }
 
 function renderArchiveSection(show, timezone) {
+  if (!show.archiveEpisodes.length) {
+    return `
+    <section class="card">
+      <h2>${escapeHtml(show.podcast.title)} 往期归档</h2>
+      <p class="tiny">暂时还没有可展示的往期内容。</p>
+    </section>`;
+  }
+
   const archiveLinks = show.archiveEpisodes
     .slice(0, 6)
     .map(

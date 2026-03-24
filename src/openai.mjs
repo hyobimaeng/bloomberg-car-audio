@@ -1,6 +1,27 @@
 const DEFAULT_BASE_URL = "https://api.openai.com/v1";
 
-export async function createDigest({ apiKey, model, stories, timezone, now }) {
+const DIGEST_VARIANTS = {
+  bulletin: {
+    maxStories: 3,
+    minStories: 1,
+    audioInstruction: "audio_script 要短一些，适合 1 分钟左右的中文播报。"
+  },
+  standard: {
+    maxStories: 5,
+    minStories: 3,
+    audioInstruction: "audio_script 适合 1 到 2 分钟的中文播报。"
+  },
+  extended: {
+    maxStories: 6,
+    minStories: 4,
+    audioInstruction: "audio_script 适合 2 到 3 分钟的中文播报，信息更完整。"
+  }
+};
+
+export async function createDigest({ apiKey, model, stories, timezone, now, variant = "standard" }) {
+  const variantConfig = DIGEST_VARIANTS[variant] || DIGEST_VARIANTS.standard;
+  const storyCount = Math.max(1, Math.min(stories.length, variantConfig.maxStories));
+
   const payload = {
     model,
     response_format: {
@@ -26,7 +47,7 @@ export async function createDigest({ apiKey, model, stories, timezone, now }) {
             stories: {
               type: "array",
               minItems: 1,
-              maxItems: 8,
+              maxItems: variantConfig.maxStories,
               items: {
                 type: "object",
                 additionalProperties: false,
@@ -49,10 +70,10 @@ export async function createDigest({ apiKey, model, stories, timezone, now }) {
         role: "system",
         content: [
           "你是彭博新闻中文播客编辑。",
-          "你的任务是基于输入的 RSS 标题和摘要，产出适合早晨通勤收听的简体中文新闻简报。",
+          "你的任务是基于输入的 RSS 标题和摘要，产出适合通勤收听的简体中文新闻简报。",
           "不要虚构新闻事实，不要写出输入中没有的信息，不要写成长篇评论。",
           "语言风格要克制、清楚、适合车载播报。",
-          "audio_script 必须是一段可以直接送进 TTS 的自然中文播报稿，控制在 500 到 900 个汉字之间。"
+          variantConfig.audioInstruction
         ].join(" ")
       },
       {
@@ -62,11 +83,11 @@ export async function createDigest({ apiKey, model, stories, timezone, now }) {
             timezone,
             generated_at: now.toISOString(),
             instructions: {
-              story_count: Math.min(stories.length, 8),
-              audience: "中国用户，早晨通勤时在车上收听",
+              story_count: storyCount,
+              audience: "中国用户，通勤时在车上收听",
               style: "简洁，稳重，信息密度高，但不要过快"
             },
-            stories: stories.map((story, index) => ({
+            stories: stories.slice(0, variantConfig.maxStories).map((story, index) => ({
               rank: index + 1,
               title: story.title,
               description: story.description,

@@ -7,12 +7,22 @@
     <description>基于 Bloomberg News Now 官方 RSS 生成的中文摘要，默认早上快览、中午重大消息、晚上总结三次更新。</description>
     <language>zh-CN</language>
     <generator>Bloomberg Car Audio Digest</generator>
-    <lastBuildDate>Mon, 23 Mar 2026 23:20:02 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 24 Mar 2026 04:40:00 GMT</lastBuildDate>
     <itunes:author>hyobimaeng</itunes:author>
     <itunes:summary>基于 Bloomberg News Now 官方 RSS 生成的中文摘要，默认早上快览、中午重大消息、晚上总结三次更新。</itunes:summary>
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
     <itunes:image href="https://hyobimaeng.github.io/bloomberg-car-audio/artwork.png"/>
+    <item>
+      <title>午间快报｜今日财经简报</title>
+      <link>https://hyobimaeng.github.io/bloomberg-car-audio/episodes-cn-plus/2026-03-24-midday.html</link>
+      <guid isPermaLink="false">news-now-midday-2026-03-24</guid>
+      <pubDate>Tue, 24 Mar 2026 04:40:00 GMT</pubDate>
+      <description><![CDATA[<p>本日聚焦中东冲突、油价波动及美媒体对海湾局势的报道。</p><p><strong>中东冲突持续，丹麦选举，更多</strong>：Bloomberg新闻播报最新的中东局势、丹麦大选动态和其它相关报道。 这些信息对全球能源市场和国际关系具有重要影响。</p><p><strong>油价因担忧而上涨，特朗普推迟能源打击，更多</strong>：Bloomberg新闻播报最新油价走势、美国总统特朗普的能源政策调整及其对海湾局势的影响。 这些信息直接影响全球能源市场和全球经济。</p><p><strong>《华尔街日报》：海湾国家考虑加入战争，伊朗否认会谈提议，更多</strong>：Bloomberg新闻播报《华尔街日报》关于海湾国家可能参与冲突、伊朗对会谈提议的回应及其影响。 这些信息揭示了当前国际政治局势的变化和潜在风险。</p>]]></description>
+      <content:encoded><![CDATA[<p>本日聚焦中东冲突、油价波动及美媒体对海湾局势的报道。</p><p><strong>中东冲突持续，丹麦选举，更多</strong>：Bloomberg新闻播报最新的中东局势、丹麦大选动态和其它相关报道。 这些信息对全球能源市场和国际关系具有重要影响。</p><p><strong>油价因担忧而上涨，特朗普推迟能源打击，更多</strong>：Bloomberg新闻播报最新油价走势、美国总统特朗普的能源政策调整及其对海湾局势的影响。 这些信息直接影响全球能源市场和全球经济。</p><p><strong>《华尔街日报》：海湾国家考虑加入战争，伊朗否认会谈提议，更多</strong>：Bloomberg新闻播报《华尔街日报》关于海湾国家可能参与冲突、伊朗对会谈提议的回应及其影响。 这些信息揭示了当前国际政治局势的变化和潜在风险。</p>]]></content:encoded>
+      <itunes:summary>本日聚焦中东冲突、油价波动及美媒体对海湾局势的报道。</itunes:summary>
+      <enclosure url="https://hyobimaeng.github.io/bloomberg-car-audio/episodes-cn-plus/2026-03-24-midday.mp3" length="715862" type="audio/mpeg"/>
+    </item>
     <item>
       <title>早间速览｜每日财经快讯：股市上涨，油价下跌，特朗普缓和伊朗威胁</title>
       <link>https://hyobimaeng.github.io/bloomberg-car-audio/episodes-cn-plus/2026-03-24-morning.html</link>

@@ -10,6 +10,8 @@ import { createSpeech as createWindowsSpeech } from "./windows-audio.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const projectRoot = path.resolve(__dirname, "..");
+const RUN_SETS = new Set(["auto", "morning", "midday", "evening", "all"]);
+
 const OFFICIAL_SUBSCRIPTIONS = [
   {
     id: "daybreak-us",
@@ -44,12 +46,15 @@ const OFFICIAL_SUBSCRIPTIONS = [
     websiteUrl: "https://omny.fm/shows/the-big-take"
   }
 ];
+
 const OFFICIAL_FEEDS = Object.fromEntries(OFFICIAL_SUBSCRIPTIONS.map((show) => [show.id, show]));
 
 async function main() {
   await loadDotEnv(projectRoot);
+  const runtime = parseRuntimeOptions(process.argv.slice(2));
   const config = readConfig();
-  const now = new Date();
+  const now = runtime.now;
+  const runSet = runtime.runSet === "auto" ? inferRunSet(now, config.timezone) : runtime.runSet;
   const dateKey = formatDateKey(now, config.timezone);
   const outDir = path.join(projectRoot, "dist");
   const showProfiles = buildShowProfiles(config);
@@ -61,26 +66,38 @@ async function main() {
   const customShows = [];
 
   for (const profile of showProfiles) {
-    const stories = await getStoriesForProfile({ config, profile, cache: storiesCache });
     const podcast = buildPodcastMeta(config, profile);
     const feedUrl = absoluteUrl(config.siteUrl, profile.feedFile);
-    const previousEpisodes = (await fetchExistingArchive(absoluteUrl(config.siteUrl, profile.archiveFile), config.archiveLimit))
-      .filter((episode) => episode.id !== profile.episodeId(dateKey))
-      .slice(0, config.archiveLimit - 1);
-    const hydratedEpisodes = await rehydratePreviousAudio(previousEpisodes, outDir, config.siteUrl);
-    const digest = await buildDigest({ config, stories, now, profile });
-    const audioBuffer = await buildAudio({ config, digest });
-    const latestEpisode = buildEpisode({
-      config,
-      profile,
-      now,
-      dateKey,
-      digest,
-      stories,
-      audioBytes: audioBuffer.length
-    });
+    const previousEpisodes = await fetchExistingArchive(
+      absoluteUrl(config.siteUrl, profile.archiveFile),
+      config.archiveLimit
+    );
+    const dueSlots = resolveSlotsForRun(profile, runSet);
+    const dueIds = new Set(dueSlots.map((slot) => slot.episodeId(dateKey)));
+    const preservedEpisodes = previousEpisodes.filter((episode) => !dueIds.has(episode.id));
+    const hydratedEpisodes = await rehydratePreviousAudio(preservedEpisodes, outDir, config.siteUrl);
+    const generatedEpisodes = [];
+    const audioBuffers = new Map();
 
-    const archiveEpisodes = [latestEpisode, ...hydratedEpisodes]
+    for (const slot of dueSlots) {
+      const result = await buildSlotEpisode({
+        config,
+        profile,
+        slot,
+        now,
+        dateKey,
+        cache: storiesCache
+      });
+
+      if (!result) {
+        continue;
+      }
+
+      generatedEpisodes.push(result.episode);
+      audioBuffers.set(result.episode.id, result.audioBuffer);
+    }
+
+    const archiveEpisodes = [...generatedEpisodes, ...hydratedEpisodes]
       .sort((a, b) => Date.parse(b.publishedAt) - Date.parse(a.publishedAt))
       .slice(0, config.archiveLimit);
 
@@ -90,13 +107,14 @@ async function main() {
         episode,
         podcast,
         feedUrl,
-        audioBuffer: episode.id === latestEpisode.id ? audioBuffer : null
+        audioBuffer: audioBuffers.get(episode.id) || null
       });
     }
 
+    const latestEpisode = archiveEpisodes[0] || null;
     const archiveJson = {
       generatedAt: now.toISOString(),
-      latestEpisodeId: latestEpisode.id,
+      latestEpisodeId: latestEpisode?.id || "",
       feedUrl,
       podcast,
       episodes: archiveEpisodes
@@ -141,7 +159,63 @@ async function main() {
     fs.writeFile(path.join(outDir, ".nojekyll"), "", "utf8")
   ]);
 
-  console.log(`Built ${customShows.length} podcast feed(s) into ${outDir}`);
+  console.log(`Built ${customShows.length} podcast feed(s) into ${outDir} using run set: ${runSet}`);
+}
+
+function parseRuntimeOptions(argv) {
+  let runSet = "auto";
+  let now = new Date();
+
+  for (let index = 0; index < argv.length; index += 1) {
+    const arg = argv[index];
+    if (arg === "--run-set") {
+      const value = argv[index + 1];
+      if (!RUN_SETS.has(value)) {
+        throw new Error(`Unsupported run set: ${value || ""}`);
+      }
+      runSet = value;
+      index += 1;
+      continue;
+    }
+
+    if (arg === "--now") {
+      const value = argv[index + 1];
+      const parsed = new Date(value);
+      if (!value || Number.isNaN(parsed.getTime())) {
+        throw new Error(`Invalid --now value: ${value || ""}`);
+      }
+      now = parsed;
+      index += 1;
+      continue;
+    }
+  }
+
+  return { runSet, now };
+}
+
+async function buildSlotEpisode({ config, profile, slot, now, dateKey, cache }) {
+  const stories = await getStoriesForSlot({ config, slot, cache });
+  const selectedStories = prepareStoriesForSlot(stories, slot);
+
+  if (selectedStories.length === 0) {
+    console.log(`Skipping ${profile.id}/${slot.id}: no qualifying stories.`);
+    return null;
+  }
+
+  const digest = await buildDigest({ config, stories: selectedStories, now, slot });
+  const audioBuffer = await buildAudio({ config, digest });
+  const episode = buildEpisode({
+    config,
+    profile,
+    slot,
+    now,
+    dateKey,
+    digest,
+    stories: selectedStories,
+    audioBytes: audioBuffer.length
+  });
+
+  return { episode, audioBuffer };
 }
 
 async function loadDotEnv(rootDir) {
@@ -169,7 +243,7 @@ async function loadDotEnv(rootDir) {
     let value = line.slice(delimiterIndex + 1).trim();
 
     if (
-      (value.startsWith('"') && value.endsWith('"')) ||
+      (value.startsWith("\"") && value.endsWith("\"")) ||
       (value.startsWith("'") && value.endsWith("'"))
     ) {
       value = value.slice(1, -1);
@@ -191,8 +265,8 @@ function readConfig() {
     openAiApiKey: process.env.OPENAI_API_KEY || "",
     feeds: feedsFromEnv.length ? feedsFromEnv : DEFAULT_FEEDS,
     timezone: process.env.TIMEZONE || "Asia/Shanghai",
-    podcastTitle: process.env.PODCAST_TITLE || "\u5f6d\u535a\u4e2d\u6587\u8f66\u8f7d\u6458\u8981",
-    podcastTitleExtended: process.env.PODCAST_TITLE_EXTENDED || "\u5f6d\u535a News Now\u4e2d\u6587\u6458\u8981",
+    podcastTitle: process.env.PODCAST_TITLE || "彭博中文车载摘要",
+    podcastTitleExtended: process.env.PODCAST_TITLE_EXTENDED || "彭博 News Now中文摘要",
     podcastAuthor: process.env.PODCAST_AUTHOR || "Bloomberg Car Audio",
     summaryProvider,
     speechProvider,
@@ -206,7 +280,7 @@ function readConfig() {
     ffmpegPath: process.env.FFMPEG_PATH || "",
     lookbackHours: parseNumber(process.env.LOOKBACK_HOURS, 24),
     maxItems: parseNumber(process.env.MAX_ITEMS, 8),
-    archiveLimit: 14
+    archiveLimit: 21
   };
 }
 
@@ -214,71 +288,137 @@ function buildShowProfiles(config) {
   return [
     {
       id: "cn-plus",
-      badge: "AI 中文加长版",
+      badge: "AI 中文三更版",
       title: config.podcastTitleExtended,
       description:
-        "\u57fa\u4e8e Bloomberg News Now \u5b98\u65b9 RSS \u751f\u6210\u7684\u4e2d\u6587\u6458\u8981\uff0c\u8986\u76d6\u66f4\u591a\u91cd\u70b9\uff0c\u9002\u5408\u66f4\u957f\u901a\u52e4\u6536\u542c\u3002",
+        "基于 Bloomberg News Now 官方 RSS 生成的中文摘要，默认早上快览、中午重大消息、晚上总结三次更新。",
       feedFile: "feed-cn-plus.xml",
       archiveFile: "archive-cn-plus.json",
       episodeDir: "episodes-cn-plus",
-      digestVariant: "extended",
-      feeds: [OFFICIAL_FEEDS["news-now"].feedUrl],
-      lookbackHours: 72,
-      maxItems: 4,
-      episodeId(dateKey) {
-        return `daily-cn-plus-${dateKey}`;
-      }
+      slots: [
+        {
+          id: "morning",
+          label: "早间",
+          titlePrefix: "早间速览",
+          digestVariant: "standard",
+          feeds: [OFFICIAL_FEEDS["news-now"].feedUrl],
+          runSets: ["morning", "all"],
+          lookbackHours: 14,
+          fetchMaxItems: 6,
+          maxItems: 4,
+          episodeId(dateKey) {
+            return `news-now-morning-${dateKey}`;
+          }
+        },
+        {
+          id: "midday",
+          label: "午间",
+          titlePrefix: "午间快报",
+          digestVariant: "bulletin",
+          feeds: [OFFICIAL_FEEDS["news-now"].feedUrl],
+          runSets: ["midday", "all"],
+          lookbackHours: 6,
+          fetchMaxItems: 8,
+          maxItems: 3,
+          majorOnly: true,
+          skipIfEmpty: true,
+          episodeId(dateKey) {
+            return `news-now-midday-${dateKey}`;
+          }
+        },
+        {
+          id: "evening",
+          label: "晚间",
+          titlePrefix: "晚间总结",
+          digestVariant: "extended",
+          feeds: [OFFICIAL_FEEDS["news-now"].feedUrl],
+          runSets: ["evening", "all"],
+          lookbackHours: 12,
+          fetchMaxItems: 8,
+          maxItems: 6,
+          episodeId(dateKey) {
+            return `news-now-evening-${dateKey}`;
+          }
+        }
+      ]
     },
     {
       id: "daybreak-cn",
       badge: "AI Daybreak 中文版",
-      title: "\u5f6d\u535a Daybreak \u4e2d\u6587\u6458\u8981\u7248",
+      title: "彭博 Daybreak 中文摘要版",
       description:
-        "\u57fa\u4e8e Bloomberg Daybreak \u539f\u7248 RSS \u751f\u6210\u7684\u4e2d\u6587\u52a0\u957f\u6458\u8981\uff0c\u9002\u5408\u60f3\u8981\u8ddf\u4e0a Daybreak \u4f46\u4e0d\u60f3\u76f4\u63a5\u542c\u82f1\u6587\u539f\u7248\u7684\u901a\u52e4\u573a\u666f\u3002",
+        "基于 Bloomberg Daybreak: US Edition 原版 RSS 生成的中文实时摘要，默认每天晚间更新一条。",
       feedFile: "feed-daybreak-cn.xml",
       archiveFile: "archive-daybreak-cn.json",
       episodeDir: "episodes-daybreak-cn",
-      digestVariant: "extended",
-      feeds: [OFFICIAL_FEEDS["daybreak-us"].feedUrl],
-      lookbackHours: 72,
-      maxItems: 4,
-      episodeId(dateKey) {
-        return `daily-daybreak-cn-${dateKey}`;
-      }
+      slots: [
+        {
+          id: "us-evening",
+          label: "晚间",
+          titlePrefix: "Daybreak US 实时摘要",
+          digestVariant: "bulletin",
+          feeds: [OFFICIAL_FEEDS["daybreak-us"].feedUrl],
+          runSets: ["evening", "all"],
+          lookbackHours: 36,
+          fetchMaxItems: 1,
+          maxItems: 1,
+          episodeId(dateKey) {
+            return `daybreak-us-${dateKey}`;
+          }
+        }
+      ]
     },
     {
       id: "the-deal-cn",
       badge: "AI The Deal 中文版",
       title: "Bloomberg The Deal 中文摘要版",
       description:
-        "\u57fa\u4e8e The Deal \u539f\u7248 RSS \u751f\u6210\u7684\u4e2d\u6587\u52a0\u957f\u6458\u8981\uff0c\u66f4\u504f\u4ea4\u6613\u3001\u54c1\u724c\u3001\u4f01\u4e1a\u5bb6\u548c\u8d44\u672c\u8fd0\u4f5c\u89c6\u89d2\u3002",
+        "基于 The Deal 原版 RSS 生成的中文摘要，保持原有 feed URL，每天晚间更新。",
       feedFile: "feed-the-deal-cn.xml",
       archiveFile: "archive-the-deal-cn.json",
       episodeDir: "episodes-the-deal-cn",
-      digestVariant: "extended",
-      feeds: [OFFICIAL_FEEDS["the-deal"].feedUrl],
-      lookbackHours: 720,
-      maxItems: 3,
-      episodeId(dateKey) {
-        return `daily-the-deal-cn-${dateKey}`;
-      }
+      slots: [
+        {
+          id: "daily",
+          label: "晚间",
+          titlePrefix: "The Deal 中文摘要",
+          digestVariant: "bulletin",
+          feeds: [OFFICIAL_FEEDS["the-deal"].feedUrl],
+          runSets: ["evening", "all"],
+          lookbackHours: 720,
+          fetchMaxItems: 1,
+          maxItems: 1,
+          episodeId(dateKey) {
+            return `the-deal-${dateKey}`;
+          }
+        }
+      ]
     },
     {
       id: "the-big-take-cn",
       badge: "AI Big Take 中文版",
       title: "Bloomberg Big Take 中文摘要版",
       description:
-        "\u57fa\u4e8e Big Take \u539f\u7248 RSS \u751f\u6210\u7684\u4e2d\u6587\u52a0\u957f\u6458\u8981\uff0c\u66f4\u9002\u5408\u60f3\u5feb\u901f\u638c\u63e1\u80cc\u666f\u3001\u903b\u8f91\u548c\u5f71\u54cd\u7684\u901a\u52e4\u573a\u666f\u3002",
+        "基于 Big Take 原版 RSS 生成的中文摘要，保持原有 feed URL，每天晚间更新。",
       feedFile: "feed-big-take-cn.xml",
       archiveFile: "archive-big-take-cn.json",
       episodeDir: "episodes-big-take-cn",
-      digestVariant: "extended",
-      feeds: [OFFICIAL_FEEDS["the-big-take"].feedUrl],
-      lookbackHours: 96,
-      maxItems: 4,
-      episodeId(dateKey) {
-        return `daily-the-big-take-cn-${dateKey}`;
-      }
+      slots: [
+        {
+          id: "daily",
+          label: "晚间",
+          titlePrefix: "Big Take 中文摘要",
+          digestVariant: "bulletin",
+          feeds: [OFFICIAL_FEEDS["the-big-take"].feedUrl],
+          runSets: ["evening", "all"],
+          lookbackHours: 96,
+          fetchMaxItems: 1,
+          maxItems: 1,
+          episodeId(dateKey) {
+            return `the-big-take-${dateKey}`;
+          }
+        }
+      ]
     }
   ];
 }
@@ -295,15 +435,82 @@ function buildPodcastMeta(config, profile) {
   };
 }
 
-function buildEpisode({ config, profile, now, dateKey, digest, stories, audioBytes }) {
-  const audioPath = `${profile.episodeDir}/${dateKey}.mp3`;
-  const pagePath = `${profile.episodeDir}/${dateKey}.html`;
-  const jsonPath = `${profile.episodeDir}/${dateKey}.json`;
-  const title = digest.episode_title || `${profile.title} ${dateKey}`;
-  const summary = digest.episode_summary || digest.lead || "\u4eca\u65e5\u8981\u95fb\u6458\u8981";
+function resolveSlotsForRun(profile, runSet) {
+  return profile.slots.filter((slot) => slot.runSets.includes(runSet));
+}
+
+function prepareStoriesForSlot(stories, slot) {
+  const freshStories = applyFreshWindow(stories, slot.lookbackHours);
+  const narrowed = freshStories.length > 0 ? freshStories : stories;
+  const candidates = slot.majorOnly ? narrowed.filter(isMajorStory) : narrowed;
+
+  if (slot.skipIfEmpty && candidates.length === 0) {
+    return [];
+  }
+
+  return candidates.slice(0, slot.maxItems);
+}
+
+function applyFreshWindow(stories, lookbackHours) {
+  const cutoff = Date.now() - lookbackHours * 60 * 60 * 1000;
+  return stories.filter((story) => story.publishedTs >= cutoff);
+}
+
+function isMajorStory(story) {
+  const text = `${story.title} ${story.description || ""}`.toLowerCase();
+  let score = 0;
+
+  if (/(war|strike|attack|missile|iran|israel|ukraine|russia|china|taiwan|tariff|sanction|ceasefire|oil|opec)/.test(text)) {
+    score += 3;
+  }
+
+  if (/(fed|ecb|boj|pboc|central bank|rate|inflation|cpi|ppi|jobs|payroll|gdp|recession|treasury|yield|bond|market|stocks|selloff|surge|plunge|dollar)/.test(text)) {
+    score += 2;
+  }
+
+  if (/(election|policy|white house|congress|senate|government|ministry|regulator|sec|antitrust|default)/.test(text)) {
+    score += 2;
+  }
+
+  if (/(earnings|quarter|guidance|profit|revenue|dividend|buyback|analyst|brokerage|price target|stock pick)/.test(text)) {
+    score -= 2;
+  }
+
+  if (/(apple|tesla|nvidia|meta|microsoft|amazon|alphabet|intel|ibm|oracle|netflix)/.test(text)) {
+    score -= 1;
+  }
+
+  return score >= 2;
+}
+
+function inferRunSet(date, timeZone) {
+  const { hour, minute } = getLocalTimeParts(date, timeZone);
+  const totalMinutes = hour * 60 + minute;
+
+  if (totalMinutes < 11 * 60) {
+    return "morning";
+  }
+
+  if (totalMinutes < 17 * 60) {
+    return "midday";
+  }
+
+  return "evening";
+}
+
+function buildEpisode({ config, profile, slot, now, dateKey, digest, stories, audioBytes }) {
+  const episodeKey = `${dateKey}-${slot.id}`;
+  const audioPath = `${profile.episodeDir}/${episodeKey}.mp3`;
+  const pagePath = `${profile.episodeDir}/${episodeKey}.html`;
+  const jsonPath = `${profile.episodeDir}/${episodeKey}.json`;
+  const rawTitle = digest.episode_title || `${profile.title} ${dateKey}`;
+  const title = rawTitle.includes(slot.titlePrefix) ? rawTitle : `${slot.titlePrefix}｜${rawTitle}`;
+  const summary = digest.episode_summary || digest.lead || "今日要闻摘要";
 
   return {
-    id: profile.episodeId(dateKey),
+    id: slot.episodeId(dateKey),
+    slotId: slot.id,
+    slotLabel: slot.label,
     title,
     summary,
     publishedAt: now.toISOString(),
@@ -366,7 +573,7 @@ async function fetchExistingArchive(archiveUrl, archiveLimit) {
   }
 }
 
-async function buildDigest({ config, stories, now, profile }) {
+async function buildDigest({ config, stories, now, slot }) {
   if (config.summaryProvider === "openai") {
     if (!config.openAiApiKey) {
       throw new Error("OPENAI_API_KEY is required when SUMMARY_PROVIDER=openai");
@@ -378,7 +585,7 @@ async function buildDigest({ config, stories, now, profile }) {
       stories,
       timezone: config.timezone,
       now,
-      variant: profile.digestVariant
+      variant: slot.digestVariant
     });
   }
 
@@ -388,7 +595,7 @@ async function buildDigest({ config, stories, now, profile }) {
     stories,
     timezone: config.timezone,
     now,
-    variant: profile.digestVariant
+    variant: slot.digestVariant
   });
 }
 
@@ -449,11 +656,11 @@ async function rehydratePreviousAudio(episodes, outDir, siteUrl) {
   return hydrated;
 }
 
-async function getStoriesForProfile({ config, profile, cache }) {
-  const feeds = profile.feeds || config.feeds;
-  const lookbackHours = profile.lookbackHours || config.lookbackHours;
-  const maxItems = profile.maxItems || config.maxItems;
-  const cacheKey = `${feeds.join("|")}::${lookbackHours}::${maxItems}`;
+async function getStoriesForSlot({ config, slot, cache }) {
+  const feeds = slot.feeds || config.feeds;
+  const lookbackHours = slot.lookbackHours || config.lookbackHours;
+  const fetchMaxItems = slot.fetchMaxItems || slot.maxItems || config.maxItems;
+  const cacheKey = `${feeds.join("|")}::${lookbackHours}::${fetchMaxItems}`;
 
   if (!cache.has(cacheKey)) {
     cache.set(
@@ -461,7 +668,7 @@ async function getStoriesForProfile({ config, profile, cache }) {
       fetchLatestStories({
         feeds,
         lookbackHours,
-        maxItems
+        maxItems: fetchMaxItems
       })
     );
   }
@@ -480,7 +687,7 @@ function buildSubscriptionCatalog({ customShows, generatedAt }) {
         title: show.podcast.title,
         description: show.podcast.description,
         feedUrl: show.feedUrl,
-        latestEpisodeUrl: show.latestEpisode.pageUrl
+        latestEpisodeUrl: show.latestEpisode?.pageUrl || ""
       })),
       ...OFFICIAL_SUBSCRIPTIONS.map((show) => ({
         id: show.id,
@@ -550,6 +757,20 @@ function formatDateKey(date, timeZone) {
   const month = parts.find((part) => part.type === "month")?.value;
   const day = parts.find((part) => part.type === "day")?.value;
   return `${year}-${month}-${day}`;
+}
+
+function getLocalTimeParts(date, timeZone) {
+  const parts = new Intl.DateTimeFormat("en-US", {
+    timeZone,
+    hour12: false,
+    hour: "2-digit",
+    minute: "2-digit"
+  }).formatToParts(date);
+
+  return {
+    hour: Number(parts.find((part) => part.type === "hour")?.value || 0),
+    minute: Number(parts.find((part) => part.type === "minute")?.value || 0)
+  };
 }
 
 async function ensureDir(dirPath) {

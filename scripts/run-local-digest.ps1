@@ -1,6 +1,8 @@
 param(
   [switch]$SkipPush,
-  [switch]$SkipNotify
+  [switch]$SkipNotify,
+  [ValidateSet("auto", "morning", "midday", "evening", "all")]
+  [string]$RunSet = "auto"
 )
 
 $ErrorActionPreference = "Stop"
@@ -41,7 +43,7 @@ function Import-DotEnv {
 Push-Location $repoRoot
 try {
   Import-DotEnv -Path (Join-Path $repoRoot ".env")
-  node src/main.mjs
+  node src/main.mjs --run-set $RunSet
 
   git add dist
   git diff --cached --quiet
