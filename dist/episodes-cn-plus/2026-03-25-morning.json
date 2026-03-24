@@ -2,13 +2,13 @@
   "id": "news-now-morning-2026-03-25",
   "slotId": "morning",
   "slotLabel": "早间",
-  "title": "早间速览｜每日财经快讯",
-  "summary": "今日聚焦美国与伊朗之间的和平计划，以及特朗普的回应。",
-  "publishedAt": "2026-03-24T23:20:02.753Z",
+  "title": "早间速览｜每日财经快讯：美伊和平计划与特朗普言论",
+  "summary": "本日聚焦美国向伊朗提交的和平方案以及美国总统特朗普对伊朗回应的最新动态。",
+  "publishedAt": "2026-03-24T23:20:02.700Z",
   "audioPath": "episodes-cn-plus/2026-03-25-morning.mp3",
   "audioUrl": "https://hyobimaeng.github.io/bloomberg-car-audio/episodes-cn-plus/2026-03-25-morning.mp3",
   "audioMime": "audio/mpeg",
-  "audioBytes": 279362,
+  "audioBytes": 382893,
   "pagePath": "episodes-cn-plus/2026-03-25-morning.html",
   "pageUrl": "https://hyobimaeng.github.io/bloomberg-car-audio/episodes-cn-plus/2026-03-25-morning.html",
   "jsonPath": "episodes-cn-plus/2026-03-25-morning.json",
@@ -34,14 +34,19 @@
     }
   ],
   "digest": {
-    "episode_title": "每日财经快讯",
-    "episode_summary": "今日聚焦美国与伊朗之间的和平计划，以及特朗普的回应。",
-    "lead": "今天的主要新闻集中在美伊之间关于和平计划的讨论上，包括美国总统特朗普的不同说法。",
+    "episode_title": "每日财经快讯：美伊和平计划与特朗普言论",
+    "episode_summary": "本日聚焦美国向伊朗提交的和平方案以及美国总统特朗普对伊朗回应的最新动态。",
+    "lead": "今日，我们关注到美国政府向伊朗提交了一份和平方案的消息，并且美国总统特朗普对此发表了自己的看法。以下是最重要的财经新闻摘要。",
     "stories": [
       {
-        "headline": "美国向伊朗提交和平方案，特朗普称伊朗提出了一个‘礼物’",
-        "summary": "美国政府向伊朗提交了一份和平方案。然而，美国总统特朗普表示，伊朗提出的这个方案更像是一个‘礼物’而非真正的解决方案。",
-        "why_it_matters": "这一新闻反映了美伊关系的复杂性以及两国在解决地区冲突上的立场差异。"
+        "headline": "美向伊朗提交和平计划",
+        "summary": "美国政府向伊朗提交了和平方案，但总统特朗普表示，伊朗方面似乎只愿意接受这个提议中的某些部分，而没有全面合作。",
+        "why_it_matters": "这一动态可能影响到中东地区的紧张局势和国际关系。"
+      },
+      {
+        "headline": "特朗普对伊朗的回应",
+        "summary": "美国总统特朗普在评论美国向伊朗提交和平方案时指出，伊朗方面似乎只愿意接受部分提议，并没有全面合作。",
+        "why_it_matters": "特朗普的言论可能会影响谈判进程和国际舆论。"
       },
       {
         "headline": "NYT: US Sends Iran Peace Plan, Trump: Iran Offered Present, More",
@@ -54,8 +59,8 @@
         "why_it_matters": "这是当天值得关注的公开 Bloomberg RSS 条目。"
       }
     ],
-    "closing": "以上是今天的财经快讯。请继续关注Bloomberg News Now频道获取更多最新动态。",
-    "audio_script": "今天的主要新闻集中在美伊之间关于和平计划的讨论上，包括美国总统特朗普的不同说法。美国政府向伊朗提交了一份和平方案，然而，特朗普表示这个方案更像是一个‘礼物’而非真正的解决方案。这一新闻反映了美伊关系的复杂性以及两国在解决地区冲突上的立场差异。请继续关注Bloomberg News Now频道获取更多最新动态。"
+    "closing": "这是今日最重要的财经新闻摘要。更多详情请参考Bloomberg News Now频道。",
+    "audio_script": "今天，我们关注到美国政府向伊朗提交了一份和平方案的消息，并且美国总统特朗普对此发表了自己的看法。首先，美国政府向伊朗提交了和平方案，但总统特朗普表示，伊朗方面似乎只愿意接受这个提议中的某些部分，而没有全面合作。接下来，特朗普在评论美国向伊朗提交和平方案时指出，伊朗方面似乎只愿意接受部分提议，并没有全面合作。这一动态可能影响到中东地区的紧张局势和国际关系。更多详情请参考Bloomberg News Now频道。"
   },
   "podcast": {
     "title": "彭博 News Now中文摘要",
