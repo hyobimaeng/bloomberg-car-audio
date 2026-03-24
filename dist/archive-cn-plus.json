@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-03-24T12:40:01.964Z",
-  "latestEpisodeId": "news-now-evening-2026-03-24",
+  "generatedAt": "2026-03-24T23:20:02.753Z",
+  "latestEpisodeId": "news-now-morning-2026-03-25",
   "feedUrl": "https://hyobimaeng.github.io/bloomberg-car-audio/feed-cn-plus.xml",
   "podcast": {
     "title": "彭博 News Now中文摘要",
@@ -12,6 +12,66 @@
     "artworkUrl": "https://hyobimaeng.github.io/bloomberg-car-audio/artwork.png"
   },
   "episodes": [
+    {
+      "id": "news-now-morning-2026-03-25",
+      "slotId": "morning",
+      "slotLabel": "早间",
+      "title": "早间速览｜每日财经快讯",
+      "summary": "今日聚焦美国与伊朗之间的和平计划，以及特朗普的回应。",
+      "publishedAt": "2026-03-24T23:20:02.753Z",
+      "audioPath": "episodes-cn-plus/2026-03-25-morning.mp3",
+      "audioUrl": "https://hyobimaeng.github.io/bloomberg-car-audio/episodes-cn-plus/2026-03-25-morning.mp3",
+      "audioMime": "audio/mpeg",
+      "audioBytes": 279362,
+      "pagePath": "episodes-cn-plus/2026-03-25-morning.html",
+      "pageUrl": "https://hyobimaeng.github.io/bloomberg-car-audio/episodes-cn-plus/2026-03-25-morning.html",
+      "jsonPath": "episodes-cn-plus/2026-03-25-morning.json",
+      "jsonUrl": "https://hyobimaeng.github.io/bloomberg-car-audio/episodes-cn-plus/2026-03-25-morning.json",
+      "sources": [
+        {
+          "id": "57cccf18-15eb-43c9-9770-b417017d8ff2",
+          "title": "NYT: US Sends Iran Peace Plan, Trump: Iran Offered Present, More",
+          "link": "https://omny.fm/shows/bloomberg-news-now/nyt-us-sends-iran-peace-plan-trump-iran-offered-present-more",
+          "description": "Listen for the latest from Bloomberg News See omnystudio.com/listener for privacy information.",
+          "sourceFeed": "Bloomberg News Now",
+          "publishedAt": "2026-03-24T23:12:41.000Z",
+          "publishedTs": 1774393961000
+        },
+        {
+          "id": "fcd4e0e1-dd70-47a4-8ea2-b417016c3178",
+          "title": "NYT: US Sent Iran Peace Plan, Trump Says Iran Gave Present, More",
+          "link": "https://omny.fm/shows/bloomberg-news-now/nyt-us-sent-iran-peace-plan-trump-says-iran-gave-present-more",
+          "description": "Listen for the latest from Bloomberg News See omnystudio.com/listener for privacy information.",
+          "sourceFeed": "Bloomberg News Now",
+          "publishedAt": "2026-03-24T22:11:54.000Z",
+          "publishedTs": 1774390314000
+        }
+      ],
+      "digest": {
+        "episode_title": "每日财经快讯",
+        "episode_summary": "今日聚焦美国与伊朗之间的和平计划，以及特朗普的回应。",
+        "lead": "今天的主要新闻集中在美伊之间关于和平计划的讨论上，包括美国总统特朗普的不同说法。",
+        "stories": [
+          {
+            "headline": "美国向伊朗提交和平方案，特朗普称伊朗提出了一个‘礼物’",
+            "summary": "美国政府向伊朗提交了一份和平方案。然而，美国总统特朗普表示，伊朗提出的这个方案更像是一个‘礼物’而非真正的解决方案。",
+            "why_it_matters": "这一新闻反映了美伊关系的复杂性以及两国在解决地区冲突上的立场差异。"
+          },
+          {
+            "headline": "NYT: US Sends Iran Peace Plan, Trump: Iran Offered Present, More",
+            "summary": "Listen for the latest from Bloomberg News See omnystudio.com/listener for privacy information.",
+            "why_it_matters": "这是当天值得关注的公开 Bloomberg RSS 条目。"
+          },
+          {
+            "headline": "NYT: US Sent Iran Peace Plan, Trump Says Iran Gave Present, More",
+            "summary": "Listen for the latest from Bloomberg News See omnystudio.com/listener for privacy information.",
+            "why_it_matters": "这是当天值得关注的公开 Bloomberg RSS 条目。"
+          }
+        ],
+        "closing": "以上是今天的财经快讯。请继续关注Bloomberg News Now频道获取更多最新动态。",
+        "audio_script": "今天的主要新闻集中在美伊之间关于和平计划的讨论上，包括美国总统特朗普的不同说法。美国政府向伊朗提交了一份和平方案，然而，特朗普表示这个方案更像是一个‘礼物’而非真正的解决方案。这一新闻反映了美伊关系的复杂性以及两国在解决地区冲突上的立场差异。请继续关注Bloomberg News Now频道获取更多最新动态。"
+      }
+    },
     {
       "id": "news-now-evening-2026-03-24",
       "slotId": "evening",

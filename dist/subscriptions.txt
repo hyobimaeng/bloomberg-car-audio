@@ -1,7 +1,7 @@
 1. 彭博 News Now中文摘要
 Type: custom
 Feed: https://hyobimaeng.github.io/bloomberg-car-audio/feed-cn-plus.xml
-Latest: https://hyobimaeng.github.io/bloomberg-car-audio/episodes-cn-plus/2026-03-24-evening.html
+Latest: https://hyobimaeng.github.io/bloomberg-car-audio/episodes-cn-plus/2026-03-25-morning.html
 Description: 基于 Bloomberg News Now 官方 RSS 生成的中文摘要，默认早上快览、中午重大消息、晚上总结三次更新。
 
 2. 彭博 Daybreak 中文摘要版
