@@ -1,25 +1,25 @@
 1. 彭博 News Now中文摘要
 Type: custom
 Feed: https://hyobimaeng.github.io/bloomberg-car-audio/feed-cn-plus.xml
-Latest: https://hyobimaeng.github.io/bloomberg-car-audio/episodes-cn-plus/2026-03-24-midday.html
+Latest: https://hyobimaeng.github.io/bloomberg-car-audio/episodes-cn-plus/2026-03-24-evening.html
 Description: 基于 Bloomberg News Now 官方 RSS 生成的中文摘要，默认早上快览、中午重大消息、晚上总结三次更新。
 
 2. 彭博 Daybreak 中文摘要版
 Type: custom
 Feed: https://hyobimaeng.github.io/bloomberg-car-audio/feed-daybreak-cn.xml
-Latest: https://hyobimaeng.github.io/bloomberg-car-audio/episodes-daybreak-cn/2026-03-21.html
+Latest: https://hyobimaeng.github.io/bloomberg-car-audio/episodes-daybreak-cn/2026-03-24-us-evening.html
 Description: 基于 Bloomberg Daybreak: US Edition 原版 RSS 生成的中文实时摘要，默认每天晚间更新一条。
 
 3. Bloomberg The Deal 中文摘要版
 Type: custom
 Feed: https://hyobimaeng.github.io/bloomberg-car-audio/feed-the-deal-cn.xml
-Latest: https://hyobimaeng.github.io/bloomberg-car-audio/episodes-the-deal-cn/2026-03-21.html
+Latest: https://hyobimaeng.github.io/bloomberg-car-audio/episodes-the-deal-cn/2026-03-24-daily.html
 Description: 基于 The Deal 原版 RSS 生成的中文摘要，保持原有 feed URL，每天晚间更新。
 
 4. Bloomberg Big Take 中文摘要版
 Type: custom
 Feed: https://hyobimaeng.github.io/bloomberg-car-audio/feed-big-take-cn.xml
-Latest: https://hyobimaeng.github.io/bloomberg-car-audio/episodes-big-take-cn/2026-03-21.html
+Latest: https://hyobimaeng.github.io/bloomberg-car-audio/episodes-big-take-cn/2026-03-24-daily.html
 Description: 基于 Big Take 原版 RSS 生成的中文摘要，保持原有 feed URL，每天晚间更新。
 
 5. Bloomberg Daybreak: US Edition

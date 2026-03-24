@@ -7,12 +7,22 @@
     <description>基于 Big Take 原版 RSS 生成的中文摘要，保持原有 feed URL，每天晚间更新。</description>
     <language>zh-CN</language>
     <generator>Bloomberg Car Audio Digest</generator>
-    <lastBuildDate>Sat, 21 Mar 2026 06:13:21 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 24 Mar 2026 12:40:01 GMT</lastBuildDate>
     <itunes:author>hyobimaeng</itunes:author>
     <itunes:summary>基于 Big Take 原版 RSS 生成的中文摘要，保持原有 feed URL，每天晚间更新。</itunes:summary>
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
     <itunes:image href="https://hyobimaeng.github.io/bloomberg-car-audio/artwork.png"/>
+    <item>
+      <title>Big Take 中文摘要｜今日财经简报：油价上涨重燃电动车兴趣</title>
+      <link>https://hyobimaeng.github.io/bloomberg-car-audio/episodes-big-take-cn/2026-03-24-daily.html</link>
+      <guid isPermaLink="false">the-big-take-2026-03-24</guid>
+      <pubDate>Tue, 24 Mar 2026 12:40:01 GMT</pubDate>
+      <description><![CDATA[<p>聚焦全球能源依赖和清洁能源的未来。</p><p><strong>油价上涨重燃电动车兴趣</strong>：在伊朗战争的影响下，石油价格上涨引发了消费者对电动汽车和其他清洁能源技术的兴趣。Bloomberg记者Todd Woody和Zero播客主持人Akshat Rathi与Sarah Holder讨论了高油价重新点燃的迹象，并探讨了企业及国家如何应对这一情况。 这反映了全球能源依赖的变化以及对清洁能源未来的关注。</p><p><strong>$100 to Fill Up Your Tank? Some Drivers Say No Thanks</strong>：As the war with Iran drags out and oil prices remain turbulent, it raises the question of whether &amp;mdash; and how &amp;mdash; prolonged conflict in the Middle East might impact global fossil fuel dependence and the future of renewable energy. On today&amp;rsquo;s Big Take podcast, Bloomberg reporter Todd Woody and Zero podcast host Akshat Rathi join Sarah Holder to discuss early signs that the high cost of oil is reigniting consumer interest in electronic vehicles and other clean energy technologies, and how companies and countries are beginning to respond. Read more: Surging Gas Prices Reignite EV Interest Listen more: What a $100-Per-Barrel Oil Spike Does to the Global Economy Zero Podcast: War with Iran is a nightmare for oil and gas. What does it mean for clean energy? Hosted by Sarah Holder; Produced by Julia Press; Reported by Todd Woody and Akshat Rathi; Edited by Tracey Samuelson. Fact-checking by Eleanor Harrison-Dengate; Engineering by Alex Sugiura. Senior Producer: Naomi Shavin; Deputy Executive Producer: Julia Weaver. Executive Producer: Nicole Beemsterboer. See omnystudio.com/listener for privacy information. 这是当天值得关注的公开 Bloomberg RSS 条目。</p>]]></description>
+      <content:encoded><![CDATA[<p>聚焦全球能源依赖和清洁能源的未来。</p><p><strong>油价上涨重燃电动车兴趣</strong>：在伊朗战争的影响下，石油价格上涨引发了消费者对电动汽车和其他清洁能源技术的兴趣。Bloomberg记者Todd Woody和Zero播客主持人Akshat Rathi与Sarah Holder讨论了高油价重新点燃的迹象，并探讨了企业及国家如何应对这一情况。 这反映了全球能源依赖的变化以及对清洁能源未来的关注。</p><p><strong>$100 to Fill Up Your Tank? Some Drivers Say No Thanks</strong>：As the war with Iran drags out and oil prices remain turbulent, it raises the question of whether &amp;mdash; and how &amp;mdash; prolonged conflict in the Middle East might impact global fossil fuel dependence and the future of renewable energy. On today&amp;rsquo;s Big Take podcast, Bloomberg reporter Todd Woody and Zero podcast host Akshat Rathi join Sarah Holder to discuss early signs that the high cost of oil is reigniting consumer interest in electronic vehicles and other clean energy technologies, and how companies and countries are beginning to respond. Read more: Surging Gas Prices Reignite EV Interest Listen more: What a $100-Per-Barrel Oil Spike Does to the Global Economy Zero Podcast: War with Iran is a nightmare for oil and gas. What does it mean for clean energy? Hosted by Sarah Holder; Produced by Julia Press; Reported by Todd Woody and Akshat Rathi; Edited by Tracey Samuelson. Fact-checking by Eleanor Harrison-Dengate; Engineering by Alex Sugiura. Senior Producer: Naomi Shavin; Deputy Executive Producer: Julia Weaver. Executive Producer: Nicole Beemsterboer. See omnystudio.com/listener for privacy information. 这是当天值得关注的公开 Bloomberg RSS 条目。</p>]]></content:encoded>
+      <itunes:summary>聚焦全球能源依赖和清洁能源的未来。</itunes:summary>
+      <enclosure url="https://hyobimaeng.github.io/bloomberg-car-audio/episodes-big-take-cn/2026-03-24-daily.mp3" length="215949" type="audio/mpeg"/>
+    </item>
     <item>
       <title>每日简报：聚焦国际热点</title>
       <link>https://hyobimaeng.github.io/bloomberg-car-audio/episodes-big-take-cn/2026-03-21.html</link>
