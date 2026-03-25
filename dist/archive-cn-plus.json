@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-03-24T23:20:02.700Z",
-  "latestEpisodeId": "news-now-morning-2026-03-25",
+  "generatedAt": "2026-03-25T04:40:02.603Z",
+  "latestEpisodeId": "news-now-midday-2026-03-25",
   "feedUrl": "https://hyobimaeng.github.io/bloomberg-car-audio/feed-cn-plus.xml",
   "podcast": {
     "title": "彭博 News Now中文摘要",
@@ -13,473 +13,63 @@
   },
   "episodes": [
     {
-      "id": "news-now-morning-2026-03-25",
-      "slotId": "morning",
-      "slotLabel": "早间",
-      "title": "早间速览｜每日财经快讯：美伊和平计划与特朗普言论",
-      "summary": "本日聚焦美国向伊朗提交的和平方案以及美国总统特朗普对伊朗回应的最新动态。",
-      "publishedAt": "2026-03-24T23:20:02.700Z",
-      "audioPath": "episodes-cn-plus/2026-03-25-morning.mp3",
-      "audioUrl": "https://hyobimaeng.github.io/bloomberg-car-audio/episodes-cn-plus/2026-03-25-morning.mp3",
-      "audioMime": "audio/mpeg",
-      "audioBytes": 382893,
-      "pagePath": "episodes-cn-plus/2026-03-25-morning.html",
-      "pageUrl": "https://hyobimaeng.github.io/bloomberg-car-audio/episodes-cn-plus/2026-03-25-morning.html",
-      "jsonPath": "episodes-cn-plus/2026-03-25-morning.json",
-      "jsonUrl": "https://hyobimaeng.github.io/bloomberg-car-audio/episodes-cn-plus/2026-03-25-morning.json",
-      "sources": [
-        {
-          "id": "57cccf18-15eb-43c9-9770-b417017d8ff2",
-          "title": "NYT: US Sends Iran Peace Plan, Trump: Iran Offered Present, More",
-          "link": "https://omny.fm/shows/bloomberg-news-now/nyt-us-sends-iran-peace-plan-trump-iran-offered-present-more",
-          "description": "Listen for the latest from Bloomberg News See omnystudio.com/listener for privacy information.",
-          "sourceFeed": "Bloomberg News Now",
-          "publishedAt": "2026-03-24T23:12:41.000Z",
-          "publishedTs": 1774393961000
-        },
-        {
-          "id": "fcd4e0e1-dd70-47a4-8ea2-b417016c3178",
-          "title": "NYT: US Sent Iran Peace Plan, Trump Says Iran Gave Present, More",
-          "link": "https://omny.fm/shows/bloomberg-news-now/nyt-us-sent-iran-peace-plan-trump-says-iran-gave-present-more",
-          "description": "Listen for the latest from Bloomberg News See omnystudio.com/listener for privacy information.",
-          "sourceFeed": "Bloomberg News Now",
-          "publishedAt": "2026-03-24T22:11:54.000Z",
-          "publishedTs": 1774390314000
-        }
-      ],
-      "digest": {
-        "episode_title": "每日财经快讯：美伊和平计划与特朗普言论",
-        "episode_summary": "本日聚焦美国向伊朗提交的和平方案以及美国总统特朗普对伊朗回应的最新动态。",
-        "lead": "今日，我们关注到美国政府向伊朗提交了一份和平方案的消息，并且美国总统特朗普对此发表了自己的看法。以下是最重要的财经新闻摘要。",
-        "stories": [
-          {
-            "headline": "美向伊朗提交和平计划",
-            "summary": "美国政府向伊朗提交了和平方案，但总统特朗普表示，伊朗方面似乎只愿意接受这个提议中的某些部分，而没有全面合作。",
-            "why_it_matters": "这一动态可能影响到中东地区的紧张局势和国际关系。"
-          },
-          {
-            "headline": "特朗普对伊朗的回应",
-            "summary": "美国总统特朗普在评论美国向伊朗提交和平方案时指出，伊朗方面似乎只愿意接受部分提议，并没有全面合作。",
-            "why_it_matters": "特朗普的言论可能会影响谈判进程和国际舆论。"
-          },
-          {
-            "headline": "NYT: US Sends Iran Peace Plan, Trump: Iran Offered Present, More",
-            "summary": "Listen for the latest from Bloomberg News See omnystudio.com/listener for privacy information.",
-            "why_it_matters": "这是当天值得关注的公开 Bloomberg RSS 条目。"
-          },
-          {
-            "headline": "NYT: US Sent Iran Peace Plan, Trump Says Iran Gave Present, More",
-            "summary": "Listen for the latest from Bloomberg News See omnystudio.com/listener for privacy information.",
-            "why_it_matters": "这是当天值得关注的公开 Bloomberg RSS 条目。"
-          }
-        ],
-        "closing": "这是今日最重要的财经新闻摘要。更多详情请参考Bloomberg News Now频道。",
-        "audio_script": "今天，我们关注到美国政府向伊朗提交了一份和平方案的消息，并且美国总统特朗普对此发表了自己的看法。首先，美国政府向伊朗提交了和平方案，但总统特朗普表示，伊朗方面似乎只愿意接受这个提议中的某些部分，而没有全面合作。接下来，特朗普在评论美国向伊朗提交和平方案时指出，伊朗方面似乎只愿意接受部分提议，并没有全面合作。这一动态可能影响到中东地区的紧张局势和国际关系。更多详情请参考Bloomberg News Now频道。"
-      }
-    },
-    {
-      "id": "news-now-evening-2026-03-24",
-      "slotId": "evening",
-      "slotLabel": "晚间",
-      "title": "晚间总结｜每日简报：战争持续，黑匣子从拉瓜迪亚坠机中被找到",
-      "summary": "本日简报聚焦于国际局势中的关键新闻。",
-      "publishedAt": "2026-03-24T12:40:01.964Z",
-      "audioPath": "episodes-cn-plus/2026-03-24-evening.mp3",
-      "audioUrl": "https://hyobimaeng.github.io/bloomberg-car-audio/episodes-cn-plus/2026-03-24-evening.mp3",
-      "audioMime": "audio/mpeg",
-      "audioBytes": 1496697,
-      "pagePath": "episodes-cn-plus/2026-03-24-evening.html",
-      "pageUrl": "https://hyobimaeng.github.io/bloomberg-car-audio/episodes-cn-plus/2026-03-24-evening.html",
-      "jsonPath": "episodes-cn-plus/2026-03-24-evening.json",
-      "jsonUrl": "https://hyobimaeng.github.io/bloomberg-car-audio/episodes-cn-plus/2026-03-24-evening.json",
-      "sources": [
-        {
-          "id": "15469143-342c-4638-b970-b41700bfd2d5",
-          "title": "War Drags On, Black Box Recovered from LaGuardia Crash, More",
-          "link": "https://omny.fm/shows/bloomberg-news-now/war-drags-on-black-box-recovered-from-laguardia-crash-more",
-          "description": "Listen for the latest from Bloomberg News See omnystudio.com/listener for privacy information.",
-          "sourceFeed": "Bloomberg News Now",
-          "publishedAt": "2026-03-24T11:39:55.000Z",
-          "publishedTs": 1774352395000
-        },
-        {
-          "id": "8951a281-68c3-40be-b35d-b41700aa663b",
-          "title": "Iran Strikes Gulf Countries, Senate Inches Toward DHS Deal, More",
-          "link": "https://omny.fm/shows/bloomberg-news-now/iran-strikes-gulf-countries-senate-inches-toward-dhs-deal-more",
-          "description": "Listen for the latest from Bloomberg News See omnystudio.com/listener for privacy information.",
-          "sourceFeed": "Bloomberg News Now",
-          "publishedAt": "2026-03-24T10:22:23.000Z",
-          "publishedTs": 1774347743000
-        },
-        {
-          "id": "e6d67279-3fbd-4612-bf05-b417003670d9",
-          "title": "March 23, 2026: Iran War De-Escalation Doubts, Trump Touts Truce Talks, More",
-          "link": "https://omny.fm/shows/bloomberg-news-now/iran-war-de-escalation-doubts-trump-touts-truce-talks-more",
-          "description": "Listen for the latest from Bloomberg News See omnystudio.com/listener for privacy information.",
-          "sourceFeed": "Bloomberg News Now",
-          "publishedAt": "2026-03-24T03:20:30.000Z",
-          "publishedTs": 1774322430000
-        }
-      ],
-      "digest": {
-        "episode_title": "每日简报：战争持续，黑匣子从拉瓜迪亚坠机中被找到",
-        "episode_summary": "本日简报聚焦于国际局势中的关键新闻。",
-        "lead": "今日的简报重点关注了全球范围内的重大事件。其中一项重要报道是关于黑匣子在拉瓜迪亚机场坠机事故中的发现，这为调查提供了新的线索。",
-        "stories": [
-          {
-            "headline": "黑匣子从拉瓜迪亚坠机中被找到",
-            "summary": "据最新消息，黑匣子已被成功从纽约拉瓜迪亚机场的一起坠机事件中找到。这一发现对于事故的调查至关重要。",
-            "why_it_matters": "黑匣子的发现为了解此次事故提供了关键信息，有助于查明事故原因并确保乘客安全。"
-          },
-          {
-            "headline": "伊朗对海湾国家发动袭击，参议院接近达成DHS协议",
-            "summary": "伊朗继续在海湾地区采取军事行动，并且美国参议院正在接近达成一项新的安全协议。",
-            "why_it_matters": "这两项事件都与国际安全形势密切相关。黑匣子的发现为了解事故原因提供了线索，而DHS协议的进展则关系到全球的安全合作和应对策略。"
-          },
-          {
-            "headline": "关于伊朗战争缓和的疑虑以及特朗普对停战谈判的支持",
-            "summary": "尽管有对伊朗战争缓和的疑虑，但美国总统特朗普仍然支持与伊朗进行停战谈判。",
-            "why_it_matters": "这一新闻反映了当前国际局势中的复杂性和不确定性。黑匣子的发现为事故调查提供了新线索，而关于停战谈判的支持则显示了美国在解决地区冲突方面的立场。"
-          },
-          {
-            "headline": "War Drags On, Black Box Recovered from LaGuardia Crash, More",
-            "summary": "Listen for the latest from Bloomberg News See omnystudio.com/listener for privacy information.",
-            "why_it_matters": "这是当天值得关注的公开 Bloomberg RSS 条目。"
-          },
-          {
-            "headline": "Iran Strikes Gulf Countries, Senate Inches Toward DHS Deal, More",
-            "summary": "Listen for the latest from Bloomberg News See omnystudio.com/listener for privacy information.",
-            "why_it_matters": "这是当天值得关注的公开 Bloomberg RSS 条目。"
-          },
-          {
-            "headline": "March 23, 2026: Iran War De-Escalation Doubts, Trump Touts Truce Talks, More",
-            "summary": "Listen for the latest from Bloomberg News See omnystudio.com/listener for privacy information.",
-            "why_it_matters": "这是当天值得关注的公开 Bloomberg RSS 条目。"
-          }
-        ],
-        "closing": "以上是今日简报的重点内容。让我们继续关注全球动态。",
-        "audio_script": "今日的简报重点关注了全球范围内的重大事件。其中一项重要报道是关于黑匣子在拉瓜迪亚机场坠机事故中的发现，这为调查提供了新的线索。第1条，黑匣子从拉瓜迪亚坠机中被找到。据最新消息，黑匣子已被成功从纽约拉瓜迪亚机场的一起坠机事件中找到。这一发现对于事故的调查至关重要。这条消息为什么重要？黑匣子的发现为了解此次事故提供了关键信息，有助于查明事故原因并确保乘客安全。第2条，伊朗对海湾国家发动袭击，参议院接近达成DHS协议。伊朗继续在海湾地区采取军事行动，并且美国参议院正在接近达成一项新的安全协议。这条消息为什么重要？这两项事件都与国际安全形势密切相关。黑匣子的发现为了解事故原因提供了线索，而DHS协议的进展则关系到全球的安全合作和应对策略。第3条，关于伊朗战争缓和的疑虑以及特朗普对停战谈判的支持。尽管有对伊朗战争缓和的疑虑，但美国总统特朗普仍然支持与伊朗进行停战谈判。这条消息为什么重要？这一新闻反映了当前国际局势中的复杂性和不确定性。黑匣子的发现为事故调查提供了新线索，而关于停战谈判的支持则显示了美国在解决地区冲突方面的立场。第4条，War Drags On, Black Box Recovered from LaGuardia Crash, More。Listen for the latest from Bloomberg News See omnystudio.com/listener for privacy information.这条消息为什么重要？这是当天值得关注的公开 Bloomberg RSS 条目。第5条，Iran Strikes Gulf Countries, Senate Inches Toward DHS Deal, More。Listen for the latest from Bloomberg News See omnystudio.com/listener for privacy information.这条消息为什么重要？这是当天值得关注的公开 Bloomberg RSS 条目。第6条，March 23, 2026: Iran War De-Escalation Doubts, Trump Touts Truce Talks, More。Listen for the latest from Bloomberg News See omnystudio.com/listener for privacy information.这条消息为什么重要？这是当天值得关注的公开 Bloomberg RSS 条目。以上是今日简报的重点内容。让我们继续关注全球动态。"
-      }
-    },
-    {
-      "id": "news-now-midday-2026-03-24",
+      "id": "news-now-midday-2026-03-25",
       "slotId": "midday",
       "slotLabel": "午间",
-      "title": "午间快报｜今日财经简报",
-      "summary": "本日聚焦中东冲突、油价波动及美媒体对海湾局势的报道。",
-      "publishedAt": "2026-03-24T04:40:00.000Z",
-      "audioPath": "episodes-cn-plus/2026-03-24-midday.mp3",
-      "audioUrl": "https://hyobimaeng.github.io/bloomberg-car-audio/episodes-cn-plus/2026-03-24-midday.mp3",
+      "title": "午间快报｜每日简报：伊朗局势与特朗普态度",
+      "summary": "今日聚焦美国对伊政策及油价波动。",
+      "publishedAt": "2026-03-25T04:40:02.603Z",
+      "audioPath": "episodes-cn-plus/2026-03-25-midday.mp3",
+      "audioUrl": "https://hyobimaeng.github.io/bloomberg-car-audio/episodes-cn-plus/2026-03-25-midday.mp3",
       "audioMime": "audio/mpeg",
-      "audioBytes": 715862,
-      "pagePath": "episodes-cn-plus/2026-03-24-midday.html",
-      "pageUrl": "https://hyobimaeng.github.io/bloomberg-car-audio/episodes-cn-plus/2026-03-24-midday.html",
-      "jsonPath": "episodes-cn-plus/2026-03-24-midday.json",
-      "jsonUrl": "https://hyobimaeng.github.io/bloomberg-car-audio/episodes-cn-plus/2026-03-24-midday.json",
+      "audioBytes": 604524,
+      "pagePath": "episodes-cn-plus/2026-03-25-midday.html",
+      "pageUrl": "https://hyobimaeng.github.io/bloomberg-car-audio/episodes-cn-plus/2026-03-25-midday.html",
+      "jsonPath": "episodes-cn-plus/2026-03-25-midday.json",
+      "jsonUrl": "https://hyobimaeng.github.io/bloomberg-car-audio/episodes-cn-plus/2026-03-25-midday.json",
       "sources": [
         {
-          "id": "d9b7512c-0d49-4aec-9dff-b417008c4fa1",
-          "title": "Middle East Strikes Continue, Denmark Vote, More",
-          "link": "https://omny.fm/shows/bloomberg-news-now/middle-east-strikes-continue-denmark-vote-more",
+          "id": "3e283a4f-a1cd-4d33-b2d2-b41800390dbc",
+          "title": "Oil Tumbles on Iran War Hopes, Trump Touts Iran Present, More",
+          "link": "https://omny.fm/shows/bloomberg-news-now/oil-tumbles-iran-war-hopes-trump-touts-iran-present-more",
           "description": "Listen for the latest from Bloomberg News See omnystudio.com/listener for privacy information.",
           "sourceFeed": "Bloomberg News Now",
-          "publishedAt": "2026-03-24T08:33:55.000Z",
-          "publishedTs": 1774341235000
+          "publishedAt": "2026-03-25T03:31:31.000Z",
+          "publishedTs": 1774409491000
         },
         {
-          "id": "597c0b30-4a42-4e66-9790-b417007c7f09",
-          "title": "Oil Climbs on Escalation Fears, Trump Delays Energy Strikes, More",
-          "link": "https://omny.fm/shows/bloomberg-news-now/oil-climbs-on-escalation-fears-trump-delays-energy-strikes-more",
+          "id": "8f239a8c-f4ce-4b90-a444-b418002ab242",
+          "title": "Trump Optimistic on Iran Deal, US Diplomatic Push, More",
+          "link": "https://omny.fm/shows/bloomberg-news-now/trump-optimistic-on-iran-deal-us-diplomatic-push-more",
           "description": "Listen for the latest from Bloomberg News See omnystudio.com/listener for privacy information.",
           "sourceFeed": "Bloomberg News Now",
-          "publishedAt": "2026-03-24T07:35:39.000Z",
-          "publishedTs": 1774337739000
-        },
-        {
-          "id": "a70d6b31-ea2f-4a95-a31f-b417006a704c",
-          "title": "WSJ: Gulf Weighs Joining War, Iran Refutes Talks Claim, More",
-          "link": "https://omny.fm/shows/bloomberg-news-now/wsj-gulf-weighs-joining-war-iran-refutes-talks-claim-more",
-          "description": "Listen for the latest from Bloomberg News See omnystudio.com/listener for privacy information.",
-          "sourceFeed": "Bloomberg News Now",
-          "publishedAt": "2026-03-24T06:29:36.000Z",
-          "publishedTs": 1774333776000
+          "publishedAt": "2026-03-25T02:37:43.000Z",
+          "publishedTs": 1774406263000
         }
       ],
       "digest": {
-        "episode_title": "今日财经简报",
-        "episode_summary": "本日聚焦中东冲突、油价波动及美媒体对海湾局势的报道。",
-        "lead": "今天，我们关注中东地区的军事行动继续进行，丹麦选举结果以及美国媒体关于海湾地区动向的最新消息。",
+        "episode_title": "每日简报：伊朗局势与特朗普态度",
+        "episode_summary": "今日聚焦美国对伊政策及油价波动。",
+        "lead": "今天的主要新闻集中在特朗普对伊朗的态度以及油价的波动上。",
         "stories": [
           {
-            "headline": "中东冲突持续，丹麦选举，更多",
-            "summary": "Bloomberg新闻播报最新的中东局势、丹麦大选动态和其它相关报道。",
-            "why_it_matters": "这些信息对全球能源市场和国际关系具有重要影响。"
+            "headline": "特朗普乐观看待伊朗协议，强调美国外交努力",
+            "summary": "特朗普在最新报道中表示对与伊朗达成协议持乐观态度，并强调了美国在推动该协议方面所做的努力。",
+            "why_it_matters": "此新闻反映了当前国际关系中的重要动态。"
           },
           {
-            "headline": "油价因担忧而上涨，特朗普推迟能源打击，更多",
-            "summary": "Bloomberg新闻播报最新油价走势、美国总统特朗普的能源政策调整及其对海湾局势的影响。",
-            "why_it_matters": "这些信息直接影响全球能源市场和全球经济。"
+            "headline": "油价因伊朗战争希望而下跌",
+            "summary": "由于对伊朗可能爆发战争的担忧，石油价格出现下滑。",
+            "why_it_matters": "油价波动直接影响全球经济和能源市场。"
           },
           {
-            "headline": "《华尔街日报》：海湾国家考虑加入战争，伊朗否认会谈提议，更多",
-            "summary": "Bloomberg新闻播报《华尔街日报》关于海湾国家可能参与冲突、伊朗对会谈提议的回应及其影响。",
-            "why_it_matters": "这些信息揭示了当前国际政治局势的变化和潜在风险。"
-          }
-        ],
-        "closing": "持续关注全球动态，我们为您带来最新的财经资讯。",
-        "audio_script": "今天，我们关注中东地区的军事行动继续进行，丹麦选举结果以及美国媒体关于海湾地区动向的最新消息。第1条，中东冲突持续，丹麦选举，更多。Bloomberg新闻播报最新的中东局势、丹麦大选动态和其它相关报道。这条消息为什么重要？这些信息对全球能源市场和国际关系具有重要影响。第2条，油价因担忧而上涨，特朗普推迟能源打击，更多。Bloomberg新闻播报最新油价走势、美国总统特朗普的能源政策调整及其对海湾局势的影响。这条消息为什么重要？这些信息直接影响全球能源市场和全球经济。第3条，《华尔街日报》：海湾国家考虑加入战争，伊朗否认会谈提议，更多。Bloomberg新闻播报《华尔街日报》关于海湾国家可能参与冲突、伊朗对会谈提议的回应及其影响。这条消息为什么重要？这些信息揭示了当前国际政治局势的变化和潜在风险。持续关注全球动态，我们为您带来最新的财经资讯。"
-      }
-    },
-    {
-      "id": "news-now-morning-2026-03-24",
-      "slotId": "morning",
-      "slotLabel": "早间",
-      "title": "早间速览｜每日财经快讯：股市上涨，油价下跌，特朗普缓和伊朗威胁",
-      "summary": "本节目的重点是最新财经新闻。包括股市、油价以及美国对伊朗政策的变化。",
-      "publishedAt": "2026-03-23T23:20:02.018Z",
-      "audioPath": "episodes-cn-plus/2026-03-24-morning.mp3",
-      "audioUrl": "https://hyobimaeng.github.io/bloomberg-car-audio/episodes-cn-plus/2026-03-24-morning.mp3",
-      "audioMime": "audio/mpeg",
-      "audioBytes": 365450,
-      "pagePath": "episodes-cn-plus/2026-03-24-morning.html",
-      "pageUrl": "https://hyobimaeng.github.io/bloomberg-car-audio/episodes-cn-plus/2026-03-24-morning.html",
-      "jsonPath": "episodes-cn-plus/2026-03-24-morning.json",
-      "jsonUrl": "https://hyobimaeng.github.io/bloomberg-car-audio/episodes-cn-plus/2026-03-24-morning.json",
-      "sources": [
-        {
-          "id": "5b15a57d-9994-44cd-8e7c-b4160173b3fe",
-          "title": "Stocks Rise, Oil Falls, Trump Eases Iran Threat, More",
-          "link": "https://omny.fm/shows/bloomberg-news-now/stocks-rise-oil-falls-trump-eases-iran-threat-more",
-          "description": "Listen for the latest from Bloomberg News See omnystudio.com/listener for privacy information.",
-          "sourceFeed": "Bloomberg News Now",
-          "publishedAt": "2026-03-23T22:48:47.000Z",
-          "publishedTs": 1774306127000
-        },
-        {
-          "id": "1a6e5b28-9c54-4690-9fbf-b41601663748",
-          "title": "Trump Delays Iran Threat, Israel to Press on with Strikes, More",
-          "link": "https://omny.fm/shows/bloomberg-news-now/trump-delays-iran-threat-israel-to-press-on-with-strikes-more",
-          "description": "Listen for the latest from Bloomberg News See omnystudio.com/listener for privacy information.",
-          "sourceFeed": "Bloomberg News Now",
-          "publishedAt": "2026-03-23T21:48:56.000Z",
-          "publishedTs": 1774302536000
-        }
-      ],
-      "digest": {
-        "episode_title": "每日财经快讯：股市上涨，油价下跌，特朗普缓和伊朗威胁",
-        "episode_summary": "本节目的重点是最新财经新闻。包括股市、油价以及美国对伊朗政策的变化。",
-        "lead": "今天，我们关注到股市有所回升，而原油价格则出现下滑。此外，美国总统特朗普也宣布暂缓了对伊朗的威胁声明，并表示以色列将采取进一步行动。",
-        "stories": [
-          {
-            "headline": "股市上涨",
-            "summary": "美国股市在今天的交易中表现强劲，主要股指均有所上升。",
-            "why_it_matters": "这表明投资者对未来经济前景持乐观态度。"
-          },
-          {
-            "headline": "油价下跌",
-            "summary": "由于全球供应过剩和需求疲软，国际原油价格今天出现了下降。",
-            "why_it_matters": "这对依赖石油的国家和地区将产生重大影响。"
-          },
-          {
-            "headline": "特朗普缓和伊朗威胁",
-            "summary": "美国总统宣布暂缓对伊朗的强硬立场，并表示以色列将在未来采取进一步行动。",
-            "why_it_matters": "这可能会影响中东地区的紧张局势，以及全球能源市场。"
-          },
-          {
-            "headline": "Stocks Rise, Oil Falls, Trump Eases Iran Threat, More",
-            "summary": "Listen for the latest from Bloomberg News See omnystudio.com/listener for privacy information.",
-            "why_it_matters": "这是当天值得关注的公开 Bloomberg RSS 条目。"
-          },
-          {
-            "headline": "Trump Delays Iran Threat, Israel to Press on with Strikes, More",
+            "headline": "Oil Tumbles on Iran War Hopes, Trump Touts Iran Present, More",
             "summary": "Listen for the latest from Bloomberg News See omnystudio.com/listener for privacy information.",
             "why_it_matters": "这是当天值得关注的公开 Bloomberg RSS 条目。"
           }
         ],
-        "closing": "以上是今天的财经新闻摘要。请继续关注Bloomberg News Now频道获取更多实时信息。",
-        "audio_script": "今天，我们首先关注股市的上涨，美国主要股指均有所回升，表明投资者对未来经济前景持乐观态度。\n接下来，原油价格出现了下滑，由于全球供应过剩和需求疲软，这对依赖石油的国家和地区将产生重大影响。\n最后，特朗普总统宣布暂缓对伊朗的强硬立场，并表示以色列将在未来采取进一步行动。这可能会影响中东地区的紧张局势，以及全球能源市场。请继续关注Bloomberg News Now频道获取更多实时信息。"
-      }
-    },
-    {
-      "id": "daily-cn-plus-2026-03-21",
-      "title": "每日简报：特朗普考虑伊朗减缓，特斯拉误导投资者",
-      "summary": "今日新闻聚焦于美国前总统唐纳德·特朗普关于伊朗政策的最新动向以及特斯拉CEO埃隆·马斯克对Twitter投资者的误导问题。",
-      "publishedAt": "2026-03-21T06:13:21.323Z",
-      "audioPath": "episodes-cn-plus/2026-03-21.mp3",
-      "audioUrl": "https://hyobimaeng.github.io/bloomberg-car-audio/episodes-cn-plus/2026-03-21.mp3",
-      "audioMime": "audio/mpeg",
-      "audioBytes": 1438380,
-      "pagePath": "episodes-cn-plus/2026-03-21.html",
-      "pageUrl": "https://hyobimaeng.github.io/bloomberg-car-audio/episodes-cn-plus/2026-03-21.html",
-      "jsonPath": "episodes-cn-plus/2026-03-21.json",
-      "jsonUrl": "https://hyobimaeng.github.io/bloomberg-car-audio/episodes-cn-plus/2026-03-21.json",
-      "sources": [
-        {
-          "id": "a9c04c8c-6983-4e32-beb0-b414003b7cbd",
-          "title": "Trump Considering Iran Wind Down, Jury Says Musk Misled Twitter Investors, More",
-          "link": "https://omny.fm/shows/bloomberg-news-now/trump-considering-iran-wind-down-jury-says-musk-misled-twitter-investors-more-2",
-          "description": "Listen for the latest from Bloomberg News See omnystudio.com/listener for privacy information.",
-          "sourceFeed": "Bloomberg News Now",
-          "publishedAt": "2026-03-21T03:39:02.000Z",
-          "publishedTs": 1774064342000
-        },
-        {
-          "id": "7c65cbb4-8c3d-48a0-b9dd-b414002d6cb8",
-          "title": "Iran Wind Down Considered by Trump, Jury: Musk Misled Twitter Investors, More",
-          "link": "https://omny.fm/shows/bloomberg-news-now/iran-wind-down-considered-by-trump-jury-musk-misled-twitter-investors-more-1",
-          "description": "Listen for the latest from Bloomberg News See omnystudio.com/listener for privacy information.",
-          "sourceFeed": "Bloomberg News Now",
-          "publishedAt": "2026-03-21T02:47:27.000Z",
-          "publishedTs": 1774061247000
-        },
-        {
-          "id": "dcda1b85-4e4e-4a37-bec7-b41300d4e962",
-          "title": "Iran Presses Ahead, Unilever Looks to Offload Food Arm, More",
-          "link": "https://omny.fm/shows/bloomberg-news-now/iran-presses-ahead-unilever-looks-to-offload-food-arm-more",
-          "description": "Listen for the latest from Bloomberg News See omnystudio.com/listener for privacy information.",
-          "sourceFeed": "Bloomberg News Now",
-          "publishedAt": "2026-03-20T12:57:15.000Z",
-          "publishedTs": 1774011435000
-        },
-        {
-          "id": "43e35360-6eef-4334-a926-b41300386dd1",
-          "title": "March 19, 2026: Energy Prices Shift, Iran Military Capabilities Crippled, More",
-          "link": "https://omny.fm/shows/bloomberg-news-now/energy-prices-shift-iran-military-capabilities-crippled-more",
-          "description": "Listen for the latest from Bloomberg News See omnystudio.com/listener for privacy information.",
-          "sourceFeed": "Bloomberg News Now",
-          "publishedAt": "2026-03-20T03:27:29.000Z",
-          "publishedTs": 1773977249000
-        }
-      ],
-      "digest": {
-        "episode_title": "每日简报：特朗普考虑伊朗减缓，特斯拉误导投资者",
-        "episode_summary": "今日新闻聚焦于美国前总统唐纳德·特朗普关于伊朗政策的最新动向以及特斯拉CEO埃隆·马斯克对Twitter投资者的误导问题。",
-        "lead": "今天的主要新闻集中在特朗普政府对于伊朗政策的考虑以及特斯拉CEO埃隆·马斯克在Twitter上的误导行为上。",
-        "stories": [
-          {
-            "headline": "特朗普考虑伊朗减缓，特斯拉误导投资者",
-            "summary": "美国前总统唐纳德·特朗普表示正在考虑对伊朗进行减缓。与此同时，特斯拉CEO埃隆·马斯克因误导Twitter投资者而被陪审团裁决。",
-            "why_it_matters": "这些信息对于全球政治和科技行业来说都是重要的更新点。"
-          },
-          {
-            "headline": "特斯拉误导Twitter投资者",
-            "summary": "特斯拉CEO埃隆·马斯克在Twitter上发布的信息误导了投资者，导致股价波动。陪审团已经对马斯克进行了裁决。",
-            "why_it_matters": "这不仅影响到特斯拉的股价和声誉，也反映了科技公司如何处理公众信息的问题。"
-          },
-          {
-            "headline": "伊朗继续推进，Unilever考虑出售食品部门",
-            "summary": "尽管特朗普政府对伊朗采取了减缓措施，但伊朗仍在继续其军事活动。与此同时，Unilever正在考虑出售其食品业务。",
-            "why_it_matters": "这些信息反映了国际政治环境下的企业战略变化以及全球市场的动态。"
-          },
-          {
-            "headline": "Trump Considering Iran Wind Down, Jury Says Musk Misled Twitter Investors, More",
-            "summary": "Listen for the latest from Bloomberg News See omnystudio.com/listener for privacy information.",
-            "why_it_matters": "这是当天值得关注的公开 Bloomberg RSS 条目。"
-          },
-          {
-            "headline": "Iran Wind Down Considered by Trump, Jury: Musk Misled Twitter Investors, More",
-            "summary": "Listen for the latest from Bloomberg News See omnystudio.com/listener for privacy information.",
-            "why_it_matters": "这是当天值得关注的公开 Bloomberg RSS 条目。"
-          },
-          {
-            "headline": "Iran Presses Ahead, Unilever Looks to Offload Food Arm, More",
-            "summary": "Listen for the latest from Bloomberg News See omnystudio.com/listener for privacy information.",
-            "why_it_matters": "这是当天值得关注的公开 Bloomberg RSS 条目。"
-          }
-        ],
-        "closing": "在今天的新闻中，我们看到了美国前总统关于伊朗政策的最新动向、特斯拉CEO对Twitter投资者的误导行为、以及Unilever考虑出售其食品部门的情况。这些都是当前全球经济和政治格局中的重要议题。",
-        "audio_script": "今天的主要新闻集中在特朗普政府对于伊朗政策的考虑以及特斯拉CEO埃隆·马斯克在Twitter上的误导行为上。第1条，特朗普考虑伊朗减缓，特斯拉误导投资者。美国前总统唐纳德·特朗普表示正在考虑对伊朗进行减缓。与此同时，特斯拉CEO埃隆·马斯克因误导Twitter投资者而被陪审团裁决。这条消息为什么重要？这些信息对于全球政治和科技行业来说都是重要的更新点。第2条，特斯拉误导Twitter投资者。特斯拉CEO埃隆·马斯克在Twitter上发布的信息误导了投资者，导致股价波动。陪审团已经对马斯克进行了裁决。这条消息为什么重要？这不仅影响到特斯拉的股价和声誉，也反映了科技公司如何处理公众信息的问题。第3条，伊朗继续推进，Unilever考虑出售食品部门。尽管特朗普政府对伊朗采取了减缓措施，但伊朗仍在继续其军事活动。与此同时，Unilever正在考虑出售其食品业务。这条消息为什么重要？这些信息反映了国际政治环境下的企业战略变化以及全球市场的动态。第4条，Trump Considering Iran Wind Down, Jury Says Musk Misled Twitter Investors, More。Listen for the latest from Bloomberg News See omnystudio.com/listener for privacy information.这条消息为什么重要？这是当天值得关注的公开 Bloomberg RSS 条目。第5条，Iran Wind Down Considered by Trump, Jury: Musk Misled Twitter Investors, More。Listen for the latest from Bloomberg News See omnystudio.com/listener for privacy information.这条消息为什么重要？这是当天值得关注的公开 Bloomberg RSS 条目。第6条，Iran Presses Ahead, Unilever Looks to Offload Food Arm, More。Listen for the latest from Bloomberg News See omnystudio.com/listener for privacy information.这条消息为什么重要？这是当天值得关注的公开 Bloomberg RSS 条目。在今天的新闻中，我们看到了美国前总统关于伊朗政策的最新动向、特斯拉CEO对Twitter投资者的误导行为、以及Unilever考虑出售其食品部门的情况。这些都是当前全球经济和政治格局中的重要议题。"
-      }
-    },
-    {
-      "id": "daily-cn-plus-2026-03-20",
-      "title": "每日财经简报：能源价格波动与伊朗军事能力受挫",
-      "summary": "今日聚焦能源市场动态，包括油价下跌、伊朗军力受损等关键信息。",
-      "publishedAt": "2026-03-20T08:28:45.081Z",
-      "audioPath": "episodes-cn-plus/2026-03-20.mp3",
-      "audioUrl": "https://hyobimaeng.github.io/bloomberg-car-audio/episodes-cn-plus/2026-03-20.mp3",
-      "audioMime": "audio/mpeg",
-      "audioBytes": 1300357,
-      "pagePath": "episodes-cn-plus/2026-03-20.html",
-      "pageUrl": "https://hyobimaeng.github.io/bloomberg-car-audio/episodes-cn-plus/2026-03-20.html",
-      "jsonPath": "episodes-cn-plus/2026-03-20.json",
-      "jsonUrl": "https://hyobimaeng.github.io/bloomberg-car-audio/episodes-cn-plus/2026-03-20.json",
-      "sources": [
-        {
-          "id": "ca216a72-1d9b-408e-a997-b413008a7780",
-          "title": "Qatar Revenue Impact, Denmark's Renewed Greenland Fears, More",
-          "link": "https://omny.fm/shows/bloomberg-news-now/qatar-revenue-impact-denmarks-renewed-greenland-fears-more",
-          "description": "See omnystudio.com/listener for privacy information.",
-          "sourceFeed": "Bloomberg News Now",
-          "publishedAt": "2026-03-20T08:27:36.000Z",
-          "publishedTs": 1773995256000
-        },
-        {
-          "id": "ee1077db-8fd5-40ca-b1a0-b413007e7a74",
-          "title": "Oil Drops From High, Qatar's Revenue Loss, More",
-          "link": "https://omny.fm/shows/bloomberg-news-now/oil-drops-from-high-qatars-revenue-loss-more",
-          "description": "Listen for the latest from Bloomberg News See omnystudio.com/listener for privacy information.",
-          "sourceFeed": "Bloomberg News Now",
-          "publishedAt": "2026-03-20T07:42:51.000Z",
-          "publishedTs": 1773992571000
-        },
-        {
-          "id": "668c4e27-ff57-408a-881f-b413006b9c25",
-          "title": "Oil Drops From High, Europe’s Energy Pinch, More",
-          "link": "https://omny.fm/shows/bloomberg-news-now/oil-drops-from-high-europe-s-energy-pinch-more",
-          "description": "Listen for the latest from Bloomberg News See omnystudio.com/listener for privacy information.",
-          "sourceFeed": "Bloomberg News Now",
-          "publishedAt": "2026-03-20T06:33:55.000Z",
-          "publishedTs": 1773988435000
-        },
-        {
-          "id": "43e35360-6eef-4334-a926-b41300386dd1",
-          "title": "March 19, 2026: Energy Prices Shift, Iran Military Capabilities Crippled, More",
-          "link": "https://omny.fm/shows/bloomberg-news-now/energy-prices-shift-iran-military-capabilities-crippled-more",
-          "description": "Listen for the latest from Bloomberg News See omnystudio.com/listener for privacy information.",
-          "sourceFeed": "Bloomberg News Now",
-          "publishedAt": "2026-03-20T03:27:29.000Z",
-          "publishedTs": 1773977249000
-        }
-      ],
-      "digest": {
-        "episode_title": "每日财经简报：能源价格波动与伊朗军事能力受挫",
-        "episode_summary": "今日聚焦能源市场动态，包括油价下跌、伊朗军力受损等关键信息。",
-        "lead": "今天，我们关注到全球能源市场的最新变化。油价持续下滑，并且对伊朗的军事力量也提出了新的担忧。",
-        "stories": [
-          {
-            "headline": "油价回落，Qatar收入损失",
-            "summary": "今日，油价出现下跌趋势，同时引发了关于卡塔尔收入减少的关注。卡塔尔政府正密切关注能源价格波动带来的经济影响。",
-            "why_it_matters": "油价的持续下滑可能对依赖石油出口的国家造成重大打击，特别是像卡塔尔这样的小国。"
-          },
-          {
-            "headline": "欧洲能源危机加剧",
-            "summary": "今日报道指出，欧洲地区正面临更加严峻的能源供应问题。随着全球能源价格波动，欧洲各国正在寻找替代能源解决方案。",
-            "why_it_matters": "欧洲能源市场的动荡可能引发更广泛的经济和社会问题，包括家庭供暖成本上升和工业生产受影响等。"
-          },
-          {
-            "headline": "伊朗军力受损",
-            "summary": "今日有报道指出，伊朗的军事力量受到了严重打击。这引发了对地区安全局势的新担忧，并可能影响到国际关系。",
-            "why_it_matters": "伊朗的军事能力减弱可能会改变该地区的战略平衡，进而影响到全球安全和稳定。"
-          },
-          {
-            "headline": "Qatar Revenue Impact, Denmark's Renewed Greenland Fears, More",
-            "summary": "See omnystudio.com/listener for privacy information.",
-            "why_it_matters": "这是当天值得关注的公开 Bloomberg RSS 条目。"
-          },
-          {
-            "headline": "Oil Drops From High, Qatar's Revenue Loss, More",
-            "summary": "Listen for the latest from Bloomberg News See omnystudio.com/listener for privacy information.",
-            "why_it_matters": "这是当天值得关注的公开 Bloomberg RSS 条目。"
-          },
-          {
-            "headline": "Oil Drops From High, Europe’s Energy Pinch, More",
-            "summary": "Listen for the latest from Bloomberg News See omnystudio.com/listener for privacy information.",
-            "why_it_matters": "这是当天值得关注的公开 Bloomberg RSS 条目。"
-          }
-        ],
-        "closing": "今日的新闻简报就到这里。请继续关注能源市场动态以及地区安全局势的发展。",
-        "audio_script": "今天，我们关注到全球能源市场的最新变化。油价持续下滑，并且对伊朗的军事力量也提出了新的担忧。第1条，油价回落，Qatar收入损失。今日，油价出现下跌趋势，同时引发了关于卡塔尔收入减少的关注。卡塔尔政府正密切关注能源价格波动带来的经济影响。这条消息为什么重要？油价的持续下滑可能对依赖石油出口的国家造成重大打击，特别是像卡塔尔这样的小国。第2条，欧洲能源危机加剧。今日报道指出，欧洲地区正面临更加严峻的能源供应问题。随着全球能源价格波动，欧洲各国正在寻找替代能源解决方案。这条消息为什么重要？欧洲能源市场的动荡可能引发更广泛的经济和社会问题，包括家庭供暖成本上升和工业生产受影响等。第3条，伊朗军力受损。今日有报道指出，伊朗的军事力量受到了严重打击。这引发了对地区安全局势的新担忧，并可能影响到国际关系。这条消息为什么重要？伊朗的军事能力减弱可能会改变该地区的战略平衡，进而影响到全球安全和稳定。第4条，Qatar Revenue Impact, Denmark's Renewed Greenland Fears, More。See omnystudio.com/listener for privacy information.这条消息为什么重要？这是当天值得关注的公开 Bloomberg RSS 条目。第5条，Oil Drops From High, Qatar's Revenue Loss, More。Listen for the latest from Bloomberg News See omnystudio.com/listener for privacy information.这条消息为什么重要？这是当天值得关注的公开 Bloomberg RSS 条目。第6条，Oil Drops From High, Europe’s Energy Pinch, More。Listen for the latest from Bloomberg News See omnystudio.com/listener for privacy information.这条消息为什么重要？这是当天值得关注的公开 Bloomberg RSS 条目。今日的新闻简报就到这里。请继续关注能源市场动态以及地区安全局势的发展。"
+        "closing": "关注今日新闻动态，了解国际关系与经济市场的最新变化。",
+        "audio_script": "今天的主要新闻集中在特朗普对伊朗的态度以及油价的波动上。第1条，特朗普乐观看待伊朗协议，强调美国外交努力。特朗普在最新报道中表示对与伊朗达成协议持乐观态度，并强调了美国在推动该协议方面所做的努力。这条消息为什么重要？此新闻反映了当前国际关系中的重要动态。第2条，油价因伊朗战争希望而下跌。由于对伊朗可能爆发战争的担忧，石油价格出现下滑。这条消息为什么重要？油价波动直接影响全球经济和能源市场。第3条，Oil Tumbles on Iran War Hopes, Trump Touts Iran Present, More。Listen for the latest from Bloomberg News See omnystudio.com/listener for privacy information.这条消息为什么重要？这是当天值得关注的公开 Bloomberg RSS 条目。关注今日新闻动态，了解国际关系与经济市场的最新变化。"
       }
     }
   ]
