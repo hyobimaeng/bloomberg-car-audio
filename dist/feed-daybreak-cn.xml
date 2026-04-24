@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>彭博 Daybreak 中文摘要版</title>
+    <link>https://hyobimaeng.github.io/bloomberg-car-audio</link>
+    <atom:link href="https://hyobimaeng.github.io/bloomberg-car-audio/feed-daybreak-cn.xml" rel="self" type="application/rss+xml"/>
+    <description>基于 Bloomberg Daybreak: US Edition 原版 RSS 生成的中文实时摘要，默认每天晚间更新一条。</description>
+    <language>zh-CN</language>
+    <generator>Bloomberg Car Audio Digest</generator>
+    <lastBuildDate>Fri, 24 Apr 2026 04:40:30 GMT</lastBuildDate>
+    <itunes:author>hyobimaeng</itunes:author>
+    <itunes:summary>基于 Bloomberg Daybreak: US Edition 原版 RSS 生成的中文实时摘要，默认每天晚间更新一条。</itunes:summary>
+    <itunes:explicit>false</itunes:explicit>
+    <itunes:type>episodic</itunes:type>
+    <itunes:image href="https://hyobimaeng.github.io/bloomberg-car-audio/artwork.png"/>
+
+  </channel>
+</rss>
