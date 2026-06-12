@@ -7,12 +7,22 @@
     <description>基于 Bloomberg News Now 官方 RSS 生成的中文摘要，默认早上快览、中午重大消息、晚上总结三次更新。</description>
     <language>zh-CN</language>
     <generator>Bloomberg Car Audio Digest</generator>
-    <lastBuildDate>Fri, 12 Jun 2026 04:40:06 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 12 Jun 2026 12:40:09 GMT</lastBuildDate>
     <itunes:author>hyobimaeng</itunes:author>
     <itunes:summary>基于 Bloomberg News Now 官方 RSS 生成的中文摘要，默认早上快览、中午重大消息、晚上总结三次更新。</itunes:summary>
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
     <itunes:image href="https://hyobimaeng.github.io/bloomberg-car-audio/artwork.png"/>
+    <item>
+      <title>晚间总结｜每日简报：美伊接近达成协议，SpaceX准备上市</title>
+      <link>https://hyobimaeng.github.io/bloomberg-car-audio/episodes-cn-plus/2026-06-12-evening.html</link>
+      <guid isPermaLink="false">news-now-evening-2026-06-12</guid>
+      <pubDate>Fri, 12 Jun 2026 12:40:09 GMT</pubDate>
+      <description><![CDATA[<p>今天的主要新闻聚焦在美伊关系的进展、SpaceX的IPO以及其他重要事件。</p><p><strong>美伊接近达成协议</strong>：在今天的新闻中，美国和伊朗之间的谈判已经取得了一些进展。双方正在努力达成一项临时的协议，这可能为两国关系的进一步改善铺平道路。 这项协议如果能够达成，将对中东地区的稳定产生积极影响，并且可能会推动美伊之间长期合作的可能性。</p><p><strong>SpaceX准备上市</strong>：在今天的新闻中，SpaceX公司宣布即将进行首次公开募股（IPO），这将是该公司历史上的一件大事。 SpaceX的IPO将为投资者提供一个直接参与这一科技巨头的机会，并且可能会对整个太空行业产生重大影响。</p><p><strong>特朗普取消原计划的伊朗打击行动</strong>：在今天的新闻中，美国总统特朗普宣布取消了原计划中的对伊朗的军事打击行动，这显示出了美国政府对于和平解决冲突的态度。 这一决定可能会影响未来美伊之间的关系走向以及国际社会对该事件的看法。</p><p><strong>US and Iran Edge to Interim Deal, SpaceX to Begin Trading, More</strong>：Listen for the latest from Bloomberg News See omnystudio.com/listener for privacy information. 这是当天值得关注的公开 Bloomberg RSS 条目。</p><p><strong>US and Iran Nearing a Peace Deal, SpaceX Prepares Debut, More</strong>：Listen for the latest from Bloomberg News See omnystudio.com/listener for privacy information. 这是当天值得关注的公开 Bloomberg RSS 条目。</p><p><strong>June 11, 2026: Trump Scraps Planned Iran Strikes, SpaceX IPO Makes History, More</strong>：Listen for the latest from Bloomberg News See omnystudio.com/listener for privacy information. 这是当天值得关注的公开 Bloomberg RSS 条目。</p>]]></description>
+      <content:encoded><![CDATA[<p>今天的主要新闻聚焦在美伊关系的进展、SpaceX的IPO以及其他重要事件。</p><p><strong>美伊接近达成协议</strong>：在今天的新闻中，美国和伊朗之间的谈判已经取得了一些进展。双方正在努力达成一项临时的协议，这可能为两国关系的进一步改善铺平道路。 这项协议如果能够达成，将对中东地区的稳定产生积极影响，并且可能会推动美伊之间长期合作的可能性。</p><p><strong>SpaceX准备上市</strong>：在今天的新闻中，SpaceX公司宣布即将进行首次公开募股（IPO），这将是该公司历史上的一件大事。 SpaceX的IPO将为投资者提供一个直接参与这一科技巨头的机会，并且可能会对整个太空行业产生重大影响。</p><p><strong>特朗普取消原计划的伊朗打击行动</strong>：在今天的新闻中，美国总统特朗普宣布取消了原计划中的对伊朗的军事打击行动，这显示出了美国政府对于和平解决冲突的态度。 这一决定可能会影响未来美伊之间的关系走向以及国际社会对该事件的看法。</p><p><strong>US and Iran Edge to Interim Deal, SpaceX to Begin Trading, More</strong>：Listen for the latest from Bloomberg News See omnystudio.com/listener for privacy information. 这是当天值得关注的公开 Bloomberg RSS 条目。</p><p><strong>US and Iran Nearing a Peace Deal, SpaceX Prepares Debut, More</strong>：Listen for the latest from Bloomberg News See omnystudio.com/listener for privacy information. 这是当天值得关注的公开 Bloomberg RSS 条目。</p><p><strong>June 11, 2026: Trump Scraps Planned Iran Strikes, SpaceX IPO Makes History, More</strong>：Listen for the latest from Bloomberg News See omnystudio.com/listener for privacy information. 这是当天值得关注的公开 Bloomberg RSS 条目。</p>]]></content:encoded>
+      <itunes:summary>今天的主要新闻聚焦在美伊关系的进展、SpaceX的IPO以及其他重要事件。</itunes:summary>
+      <enclosure url="https://hyobimaeng.github.io/bloomberg-car-audio/episodes-cn-plus/2026-06-12-evening.mp3" length="1440776" type="audio/mpeg"/>
+    </item>
     <item>
       <title>午间快报｜每日简报：特朗普取消对伊朗的打击计划，SpaceX IPO创纪录</title>
       <link>https://hyobimaeng.github.io/bloomberg-car-audio/episodes-cn-plus/2026-06-12-midday.html</link>

@@ -7,12 +7,21 @@
     <description>基于 The Deal 原版 RSS 生成的中文摘要，保持原有 feed URL，每天晚间更新。</description>
     <language>zh-CN</language>
     <generator>Bloomberg Car Audio Digest</generator>
-    <lastBuildDate>Fri, 12 Jun 2026 04:43:38 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 12 Jun 2026 12:40:09 GMT</lastBuildDate>
     <itunes:author>hyobimaeng</itunes:author>
     <itunes:summary>基于 The Deal 原版 RSS 生成的中文摘要，保持原有 feed URL，每天晚间更新。</itunes:summary>
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
     <itunes:image href="https://hyobimaeng.github.io/bloomberg-car-audio/artwork.png"/>
-
+    <item>
+      <title>The Deal 中文摘要｜2026年世界杯：美国化与MLB劳资协议</title>
+      <link>https://hyobimaeng.github.io/bloomberg-car-audio/episodes-the-deal-cn/2026-06-12-daily.html</link>
+      <guid isPermaLink="false">the-deal-2026-06-12</guid>
+      <pubDate>Fri, 12 Jun 2026 12:40:09 GMT</pubDate>
+      <description><![CDATA[<p>本日聚焦2026年世界杯及MLB劳资协议的最新动态。</p><p><strong>2026年世界杯：美国化与挑战</strong>：《The Deal》节目探讨了2026年世界杯的票务策略、城市投资回报以及赛事遗产等问题。 讨论了世界杯是否能吸引足够的观众，以及主办城市能否收回投资的问题。</p><p><strong>The &quot;Americanization&quot; of the World Cup, Plus Alex on the MLB CBA</strong>：It&amp;rsquo;s the first day of the 2026 World Cup! Ticket prices, transportation, security, visas, Attorneys General investigations and water bottles are just a few of the issues threatening to distract from the play on the pitch. Now that it&apos;s time for the football to actually be played, we will finally get some answers to the biggest outstanding questions: Will FIFA&amp;rsquo;s controversial ticketing strategy mean empty seats? Will host cities actually make back their investment? Will the legacy of this World Cup be its challenges or its triumphs? Athletic Senior Writer Henry Bushnell joins The Deal to discuss all the above and more. Henry tells Alex and Jason how FIFA may have misjudged the American market. He also shares his thoughts on why the MLS has already missed the moment to capitalize on this summer&amp;rsquo;s soccer momentum, which American city will &amp;ldquo;win&amp;rdquo; the tournament and how the 2026 World Cup will be remembered. You can also watch this interview on YouTube . See omnystudio.com/listener for privacy information. 这是当天值得关注的公开 Bloomberg RSS 条目。</p>]]></description>
+      <content:encoded><![CDATA[<p>本日聚焦2026年世界杯及MLB劳资协议的最新动态。</p><p><strong>2026年世界杯：美国化与挑战</strong>：《The Deal》节目探讨了2026年世界杯的票务策略、城市投资回报以及赛事遗产等问题。 讨论了世界杯是否能吸引足够的观众，以及主办城市能否收回投资的问题。</p><p><strong>The &quot;Americanization&quot; of the World Cup, Plus Alex on the MLB CBA</strong>：It&amp;rsquo;s the first day of the 2026 World Cup! Ticket prices, transportation, security, visas, Attorneys General investigations and water bottles are just a few of the issues threatening to distract from the play on the pitch. Now that it&apos;s time for the football to actually be played, we will finally get some answers to the biggest outstanding questions: Will FIFA&amp;rsquo;s controversial ticketing strategy mean empty seats? Will host cities actually make back their investment? Will the legacy of this World Cup be its challenges or its triumphs? Athletic Senior Writer Henry Bushnell joins The Deal to discuss all the above and more. Henry tells Alex and Jason how FIFA may have misjudged the American market. He also shares his thoughts on why the MLS has already missed the moment to capitalize on this summer&amp;rsquo;s soccer momentum, which American city will &amp;ldquo;win&amp;rdquo; the tournament and how the 2026 World Cup will be remembered. You can also watch this interview on YouTube . See omnystudio.com/listener for privacy information. 这是当天值得关注的公开 Bloomberg RSS 条目。</p>]]></content:encoded>
+      <itunes:summary>本日聚焦2026年世界杯及MLB劳资协议的最新动态。</itunes:summary>
+      <enclosure url="https://hyobimaeng.github.io/bloomberg-car-audio/episodes-the-deal-cn/2026-06-12-daily.mp3" length="1085575" type="audio/mpeg"/>
+    </item>
   </channel>
 </rss>

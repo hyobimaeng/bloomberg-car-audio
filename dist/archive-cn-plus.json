@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-12T04:40:06.857Z",
-  "latestEpisodeId": "news-now-midday-2026-06-12",
+  "generatedAt": "2026-06-12T12:40:09.651Z",
+  "latestEpisodeId": "news-now-evening-2026-06-12",
   "feedUrl": "https://hyobimaeng.github.io/bloomberg-car-audio/feed-cn-plus.xml",
   "podcast": {
     "title": "彭博 News Now中文摘要",
@@ -12,6 +12,90 @@
     "artworkUrl": "https://hyobimaeng.github.io/bloomberg-car-audio/artwork.png"
   },
   "episodes": [
+    {
+      "id": "news-now-evening-2026-06-12",
+      "slotId": "evening",
+      "slotLabel": "晚间",
+      "title": "晚间总结｜每日简报：美伊接近达成协议，SpaceX准备上市",
+      "summary": "今天的主要新闻聚焦在美伊关系的进展、SpaceX的IPO以及其他重要事件。",
+      "publishedAt": "2026-06-12T12:40:09.651Z",
+      "audioPath": "episodes-cn-plus/2026-06-12-evening.mp3",
+      "audioUrl": "https://hyobimaeng.github.io/bloomberg-car-audio/episodes-cn-plus/2026-06-12-evening.mp3",
+      "audioMime": "audio/mpeg",
+      "audioBytes": 1440776,
+      "pagePath": "episodes-cn-plus/2026-06-12-evening.html",
+      "pageUrl": "https://hyobimaeng.github.io/bloomberg-car-audio/episodes-cn-plus/2026-06-12-evening.html",
+      "jsonPath": "episodes-cn-plus/2026-06-12-evening.json",
+      "jsonUrl": "https://hyobimaeng.github.io/bloomberg-car-audio/episodes-cn-plus/2026-06-12-evening.json",
+      "sources": [
+        {
+          "id": "1e248f90-5559-4247-a16f-b46700c00fb9",
+          "title": "US and Iran Edge to Interim Deal, SpaceX to Begin Trading, More",
+          "link": "https://omny.fm/shows/bloomberg-news-now/us-and-iran-edge-to-interim-deal-spacex-to-begin-trading-more",
+          "description": "Listen for the latest from Bloomberg News See omnystudio.com/listener for privacy information.",
+          "sourceFeed": "Bloomberg News Now",
+          "publishedAt": "2026-06-12T11:41:28.000Z",
+          "publishedTs": 1781264488000
+        },
+        {
+          "id": "d5b49e28-59a2-4a42-8887-b46700aab7a4",
+          "title": "US and Iran Nearing a Peace Deal, SpaceX Prepares Debut, More",
+          "link": "https://omny.fm/shows/bloomberg-news-now/us-and-iran-nearing-a-peace-deal-spacex-prepares-debut-more",
+          "description": "Listen for the latest from Bloomberg News See omnystudio.com/listener for privacy information.",
+          "sourceFeed": "Bloomberg News Now",
+          "publishedAt": "2026-06-12T10:23:23.000Z",
+          "publishedTs": 1781259803000
+        },
+        {
+          "id": "11e6b0e6-4b56-4bc4-a179-b46700372dbc",
+          "title": "June 11, 2026: Trump Scraps Planned Iran Strikes, SpaceX IPO Makes History, More",
+          "link": "https://omny.fm/shows/bloomberg-news-now/trump-scraps-planned-iran-strikes-spacex-ipo-makes-history-more",
+          "description": "Listen for the latest from Bloomberg News See omnystudio.com/listener for privacy information.",
+          "sourceFeed": "Bloomberg News Now",
+          "publishedAt": "2026-06-12T03:23:44.000Z",
+          "publishedTs": 1781234624000
+        }
+      ],
+      "digest": {
+        "episode_title": "每日简报：美伊接近达成协议，SpaceX准备上市",
+        "episode_summary": "今天的主要新闻聚焦在美伊关系的进展、SpaceX的IPO以及其他重要事件。",
+        "lead": "今天，我们关注到美国和伊朗之间的谈判取得了新的进展，SpaceX即将进行首次公开募股（IPO），还有其他值得关注的重要消息。",
+        "stories": [
+          {
+            "headline": "美伊接近达成协议",
+            "summary": "在今天的新闻中，美国和伊朗之间的谈判已经取得了一些进展。双方正在努力达成一项临时的协议，这可能为两国关系的进一步改善铺平道路。",
+            "why_it_matters": "这项协议如果能够达成，将对中东地区的稳定产生积极影响，并且可能会推动美伊之间长期合作的可能性。"
+          },
+          {
+            "headline": "SpaceX准备上市",
+            "summary": "在今天的新闻中，SpaceX公司宣布即将进行首次公开募股（IPO），这将是该公司历史上的一件大事。",
+            "why_it_matters": "SpaceX的IPO将为投资者提供一个直接参与这一科技巨头的机会，并且可能会对整个太空行业产生重大影响。"
+          },
+          {
+            "headline": "特朗普取消原计划的伊朗打击行动",
+            "summary": "在今天的新闻中，美国总统特朗普宣布取消了原计划中的对伊朗的军事打击行动，这显示出了美国政府对于和平解决冲突的态度。",
+            "why_it_matters": "这一决定可能会影响未来美伊之间的关系走向以及国际社会对该事件的看法。"
+          },
+          {
+            "headline": "US and Iran Edge to Interim Deal, SpaceX to Begin Trading, More",
+            "summary": "Listen for the latest from Bloomberg News See omnystudio.com/listener for privacy information.",
+            "why_it_matters": "这是当天值得关注的公开 Bloomberg RSS 条目。"
+          },
+          {
+            "headline": "US and Iran Nearing a Peace Deal, SpaceX Prepares Debut, More",
+            "summary": "Listen for the latest from Bloomberg News See omnystudio.com/listener for privacy information.",
+            "why_it_matters": "这是当天值得关注的公开 Bloomberg RSS 条目。"
+          },
+          {
+            "headline": "June 11, 2026: Trump Scraps Planned Iran Strikes, SpaceX IPO Makes History, More",
+            "summary": "Listen for the latest from Bloomberg News See omnystudio.com/listener for privacy information.",
+            "why_it_matters": "这是当天值得关注的公开 Bloomberg RSS 条目。"
+          }
+        ],
+        "closing": "今天还有其他重要新闻值得关注，包括科技行业的发展和全球市场的动态。让我们继续关注这些重要的信息。",
+        "audio_script": "今天，我们关注到美国和伊朗之间的谈判取得了新的进展，SpaceX即将进行首次公开募股（IPO），还有其他值得关注的重要消息。第1条，美伊接近达成协议。在今天的新闻中，美国和伊朗之间的谈判已经取得了一些进展。双方正在努力达成一项临时的协议，这可能为两国关系的进一步改善铺平道路。这条消息为什么重要？这项协议如果能够达成，将对中东地区的稳定产生积极影响，并且可能会推动美伊之间长期合作的可能性。第2条，SpaceX准备上市。在今天的新闻中，SpaceX公司宣布即将进行首次公开募股（IPO），这将是该公司历史上的一件大事。这条消息为什么重要？SpaceX的IPO将为投资者提供一个直接参与这一科技巨头的机会，并且可能会对整个太空行业产生重大影响。第3条，特朗普取消原计划的伊朗打击行动。在今天的新闻中，美国总统特朗普宣布取消了原计划中的对伊朗的军事打击行动，这显示出了美国政府对于和平解决冲突的态度。这条消息为什么重要？这一决定可能会影响未来美伊之间的关系走向以及国际社会对该事件的看法。第4条，US and Iran Edge to Interim Deal, SpaceX to Begin Trading, More。Listen for the latest from Bloomberg News See omnystudio.com/listener for privacy information.这条消息为什么重要？这是当天值得关注的公开 Bloomberg RSS 条目。第5条，US and Iran Nearing a Peace Deal, SpaceX Prepares Debut, More。Listen for the latest from Bloomberg News See omnystudio.com/listener for privacy information.这条消息为什么重要？这是当天值得关注的公开 Bloomberg RSS 条目。第6条，June 11, 2026: Trump Scraps Planned Iran Strikes, SpaceX IPO Makes History, More。Listen for the latest from Bloomberg News See omnystudio.com/listener for privacy information.这条消息为什么重要？这是当天值得关注的公开 Bloomberg RSS 条目。今天还有其他重要新闻值得关注，包括科技行业的发展和全球市场的动态。让我们继续关注这些重要的信息。"
+      }
+    },
     {
       "id": "news-now-midday-2026-06-12",
       "slotId": "midday",
