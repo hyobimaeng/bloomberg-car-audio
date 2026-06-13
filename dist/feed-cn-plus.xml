@@ -7,12 +7,22 @@
     <description>基于 Bloomberg News Now 官方 RSS 生成的中文摘要，默认早上快览、中午重大消息、晚上总结三次更新。</description>
     <language>zh-CN</language>
     <generator>Bloomberg Car Audio Digest</generator>
-    <lastBuildDate>Fri, 12 Jun 2026 12:40:09 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 13 Jun 2026 03:37:56 GMT</lastBuildDate>
     <itunes:author>hyobimaeng</itunes:author>
     <itunes:summary>基于 Bloomberg News Now 官方 RSS 生成的中文摘要，默认早上快览、中午重大消息、晚上总结三次更新。</itunes:summary>
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
     <itunes:image href="https://hyobimaeng.github.io/bloomberg-car-audio/artwork.png"/>
+    <item>
+      <title>早间速览｜每日简报：特朗普、SpaceX和Tren de Aragua</title>
+      <link>https://hyobimaeng.github.io/bloomberg-car-audio/episodes-cn-plus/2026-06-13-morning.html</link>
+      <guid isPermaLink="false">news-now-morning-2026-06-13</guid>
+      <pubDate>Sat, 13 Jun 2026 03:37:56 GMT</pubDate>
+      <description><![CDATA[<p>本日的简报聚焦于美国对委内瑞拉组织领导人采取行动，以及SpaceX的历史性首次公开募股。</p><p><strong>特朗普：美国杀害Tren de Aragua领导人，SpaceX IPO</strong>：特朗普在今天的简报中提到，美国已经采取了行动以应对委内瑞拉的一个组织的领导层。与此同时，SpaceX公司成功上市。 这些事件对国际政治和商业领域都有重大影响。</p><p><strong>SpaceX首次公开募股</strong>：SpaceX公司在今天的简报中宣布了其历史性的首次公开募股，引起了广泛关注。 这是科技行业的一个重要里程碑，对投资者和公众都有重要意义。</p><p><strong>Trump: US Kills Tren de Aragua Leader, SpaceX Historic IPO, More</strong>：Listen for the latest from Bloomberg News See omnystudio.com/listener for privacy information. 这是当天值得关注的公开 Bloomberg RSS 条目。</p><p><strong>Trump Says US Kills Tren de Aragua Leader, SpaceX IPO, More</strong>：Listen for the latest from Bloomberg News See omnystudio.com/listener for privacy information. 这是当天值得关注的公开 Bloomberg RSS 条目。</p><p><strong>SpaceX Shares Jump in Historic Open; US, Iran Inch Toward Deal, More</strong>：Listen for the latest from Bloomberg News See omnystudio.com/listener for privacy information. 这是当天值得关注的公开 Bloomberg RSS 条目。</p>]]></description>
+      <content:encoded><![CDATA[<p>本日的简报聚焦于美国对委内瑞拉组织领导人采取行动，以及SpaceX的历史性首次公开募股。</p><p><strong>特朗普：美国杀害Tren de Aragua领导人，SpaceX IPO</strong>：特朗普在今天的简报中提到，美国已经采取了行动以应对委内瑞拉的一个组织的领导层。与此同时，SpaceX公司成功上市。 这些事件对国际政治和商业领域都有重大影响。</p><p><strong>SpaceX首次公开募股</strong>：SpaceX公司在今天的简报中宣布了其历史性的首次公开募股，引起了广泛关注。 这是科技行业的一个重要里程碑，对投资者和公众都有重要意义。</p><p><strong>Trump: US Kills Tren de Aragua Leader, SpaceX Historic IPO, More</strong>：Listen for the latest from Bloomberg News See omnystudio.com/listener for privacy information. 这是当天值得关注的公开 Bloomberg RSS 条目。</p><p><strong>Trump Says US Kills Tren de Aragua Leader, SpaceX IPO, More</strong>：Listen for the latest from Bloomberg News See omnystudio.com/listener for privacy information. 这是当天值得关注的公开 Bloomberg RSS 条目。</p><p><strong>SpaceX Shares Jump in Historic Open; US, Iran Inch Toward Deal, More</strong>：Listen for the latest from Bloomberg News See omnystudio.com/listener for privacy information. 这是当天值得关注的公开 Bloomberg RSS 条目。</p>]]></content:encoded>
+      <itunes:summary>本日的简报聚焦于美国对委内瑞拉组织领导人采取行动，以及SpaceX的历史性首次公开募股。</itunes:summary>
+      <enclosure url="https://hyobimaeng.github.io/bloomberg-car-audio/episodes-cn-plus/2026-06-13-morning.mp3" length="391651" type="audio/mpeg"/>
+    </item>
     <item>
       <title>晚间总结｜每日简报：美伊接近达成协议，SpaceX准备上市</title>
       <link>https://hyobimaeng.github.io/bloomberg-car-audio/episodes-cn-plus/2026-06-12-evening.html</link>

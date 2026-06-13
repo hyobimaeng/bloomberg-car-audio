@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-13T03:37:56.714Z",
+  "generatedAt": "2026-06-13T03:37:56.099Z",
   "subscriptions": [
     {
       "id": "cn-plus",
@@ -8,7 +8,7 @@
       "title": "彭博 News Now中文摘要",
       "description": "基于 Bloomberg News Now 官方 RSS 生成的中文摘要，默认早上快览、中午重大消息、晚上总结三次更新。",
       "feedUrl": "https://hyobimaeng.github.io/bloomberg-car-audio/feed-cn-plus.xml",
-      "latestEpisodeUrl": "https://hyobimaeng.github.io/bloomberg-car-audio/episodes-cn-plus/2026-06-12-evening.html"
+      "latestEpisodeUrl": "https://hyobimaeng.github.io/bloomberg-car-audio/episodes-cn-plus/2026-06-13-morning.html"
     },
     {
       "id": "daybreak-cn",
@@ -17,7 +17,7 @@
       "title": "彭博 Daybreak 中文摘要版",
       "description": "基于 Bloomberg Daybreak: US Edition 原版 RSS 生成的中文实时摘要，默认每天晚间更新一条。",
       "feedUrl": "https://hyobimaeng.github.io/bloomberg-car-audio/feed-daybreak-cn.xml",
-      "latestEpisodeUrl": ""
+      "latestEpisodeUrl": "https://hyobimaeng.github.io/bloomberg-car-audio/episodes-daybreak-cn/2026-06-12-us-evening.html"
     },
     {
       "id": "the-deal-cn",

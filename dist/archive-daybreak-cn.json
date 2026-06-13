@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-13T03:37:56.714Z",
-  "latestEpisodeId": "",
+  "generatedAt": "2026-06-13T03:37:56.099Z",
+  "latestEpisodeId": "daybreak-us-2026-06-12",
   "feedUrl": "https://hyobimaeng.github.io/bloomberg-car-audio/feed-daybreak-cn.xml",
   "podcast": {
     "title": "彭博 Daybreak 中文摘要版",
@@ -11,5 +11,57 @@
     "siteUrl": "https://hyobimaeng.github.io/bloomberg-car-audio",
     "artworkUrl": "https://hyobimaeng.github.io/bloomberg-car-audio/artwork.png"
   },
-  "episodes": []
+  "episodes": [
+    {
+      "id": "daybreak-us-2026-06-12",
+      "slotId": "us-evening",
+      "slotLabel": "晚间",
+      "title": "Daybreak US 实时摘要｜今日早报：美伊接近达成协议 SpaceX IPO",
+      "summary": "今天早报聚焦美国与伊朗接近达成协议以及SpaceX即将上市的新闻。",
+      "publishedAt": "2026-06-12T12:40:09.651Z",
+      "audioPath": "episodes-daybreak-cn/2026-06-12-us-evening.mp3",
+      "audioUrl": "https://hyobimaeng.github.io/bloomberg-car-audio/episodes-daybreak-cn/2026-06-12-us-evening.mp3",
+      "audioMime": "audio/mpeg",
+      "audioBytes": 1652013,
+      "pagePath": "episodes-daybreak-cn/2026-06-12-us-evening.html",
+      "pageUrl": "https://hyobimaeng.github.io/bloomberg-car-audio/episodes-daybreak-cn/2026-06-12-us-evening.html",
+      "jsonPath": "episodes-daybreak-cn/2026-06-12-us-evening.json",
+      "jsonUrl": "https://hyobimaeng.github.io/bloomberg-car-audio/episodes-daybreak-cn/2026-06-12-us-evening.json",
+      "sources": [
+        {
+          "id": "c0b79f7c-1cb1-4005-bb44-b46700a2573b",
+          "title": "SpaceX IPO Debuts; US-Iran Deal Nears",
+          "link": "https://omny.fm/shows/bloomberg-daybreak/spacex-ipo-debuts-us-iran-deal-nears",
+          "description": "Today's top stories, with context, in just 15 minutes. On today's podcast: 1) The US and Iran are edging closer to signing an agreement to reopen the Strait of Hormuz, according to senior officials. A deal is likely to take the form of a memorandum of understanding, and Geneva is being considered as a potential location for the signing. An Iranian foreign ministry spokesman said \"we have not yet reached a conclusion on this matter\", despite reports of progress toward ending the war. 2) SpaceX made history with a $75 billion IPO and now needs the market's validation of its ambition to dominate AI and carry humans to the moon and Mars. The company's IPO was more than four times oversubscribed, and indications are that SpaceX shares could open with a pop of at least 35% on its first day of trading. The trading will determine whether Elon Musk becomes the world's first trillionaire and will also affect the prospects for initial public offerings from SpaceX's AI rivals Anthropic PBC and OpenAI. 3) The New York Knicks are on the cusp of winning the NBA finals, and SpaceX is poised to go public in the biggest IPO in history. The NBA finals have had a significant economic impact, with high ticket prices and increased merchandise sales, and ratings are higher than they've been in decades. The SpaceX IPO could have a significant market impact, with investors having mixed views on the company's valuation and potential for growth in the AI sector. See omnystudio.com/listener for privacy information.",
+          "sourceFeed": "Bloomberg Daybreak: US Edition",
+          "publishedAt": "2026-06-12T09:56:18.000Z",
+          "publishedTs": 1781258178000
+        }
+      ],
+      "digest": {
+        "episode_title": "今日早报：美伊接近达成协议 SpaceX IPO",
+        "episode_summary": "今天早报聚焦美国与伊朗接近达成协议以及SpaceX即将上市的新闻。",
+        "lead": "美国和伊朗正在接近达成一项协议，以重新开放霍尔木兹海峡。SpaceX公司也即将进行史上规模最大的IPO。",
+        "stories": [
+          {
+            "headline": "美伊接近达成协议",
+            "summary": "美国和伊朗正接近达成一项协议，旨在恢复霍尔木兹海峡的通行。该协议可能以备忘录的形式签署，地点考虑在日内瓦。",
+            "why_it_matters": "这将对全球能源供应链产生重大影响，并有助于缓解当前的地缘政治紧张局势。"
+          },
+          {
+            "headline": "SpaceX即将上市",
+            "summary": "SpaceX公司已经完成了75亿美元的IPO，预计首日交易价格可能上涨35%以上。",
+            "why_it_matters": "这将使Elon Musk成为世界上第一个亿万富翁，并对AI领域的其他初创企业产生影响。"
+          },
+          {
+            "headline": "SpaceX IPO Debuts; US-Iran Deal Nears",
+            "summary": "Today's top stories, with context, in just 15 minutes. On today's podcast: 1) The US and Iran are edging closer to signing an agreement to reopen the Strait of Hormuz, according to senior officials. A deal is likely to take the form of a memorandum of understanding, and Geneva is being considered as a potential location for the signing. An Iranian foreign ministry spokesman said \"we have not yet reached a conclusion on this matter\", despite reports of progress toward ending the war. 2) SpaceX made history with a $75 billion IPO and now needs the market's validation of its ambition to dominate AI and carry humans to the moon and Mars. The company's IPO was more than four times oversubscribed, and indications are that SpaceX shares could open with a pop of at least 35% on its first day of trading. The trading will determine whether Elon Musk becomes the world's first trillionaire and will also affect the prospects for initial public offerings from SpaceX's AI rivals Anthropic PBC and OpenAI. 3) The New York Knicks are on the cusp of winning the NBA finals, and SpaceX is poised to go public in the biggest IPO in history. The NBA finals have had a significant economic impact, with high ticket prices and increased merchandise sales, and ratings are higher than they've been in decades. The SpaceX IPO could have a significant market impact, with investors having mixed views on the company's valuation and potential for growth in the AI sector. See omnystudio.com/listener for privacy information.",
+            "why_it_matters": "这是当天值得关注的公开 Bloomberg RSS 条目。"
+          }
+        ],
+        "closing": "今天的早报聚焦于美国与伊朗之间的协议进展以及SpaceX的IPO动态，这些事件都可能对未来市场和科技领域的发展产生重大影响。",
+        "audio_script": "美国和伊朗正在接近达成一项协议，以重新开放霍尔木兹海峡。SpaceX公司也即将进行史上规模最大的IPO。第1条，美伊接近达成协议。美国和伊朗正接近达成一项协议，旨在恢复霍尔木兹海峡的通行。该协议可能以备忘录的形式签署，地点考虑在日内瓦。这条消息为什么重要？这将对全球能源供应链产生重大影响，并有助于缓解当前的地缘政治紧张局势。第2条，SpaceX即将上市。SpaceX公司已经完成了75亿美元的IPO，预计首日交易价格可能上涨35%以上。这条消息为什么重要？这将使Elon Musk成为世界上第一个亿万富翁，并对AI领域的其他初创企业产生影响。第3条，SpaceX IPO Debuts; US-Iran Deal Nears。Today's top stories, with context, in just 15 minutes. On today's podcast: 1) The US and Iran are edging closer to signing an agreement to reopen the Strait of Hormuz, according to senior officials. A deal is likely to take the form of a memorandum of understanding, and Geneva is being considered as a potential location for the signing. An Iranian foreign ministry spokesman said \"we have not yet reached a conclusion on this matter\", despite reports of progress toward ending the war. 2) SpaceX made history with a $75 billion IPO and now needs the market's validation of its ambition to dominate AI and carry humans to the moon and Mars. The company's IPO was more than four times oversubscribed, and indications are that SpaceX shares could open with a pop of at least 35% on its first day of trading. The trading will determine whether Elon Musk becomes the world's first trillionaire and will also affect the prospects for initial public offerings from SpaceX's AI rivals Anthropic PBC and OpenAI. 3) The New York Knicks are on the cusp of winning the NBA finals, and SpaceX is poised to go public in the biggest IPO in history. The NBA finals have had a significant economic impact, with high ticket prices and increased merchandise sales, and ratings are higher than they've been in decades. The SpaceX IPO could have a significant market impact, with investors having mixed views on the company's valuation and potential for growth in the AI sector. See omnystudio.com/listener for privacy information.这条消息为什么重要？这是当天值得关注的公开 Bloomberg RSS 条目。今天的早报聚焦于美国与伊朗之间的协议进展以及SpaceX的IPO动态，这些事件都可能对未来市场和科技领域的发展产生重大影响。"
+      }
+    }
+  ]
 }
