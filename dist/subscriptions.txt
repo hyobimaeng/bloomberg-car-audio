@@ -7,7 +7,6 @@ Description: 基于 Bloomberg News Now 官方 RSS 生成的中文摘要，默认
 2. 彭博 Daybreak 中文摘要版
 Type: custom
 Feed: https://hyobimaeng.github.io/bloomberg-car-audio/feed-daybreak-cn.xml
-Latest: https://hyobimaeng.github.io/bloomberg-car-audio/episodes-daybreak-cn/2026-06-12-us-evening.html
 Description: 基于 Bloomberg Daybreak: US Edition 原版 RSS 生成的中文实时摘要，默认每天晚间更新一条。
 
 3. Bloomberg The Deal 中文摘要版
